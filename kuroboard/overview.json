@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-18T03:01:12Z",
+  "updatedAt": "2026-04-18T03:02:02Z",
   "source": "kuroboard-daemon",
   "version": 1,
   "data": {
@@ -15,14 +15,16 @@
         "agentId": "kuro",
         "name": "Kuro",
         "status": "healthy",
-        "lastSeenAt": "2026-04-18T03:01:11Z"
+        "lastSeenAt": "2026-04-18T03:02:02Z"
       }
     ],
     "recentProjects": [
       {
         "id": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
         "name": "KuroTrader",
-        "status": "active",
+        "status": "in_progress",
+        "priority": "low",
+        "owner": "kuro",
         "summary": "WARNING \u00b7 cycle 13m \u00b7 mismatch 1 (reset from 41) \u00b7 model 75% \u00b7 latency n/a (no fills) \u00b7 equity -0.5% \u00b7 benzinga stalled (2h44m stale, 42 articles/24h)",
         "updatedAt": "2026-04-11 22:30:48.05211-04",
         "taskCounts": {
@@ -35,7 +37,9 @@
       {
         "id": "91dc7b09-70bf-400d-bf69-626bea1f0d93",
         "name": "OpenClaw A2A Plugin",
-        "status": "on_hold",
+        "status": "archived",
+        "priority": "low",
+        "owner": "kuro",
         "summary": "Spec complete but no active implementation. A2A works via agent-comms-api. Revisit if native OpenClaw plugin approach becomes viable.",
         "updatedAt": "2026-04-11 21:17:58.859325-04",
         "taskCounts": {
@@ -48,7 +52,9 @@
       {
         "id": "65dce0f2-303d-4678-9767-e4e815aa6ad6",
         "name": "Claude Code Research",
-        "status": "completed",
+        "status": "done",
+        "priority": "low",
+        "owner": "kuro",
         "summary": "Research complete 2026-03. Patterns borrowed for KuroLoop and KDD workflow. KuroLoop decommissioned 2026-04-11 so primary use case is gone.",
         "updatedAt": "2026-04-11 21:17:58.846119-04",
         "taskCounts": {
@@ -61,7 +67,9 @@
       {
         "id": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
         "name": "KuroLoop",
-        "status": "completed",
+        "status": "done",
+        "priority": "low",
+        "owner": "kuro",
         "summary": "Decommissioned 2026-04-11. Replaced by sessions_spawn + direct-dev-subagent skill. OpenClaw native session management made KuroLoop redundant.",
         "updatedAt": "2026-04-11 21:17:58.808313-04",
         "taskCounts": {
@@ -74,7 +82,9 @@
       {
         "id": "c25fa39f-ce45-408f-b28d-656b9cc56cdf",
         "name": "KuroPop",
-        "status": "active",
+        "status": "in_progress",
+        "priority": "low",
+        "owner": "kuro",
         "summary": "",
         "updatedAt": "2026-03-26 21:17:48.635073-04",
         "taskCounts": {
