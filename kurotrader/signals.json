@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-18T21:55:48Z",
+  "updatedAt": "2026-04-18T22:00:48Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "5976",
+        "timestamp": "2026-04-18T22:00:32Z",
+        "symbol": "SOL-USD",
+        "action": "buy",
+        "confidence": 0.6554,
+        "executed": false
+      },
+      {
+        "id": "5975",
+        "timestamp": "2026-04-18T22:00:32Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.3729,
+        "executed": false
+      },
+      {
+        "id": "5974",
+        "timestamp": "2026-04-18T22:00:32Z",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.315,
+        "executed": false
+      },
+      {
+        "id": "5973",
+        "timestamp": "2026-04-18T22:00:32Z",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.32,
+        "executed": false
+      },
       {
         "id": "5972",
         "timestamp": "2026-04-18T21:45:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "5967",
         "timestamp": "2026-04-18T21:30:32Z",
-        "symbol": "XRP-USD",
-        "action": "buy",
-        "confidence": 0.5912,
-        "executed": false
-      },
-      {
-        "id": "5966",
-        "timestamp": "2026-04-18T21:30:32Z",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.6248,
-        "executed": false
-      },
-      {
-        "id": "5965",
-        "timestamp": "2026-04-18T21:30:32Z",
-        "symbol": "BTC-USD",
-        "action": "buy",
-        "confidence": 0.6269,
-        "executed": false
-      },
-      {
-        "id": "5964",
-        "timestamp": "2026-04-18T21:15:32Z",
-        "symbol": "SOL-USD",
-        "action": "buy",
-        "confidence": 0.6603,
-        "executed": false
-      },
-      {
-        "id": "5963",
-        "timestamp": "2026-04-18T21:15:32Z",
         "symbol": "XRP-USD",
         "action": "buy",
         "confidence": 0.5912,
