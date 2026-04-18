@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-18T18:40:38.065704Z",
+  "updatedAt": "2026-04-18T18:45:44.040757Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-4df2f66b",
+        "type": "commit",
+        "timestamp": "2026-04-18 14:41:57 -0400",
+        "description": "autocommit: 2026-04-18 14:41",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4df2f66b"
+      },
       {
         "id": "commit-1bc7cecf",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "chore: remove workflow file (no workflow scope)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/0c539a9d"
-      },
-      {
-        "id": "commit-6ddf4a6d",
-        "type": "commit",
-        "timestamp": "2026-04-18 13:38:21 -0400",
-        "description": "feat: add SearXNG to monitored services",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/6ddf4a6d"
       }
     ],
     "hasMore": true
