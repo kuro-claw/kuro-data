@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-18T21:10:46.978952Z",
+  "updatedAt": "2026-04-18T21:15:47.077347Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-70ffd24c",
+        "type": "commit",
+        "timestamp": "2026-04-18T17:12:26-04:00",
+        "description": "autocommit: 2026-04-18 17:12",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/70ffd24c"
+      },
       {
         "id": "commit-4dee10ca",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "tools: kuro-memory distillation \u2014 Kimi primary, qwen35 fallback",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/b4802e65"
-      },
-      {
-        "id": "commit-120f39b2",
-        "type": "commit",
-        "timestamp": "2026-04-18T16:02:13-04:00",
-        "description": "autocommit: 2026-04-18 16:02",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/120f39b2"
       }
     ],
     "hasMore": true
