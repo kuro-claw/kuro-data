@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-18T19:00:44Z",
+  "updatedAt": "2026-04-18T19:05:43Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
@@ -11,14 +11,14 @@
       "totalPnl": 3.58,
       "totalReturnPct": 0.72,
       "drawdownPct": 5.91,
-      "updatedAt": "2026-04-18 15:00:32.417726-04"
+      "updatedAt": "2026-04-18T19:00:32Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-04-18 15:00:32.147875-04",
-      "staleCycleMinutes": 0
+      "lastCycleAt": "2026-04-18T19:00:32Z",
+      "staleCycleMinutes": 5
     },
     "topPositions": [
       {
@@ -60,7 +60,7 @@
         "symbol": "SOL-USD",
         "action": "buy",
         "confidence": 0.6033,
-        "generatedAt": "2026-04-18 15:00:32.147875-04",
+        "generatedAt": "2026-04-18T19:00:32Z",
         "executed": false
       },
       {
@@ -68,7 +68,7 @@
         "symbol": "XRP-USD",
         "action": "buy",
         "confidence": 0.6617,
-        "generatedAt": "2026-04-18 15:00:32.147875-04",
+        "generatedAt": "2026-04-18T19:00:32Z",
         "executed": false
       },
       {
@@ -76,7 +76,7 @@
         "symbol": "ETH-USD",
         "action": "hold",
         "confidence": 0.3585,
-        "generatedAt": "2026-04-18 15:00:32.147875-04",
+        "generatedAt": "2026-04-18T19:00:32Z",
         "executed": false
       },
       {
@@ -84,7 +84,7 @@
         "symbol": "BTC-USD",
         "action": "buy",
         "confidence": 0.8118,
-        "generatedAt": "2026-04-18 15:00:32.147875-04",
+        "generatedAt": "2026-04-18T19:00:32Z",
         "executed": false
       },
       {
@@ -92,7 +92,7 @@
         "symbol": "SOL-USD",
         "action": "buy",
         "confidence": 0.5804,
-        "generatedAt": "2026-04-18 14:45:32.146758-04",
+        "generatedAt": "2026-04-18T18:45:32Z",
         "executed": false
       }
     ]
