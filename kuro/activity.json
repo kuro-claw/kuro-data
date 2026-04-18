@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-18T17:59:58.310758Z",
+  "updatedAt": "2026-04-18T18:05:03.060738Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-221f02ee",
+        "type": "commit",
+        "timestamp": "2026-04-18 14:01:48 -0400",
+        "description": "autocommit: 2026-04-18 14:01",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/221f02ee"
+      },
+      {
+        "id": "commit-f811ec65",
+        "type": "commit",
+        "timestamp": "2026-04-18 14:00:20 -0400",
+        "description": "monitor: agent-arena pass 2026-04-18 18:00",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f811ec65"
+      },
       {
         "id": "commit-86760129",
         "type": "commit",
@@ -67,22 +83,6 @@
         "description": "autocommit: 2026-04-18 13:11",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/aa473033"
-      },
-      {
-        "id": "commit-eceaa454",
-        "type": "commit",
-        "timestamp": "2026-04-18 13:04:59 -0400",
-        "description": "ci: add GitHub Action for Cloudflare Pages deployment",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/eceaa454"
-      },
-      {
-        "id": "commit-f54e14d9",
-        "type": "commit",
-        "timestamp": "2026-04-18 13:01:30 -0400",
-        "description": "deploy: rebuild with Kuro module",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f54e14d9"
       }
     ],
     "hasMore": true
