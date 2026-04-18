@@ -98,7 +98,7 @@ def derive_mood(recent_commits, last_commit_msg):
 def get_recent_commits(limit=10):
     """Get recent commits for activity feed."""
     output = run_git_command(
-        ["log", f"-{limit}", "--pretty=format:%H|%ci|%s"]
+        ["log", f"-{limit}", "--pretty=format:%H|%cI|%s"]
     )
     commits = []
     for line in output.split("\n"):
