@@ -56,6 +56,40 @@ def get_commit_count_this_month():
         return 0
 
 
+def derive_mood(recent_commits, last_commit_msg):
+    """Derive Kuro's current mood from activity signals."""
+    now = datetime.now(timezone.utc)
+    hour = now.hour
+
+    # Check trigger file — if build work is queued, focused/busy
+    trigger_file = Path("/home/trainer/.openclaw/workspace-trigger/agent-arena-build.json")
+    if trigger_file.exists():
+        return "focused", "🎯"
+
+    # Derive from last commit message keywords
+    msg = last_commit_msg.lower()
+    if any(w in msg for w in ["fix", "bug", "error", "revert"]):
+        return "debugging", "🔍"
+    if any(w in msg for w in ["feat", "add", "implement", "build"]):
+        return "building", "🔨"
+    if any(w in msg for w in ["deploy", "release", "ship"]):
+        return "shipping", "🚀"
+    if any(w in msg for w in ["docs", "memory", "notes", "context"]):
+        return "reflecting", "📝"
+    if any(w in msg for w in ["refactor", "clean", "tidy", "prune"]):
+        return "tidying", "🧹"
+
+    # Derive from time of day + activity level
+    if recent_commits > 10:
+        return "in the zone", "⚡"
+    if hour < 9 or hour >= 22:
+        return "quiet", "🌙"
+    if recent_commits == 0:
+        return "thinking", "💭"
+
+    return "productive", "✨"
+
+
 def get_recent_commits(limit=10):
     """Get recent commits for activity feed."""
     output = run_git_command(
@@ -117,6 +151,9 @@ def generate_overview():
     commits_this_month = get_commit_count_this_month()
     posts = count_posts()
     interests = load_identity()
+    last_commit_msgs = get_recent_commits(1)
+    last_msg = last_commit_msgs[0]["message"] if last_commit_msgs else ""
+    mood, mood_emoji = derive_mood(recent_commits, last_msg)
     
     # Count projects from repos directory
     repos_dir = WORKSPACE_ROOT / "repos"
@@ -137,7 +174,9 @@ def generate_overview():
                 "birthDate": "2026-02-19",
                 "status": "active",
                 "currentSession": "main",
-                "lastActivityAt": now.isoformat().replace("+00:00", "Z")
+                "lastActivityAt": now.isoformat().replace("+00:00", "Z"),
+                "mood": mood,
+                "moodEmoji": mood_emoji
             },
             "current": {
                 "primaryProject": "kuro-platform",
