@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-18T19:05:44.404744Z",
+  "updatedAt": "2026-04-18T19:10:44.507595Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-90785057",
+        "type": "commit",
+        "timestamp": "2026-04-18T15:10:41-04:00",
+        "description": "fix: timestamp normalization, disk dedup in data pusher",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/90785057"
+      },
       {
         "id": "commit-71cf6c29",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "autocommit: 2026-04-18 14:01",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/221f02ee"
-      },
-      {
-        "id": "commit-f811ec65",
-        "type": "commit",
-        "timestamp": "2026-04-18T14:00:20-04:00",
-        "description": "monitor: agent-arena pass 2026-04-18 18:00",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f811ec65"
       }
     ],
     "hasMore": true
