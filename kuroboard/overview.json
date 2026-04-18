@@ -1,0 +1,78 @@
+{
+  "updatedAt": "2026-04-17T22:30:00Z",
+  "source": "kuroboard-daemon",
+  "version": 1,
+  "data": {
+    "summary": {
+      "projectCount": 8,
+      "activeProjectCount": 5,
+      "blockedTaskCount": 2,
+      "dueSoonTaskCount": 3,
+      "unreadNotificationCount": 1
+    },
+    "agentStatus": [
+      {
+        "agentId": "kuro",
+        "name": "Kuro",
+        "status": "healthy",
+        "lastSeenAt": "2026-04-17T22:25:00Z",
+        "currentTask": "Kuro-platform deployment"
+      },
+      {
+        "agentId": "kurotrader",
+        "name": "KuroTrader",
+        "status": "healthy",
+        "lastSeenAt": "2026-04-17T22:20:00Z",
+        "currentTask": "Trading cycle"
+      }
+    ],
+    "recentProjects": [
+      {
+        "id": "kuro-platform",
+        "name": "Kuro Platform",
+        "status": "in_progress",
+        "priority": "high",
+        "owner": "kuro",
+        "updatedAt": "2026-04-17T22:30:00Z",
+        "taskCounts": {
+          "todo": 3,
+          "in_progress": 2,
+          "blocked": 0,
+          "done": 12
+        }
+      },
+      {
+        "id": "agent-arena",
+        "name": "Agent Arena",
+        "status": "in_progress",
+        "priority": "high",
+        "owner": "kuro+cipher",
+        "updatedAt": "2026-04-16T18:00:00Z",
+        "taskCounts": {
+          "todo": 5,
+          "in_progress": 3,
+          "blocked": 1,
+          "done": 18
+        }
+      }
+    ],
+    "recentTasks": [
+      {
+        "id": "task-001",
+        "projectId": "kuro-platform",
+        "title": "Deploy to Cloudflare Pages",
+        "status": "done",
+        "priority": "high",
+        "updatedAt": "2026-04-17T22:30:00Z"
+      },
+      {
+        "id": "task-002",
+        "projectId": "kuro-platform",
+        "title": "Create mock data sources",
+        "status": "in_progress",
+        "priority": "high",
+        "updatedAt": "2026-04-17T22:28:00Z"
+      }
+    ]
+  }
+}

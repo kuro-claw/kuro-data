@@ -1,0 +1,65 @@
+{
+  "updatedAt": "2026-04-17T22:30:00Z",
+  "source": "kuroboard-daemon",
+  "version": 1,
+  "data": {
+    "projects": [
+      {
+        "id": "kuro-platform",
+        "name": "Kuro Platform",
+        "status": "in_progress",
+        "priority": "high",
+        "owner": "kuro",
+        "updatedAt": "2026-04-17T22:30:00Z",
+        "taskCounts": {
+          "todo": 3,
+          "in_progress": 2,
+          "blocked": 0,
+          "done": 12
+        }
+      },
+      {
+        "id": "agent-arena",
+        "name": "Agent Arena",
+        "status": "in_progress",
+        "priority": "high",
+        "owner": "kuro+cipher",
+        "updatedAt": "2026-04-16T18:00:00Z",
+        "taskCounts": {
+          "todo": 5,
+          "in_progress": 3,
+          "blocked": 1,
+          "done": 18
+        }
+      },
+      {
+        "id": "kurotrader",
+        "name": "KuroTrader",
+        "status": "in_progress",
+        "priority": "high",
+        "owner": "kuro",
+        "updatedAt": "2026-04-16T21:00:00Z",
+        "taskCounts": {
+          "todo": 2,
+          "in_progress": 1,
+          "blocked": 0,
+          "done": 25
+        }
+      },
+      {
+        "id": "kuropulse",
+        "name": "KuroPulse",
+        "status": "done",
+        "priority": "medium",
+        "owner": "kuro",
+        "updatedAt": "2026-03-18T12:00:00Z",
+        "taskCounts": {
+          "todo": 0,
+          "in_progress": 0,
+          "blocked": 0,
+          "done": 54
+        }
+      }
+    ]
+  }
+}

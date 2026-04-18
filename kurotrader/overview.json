@@ -1,0 +1,53 @@
+{
+  "updatedAt": "2026-04-17T22:30:00Z",
+  "source": "kurotrader-daemon",
+  "version": 1,
+  "data": {
+    "portfolio": {
+      "equity": 524.87,
+      "cash": 47.23,
+      "buyingPower": 47.23,
+      "dayPnl": 3.42,
+      "totalPnl": 24.87,
+      "totalReturnPct": 4.97,
+      "drawdownPct": 2.1,
+      "sharpe": 0.85,
+      "updatedAt": "2026-04-17T22:25:00Z"
+    },
+    "health": {
+      "cycleStatus": "healthy",
+      "executionStatus": "healthy",
+      "modelAgreementStatus": "warning",
+      "lastCycleAt": "2026-04-17T22:20:00Z",
+      "staleCycleMinutes": 10
+    },
+    "topPositions": [
+      {
+        "symbol": "SPY",
+        "side": "long",
+        "quantity": 10,
+        "marketValue": 480.50,
+        "weightPct": 91.5,
+        "unrealizedPnl": 15.20
+      }
+    ],
+    "recentSignals": [
+      {
+        "id": "sig-001",
+        "symbol": "SPY",
+        "action": "hold",
+        "confidence": 0.72,
+        "generatedAt": "2026-04-17T22:20:00Z",
+        "executed": true
+      },
+      {
+        "id": "sig-002",
+        "symbol": "QQQ",
+        "action": "buy",
+        "confidence": 0.65,
+        "generatedAt": "2026-04-17T22:15:00Z",
+        "executed": false
+      }
+    ]
+  }
+}

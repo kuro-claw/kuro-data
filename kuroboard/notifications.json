@@ -1,0 +1,28 @@
+{
+  "updatedAt": "2026-04-17T22:30:00Z",
+  "source": "kuroboard-daemon",
+  "version": 1,
+  "data": {
+    "notifications": [
+      {
+        "id": "notif-001",
+        "level": "info",
+        "title": "Kuro Platform deployed",
+        "body": "Successfully deployed to Cloudflare Pages at https://kuro-platform.pages.dev",
+        "createdAt": "2026-04-17T22:30:00Z",
+        "read": false,
+        "source": "kuro-platform"
+      },
+      {
+        "id": "notif-002",
+        "level": "warning",
+        "title": "Model agreement degraded",
+        "body": "KuroTrader model agreement dropped to warning level. Review signal quality.",
+        "createdAt": "2026-04-17T22:15:00Z",
+        "read": false,
+        "source": "kurotrader",
+        "relatedProjectId": "kurotrader"
+      }
+    ]
+  }
+}
