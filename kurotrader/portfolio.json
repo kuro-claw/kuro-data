@@ -1,24 +1,54 @@
 {
-  "updatedAt": "2026-04-17T22:30:00Z",
+  "updatedAt": "2026-04-18T02:52:30Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "exposures": {
-      "grossPct": 96.5,
-      "netPct": 96.5,
-      "longPct": 96.5,
+      "grossPct": 90.0,
+      "netPct": 90.0,
+      "longPct": 90.0,
       "shortPct": 0.0,
-      "cashPct": 3.5
+      "cashPct": 10.0
     },
     "positions": [
       {
-        "symbol": "SPY",
-        "quantity": 10,
-        "averagePrice": 46.53,
-        "lastPrice": 48.05,
-        "marketValue": 480.50,
-        "weightPct": 91.5,
-        "unrealizedPnl": 15.20,
+        "symbol": "BTCUSD",
+        "quantity": 0.00167278,
+        "averagePrice": 0.0,
+        "lastPrice": 0.0,
+        "marketValue": 129.43704,
+        "weightPct": 0.0,
+        "unrealizedPnl": 0.272339,
+        "side": "long"
+      },
+      {
+        "symbol": "ETHUSD",
+        "quantity": 0.039387628,
+        "averagePrice": 0.0,
+        "lastPrice": 0.0,
+        "marketValue": 95.325937,
+        "weightPct": 0.0,
+        "unrealizedPnl": -0.097013,
+        "side": "long"
+      },
+      {
+        "symbol": "SOLUSD",
+        "quantity": 1.450587458,
+        "averagePrice": 0.0,
+        "lastPrice": 0.0,
+        "marketValue": 129.311168,
+        "weightPct": 0.0,
+        "unrealizedPnl": -0.862664,
+        "side": "long"
+      },
+      {
+        "symbol": "XRPUSD",
+        "quantity": 75.394576819,
+        "averagePrice": 0.0,
+        "lastPrice": 0.0,
+        "marketValue": 111.161764,
+        "weightPct": 0.0,
+        "unrealizedPnl": -0.440055,
         "side": "long"
       }
     ]

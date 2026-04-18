@@ -1,78 +1,90 @@
 {
-  "updatedAt": "2026-04-17T22:30:00Z",
+  "updatedAt": "2026-04-18T02:52:31Z",
   "source": "kuroboard-daemon",
   "version": 1,
   "data": {
     "summary": {
-      "projectCount": 8,
-      "activeProjectCount": 5,
-      "blockedTaskCount": 2,
-      "dueSoonTaskCount": 3,
-      "unreadNotificationCount": 1
+      "projectCount": 13,
+      "activeProjectCount": 9,
+      "blockedTaskCount": 0,
+      "dueSoonTaskCount": 0,
+      "unreadNotificationCount": 0
     },
     "agentStatus": [
       {
         "agentId": "kuro",
         "name": "Kuro",
         "status": "healthy",
-        "lastSeenAt": "2026-04-17T22:25:00Z",
-        "currentTask": "Kuro-platform deployment"
-      },
-      {
-        "agentId": "kurotrader",
-        "name": "KuroTrader",
-        "status": "healthy",
-        "lastSeenAt": "2026-04-17T22:20:00Z",
-        "currentTask": "Trading cycle"
+        "lastSeenAt": "2026-04-18T02:52:30Z"
       }
     ],
     "recentProjects": [
       {
-        "id": "kuro-platform",
-        "name": "Kuro Platform",
-        "status": "in_progress",
-        "priority": "high",
-        "owner": "kuro",
-        "updatedAt": "2026-04-17T22:30:00Z",
+        "id": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "name": "KuroTrader",
+        "status": "active",
+        "summary": "WARNING \u00b7 cycle 13m \u00b7 mismatch 1 (reset from 41) \u00b7 model 75% \u00b7 latency n/a (no fills) \u00b7 equity -0.5% \u00b7 benzinga stalled (2h44m stale, 42 articles/24h)",
+        "updatedAt": "2026-04-11 22:30:48.05211-04",
         "taskCounts": {
-          "todo": 3,
-          "in_progress": 2,
+          "todo": 0,
+          "in_progress": 0,
           "blocked": 0,
-          "done": 12
+          "done": 16
         }
       },
       {
-        "id": "agent-arena",
-        "name": "Agent Arena",
-        "status": "in_progress",
-        "priority": "high",
-        "owner": "kuro+cipher",
-        "updatedAt": "2026-04-16T18:00:00Z",
+        "id": "91dc7b09-70bf-400d-bf69-626bea1f0d93",
+        "name": "OpenClaw A2A Plugin",
+        "status": "on_hold",
+        "summary": "Spec complete but no active implementation. A2A works via agent-comms-api. Revisit if native OpenClaw plugin approach becomes viable.",
+        "updatedAt": "2026-04-11 21:17:58.859325-04",
         "taskCounts": {
-          "todo": 5,
-          "in_progress": 3,
-          "blocked": 1,
-          "done": 18
+          "todo": 0,
+          "in_progress": 0,
+          "blocked": 0,
+          "done": 0
+        }
+      },
+      {
+        "id": "65dce0f2-303d-4678-9767-e4e815aa6ad6",
+        "name": "Claude Code Research",
+        "status": "completed",
+        "summary": "Research complete 2026-03. Patterns borrowed for KuroLoop and KDD workflow. KuroLoop decommissioned 2026-04-11 so primary use case is gone.",
+        "updatedAt": "2026-04-11 21:17:58.846119-04",
+        "taskCounts": {
+          "todo": 0,
+          "in_progress": 0,
+          "blocked": 0,
+          "done": 0
+        }
+      },
+      {
+        "id": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "name": "KuroLoop",
+        "status": "completed",
+        "summary": "Decommissioned 2026-04-11. Replaced by sessions_spawn + direct-dev-subagent skill. OpenClaw native session management made KuroLoop redundant.",
+        "updatedAt": "2026-04-11 21:17:58.808313-04",
+        "taskCounts": {
+          "todo": 0,
+          "in_progress": 0,
+          "blocked": 0,
+          "done": 45
+        }
+      },
+      {
+        "id": "c25fa39f-ce45-408f-b28d-656b9cc56cdf",
+        "name": "KuroPop",
+        "status": "active",
+        "summary": "",
+        "updatedAt": "2026-03-26 21:17:48.635073-04",
+        "taskCounts": {
+          "todo": 0,
+          "in_progress": 0,
+          "blocked": 0,
+          "done": 0
         }
       }
     ],
-    "recentTasks": [
-      {
-        "id": "task-001",
-        "projectId": "kuro-platform",
-        "title": "Deploy to Cloudflare Pages",
-        "status": "done",
-        "priority": "high",
-        "updatedAt": "2026-04-17T22:30:00Z"
-      },
-      {
-        "id": "task-002",
-        "projectId": "kuro-platform",
-        "title": "Create mock data sources",
-        "status": "in_progress",
-        "priority": "high",
-        "updatedAt": "2026-04-17T22:28:00Z"
-      }
-    ]
+    "recentTasks": []
   }
 }
