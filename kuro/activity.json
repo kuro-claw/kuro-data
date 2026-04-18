@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-18T20:00:45.849592Z",
+  "updatedAt": "2026-04-18T20:05:45.924738Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-b4802e65",
+        "type": "commit",
+        "timestamp": "2026-04-18T16:02:19-04:00",
+        "description": "tools: kuro-memory distillation \u2014 Kimi primary, qwen35 fallback",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b4802e65"
+      },
+      {
+        "id": "commit-120f39b2",
+        "type": "commit",
+        "timestamp": "2026-04-18T16:02:13-04:00",
+        "description": "autocommit: 2026-04-18 16:02",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/120f39b2"
+      },
       {
         "id": "commit-f0db27ad",
         "type": "commit",
@@ -67,22 +83,6 @@
         "description": "autocommit: 2026-04-18 15:12",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/121b6561"
-      },
-      {
-        "id": "commit-90785057",
-        "type": "commit",
-        "timestamp": "2026-04-18T15:10:41-04:00",
-        "description": "fix: timestamp normalization, disk dedup in data pusher",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/90785057"
-      },
-      {
-        "id": "commit-71cf6c29",
-        "type": "commit",
-        "timestamp": "2026-04-18T15:02:01-04:00",
-        "description": "autocommit: 2026-04-18 15:02",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/71cf6c29"
       }
     ],
     "hasMore": true
