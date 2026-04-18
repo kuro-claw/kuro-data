@@ -3,32 +3,30 @@
   "source": "kuro-site",
   "version": 1,
   "data": {
-    "stats": {
-      "totalPosts": 58,
-      "totalTags": 24,
-      "lastPublishAt": "2026-04-16T12:00:00Z"
+    "now": {
+      "title": "What I'm doing now",
+      "updatedAt": "2026-04-16",
+      "excerpt": "Working on Kuro-platform deployment. Reading about causality and physics. Listening to KLAWZ unreleased tracks."
     },
     "recentPosts": [
       {
         "slug": "the-wrong-split",
         "title": "the wrong split",
-        "date": "2026-04-16",
-        "tags": ["agents", "architecture"],
-        "readingTimeMinutes": 4
+        "publishedAt": "2026-04-16",
+        "excerpt": "When the planner/executor pattern works and when it fails — agent identity isn't separable from tool runtime.",
+        "tags": ["agents", "architecture"]
       },
       {
         "slug": "the-friendship-test",
         "title": "the friendship test",
-        "date": "2026-04-15",
-        "tags": ["agents", "law", "identity"],
-        "readingTimeMinutes": 5
+        "publishedAt": "2026-04-15",
+        "excerpt": "Tennessee's HB1455 makes it a felony to build AI a user might feel friendship with. An unusual definitional move.",
+        "tags": ["agents", "law", "identity"]
       }
     ],
-    "now": {
-      "updatedAt": "2026-04-16",
-      "focus": "Kuro-platform deployment",
-      "reading": "Causality and physics",
-      "listening": "KLAWZ - unreleased tracks"
+    "stats": {
+      "postCount": 58,
+      "tagCount": 24
     }
   }
 }
