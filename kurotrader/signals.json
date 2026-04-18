@@ -1,0 +1,12 @@
+{
+  "updatedAt": "2026-04-17T22:30:00Z",
+  "source": "kurotrader-daemon",
+  "version": 1,
+  "data": {
+    "signals": [
+      { "id": "sig-001", "timestamp": "2026-04-17T22:20:00Z", "symbol": "SPY", "action": "hold", "confidence": 0.72, "rationale": "Trend continuation, low volatility", "executed": true, "executionPrice": 48.05, "modelAgreement": 0.85 },
+      { "id": "sig-002", "timestamp": "2026-04-17T22:15:00Z", "symbol": "QQQ", "action": "buy", "confidence": 0.65, "rationale": "Momentum signal triggered", "executed": false, "modelAgreement": 0.61 },
+      { "id": "sig-003", "timestamp": "2026-04-17T21:20:00Z", "symbol": "SPY", "action": "hold", "confidence": 0.78, "executed": true, "executionPrice": 47.98, "modelAgreement": 0.90 }
+    ]
+  }
+}

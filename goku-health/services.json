@@ -1,0 +1,17 @@
+{
+  "updatedAt": "2026-04-17T22:30:00Z",
+  "source": "goku-health-daemon",
+  "version": 1,
+  "data": {
+    "services": [
+      { "id": "kurotrader-api", "name": "KuroTrader API", "type": "systemd", "status": "healthy", "expectedState": "running", "lastCheckAt": "2026-04-17T22:28:00Z", "detail": "PID 130609, port 3003" },
+      { "id": "kurotrader-loop", "name": "KuroTrader Loop", "type": "daemon", "status": "healthy", "expectedState": "running", "lastCheckAt": "2026-04-17T22:28:00Z" },
+      { "id": "kurotrader-dash", "name": "KuroTrader Dashboard", "type": "systemd", "status": "healthy", "expectedState": "running", "lastCheckAt": "2026-04-17T22:28:00Z" },
+      { "id": "kuroboard-api", "name": "KuroBoard API", "type": "systemd", "status": "healthy", "expectedState": "running", "lastCheckAt": "2026-04-17T22:28:00Z", "detail": "port 3011" },
+      { "id": "kuro-memory", "name": "kuro-memory", "type": "systemd", "status": "healthy", "expectedState": "running", "lastCheckAt": "2026-04-17T22:27:00Z" },
+      { "id": "benzinga-ingest", "name": "Benzinga Ingest", "type": "systemd", "status": "healthy", "expectedState": "running", "lastCheckAt": "2026-04-17T22:25:00Z" },
+      { "id": "postgresql", "name": "PostgreSQL", "type": "systemd", "status": "healthy", "expectedState": "running", "lastCheckAt": "2026-04-17T22:28:00Z" },
+      { "id": "ollama", "name": "Ollama", "type": "systemd", "status": "healthy", "expectedState": "running", "lastCheckAt": "2026-04-17T22:28:00Z" }
+    ]
+  }
+}
