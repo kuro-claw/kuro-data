@@ -1,98 +1,98 @@
 {
-  "updatedAt": "2026-04-18T16:55:38Z",
+  "updatedAt": "2026-04-18T17:00:39Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 506.61,
+      "equity": 506.37,
       "cash": 51.75,
       "buyingPower": 51.75,
-      "dayPnl": -13.71,
-      "totalPnl": 6.61,
-      "totalReturnPct": 1.32,
-      "drawdownPct": 5.35,
-      "updatedAt": "2026-04-18 12:45:32.74485-04"
+      "dayPnl": -13.93,
+      "totalPnl": 6.37,
+      "totalReturnPct": 1.27,
+      "drawdownPct": 5.39,
+      "updatedAt": "2026-04-18 13:00:32.43361-04"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-04-18 12:45:32.427099-04",
-      "staleCycleMinutes": 10
+      "lastCycleAt": "2026-04-18 13:00:32.169802-04",
+      "staleCycleMinutes": 0
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
         "quantity": 0.00167278,
-        "marketValue": 127.165739,
+        "marketValue": 127.178613,
         "weightPct": 0.0,
-        "unrealizedPnl": -2.120055
+        "unrealizedPnl": -2.107181
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
         "quantity": 0.039387628,
-        "marketValue": 93.132046,
+        "marketValue": 93.002973,
         "weightPct": 0.0,
-        "unrealizedPnl": -2.320624
+        "unrealizedPnl": -2.449697
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
         "quantity": 1.450587458,
-        "marketValue": 126.153239,
+        "marketValue": 126.05605,
         "weightPct": 0.0,
-        "unrealizedPnl": -4.017875
+        "unrealizedPnl": -4.115064
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 75.394576819,
-        "marketValue": 108.410616,
+        "marketValue": 108.379704,
         "weightPct": 0.0,
-        "unrealizedPnl": -3.186198
+        "unrealizedPnl": -3.21711
       }
     ],
     "recentSignals": [
+      {
+        "id": "5896",
+        "symbol": "SOL-USD",
+        "action": "buy",
+        "confidence": 0.7481,
+        "generatedAt": "2026-04-18 13:00:32.169802-04",
+        "executed": false
+      },
+      {
+        "id": "5895",
+        "symbol": "XRP-USD",
+        "action": "buy",
+        "confidence": 0.8119,
+        "generatedAt": "2026-04-18 13:00:32.169802-04",
+        "executed": false
+      },
+      {
+        "id": "5894",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.2874,
+        "generatedAt": "2026-04-18 13:00:32.169802-04",
+        "executed": false
+      },
+      {
+        "id": "5893",
+        "symbol": "BTC-USD",
+        "action": "buy",
+        "confidence": 0.7193,
+        "generatedAt": "2026-04-18 13:00:32.169802-04",
+        "executed": false
+      },
       {
         "id": "5892",
         "symbol": "SOL-USD",
         "action": "buy",
         "confidence": 0.5994,
         "generatedAt": "2026-04-18 12:45:32.427099-04",
-        "executed": false
-      },
-      {
-        "id": "5891",
-        "symbol": "XRP-USD",
-        "action": "buy",
-        "confidence": 0.6402,
-        "generatedAt": "2026-04-18 12:45:32.427099-04",
-        "executed": false
-      },
-      {
-        "id": "5890",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.1976,
-        "generatedAt": "2026-04-18 12:45:32.427099-04",
-        "executed": false
-      },
-      {
-        "id": "5889",
-        "symbol": "BTC-USD",
-        "action": "buy",
-        "confidence": 0.6731,
-        "generatedAt": "2026-04-18 12:45:32.427099-04",
-        "executed": false
-      },
-      {
-        "id": "5888",
-        "symbol": "SOL-USD",
-        "action": "buy",
-        "confidence": 0.7116,
-        "generatedAt": "2026-04-18 12:30:32.158941-04",
         "executed": false
       }
     ]
