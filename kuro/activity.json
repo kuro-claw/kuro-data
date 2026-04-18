@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-18T23:50:50.138429Z",
+  "updatedAt": "2026-04-18T23:55:50.232315Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-6339353d",
+        "type": "commit",
+        "timestamp": "2026-04-18T19:53:02-04:00",
+        "description": "autocommit: 2026-04-18 19:53",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/6339353d"
+      },
       {
         "id": "commit-b7143ecb",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "monitor: agent-arena pass 2026-04-18 23:00",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/d8031c20"
-      },
-      {
-        "id": "commit-5d995cd7",
-        "type": "commit",
-        "timestamp": "2026-04-18T18:54:06-04:00",
-        "description": "feat: add NVDA company profile + improve benzinga skill keyword search",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/5d995cd7"
       }
     ],
     "hasMore": true
