@@ -1,0 +1,13 @@
+[Unit]
+Description=Kuro module data exporter for kuro-platform
+After=network.target
+
+[Service]
+Type=oneshot
+User=trainer
+Group=trainer
+WorkingDirectory=/home/trainer/agents/kuro/workspace/repos/kuro-data
+Environment="KURO_EXPORTER_PUSH=1"
+ExecStart=/usr/bin/python3 /home/trainer/agents/kuro/workspace/repos/kuro-data/scripts/kuro-exporter.py
+StandardOutput=journal
+StandardError=journal
