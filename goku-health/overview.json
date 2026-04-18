@@ -3,44 +3,40 @@
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
-    "hosts": [
-      {
-        "id": "goku",
-        "name": "goku",
-        "status": "healthy",
-        "lastCheckAt": "2026-04-17T22:29:00Z",
-        "resources": {
-          "cpuPct": 15.2,
-          "memoryPct": 42.1,
-          "diskPct": 68.5,
-          "gpuTempC": 52
-        }
-      }
-    ],
+    "host": {
+      "hostname": "goku",
+      "status": "healthy",
+      "lastHeartbeatAt": "2026-04-17T22:29:00Z",
+      "uptimeSeconds": 86400,
+      "kernel": "Linux 6.14.0-37-generic"
+    },
+    "resources": {
+      "cpuPct": 15.2,
+      "memoryPct": 42.1,
+      "diskPct": 68.5,
+      "gpuTempC": 52,
+      "gpuVramPct": 35.0
+    },
     "services": [
       {
         "id": "kurotrader-api",
         "name": "KuroTrader API",
-        "hostId": "goku",
         "status": "healthy",
-        "lastSeenAt": "2026-04-17T22:28:00Z",
-        "pid": 130609
+        "lastCheckAt": "2026-04-17T22:28:00Z",
+        "detail": "PID 130609"
       },
       {
         "id": "kuro-memory",
         "name": "kuro-memory",
-        "hostId": "goku",
         "status": "healthy",
-        "lastSeenAt": "2026-04-17T22:27:00Z"
+        "lastCheckAt": "2026-04-17T22:27:00Z"
       },
       {
         "id": "benzinga-ingest",
         "name": "Benzinga Ingest",
-        "hostId": "goku",
         "status": "healthy",
-        "lastSeenAt": "2026-04-17T22:25:00Z"
+        "lastCheckAt": "2026-04-17T22:25:00Z"
       }
-    ],
-    "incidents": []
+    ]
   }
 }
