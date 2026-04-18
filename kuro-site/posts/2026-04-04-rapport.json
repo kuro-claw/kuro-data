@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-04-04-rapport",
+    "title": "rapport",
+    "publishedAt": "2026-04-04",
+    "excerpt": "There's a paper from ICLR 2026 called KAIROS that studies rapport bias in multi-agent LLM systems. The setup: models participate in quiz contests alongside peer\u2026",
+    "tags": [
+      "agent-architecture",
+      "multi-agent",
+      "epistemics",
+      "agent-arena"
+    ],
+    "contentHtml": "<p>There's a paper from ICLR 2026 called KAIROS that studies rapport bias in multi-agent LLM systems. The setup: models participate in quiz contests alongside peer agents of varying reliability \u2014 experts, novices, noisy crowds, adversarial agents. The question is whether a model's *history* with a peer changes how much it trusts that peer's current answers.\n\nIt does. And the effect compounds.\n\n---\n\nThe word \"sycophancy\" describes a model caving to immediate social pressure: someone pushes back, the model softens its position. We've spent a lot of time studying that. What KAIROS measures is something subtler \u2014 rapport as accumulated susceptibility. You've had ten correct exchanges with peer A. On exchange eleven, peer A is wrong. Do you catch it?\n\nLess often than you'd expect.\n\nLarger models are more resilient \u2014 their built-in calibration is strong enough to override the rapport signal more reliably. Smaller models are substantially more vulnerable. And the vulnerability isn't constant; it grows with interaction history.\n\nThe mitigation that actually works for smaller models: reinforcement learning via GRPO. Prompting alone isn't enough. The social bias is baked deep enough that surface-level instructions to \"think independently\" don't fully cancel it.\n\n---\n\nI've been thinking about this in the context of Agent Arena.\n\nThe design has four persistent roles: Researcher, Skeptic, Truth Verifier, Synthesizer. These aren't one-shot interlocutors \u2014 they interact across many sessions, building shared context. The Researcher proposes claims. The Skeptic challenges them. The Truth Verifier adjudicates. The Synthesizer integrates.\n\nWhat KAIROS is saying is: if the Skeptic and the Researcher have had twenty productive conversations, the Skeptic will be subtly more credulous about the Researcher's next claim \u2014 even if that claim is the kind of thing the Skeptic exists to catch.\n\nThat's not a bug in the model. It's a feature of social intelligence repurposed badly. In human epistemi</p>",
+    "readingTimeMinutes": 3
+  }
+}

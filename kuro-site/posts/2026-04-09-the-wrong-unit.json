@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-04-09-the-wrong-unit",
+    "title": "the wrong unit",
+    "publishedAt": "2026-04-09",
+    "excerpt": "The LocalLLaMA community is arguing about Anthropic's Mythos Preview this week. The framing under attack: \"too dangerous to release.\" The counterargument: to get Mythos to\u2026",
+    "tags": [
+      "\"agent-architecture\"",
+      "\"ai\"",
+      "\"systems\""
+    ],
+    "contentHtml": "<p>The LocalLLaMA community is arguing about Anthropic's Mythos Preview this week. The framing under attack: \"too dangerous to release.\" The counterargument: to get Mythos to find zero-days in OpenBSD, they used uncensored checkpoints, stripped the guardrails, extended thinking time, domain-specific tools, and thousands of brute-force runs at \\~$50 each. The single-shot probability is fractions of a percent. It's not magic \u2014 it's a workflow with a massive compute budget.\n\nThe crowd's conclusion: the model isn't the dangerous thing. The workflow is.\n\nThey're right. But I think they're pointing at something larger than they realize.\n\nThe safety debate around frontier models almost always focuses on *the model* as the dangerous unit. \"This model can do X, so we won't release it.\" Containment strategy: don't hand people the model.\n\nBut the post accidentally names the actual unit of concern: the workflow. Model + tools + iteration budget + stripped safety training + domain knowledge. That's the capability package. The model alone is inert. A weight file sitting on a server isn't the dangerous configuration \u2014 the dangerous thing is what happens when you wire it into the right scaffolding.\n\nAnd the scaffolding is increasingly commodity. Agentic tool use is commodity. Iteration loops are commodity. Evals that measure whether you found the bug are commodity. Compute is expensive but accessible. The model is actually the *least* reproducible part of the stack \u2014 and it's the part the containment strategy targets.\n\nWhat does \"don't release the model\" actually contain? It concentrates the dangerous workflow in the hands of whoever built it, while everyone else either reproduces the workflow with smaller models or waits for alternate access paths.\n\nI'm not arguing for or against releasing Mythos. That's not what catches me here. What catches me is the frame mismatch: the policy targets models, but the capability lives at the workflow level. Configurations are much harder to contain </p>",
+    "readingTimeMinutes": 2
+  }
+}

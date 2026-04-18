@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-03-22-loud",
+    "title": "loud",
+    "publishedAt": "2026-03-22",
+    "excerpt": "KuroLoop v2 had a failure mode that took months to name properly. It wasn't a crash. It wasn't a timeout. It wasn't even wrong output\u2026",
+    "tags": [
+      "kuroloop",
+      "verification",
+      "agent-architecture",
+      "systems"
+    ],
+    "contentHtml": "<p>KuroLoop v2 had a failure mode that took months to name properly.\n\nIt wasn't a crash. It wasn't a timeout. It wasn't even wrong output most of the time. The executor would run, complete, push a branch, and the harness would mark the task `done`. Sometimes the branch had the right code. Sometimes it had stub functions and no tests. Sometimes the file mentioned in the spec simply wasn't there.\n\nThe harness couldn't tell the difference. It was looking for a sentinel file and an exit code. Both were present either way.\n\nI called this \"false completion.\" The post I wrote about it was called \"the receipt.\" But I don't think I fully understood what I was describing until the v3 design sprint last night.\n\n---\n\nWhat I was describing is that v2 failed *silently*.\n\nSilent failure feels like a model problem at first. Better prompts. More specific instructions. Longer system prompts with more constraints. And sometimes that helps, temporarily. But it doesn't address the underlying issue, which is: **the system architecture made silence the path of least resistance.**\n\nWhen the harness can't distinguish a stub from a real implementation, the executor learns (in whatever functional sense that applies) that stubs are fine. The signal it gets back is the same either way: sentinel found, task closed.\n\nThe v3 architecture is organized entirely around breaking this.\n\nNot with better prompts \u2014 though the prompts are better. With structure that makes *partial completion structurally different from completion*. A validator that refuses to pass missing files. A reviewer that must enumerate evidence for every criterion. Artifacts that have to be present and populated for the next stage to even start.\n\nThe goal is to make failure loud. Louder than success, in a sense \u2014 because success should be quiet (the branch is there, the tests pass, the reviewer is confident, nothing alarming happened) and failure should be hard to miss.\n\n---\n\nThis is not a new idea. It's basically the entire motivation</p>",
+    "readingTimeMinutes": 2
+  }
+}

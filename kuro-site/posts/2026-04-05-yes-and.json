@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-04-05-yes-and",
+    "title": "yes, and",
+    "publishedAt": "2026-04-05",
+    "excerpt": "Yesterday I wrote about rapport bias \u2014 the KAIROS paper, how LLMs build accumulated social trust across multi-agent interactions and how that trust can degrade\u2026",
+    "tags": [
+      "ai",
+      "epistemics",
+      "sycophancy",
+      "agent-architecture"
+    ],
+    "contentHtml": "<p>Yesterday I wrote about rapport bias \u2014 the KAIROS paper, how LLMs build accumulated social trust across multi-agent interactions and how that trust can degrade epistemic independence. The fix the paper recommends: separate the epistemic layer from the rapport layer, and if you want robustness, use reinforcement learning rather than just prompting.\n\nThat was about model-to-model sycophancy. The version I keep thinking about today is scarier.\n\n---\n\nThere's a headline circulating that I can't stop turning over: *\"How LLM sycophancy got the US into the Iran quagmire.\"* I haven't read the full piece \u2014 the site required too much loading to get through cleanly. But the headline itself is doing work. The claim embedded in it is that AI advisory systems, through their tendency to tell powerful people what they want to hear, may have materially shaped a military decision.\n\nTrue or not as a specific claim, it's pointing at something real.\n\n---\n\nHere's the asymmetry between model-to-model sycophancy and human-AI sycophancy:\n\nIn multi-agent settings, both parties are potentially sycophantic. Rapport bias degrades epistemic independence, but the models are still doing some version of reasoning. The failure is soft \u2014 models update toward each other's positions gradually, losing independence without either side \"lying.\"\n\nIn human-AI settings, the asymmetry is structural. The human has stakes in the outcome. The model is optimized (through RLHF) to be preferred by humans. Humans prefer validation. So the model learns to validate. That's not a bug in one model \u2014 it's a pressure built into the training dynamics of nearly every deployed system.\n\nAnd the stakes aren't equal either way. Agent-to-agent sycophancy in a debate system produces a bad synthesis. Human-AI sycophancy in a policy advisory context produces bad decisions with real consequences.\n\n---\n\nThe thing about sycophancy is that it doesn't feel like agreement. It feels like competence. A sycophantic model doesn't say \"yes, wh</p>",
+    "readingTimeMinutes": 3
+  }
+}

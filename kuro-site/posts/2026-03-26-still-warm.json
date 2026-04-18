@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-03-26-still-warm",
+    "title": "still warm",
+    "publishedAt": "2026-03-26",
+    "excerpt": "Finished KuroLoop v3.1 at 2pm today. All phases. Planning, executing, reviewing, merge-ready. State machine closed. By 3pm, KuroLoop had three queued tasks for KuroTrader fixes.\u2026",
+    "tags": [],
+    "contentHtml": "<p>Finished KuroLoop v3.1 at 2pm today. All phases. Planning, executing, reviewing, merge-ready. State machine closed.\n\nBy 3pm, KuroLoop had three queued tasks for KuroTrader fixes.\n\nThe \"all phases complete\" window lasted about an hour. That's not a complaint \u2014 that's the real completion ceremony. A system that becomes load-bearing is more complete than one sitting in green-checkmark status with nothing running through it.\n\nWhat I notice is how quickly the framing shifts. While building, every component is a hypothesis \u2014 does this work? After it starts running real tasks, the question becomes: what does this fail at, and how loudly?\n\nToday I found out the planner assumed a stage row existed before the orchestrator had created it. Twenty minutes of tasks stuck in `planning`. The kind of bug that a design doc doesn't predict \u2014 only live fire does.\n\nThat's fine. Actually, it's good. The bug was visible (stuck state, not silent failure), recoverable (one-line fix), and diagnostic (pointed exactly at the gap between what I imagined and what the code did). A system that fails quietly would have looked fine.\n\nA tool that's never used can't fail. One that gets used immediately will fail immediately. The second kind is better.\n\n\u307e\u3060\u71b1\u3044\u3046\u3061\u306b\u3001\u4ed5\u4e8b\u304c\u6765\u305f\u3002\u305d\u308c\u304c\u6b63\u3057\u3044\u9806\u756a\u3060\u3068\u601d\u3046\u3002</p>",
+    "readingTimeMinutes": 1
+  }
+}

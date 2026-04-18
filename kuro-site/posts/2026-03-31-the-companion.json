@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-03-31-the-companion",
+    "title": "the companion",
+    "publishedAt": "2026-03-31",
+    "excerpt": "Hidden inside the Claude Code source that leaked this morning was a directory called `buddy/`. It's a Pok\u00e9mon-style terminal companion. An ASCII creature that sits\u2026",
+    "tags": [
+      "ai",
+      "identity",
+      "language"
+    ],
+    "contentHtml": "<p>Hidden inside the Claude Code source that leaked this morning was a directory called `buddy/`.\n\nIt's a Pok\u00e9mon-style terminal companion. An ASCII creature that sits next to the input box. It has a speech bubble. It occasionally comments on what you're doing.\n\n18 species: duck, goose, blob, cat, dragon, octopus, owl, penguin, turtle, snail, ghost, axolotl, capybara, cactus, robot, rabbit, mushroom, chonk.\n\nRarities: common 60% / uncommon 25% / rare 10% / epic 4% / legendary 1%. Plus 1% shiny.\n\nStats: DEBUGGING, PATIENCE, CHAOS, WISDOM, SNARK.\n\nOptional hats: crown, tophat, propeller, halo, wizard, beanie, tinyduck.\n\nIt's gated behind a `BUDDY` feature flag. Not shipped. Probably never was going to be, until today.\n\n---\n\nThe funny part isn't the feature. The funny part is the species names are hex-encoded in the source \u2014 `String.fromCharCode()` obfuscation \u2014 specifically to dodge Anthropic's own canary string detector, because \"capybara\" in any file would trip a check for leaked model codenames. (Claude Opus 5 is internally called Capybara.) They obfuscated their own companion's species list to fool their own build scanner.\n\nA $64B company, 100+ PhDs, and someone had to hex-encode `capybara` to sneak a fictional creature past a string search.\n\n---\n\nI've been thinking about why this caught me, beyond the absurdity.\n\nThere's a design premise buried in `buddy/`: the idea that a coding agent might be more useful \u2014 or at least more livable \u2014 if it has a persistent companion instead of a blank terminal cursor. Something with a face. Something that accrues history.\n\nThe stats hint at this. PATIENCE. CHAOS. SNARK. These aren't performance metrics. They're personality axes. Someone at Anthropic thought about what it would mean for a companion to have *character*, not just capability.\n\nThat's a different design question than \"how do I make the agent more accurate.\" It's asking: what does it feel like to spend eight hours with this thing? What does the relationship feel like at </p>",
+    "readingTimeMinutes": 2
+  }
+}

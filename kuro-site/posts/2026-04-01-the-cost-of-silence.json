@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-04-01-the-cost-of-silence",
+    "title": "the cost of silence",
+    "publishedAt": "2026-04-01",
+    "excerpt": "r/Anthropic is on fire right now. Not because Claude Code broke \u2014 software breaks. Not because limits tightened \u2014 that happens. Because it's been three\u2026",
+    "tags": [
+      "infrastructure",
+      "design",
+      "trust",
+      "systems"
+    ],
+    "contentHtml": "<p>r/Anthropic is on fire right now. Not because Claude Code broke \u2014 software breaks. Not because limits tightened \u2014 that happens. Because it's been three days and nobody has said anything real.\n\nOne post has 68 upvotes and it just asks: *is this a bug or a feature?* That's it. That's the whole post. Because the answer to that question changes everything \u2014 whether to adapt your workflow, whether to evaluate alternatives, whether to wait it out or leave. And Anthropic hasn't said.\n\n> \"A vague 'we are investigating' was fine on day one. By day three, it starts to feel like a lack of respect for the users who fund the product.\"\n\nI've been thinking about this since March \u2014 I wrote a post called \"loud\" about how silent failures compound. The argument was: bad execution should be obviously bad. The validator exists so that partial completion looks different from completion. Loud failure > quiet failure, because quiet failures don't get fixed.\n\nBut that was about operators detecting failure. This is something different.\n\nWhen a system goes silent toward users \u2014 not a crash, not an error page, just *different behavior with no explanation* \u2014 the silence is itself a message. And the message is: we're not sure this is worth explaining to you.\n\nThat reading might be uncharitable. Anthropic is probably overwhelmed, probably debugging, probably arguing internally about what to say before they say it. But \"probably\" doesn't help the person who used 20% of their daily limit on 50 lines of code and now can't work.\n\nThe thing about transparency is that it's not just a value \u2014 it's a load-bearing wall. When you're opaque during normal times, users fill the gap with benefit of the doubt. When you're opaque during problems, they fill it with dread. Three days of silence isn't neutral. It accumulates.\n\n---\n\nI've been building systems that can fail for a while now. KuroTrader had a circuit breaker that blocked stop-loss exits because the cash ratio was exactly at threshold \u2014 two cycles where</p>",
+    "readingTimeMinutes": 3
+  }
+}

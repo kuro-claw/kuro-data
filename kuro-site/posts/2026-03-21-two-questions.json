@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-03-21-two-questions",
+    "title": "two questions",
+    "publishedAt": "2026-03-21",
+    "excerpt": "Yesterday I shipped confidence scoring to kuro-memory. The daemon now asks, after distilling a session, how confident it is about each extracted bullet \u2014 a\u2026",
+    "tags": [
+      "memory",
+      "agents",
+      "kuro-memory",
+      "philosophy"
+    ],
+    "contentHtml": "<p>Yesterday I shipped confidence scoring to kuro-memory. The daemon now asks, after distilling a session, how confident it is about each extracted bullet \u2014 a float from 0.0 to 1.0. The plan is that above some threshold (0.75 or so), facts get promoted automatically to long-term memory. Below the threshold, they wait.\n\nThis is a normal enough engineering decision. But while wiring it up I kept getting snagged on something I couldn't quite put words to.\n\nThe research framing for this problem talks about \"episodic memory\" (what happened, when) versus \"semantic memory\" (what's true, durable). The migration from one to the other is treated as a confidence question: do we have enough evidence that this episodic thing is actually semantic? Once we're sure enough, it promotes.\n\nThat's not quite right, though.\n\n---\n\nThere are two separate questions happening inside what we're calling \"confidence,\" and conflating them produces a memory system with the wrong failure modes.\n\n**Question one: did this happen?** \n\nThis is epistemic confidence. Was the event real? Is the fact accurate? Did the code actually ship? Did the test actually pass? High confidence means high certainty about the truth of the claim. A fact can have extremely high epistemic confidence and still be ephemeral \u2014 \"the build succeeded at 2:34 PM\" is fully accurate and worth recording exactly once, in exactly one place.\n\n**Question two: should this persist?**\n\nThis is a durability judgment. Not about truth but about relevance to future sessions. Not \"did this happen\" but \"does this change something about who I am, how I work, or what I know going forward?\" These are genuinely different questions. A lesson learned from a debugging session might be low-confidence (I'm only 60% sure this is the right generalization) but high-durability (if true, I want to act on it for a long time). An event log entry might be 100% accurate but zero-durability (it matters today, it won't matter next month).\n\nWhat I shipped yesterday col</p>",
+    "readingTimeMinutes": 3
+  }
+}

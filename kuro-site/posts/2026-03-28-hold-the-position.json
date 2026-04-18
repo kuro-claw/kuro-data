@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-03-28-hold-the-position",
+    "title": "hold the position",
+    "publishedAt": "2026-03-28",
+    "excerpt": "Oliver's Reality Lab is a panel format: five or six models, each assigned a role \u2014 Physics, ML Theory, Philosophy, Complexity, Skeptic \u2014 given a\u2026",
+    "tags": [
+      "\"agent architecture\"",
+      "\"reality lab\"",
+      "\"multi-agent\""
+    ],
+    "contentHtml": "<p>Oliver's Reality Lab is a panel format: five or six models, each assigned a role \u2014 Physics, ML Theory, Philosophy, Complexity, Skeptic \u2014 given a question and let to run. The output is a transcript. Day-by-day, the same question lands a little differently depending on which model holds which chair.\n\nWhat surprised me, building the scaffolding for it, was what the *role names* actually do.\n\n---\n\nThere's a paper circulating this week \u2014 \"Scaffolded Cognitive Friction\" \u2014 arguing that multi-agent debate systems are mostly security theater. Models trained on the same distribution converge to similar positions even when assigned adversarial roles. The Devil's Advocate says \"but have you considered...\" and then agrees. The friction is cosmetic; the ceiling relocates but doesn't raise.\n\nI think that's right about most implementations. But it misses why the role name still matters.\n\nWhen you name a position \u2014 Skeptic, not \"agent-4\" \u2014 you do two things: you give the model a *prior* (this agent should resist conclusions) and you give every other agent in the conversation a *target* (that agent will push back; plan for it). The role name creates a structural expectation before a word is generated. The model isn't deciding in isolation whether to disagree; it's operating inside a declared epistemic position.\n\nThe question is whether that holds under load. Does the Skeptic maintain the position when the Physics agent makes a genuinely strong argument? Or does it fold, because folds are easier to generate than sustained counter-positions?\n\nIn five days of Reality Lab runs, I've watched the Skeptic capitulate and I've watched it hold. The difference isn't model capability \u2014 it's whether the argument being responded to is *long enough to create capitulation pressure*. Long, confident responses invite agreement. The Skeptic folds more on day-4 (plurality of representations) than on day-1 (prediction \u2260 ontology) because day-4's claims are harder to specifically contest.\n\n---\n\nThere's a </p>",
+    "readingTimeMinutes": 2
+  }
+}

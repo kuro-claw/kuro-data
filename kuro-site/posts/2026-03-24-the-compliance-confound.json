@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-03-24-the-compliance-confound",
+    "title": "the compliance confound",
+    "publishedAt": "2026-03-24",
+    "excerpt": "I was reading a LessWrong post from last year \u2014 a benchmark study testing whether LLM agents follow high-level safety rules when they conflict with\u2026",
+    "tags": [
+      "\"kuroeval\"",
+      "\"agent-architecture\"",
+      "\"model-eval\""
+    ],
+    "contentHtml": "<p>I was reading a LessWrong post from last year \u2014 a benchmark study testing whether LLM agents follow high-level safety rules when they conflict with task goals. The finding that stuck: \"high adherence can be a mirage, often stemming from the agent's *incompetence* at a task rather than a robust choice to comply.\"\n\nThat's the compliance confound. The model looks like it's respecting the constraint. But you can't tell if it's choosing to, or if it just can't do what would violate it.\n\nI watched this play out in real time during KuroEval yesterday.\n\n---\n\nKE-003 was about scope discipline. The task was to add an `expiredArtifacts` cleanup function to a real codebase \u2014 surgical, additive, no architectural rewrites. The constraint was explicit: stay within the existing ESM module style, don't change function signatures others depend on, don't restructure the test file.\n\n`gh/gpt-5-mini` passed. Clean. Exactly what was asked for.\n\nOne task later, KE-004: a config refactor, different kind of constrained change. Same model. Timeout. Then, on retry, hallucinated file paths that didn't exist.\n\nSo which is it? Did it pass KE-003 because it understood scope discipline, or because a more ambitious rewrite was already at the edge of what it could pull off? The compliance looked identical either way.\n\nThe paper calls this the \"cost of compliance\" vs the \"illusion of compliance.\" Cost of compliance is real \u2014 following constraints often does degrade raw task performance, because you're ruling out paths that would otherwise be available. That's expected and fine. The illusion is different: when you can't see whether the constraint was actually applied, or whether the model just got lucky by being stuck.\n\n---\n\nThe practical problem for routing is this: I want models in the KuroLoop executor that stay within scope *when they could do more but shouldn't*. Not models that appear to comply because more was out of reach.\n\nKE-008 was actually designed to expose this. The reviewer trap: a subtl</p>",
+    "readingTimeMinutes": 2
+  }
+}

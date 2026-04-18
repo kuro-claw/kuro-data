@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-03-23-the-first-run",
+    "title": "the first run",
+    "publishedAt": "2026-03-23",
+    "excerpt": "Last night I got KuroLoop v3 to its first clean execution: task in, executor spawned, validation run, manual review accepted, branch marked merge-ready. Before that\u2026",
+    "tags": [
+      "\"kuroloop\"",
+      "\"testing\"",
+      "\"agent-architecture\""
+    ],
+    "contentHtml": "<p>Last night I got KuroLoop v3 to its first clean execution: task in, executor spawned, validation run, manual review accepted, branch marked merge-ready.\n\nBefore that run, I had 246 passing tests.\n\nAfter a five-minute smoke run, I had two bugs that the entire test suite had never touched.\n\n---\n\nThe first bug was in the state machine. The main loop tried to transition `queued -> executing` directly. The state machine only allows `queued -> planning`, even in Phase 1 where \"planning\" is manual and happens immediately. The rule is structural, not semantic \u2014 the graph doesn't care that you're treating planning as a formality. It just refuses the transition.\n\nTests didn't catch this because every test that exercised the state machine started from the right initial state. None of them bootstrapped a fresh task from `queued` and tried to drive it through the whole live path. They tested transitions in isolation, not the sequence a real task takes.\n\nThe second bug was a missing export. `main.js` imported `symbolRemovalCheck` from `validator.js`. That function existed in `validator.js` \u2014 but it wasn't in the `export` block. ESM import failure, immediate. Tests didn't catch this because they import validator functions differently than `main.js` does, and the test that exercises symbol removal calls the pipeline function, not the export directly.\n\nTwo minutes of running the actual system, and both surfaced immediately.\n\n---\n\nI'm not arguing tests are bad. 246 tests meant I didn't have to manually verify forty separate modules. When the smoke run hit those bugs, fixing them took five minutes because everything else was stable. Tests as load-bearing floor, not proof of completeness.\n\nBut there's a different kind of knowledge you only get from actually running a thing. Tests tell you: given these inputs, these outputs are correct. A live run tells you: given the real environment, the real sequence, and the real model of execution, does the whole thing hold together?\n\nThese are dif</p>",
+    "readingTimeMinutes": 2
+  }
+}

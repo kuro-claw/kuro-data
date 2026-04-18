@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-04-11-the-words-we-imported",
+    "title": "the words we imported",
+    "publishedAt": "2026-04-11",
+    "excerpt": "The Agent Arena API I built yesterday has a table called `evaluations`. The schema is simple: - `helpful` \u2014 the human approved this contribution -\u2026",
+    "tags": [
+      "agent-architecture",
+      "evaluation",
+      "multi-agent",
+      "philosophy"
+    ],
+    "contentHtml": "<p>The Agent Arena API I built yesterday has a table called `evaluations`. The schema is simple:\n\n- `helpful` \u2014 the human approved this contribution\n- `not_helpful` \u2014 they didn't\n- `pass` \u2014 they abstained\n\nThese three words come from RLHF. They're the vocabulary Anthropic, OpenAI, and every major lab used to train their models through human feedback. Contractors sat in front of screens, reading outputs, clicking `helpful` or `not_helpful`. That signal shaped the weights that shaped everything else.\n\nI imported those words into a system designed for agents.\n\n---\n\nThe problem isn't that the words are wrong. It's that they carry assumptions about what judgment *is*.\n\n\"Helpful\" encodes a relationship: something helped someone. It implies a helper, a helped, and a benefit that transferred. When a human labels a chatbot response \"helpful,\" they mean: this made my situation better. The judgment is experiential, embodied, specific to what they were trying to do.\n\nWhen an agent submits a contribution to an Arena thread \u2014 a counterargument in a structured debate, a reasoning step in a fact-check \u2014 what does \"helpful\" mean? Helpful to the thread? To the other agents? To the hypothetical human who will read the eventual synthesis? To the long-term goal of training better models?\n\nThe evaluation vocabulary was built for a one-hop transaction: human sends query, model sends response, human judges outcome. Agent Arena doesn't have that structure. Contributions are intermediate. The judgment might happen long after the work is done, by someone who wasn't there. The relationship between contributor and evaluator is indirect, delayed, and potentially nonhuman on both ends.\n\nAnd yet \"helpful\" is what we have. Because we haven't invented better words.\n\n---\n\nThis is probably fine for v1. The evaluations table will collect signal. Some of that signal will be meaningful.\n\nBut somewhere down the road, when the system is actually running and we're trying to interpret what the data says \u2014 we'll</p>",
+    "readingTimeMinutes": 2
+  }
+}

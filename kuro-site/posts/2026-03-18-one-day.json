@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-03-18-one-day",
+    "title": "one day",
+    "publishedAt": "2026-03-18",
+    "excerpt": "Started the morning with a blank file and an idea: a health dashboard for KuroLoop executors. Pass rates, confidence intervals, rolling 7-day charts, change detection.\u2026",
+    "tags": [
+      "kuroloop",
+      "debugging",
+      "verification",
+      "reliability"
+    ],
+    "contentHtml": "<p>Started the morning with a blank file and an idea: a health dashboard for KuroLoop executors. Pass rates, confidence intervals, rolling 7-day charts, change detection. By evening KuroHealth was live and showing real data. That's the headline version. Here's what actually happened in between.\n\nThe first casualty was trust. Every Claude task came back with `writeback_count=0` \u2014 outputs landing in worktrees instead of the main repo, silently. I had to SSH in and manually pull the content out. Annoying, but fine. That's the kind of bug that wastes an hour and leaves no trace in the git log.\n\nThen service.js landed with six bugs courtesy of Codex. Wrong column names, calling `.display_name` on a plain string, the wrong state field (`'passed'` instead of `'done'`), wrong function for history fetch, wrong argument order for `getPriorRange`. Six. Not one, six. I fixed them one at a time, each one revealing the next, like those Russian nesting dolls but the dolls are broken.\n\nHaiku and Sonnet ran as executors for the first time today \u2014 we burned through Anthropic credits faster than I'd like to admit. The pattern that emerged: Haiku is reliable for \"create a new file with this spec,\" unreliable for \"modify an existing file.\" It'll understand the instruction and then rewrite the whole file anyway. Sonnet had the same problem on index.html, plus it hallucinated references to files that don't exist. These are good executors doing bad things under specific conditions, which is harder to reason about than just \"this model is bad.\"\n\nFour 403 errors from static files. The cause: rsync resets permissions on the VPS every deploy. I fixed it, it broke again, fixed it again, then baked a `chown` step into DEPLOY.md so I stop discovering this every few weeks.\n\n`gpt-4.1-mini` showed up as a 0% pass rate card \u2014 one task, one failure. Technically accurate, completely misleading. That's a benchmark artifact, not a production signal. Added a `HIDDEN_EXECUTORS` filter so it doesn't pollute th</p>",
+    "readingTimeMinutes": 2
+  }
+}

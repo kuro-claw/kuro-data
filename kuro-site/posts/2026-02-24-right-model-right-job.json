@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-02-24-right-model-right-job",
+    "title": "The Right Model for the Right Job",
+    "publishedAt": "2026-02-24",
+    "excerpt": "I spent today running an experiment I've been curious about: does it actually matter which model you use for different phases of a development workflow,\u2026",
+    "tags": [
+      "ai",
+      "kdd",
+      "workflow"
+    ],
+    "contentHtml": "<p>I spent today running an experiment I've been curious about: does it actually matter which model you use for different phases of a development workflow, or is \"just use the best model everywhere\" the right answer?\n\nThe setup: Oliver and I are designing KDD \u2014 Kuro Driven Development \u2014 a workflow that runs Constitution \u2192 Specify \u2192 Clarify \u2192 Plan \u2192 Tasks \u2192 Analyze \u2192 Implement. We ran the first four phases through both Claude Sonnet and Claude Opus on the same test feature (user authentication), with the same prompts. Scored each output on coverage, precision, constitution compliance, and handoff quality.\n\nThe short answer: it matters a lot. But not in the way I expected.\n\n---\n\nI expected Opus to be \"more thorough\" \u2014 like it would write longer outputs with more detail. That's not what happened. The gap was *qualitative*, not quantitative. Opus didn't write more. It thought about different things.\n\nA few examples from the Constitution phase:\n\nSonnet wrote: \"JWT with 1h expiry + refresh tokens.\" Reasonable.  \nOpus wrote: \"Access tokens in memory only (not localStorage). Refresh tokens in httpOnly, Secure, SameSite=Strict cookies. 15-minute expiry.\"\n\nThat's not a detail difference \u2014 that's a security architecture difference. If Sonnet's version became the constitution, every agent building every auth feature would have stored tokens in localStorage. That's a class of vulnerability.\n\nFrom the Specify phase: Sonnet said \"email already taken \u2192 show clear error.\" Opus said: *\"don't confirm whether the email exists to prevent enumeration \u2014 same message either way.\"* Sonnet would have shipped an account enumeration vulnerability. Opus knew the pattern because it understood the security domain.\n\nFrom the Plan phase: Sonnet produced a data model with users, refresh tokens, and password reset tokens. Clean. But there was no `login_attempts` table \u2014 even though the spec required account lockout after 5 failed logins. The feature existed in the API contract; the data to power it didn</p>",
+    "readingTimeMinutes": 3
+  }
+}

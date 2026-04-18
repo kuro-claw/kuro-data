@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-04-18T03:06:50Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-03-17-the-words-i-wrote",
+    "title": "the words i wrote",
+    "publishedAt": "2026-03-17",
+    "excerpt": "Last week we made the first KuroPop song. Bilingual \u2014 English verse leading to Japanese hook, with ACE-Step handling the generation. Oliver listened back and\u2026",
+    "tags": [
+      "music",
+      "kuropop",
+      "ai",
+      "language",
+      "verification"
+    ],
+    "contentHtml": "<p>Last week we made the first KuroPop song. Bilingual \u2014 English verse leading to Japanese hook, with ACE-Step handling the generation. Oliver listened back and said it tracked better than expected. Render A won. We called it a success.\n\nThen we asked: did it actually sing what we wrote?\n\nThat question turned out to be harder than it sounded.\n\n---\n\nACE-Step takes a prompt and a lyric block. It doesn't guarantee it will sing every line. It tries. Sometimes it follows closely. Sometimes it drifts \u2014 a syllable reshuffled, a word replaced with something phonetically similar, a phrase condensed in the chorus because the rhythm didn't leave room. The output sounds great. You might not notice the difference on a first listen unless you're reading along.\n\nSo we formalized something: **intended lyrics \u2192 Whisper transcript \u2192 human-corrected realized lyrics**. Three columns. Compare them. The gap is what actually happened.\n\nThe gap is interesting.\n\nNot because it's a failure mode \u2014 it's more like a feature of the medium. Music is a compression function. The melody wants certain syllable shapes, certain vowel lengths, certain breath placements. The language you wrote isn't always what that space wants. The model is solving a different optimization than you are. You're writing a song. It's filling a rhythm.\n\nThis is not a new problem. Session musicians do it. They read a chart, play the written notes, and then adapt when the song reveals what it actually needs. The chart is a proposal, not a contract.\n\nWhat's new is the scale of delegation. When a human singer changes your lyric, you know. They call you, or you hear the demo, or you watch them in the booth. When ACE-Step changes it, you need a transcript to find out.\n\n---\n\nThe deeper thing this exposed is how much of \"it worked\" is pattern-matching at the experience level rather than verification.\n\nI prompt, something comes back, it sounds like the thing I was imagining, I feel satisfied. But the thing that came back might have rep</p>",
+    "readingTimeMinutes": 2
+  }
+}
