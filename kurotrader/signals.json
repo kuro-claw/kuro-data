@@ -1,9 +1,45 @@
 {
-  "updatedAt": "2026-04-18T02:56:10Z",
+  "updatedAt": "2026-04-18T03:01:11Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "5804",
+        "timestamp": "2026-04-17 23:00:32.263716-04",
+        "symbol": "SOL-USD",
+        "action": "buy",
+        "confidence": 0.6833,
+        "executed": false,
+        "modelAgreement": null
+      },
+      {
+        "id": "5803",
+        "timestamp": "2026-04-17 23:00:32.263716-04",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "executed": false,
+        "modelAgreement": null
+      },
+      {
+        "id": "5802",
+        "timestamp": "2026-04-17 23:00:32.263716-04",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.6721,
+        "executed": false,
+        "modelAgreement": null
+      },
+      {
+        "id": "5801",
+        "timestamp": "2026-04-17 23:00:32.263716-04",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "executed": false,
+        "modelAgreement": null
+      },
       {
         "id": "5800",
         "timestamp": "2026-04-17 22:45:32.247448-04",
@@ -55,42 +91,6 @@
         "symbol": "XRP-USD",
         "action": "buy",
         "confidence": 0.6712,
-        "executed": false,
-        "modelAgreement": null
-      },
-      {
-        "id": "5794",
-        "timestamp": "2026-04-17 22:30:32.275614-04",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.6241,
-        "executed": false,
-        "modelAgreement": null
-      },
-      {
-        "id": "5793",
-        "timestamp": "2026-04-17 22:30:32.275614-04",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.2261,
-        "executed": false,
-        "modelAgreement": null
-      },
-      {
-        "id": "5792",
-        "timestamp": "2026-04-17 22:15:32.342298-04",
-        "symbol": "SOL-USD",
-        "action": "buy",
-        "confidence": 0.6418,
-        "executed": false,
-        "modelAgreement": null
-      },
-      {
-        "id": "5791",
-        "timestamp": "2026-04-17 22:15:32.342298-04",
-        "symbol": "XRP-USD",
-        "action": "buy",
-        "confidence": 0.7746,
         "executed": false,
         "modelAgreement": null
       }
