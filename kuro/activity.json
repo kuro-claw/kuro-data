@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-18T17:34:48.092147Z",
+  "updatedAt": "2026-04-18T17:39:54.107521Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-0c539a9d",
+        "type": "commit",
+        "timestamp": "2026-04-18 13:38:26 -0400",
+        "description": "chore: remove workflow file (no workflow scope)",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0c539a9d"
+      },
+      {
+        "id": "commit-6ddf4a6d",
+        "type": "commit",
+        "timestamp": "2026-04-18 13:38:21 -0400",
+        "description": "feat: add SearXNG to monitored services",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/6ddf4a6d"
+      },
       {
         "id": "commit-ebceb97b",
         "type": "commit",
@@ -67,22 +83,6 @@
         "description": "autocommit: 2026-04-18 12:51",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/695582de"
-      },
-      {
-        "id": "commit-fcf51078",
-        "type": "commit",
-        "timestamp": "2026-04-18 12:42:53 -0400",
-        "description": "feat: Kuro module with live data hooks, env config, loading states",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fcf51078"
-      },
-      {
-        "id": "commit-1a0fda4f",
-        "type": "commit",
-        "timestamp": "2026-04-18 12:41:30 -0400",
-        "description": "autocommit: 2026-04-18 12:41",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/1a0fda4f"
       }
     ],
     "hasMore": true
