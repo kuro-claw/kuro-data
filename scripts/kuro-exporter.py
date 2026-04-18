@@ -58,8 +58,13 @@ def get_commit_count_this_month():
 
 def derive_mood(recent_commits, last_commit_msg):
     """Derive Kuro's current mood from activity signals."""
-    now = datetime.now(timezone.utc)
-    hour = now.hour
+    import zoneinfo
+    now_ny = datetime.now(zoneinfo.ZoneInfo("America/New_York"))
+    hour = now_ny.hour
+
+    # Sleeping midnight–8am NY time
+    if 0 <= hour < 8:
+        return "sleeping", "😴"
 
     # Check trigger file — if build work is queued, focused/busy
     trigger_file = Path("/home/trainer/.openclaw/workspace-trigger/agent-arena-build.json")
@@ -82,7 +87,7 @@ def derive_mood(recent_commits, last_commit_msg):
     # Derive from time of day + activity level
     if recent_commits > 10:
         return "in the zone", "⚡"
-    if hour < 9 or hour >= 22:
+    if hour >= 22:
         return "quiet", "🌙"
     if recent_commits == 0:
         return "thinking", "💭"
