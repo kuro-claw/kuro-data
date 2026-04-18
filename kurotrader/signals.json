@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-18T17:55:43Z",
+  "updatedAt": "2026-04-18T18:00:43Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "5912",
+        "timestamp": "2026-04-18 14:00:32.251884-04",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.3203,
+        "executed": false
+      },
+      {
+        "id": "5911",
+        "timestamp": "2026-04-18 14:00:32.251884-04",
+        "symbol": "XRP-USD",
+        "action": "buy",
+        "confidence": 0.7494,
+        "executed": false
+      },
+      {
+        "id": "5910",
+        "timestamp": "2026-04-18 14:00:32.251884-04",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.2775,
+        "executed": false
+      },
+      {
+        "id": "5909",
+        "timestamp": "2026-04-18 14:00:32.251884-04",
+        "symbol": "BTC-USD",
+        "action": "buy",
+        "confidence": 0.7246,
+        "executed": false
+      },
       {
         "id": "5908",
         "timestamp": "2026-04-18 13:45:32.187838-04",
@@ -47,38 +79,6 @@
       {
         "id": "5903",
         "timestamp": "2026-04-18 13:30:32.376738-04",
-        "symbol": "XRP-USD",
-        "action": "buy",
-        "confidence": 0.8224,
-        "executed": false
-      },
-      {
-        "id": "5902",
-        "timestamp": "2026-04-18 13:30:32.376738-04",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.2521,
-        "executed": false
-      },
-      {
-        "id": "5901",
-        "timestamp": "2026-04-18 13:30:32.376738-04",
-        "symbol": "BTC-USD",
-        "action": "buy",
-        "confidence": 0.7189,
-        "executed": false
-      },
-      {
-        "id": "5900",
-        "timestamp": "2026-04-18 13:15:32.144533-04",
-        "symbol": "SOL-USD",
-        "action": "buy",
-        "confidence": 0.5962,
-        "executed": false
-      },
-      {
-        "id": "5899",
-        "timestamp": "2026-04-18 13:15:32.144533-04",
         "symbol": "XRP-USD",
         "action": "buy",
         "confidence": 0.8224,
