@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-18T19:35:45.282964Z",
+  "updatedAt": "2026-04-18T19:40:45.410384Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-8c851f28",
+        "type": "commit",
+        "timestamp": "2026-04-18T15:40:14-04:00",
+        "description": "benzinga: start embedding backfill, fix skill DB URL, OLLAMA_MAX_LOADED_MODELS=2",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8c851f28"
+      },
       {
         "id": "commit-f24f328c",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "autocommit: 2026-04-18 14:41",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/4df2f66b"
-      },
-      {
-        "id": "commit-1bc7cecf",
-        "type": "commit",
-        "timestamp": "2026-04-18T14:31:55-04:00",
-        "description": "autocommit: 2026-04-18 14:31",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/1bc7cecf"
       }
     ],
     "hasMore": true
