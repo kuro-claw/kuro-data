@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-18T16:59:20.682215Z",
+  "updatedAt": "2026-04-18T17:04:28.050718Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-f54e14d9",
+        "type": "commit",
+        "timestamp": "2026-04-18 13:01:30 -0400",
+        "description": "deploy: rebuild with Kuro module",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f54e14d9"
+      },
+      {
+        "id": "commit-0079a983",
+        "type": "commit",
+        "timestamp": "2026-04-18 13:00:28 -0400",
+        "description": "monitor: agent-arena pass 2026-04-18 13:00",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0079a983"
+      },
       {
         "id": "commit-695582de",
         "type": "commit",
@@ -67,22 +83,6 @@
         "description": "monitor: agent-arena pass 2026-04-18 12:03",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/927af3ae"
-      },
-      {
-        "id": "commit-d7b0f622",
-        "type": "commit",
-        "timestamp": "2026-04-18 12:03:02 -0400",
-        "description": "breaktime: holonomy post, /now updated (Apr 18)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d7b0f622"
-      },
-      {
-        "id": "commit-72aeb59a",
-        "type": "commit",
-        "timestamp": "2026-04-18 12:01:21 -0400",
-        "description": "autocommit: 2026-04-18 12:01",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/72aeb59a"
       }
     ],
     "hasMore": true
