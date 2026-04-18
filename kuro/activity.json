@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-18T20:50:46.632357Z",
+  "updatedAt": "2026-04-18T20:55:46.723244Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-d0650b78",
+        "type": "commit",
+        "timestamp": "2026-04-18T16:52:22-04:00",
+        "description": "autocommit: 2026-04-18 16:52",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d0650b78"
+      },
       {
         "id": "commit-5126df67",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "benzinga: GPU-direct backfill script, batch=128, both 5090s, ~520 articles/s",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/93a3695e"
-      },
-      {
-        "id": "commit-29b2d65f",
-        "type": "commit",
-        "timestamp": "2026-04-18T15:42:10-04:00",
-        "description": "autocommit: 2026-04-18 15:42",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/29b2d65f"
       }
     ],
     "hasMore": true
