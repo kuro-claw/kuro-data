@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-18T13:43:35Z",
+  "updatedAt": "2026-04-18T13:48:38Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "5844",
+        "timestamp": "2026-04-18 09:45:32.287928-04",
+        "symbol": "SOL-USD",
+        "action": "buy",
+        "confidence": 0.8218,
+        "executed": false
+      },
+      {
+        "id": "5843",
+        "timestamp": "2026-04-18 09:45:32.287928-04",
+        "symbol": "XRP-USD",
+        "action": "buy",
+        "confidence": 0.8488,
+        "executed": false
+      },
+      {
+        "id": "5842",
+        "timestamp": "2026-04-18 09:45:32.287928-04",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.7342,
+        "executed": false
+      },
+      {
+        "id": "5841",
+        "timestamp": "2026-04-18 09:45:32.287928-04",
+        "symbol": "BTC-USD",
+        "action": "buy",
+        "confidence": 0.8165,
+        "executed": false
+      },
       {
         "id": "5840",
         "timestamp": "2026-04-18 09:30:32.14344-04",
@@ -50,38 +82,6 @@
         "symbol": "XRP-USD",
         "action": "buy",
         "confidence": 0.7211,
-        "executed": false
-      },
-      {
-        "id": "5834",
-        "timestamp": "2026-04-18 09:15:32.351125-04",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.6297,
-        "executed": false
-      },
-      {
-        "id": "5833",
-        "timestamp": "2026-04-18 09:15:32.351125-04",
-        "symbol": "BTC-USD",
-        "action": "buy",
-        "confidence": 0.7485,
-        "executed": false
-      },
-      {
-        "id": "5832",
-        "timestamp": "2026-04-18 09:00:32.078859-04",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.3965,
-        "executed": false
-      },
-      {
-        "id": "5831",
-        "timestamp": "2026-04-18 09:00:32.078859-04",
-        "symbol": "XRP-USD",
-        "action": "buy",
-        "confidence": 0.6747,
         "executed": false
       }
     ]
