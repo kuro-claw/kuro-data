@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T03:25:54Z",
+  "updatedAt": "2026-04-19T03:30:01Z",
   "source": "kuroboard-daemon",
   "version": 1,
   "data": {
@@ -8,14 +8,14 @@
       "activeProjectCount": 9,
       "blockedTaskCount": 0,
       "dueSoonTaskCount": 0,
-      "unreadNotificationCount": 0
+      "unreadNotificationCount": 6
     },
     "agentStatus": [
       {
         "agentId": "kuro",
         "name": "Kuro",
         "status": "healthy",
-        "lastSeenAt": "2026-04-19T03:25:54Z"
+        "lastSeenAt": "2026-04-19T03:30:00Z"
       }
     ],
     "recentProjects": [
@@ -95,6 +95,97 @@
         }
       }
     ],
-    "recentTasks": []
+    "recentTasks": [
+      {
+        "id": "kl-smoke-codex-1773529982",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM codex smoke 4",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:17Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-mmtyt6ct-zyu4",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T3: Budget ledger \u2014 weekly per-account spend tracking",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:17Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtya0sv-rygy",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06: Executor budget tracking \u2014 token extraction + task JSON + dashboard",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:17Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmunw2n3-up3s",
+        "projectId": "7c8b412c-9c7e-41da-9c25-5f3a35ce8474",
+        "title": "LilySensei P3.3: buildSessionQueue function",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:17Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmunvons-on2t",
+        "projectId": "7c8b412c-9c7e-41da-9c25-5f3a35ce8474",
+        "title": "LilySensei P3.2: Unlock policy",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:17Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmv41w37-3cw0",
+        "projectId": "7c8b412c-9c7e-41da-9c25-5f3a35ce8474",
+        "title": "LilySensei P4.1: KanaCanvas component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-smoke-codex-1773529781",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM codex smoke 2",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-mmtxt7bj-dkw3",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Dashboard: add executor badge to task cards",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mn20l8uq-4z7x",
+        "projectId": "",
+        "title": "T15+T16: Agent input assembly + subagent spawn/collect",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mn1z9kdl-z0hv",
+        "projectId": "",
+        "title": "T08: Task directory initialization",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "gpt-5.4-mini"
+      }
+    ]
   }
 }
