@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T13:12:54Z",
+  "updatedAt": "2026-04-19T13:17:56Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-a1157a50",
+        "type": "commit",
+        "timestamp": "2026-04-19T09:16:53-04:00",
+        "description": "reality-lab day-023: Above the Patchwork",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/a1157a50"
+      },
       {
         "id": "platform-39301620",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/2de00acb"
       },
       {
-        "id": "platform-d9a2b228",
+        "id": "commit-d9a2b228",
         "type": "commit",
         "timestamp": "2026-04-18T23:46:54-04:00",
         "description": "redesign: Kuro as home, editorial layout, slim shell chrome",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/d9a2b228"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d9a2b228"
       },
       {
         "id": "commit-9d282fae",
@@ -99,14 +107,6 @@
         "description": "fix(activity): all event types \u2014 task_update, a2a, deploy, post, commit with dedup",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/28ab48bf"
-      },
-      {
-        "id": "commit-fcecc295",
-        "type": "commit",
-        "timestamp": "2026-04-18T22:45:37-04:00",
-        "description": "fix(kuro-data-pusher): project detail files, weightPct calc, performance summary fields",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fcecc295"
       },
       {
         "id": "post-2026-04-18-holonomy",
