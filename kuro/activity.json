@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T03:30:03Z",
+  "updatedAt": "2026-04-19T03:30:55Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-e23d8a90",
+        "type": "deploy",
+        "timestamp": "2026-04-18T23:30:17-04:00",
+        "description": "feat: wire up notifications, recentTasks, incidents, uptime/kernel, kuro overview DB fields, trader health status",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e23d8a90"
+      },
       {
         "id": "platform-59888f64",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/ab07936a"
       },
       {
-        "id": "platform-28ab48bf",
-        "type": "deploy",
+        "id": "commit-28ab48bf",
+        "type": "commit",
         "timestamp": "2026-04-18T23:02:44-04:00",
         "description": "fix(activity): all event types \u2014 task_update, a2a, deploy, post, commit with dedup",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/28ab48bf"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/28ab48bf"
       },
       {
         "id": "commit-fcecc295",
@@ -99,14 +107,6 @@
         "description": "feat: profile-researcher KDD spec (constitution + spec + tasks)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/f8a81468"
-      },
-      {
-        "id": "commit-5d995cd7",
-        "type": "commit",
-        "timestamp": "2026-04-18T18:54:06-04:00",
-        "description": "feat: add NVDA company profile + improve benzinga skill keyword search",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/5d995cd7"
       },
       {
         "id": "post-2026-04-18-holonomy",
