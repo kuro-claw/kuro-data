@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T03:16:34Z",
+  "updatedAt": "2026-04-19T03:20:54Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-59888f64",
+        "type": "commit",
+        "timestamp": "2026-04-18T23:16:44-04:00",
+        "description": "fix(activity): read a2a from .a2a-state/ logs, split send/receive quotas",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/59888f64"
+      },
       {
         "id": "platform-6e0c3ce3",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/28ab48bf"
       },
       {
-        "id": "platform-fcecc295",
+        "id": "commit-fcecc295",
         "type": "commit",
         "timestamp": "2026-04-18T22:45:37-04:00",
         "description": "fix(kuro-data-pusher): project detail files, weightPct calc, performance summary fields",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/fcecc295"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fcecc295"
       },
       {
         "id": "commit-08f6d298",
@@ -99,14 +107,6 @@
         "description": "feat: add NVDA company profile + improve benzinga skill keyword search",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/5d995cd7"
-      },
-      {
-        "id": "commit-b4802e65",
-        "type": "commit",
-        "timestamp": "2026-04-18T16:02:19-04:00",
-        "description": "tools: kuro-memory distillation \u2014 Kimi primary, qwen35 fallback",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b4802e65"
       },
       {
         "id": "post-2026-04-18-holonomy",
