@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T19:45:02.800924+00:00",
+  "updatedAt": "2026-04-19T19:48:43.600981+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -83,12 +83,12 @@
       },
       {
         "id": "profile-researcher",
-        "class": "B",
+        "class": "A",
         "schedule": "weekdays 17:00 ET",
-        "model": "fireworks:kimi-k2.5",
-        "last_run_ts": null,
-        "last_exit": null,
-        "last_duration_ms": null,
+        "model": null,
+        "last_run_ts": "2026-04-19T19:48:43.600940+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 1,
         "consecutive_errors": 0,
         "last_error": null
       },
@@ -119,7 +119,7 @@
       "total_jobs": 10,
       "healthy": 9,
       "failing": 1,
-      "last_updated": "2026-04-19T19:45:02.800879+00:00"
+      "last_updated": "2026-04-19T19:48:43.600940+00:00"
     }
   }
 }
