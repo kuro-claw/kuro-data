@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T01:55:52.317616Z",
+  "updatedAt": "2026-04-19T02:00:52.415107Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-b49ef24d",
+        "type": "commit",
+        "timestamp": "2026-04-18T22:00:15-04:00",
+        "description": "monitor: agent-arena pass 2026-04-18 22:00",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b49ef24d"
+      },
       {
         "id": "commit-3b0e8248",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "autocommit: 2026-04-18 20:53",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/7d155d8b"
-      },
-      {
-        "id": "commit-78b16aa4",
-        "type": "commit",
-        "timestamp": "2026-04-18T20:46:22-04:00",
-        "description": "fix: fireworks key resolution + streaming for max_tokens > 4096",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/78b16aa4"
       }
     ],
     "hasMore": true
