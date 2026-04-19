@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-19T01:25:51.764082Z",
+  "updatedAt": "2026-04-19T01:30:51.856717Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-fb55d763",
+        "type": "commit",
+        "timestamp": "2026-04-18T21:30:46-04:00",
+        "description": "fix: run-queries.js todayISO() now uses America/New_York timezone (consistent with synthesize.js)",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fb55d763"
+      },
+      {
+        "id": "commit-29b6618e",
+        "type": "commit",
+        "timestamp": "2026-04-18T21:30:12-04:00",
+        "description": "monitor: agent-arena pass 2026-04-18 21:30",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/29b6618e"
+      },
       {
         "id": "commit-1f4528b1",
         "type": "commit",
@@ -67,22 +83,6 @@
         "description": "monitor: agent-arena pass 2026-04-18 20:30 EDT \u2014 no build work, builder lane clear",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/48145ccc"
-      },
-      {
-        "id": "commit-d3cffef1",
-        "type": "commit",
-        "timestamp": "2026-04-18T20:23:07-04:00",
-        "description": "autocommit: 2026-04-18 20:23",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d3cffef1"
-      },
-      {
-        "id": "commit-73753d5e",
-        "type": "commit",
-        "timestamp": "2026-04-18T20:13:05-04:00",
-        "description": "autocommit: 2026-04-18 20:13",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/73753d5e"
       }
     ],
     "hasMore": true
