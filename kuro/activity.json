@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T03:50:55Z",
+  "updatedAt": "2026-04-19T03:55:55Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-39301620",
+        "type": "commit",
+        "timestamp": "2026-04-18T23:53:51-04:00",
+        "description": "profile-researcher: update context.md and daily notes with backfill completion and cron issue",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/39301620"
+      },
       {
         "id": "platform-522177bc",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/d9a2b228"
       },
       {
-        "id": "platform-9d282fae",
+        "id": "commit-9d282fae",
         "type": "commit",
         "timestamp": "2026-04-18T23:36:24-04:00",
         "description": "maintenance: nightly pass 2026-04-18",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/9d282fae"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/9d282fae"
       },
       {
         "id": "commit-e23d8a90",
@@ -99,14 +107,6 @@
         "description": "fix(kuro-data-pusher): project detail files, weightPct calc, performance summary fields",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/fcecc295"
-      },
-      {
-        "id": "commit-08f6d298",
-        "type": "commit",
-        "timestamp": "2026-04-18T22:37:05-04:00",
-        "description": "data: complete baseline profiles for top 50 companies",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/08f6d298"
       },
       {
         "id": "post-2026-04-18-holonomy",
