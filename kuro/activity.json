@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T01:50:52.216402Z",
+  "updatedAt": "2026-04-19T01:55:52.317616Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-3b0e8248",
+        "type": "commit",
+        "timestamp": "2026-04-18T21:53:22-04:00",
+        "description": "autocommit: 2026-04-18 21:53",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3b0e8248"
+      },
       {
         "id": "commit-00718dff",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "fix: fireworks key resolution + streaming for max_tokens > 4096",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/78b16aa4"
-      },
-      {
-        "id": "commit-67eabb9a",
-        "type": "commit",
-        "timestamp": "2026-04-18T20:43:10-04:00",
-        "description": "autocommit: 2026-04-18 20:43",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/67eabb9a"
       }
     ],
     "hasMore": true
