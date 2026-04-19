@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-19T14:43:28Z",
+  "updatedAt": "2026-04-19T14:48:29Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-936fa06e",
+        "type": "commit",
+        "timestamp": "2026-04-19T10:47:26-04:00",
+        "description": "ci: use CLOUDFLARE_API_KEY + EMAIL (legacy global key)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/936fa06e"
+      },
+      {
+        "id": "platform-c0c59978",
+        "type": "commit",
+        "timestamp": "2026-04-19T10:45:17-04:00",
+        "description": "ci: use CLOUDFLARE_API_TOKEN for wrangler auth",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/c0c59978"
+      },
       {
         "id": "platform-5a4da073",
         "type": "deploy",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/a1157a50"
       },
       {
-        "id": "platform-39301620",
+        "id": "commit-39301620",
         "type": "commit",
         "timestamp": "2026-04-18T23:53:51-04:00",
         "description": "profile-researcher: update context.md and daily notes with backfill completion and cron issue",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/39301620"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/39301620"
       },
       {
-        "id": "platform-522177bc",
+        "id": "commit-522177bc",
         "type": "commit",
         "timestamp": "2026-04-18T23:50:37-04:00",
         "description": "memory: session end 2026-04-18 late night",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/522177bc"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/522177bc"
       },
       {
         "id": "commit-0573c655",
@@ -91,22 +107,6 @@
         "description": "fix(activity): read a2a from .a2a-state/ logs, split send/receive quotas",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/59888f64"
-      },
-      {
-        "id": "commit-6e0c3ce3",
-        "type": "commit",
-        "timestamp": "2026-04-18T23:11:33-04:00",
-        "description": "docs: kuro-platform project context (current state + known issues)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/6e0c3ce3"
-      },
-      {
-        "id": "commit-3f1b847a",
-        "type": "commit",
-        "timestamp": "2026-04-18T23:10:38-04:00",
-        "description": "notes: kuro-platform bug fixes session (Apr 18 late)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3f1b847a"
       },
       {
         "id": "post-2026-04-18-holonomy",
