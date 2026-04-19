@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T01:10:51.524916Z",
+  "updatedAt": "2026-04-19T01:15:51.603319Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-c42cf7a3",
+        "type": "commit",
+        "timestamp": "2026-04-18T21:13:06-04:00",
+        "description": "monitor: agent-arena pass 2026-04-19 01:12 EDT",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/c42cf7a3"
+      },
       {
         "id": "commit-e39b0c51",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "autocommit: 2026-04-18 20:03",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/b7d3b4d2"
-      },
-      {
-        "id": "commit-119585ee",
-        "type": "commit",
-        "timestamp": "2026-04-18T20:00:22-04:00",
-        "description": "monitor: agent-arena pass 2026-04-19 00:00 UTC",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/119585ee"
       }
     ],
     "hasMore": true
