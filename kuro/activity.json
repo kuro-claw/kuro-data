@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-19T14:38:27Z",
+  "updatedAt": "2026-04-19T14:43:28Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-5a4da073",
+        "type": "deploy",
+        "timestamp": "2026-04-19T10:42:14-04:00",
+        "description": "ci: add workflow_dispatch to kuro-platform deploy",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/5a4da073"
+      },
+      {
+        "id": "platform-4e517dcf",
+        "type": "deploy",
+        "timestamp": "2026-04-19T10:41:59-04:00",
+        "description": "ci: trigger kuro-platform initial deploy",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/4e517dcf"
+      },
       {
         "id": "platform-a1157a50",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/522177bc"
       },
       {
-        "id": "platform-0573c655",
+        "id": "commit-0573c655",
         "type": "commit",
         "timestamp": "2026-04-18T23:50:05-04:00",
         "description": "memory: update kuro-platform context with visual redesign",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/0573c655"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0573c655"
       },
       {
-        "id": "platform-2de00acb",
+        "id": "commit-2de00acb",
         "type": "commit",
         "timestamp": "2026-04-18T23:47:26-04:00",
         "description": "memory: kuro-platform visual redesign session notes",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/2de00acb"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/2de00acb"
       },
       {
         "id": "commit-d9a2b228",
@@ -91,22 +107,6 @@
         "description": "notes: kuro-platform bug fixes session (Apr 18 late)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/3f1b847a"
-      },
-      {
-        "id": "commit-ab07936a",
-        "type": "commit",
-        "timestamp": "2026-04-18T23:09:36-04:00",
-        "description": "fix(activity): per-type buckets guarantee all event types appear regardless of age",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ab07936a"
-      },
-      {
-        "id": "commit-28ab48bf",
-        "type": "commit",
-        "timestamp": "2026-04-18T23:02:44-04:00",
-        "description": "fix(activity): all event types \u2014 task_update, a2a, deploy, post, commit with dedup",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/28ab48bf"
       },
       {
         "id": "post-2026-04-18-holonomy",
