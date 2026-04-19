@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T02:35:53.069358Z",
+  "updatedAt": "2026-04-19T02:40:53.201108Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "commit-08f6d298",
+        "type": "commit",
+        "timestamp": "2026-04-18T22:37:05-04:00",
+        "description": "data: complete baseline profiles for top 50 companies",
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/08f6d298"
+      },
       {
         "id": "commit-56354aad",
         "type": "commit",
@@ -75,14 +83,6 @@
         "description": "autocommit: 2026-04-18 21:33",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/1afae172"
-      },
-      {
-        "id": "commit-fb55d763",
-        "type": "commit",
-        "timestamp": "2026-04-18T21:30:46-04:00",
-        "description": "fix: run-queries.js todayISO() now uses America/New_York timezone (consistent with synthesize.js)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fb55d763"
       }
     ],
     "hasMore": true
