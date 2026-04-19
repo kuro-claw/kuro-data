@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-19T03:09:31Z",
+  "updatedAt": "2026-04-19T03:10:54Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-3f1b847a",
+        "type": "commit",
+        "timestamp": "2026-04-18T23:10:38-04:00",
+        "description": "notes: kuro-platform bug fixes session (Apr 18 late)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/3f1b847a"
+      },
+      {
+        "id": "platform-ab07936a",
+        "type": "commit",
+        "timestamp": "2026-04-18T23:09:36-04:00",
+        "description": "fix(activity): per-type buckets guarantee all event types appear regardless of age",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/ab07936a"
+      },
       {
         "id": "platform-28ab48bf",
         "type": "deploy",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/08f6d298"
       },
       {
-        "id": "platform-fb55d763",
-        "type": "deploy",
+        "id": "commit-fb55d763",
+        "type": "commit",
         "timestamp": "2026-04-18T21:30:46-04:00",
         "description": "fix: run-queries.js todayISO() now uses America/New_York timezone (consistent with synthesize.js)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/fb55d763"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fb55d763"
       },
       {
-        "id": "platform-78b16aa4",
-        "type": "deploy",
+        "id": "commit-78b16aa4",
+        "type": "commit",
         "timestamp": "2026-04-18T20:46:22-04:00",
         "description": "fix: fireworks key resolution + streaming for max_tokens > 4096",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/78b16aa4"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/78b16aa4"
       },
       {
         "id": "commit-a82bf3b1",
@@ -91,22 +107,6 @@
         "description": "benzinga: GPU-direct backfill script, batch=128, both 5090s, ~520 articles/s",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/93a3695e"
-      },
-      {
-        "id": "commit-8c851f28",
-        "type": "commit",
-        "timestamp": "2026-04-18T15:40:14-04:00",
-        "description": "benzinga: start embedding backfill, fix skill DB URL, OLLAMA_MAX_LOADED_MODELS=2",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8c851f28"
-      },
-      {
-        "id": "commit-90785057",
-        "type": "commit",
-        "timestamp": "2026-04-18T15:10:41-04:00",
-        "description": "fix: timestamp normalization, disk dedup in data pusher",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/90785057"
       },
       {
         "id": "post-2026-04-18-holonomy",
