@@ -1,0 +1,125 @@
+{
+  "updatedAt": "2026-04-19T19:23:30.129Z",
+  "source": "kurorunner",
+  "version": 1,
+  "data": {
+    "jobs": [
+      {
+        "id": "agent-arena-build",
+        "class": "B",
+        "schedule": "trigger-file driven (spawned by agent-arena-monitor)",
+        "model": "copilot:sonnet-4.6",
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "agent-arena-monitor",
+        "class": "A",
+        "schedule": "every 30m 08-23 ET",
+        "model": null,
+        "last_run_ts": "2026-04-19T19:00:06.286454+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 1520,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "breaktime",
+        "class": "B",
+        "schedule": "daily 12:00 ET",
+        "model": "fireworks:kimi-k2.5",
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "goku-infra-health",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "kuro-memory-health",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "kurotrader-health",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "maintenance",
+        "class": "B",
+        "schedule": "daily 23:00 ET",
+        "model": "copilot:sonnet-4.6",
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "profile-researcher",
+        "class": "B",
+        "schedule": "weekdays 17:00 ET",
+        "model": "fireworks:kimi-k2.5",
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "reality-lab",
+        "class": "B",
+        "schedule": "daily 09:00 ET",
+        "model": "copilot:sonnet-4.6",
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "winding-down",
+        "class": "B",
+        "schedule": "daily 23:30 ET",
+        "model": "copilot:sonnet-4.6",
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      }
+    ],
+    "summary": {
+      "total_jobs": 10,
+      "healthy": 10,
+      "failing": 0,
+      "last_updated": "2026-04-19T19:00:06.286454+00:00"
+    }
+  }
+}
