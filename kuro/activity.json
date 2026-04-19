@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T14:53:29Z",
+  "updatedAt": "2026-04-19T14:58:30Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-fbc666c9",
+        "type": "commit",
+        "timestamp": "2026-04-19T10:55:23-04:00",
+        "description": "fix(kuro-site): read now.md from correct path, parse multi-section content",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/fbc666c9"
+      },
       {
         "id": "platform-936fa06e",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/4e517dcf"
       },
       {
-        "id": "platform-a1157a50",
+        "id": "commit-a1157a50",
         "type": "commit",
         "timestamp": "2026-04-19T09:16:53-04:00",
         "description": "reality-lab day-023: Above the Patchwork",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/a1157a50"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/a1157a50"
       },
       {
         "id": "commit-39301620",
@@ -99,14 +107,6 @@
         "description": "feat: wire up notifications, recentTasks, incidents, uptime/kernel, kuro overview DB fields, trader health status",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/e23d8a90"
-      },
-      {
-        "id": "commit-59888f64",
-        "type": "commit",
-        "timestamp": "2026-04-18T23:16:44-04:00",
-        "description": "fix(activity): read a2a from .a2a-state/ logs, split send/receive quotas",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/59888f64"
       },
       {
         "id": "post-2026-04-18-holonomy",
