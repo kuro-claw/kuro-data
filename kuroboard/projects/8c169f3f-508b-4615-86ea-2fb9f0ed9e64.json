@@ -1,0 +1,239 @@
+{
+  "updatedAt": "2026-04-19T02:44:45Z",
+  "source": "kuroboard-daemon",
+  "version": 1,
+  "data": {
+    "id": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+    "name": "KuroBoard",
+    "status": "in_progress",
+    "priority": "low",
+    "owner": "kuro",
+    "summary": "",
+    "updatedAt": "2026-03-18T13:08:31Z",
+    "taskCounts": {
+      "todo": 0,
+      "in_progress": 0,
+      "blocked": 0,
+      "done": 24
+    },
+    "description": null,
+    "tasks": [
+      {
+        "id": "kl-mmwkko8a-hb9c",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroBoard: Queue tab \u2014 live KuroLoop daemon view",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmw9snik-zvbc",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-24: health-detail.js \u2014 health detail view renderer",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:04Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmw9s995-sayr",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-23: health-chart.js \u2014 inline SVG rolling history chart",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmw9rvzk-5ryz",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-22: health-formatters.js",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw9rn7q-tro7",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-19: health-overview.js \u2014 health overview view renderer",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmw9r0p1-w1ry",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-17: app.js \u2014 expand routing to health routes",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmw9qdvd-yska",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-16 + T-21: index.html nav + script wiring",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmw9q1bw-o9iz",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-20: health.css \u2014 styles for health views",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw9pibs-zl81",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-18: health-window-picker.js component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw9pa9i-zqgw",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-15: api.js \u2014 add health API client methods",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw998ex-hlva",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-14: health.test.js \u2014 API integration tests",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:00Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmw98r6c-h8o2",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-13: routes/health.js + server.js wiring",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmw989i9-frev",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-12: service.js \u2014 health service orchestration layer",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmw97mvy-8l8a",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-11: queries.js \u2014 health SQL query functions",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw9789w-6e1z",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-09 + T-10: executor-aliases.json + executors.js + executors.test.js",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw96u6l-e1qe",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-08: windows.test.js \u2014 unit tests for window helpers",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw96ne0-doc4",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-07: windows.js \u2014 window parsing + date range helpers",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw96fci-h9kn",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-06: stats.test.js \u2014 unit tests for wilsonCI and classifyChange",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw965w7-cjz7",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-05: stats.js \u2014 Wilson CI + change classification",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw95yis-6e8l",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-05: stats.js \u2014 Wilson CI + change classification",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw8pgfg-rob9",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-03: enhance kuroloop.js sync to populate health columns",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw8p51a-umjp",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-02: TDD tests for kuroloop sync enrichment",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw8os1b-4c6u",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-04: move /api/health to /api/status",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw8oks4-s04d",
+        "projectId": "8c169f3f-508b-4615-86ea-2fb9f0ed9e64",
+        "title": "KuroHealth T-01: migration 002-kurohealth-task-columns.sql",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "claude-haiku-4-5"
+      }
+    ]
+  }
+}

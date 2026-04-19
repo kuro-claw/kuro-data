@@ -1,0 +1,734 @@
+{
+  "updatedAt": "2026-04-19T02:44:45Z",
+  "source": "kuroboard-daemon",
+  "version": 1,
+  "data": {
+    "id": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+    "name": "KuroPulse",
+    "status": "in_progress",
+    "priority": "low",
+    "owner": "kuro",
+    "summary": "",
+    "updatedAt": "2026-03-18T13:08:31Z",
+    "taskCounts": {
+      "todo": 3,
+      "in_progress": 0,
+      "blocked": 0,
+      "done": 61
+    },
+    "description": null,
+    "tasks": [
+      {
+        "id": "kl-mmwmx500-pbr4",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "Discord notification test",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwmreh2-fa16",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "notification test 3",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwmnsic-pa2f",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "notification test 2 \u2014 write DONE.md to kuropulse",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwmixdn-stoy",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "notification test \u2014 write BUILD.md to kuropulse",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwmdcyx-0y3l",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-53: Test coverage gap audit and fill",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwm08xu-i0ft",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-54: Polish, error copy audit, and CI validation",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwlzz9k-ublp",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-52: Integration tests for core flows",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwljj6b-ja5h",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-45: Player Modal screen implementation",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwlj5xx-agiy",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-42: Track List screen implementation",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwlivc6-2v21",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-39: Home Dashboard screen implementation",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwlhsb3-ijf7",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-51: Settings screen implementation",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwl9fml-5yoj",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-36: Player context and usePlayer hook",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwl9127-dv93",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-35: Player service",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwl8knn-y7yu",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-33: Sound controller (expo-av wrapper)",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwk2tj8-ktw7",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-50: Settings service and context",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwk2gbu-ahnm",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-48: History screen implementation",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwk1vnr-0flh",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-49: GoalInput component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwk1okw-5mna",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-46 + T-47: SegmentedControl + StatCard components",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwk1gye-qf2l",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-44: PlayerControls component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwk19jj-m7tm",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-43: SeekBar component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwjerg4-p3vb",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-40: TrackRow component bundle",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:04Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwje6fg-2rpw",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-38: UnlockToastHost component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwjdytu-zhar",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-37: ProgressRing component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwjdq3j-c3o0",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-41: Formatters utility",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwjdayj-y5e9",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-30: Downloads context, service, and useDownloads hook",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwj72o5-17fq",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-29: Download client and state machine",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwj6kdx-heq4",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-34: Queue builder",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwj6a0w-7ayk",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-32: Audio mode configuration",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwj60yc-klx9",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-28: Playback source resolver",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmv60qd0-sx9s",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "TEST gpt-5.1-codex-mini: KuroPulse P6 debounce utility",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "gpt-5.1-codex-mini"
+      },
+      {
+        "id": "kl-mmv5j49y-q5zn",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-29: Download client and state machine",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv5j44c-lwms",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-28: Playback source resolver",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv5j3yt-u715",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-26 rerun: Network client and Wi-Fi detection",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv49nxc-ttl2",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-29: Download client and state machine",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv49nr1-ey2z",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-28: Playback source resolver",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:15Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv49648-207f",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-26 rerun: Network client and Wi-Fi detection",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv40yhj-ynya",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-29: Download client and state machine",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv40mov-q14q",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-28: Playback source resolver",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv40chi-242n",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-26 rerun: Network client and Wi-Fi detection",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmuy528l-1ki3",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-27: Download policy and eligibility logic",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmuy4tql-lmd1",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-26: Network client and Wi-Fi detection",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:04Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmuy4mks-8tsd",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-25: File system client and audio paths",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmuxxeu3-2z5p",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-27: Download policy and eligibility logic",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:13Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmuxx4ao-arlb",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-26: Network client and Wi-Fi detection",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmuxwwx6-f7fs",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-25: File system client and audio paths",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmusa4a8-cvaq",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-27: Player context and usePlayer hook",
+        "status": "todo",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmus9udj-1lqt",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-26: Audio player service (expo-av)",
+        "status": "todo",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmus9jmd-bif2",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-25: DownloadManager service",
+        "status": "todo",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmurf2hy-3mbt",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-24: Unlocks context and useUnlocks hook",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmupwymy-eywv",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-24: Unlocks context and useUnlocks hook (v3 \u2014 correct imports)",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmunwdxk-igt9",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-25: DownloadManager service",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:13Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmunsy8p-0jrj",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-24: Unlocks context and useUnlocks hook",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:15Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmumnjky-lfy1",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-24: Unlocks context and useUnlocks hook",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:15Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtzvbhv-8gev",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-24: Unlocks context and useUnlocks hook",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtr1n8k-z2sw",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-23: Unlock progress selectors",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtr1h2i-klux",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-22: Unlock engine (pure evaluation function)",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtr1688-3rlq",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-21: Step record deduplication utility",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtqgebc-pkug",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-20: Steps context and useSteps hook",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtju346-efig",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-19 \u2014 Steps service and foreground refresh (rerun with full project scope)",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmtixyu5-8qpw",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-19 \u2014 Steps service and foreground refresh",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmtaln9r-dwre",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-18: Step ranges and selectors",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtaln47-rhi3",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-17: Step normalization and date utilities",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtalmy7-y6z2",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-16: HealthKit client adapter",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtalmsb-a168",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-15: SettingsContext and useSettings hook",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtalmmk-avc1",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-14: Settings repository and full reset utility",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtalmgo-2unx",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-13: Download repository",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtalmb6-5bp7",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-12: Progress repository",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtalm5k-69ks",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-11: Step repository",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtallzx-q3un",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-10: AsyncStorage key schema and base adapter",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt9b52s-1ujg",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-09: Bundled audio asset stubs",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt9b4wp-wm27",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-08: Static track catalog and selectors",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt9b4qq-gcra",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-07: Core domain types",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt9b4l3-mrgf",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-06: Provider composition scaffold",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt9b4f6-z2fe",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-05: Theme constants and shared UI primitives",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt9b49h-9w1h",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-04: Navigation shell and tab structure",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt9b43q-ax8k",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-03: GitHub Actions CI workflow",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:04Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt9b3y0-azpw",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-02: ESLint, Prettier, and Jest configuration",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt8ivd6-42lt",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "T-01: Expo project initialization and TypeScript setup",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmt7637o-e9zc",
+        "projectId": "69d66e92-bb84-4ed4-8a93-4ab46571fe24",
+        "title": "KuroPulse T-01: Expo project initialization and TypeScript setup",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "qwen35-27b"
+      }
+    ]
+  }
+}

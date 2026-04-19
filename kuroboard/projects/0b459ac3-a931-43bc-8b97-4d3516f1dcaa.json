@@ -1,0 +1,95 @@
+{
+  "updatedAt": "2026-04-19T02:44:45Z",
+  "source": "kuroboard-daemon",
+  "version": 1,
+  "data": {
+    "id": "0b459ac3-a931-43bc-8b97-4d3516f1dcaa",
+    "name": "kuro-memory",
+    "status": "in_progress",
+    "priority": "low",
+    "owner": "kuro",
+    "summary": "",
+    "updatedAt": "2026-03-18T13:08:31Z",
+    "taskCounts": {
+      "todo": 0,
+      "in_progress": 0,
+      "blocked": 0,
+      "done": 7
+    },
+    "description": null,
+    "tasks": [
+      {
+        "id": "kl-mn12vqti-u0ob",
+        "projectId": "0b459ac3-a931-43bc-8b97-4d3516f1dcaa",
+        "title": "kuro-memory: review queue expiry (retry)",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "gpt-5.4-mini"
+      },
+      {
+        "id": "kl-mn12rha7-ipz3",
+        "projectId": "0b459ac3-a931-43bc-8b97-4d3516f1dcaa",
+        "title": "kuro-memory: conflict detection in route_bullet",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "gpt-5.3-codex-3"
+      },
+      {
+        "id": "kl-mn12obw9-0wt9",
+        "projectId": "0b459ac3-a931-43bc-8b97-4d3516f1dcaa",
+        "title": "kuro-memory: review queue expiry",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmz7w6hy-1180",
+        "projectId": "0b459ac3-a931-43bc-8b97-4d3516f1dcaa",
+        "title": "kuro-memory #8 Phase 1+2 (retry): Add episodic files + confidence scoring \u2014 ADDITIVE ONLY",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmz7m6mr-05kv",
+        "projectId": "0b459ac3-a931-43bc-8b97-4d3516f1dcaa",
+        "title": "Implement kuro-memory #8 Phase 1+2: episodic files + confidence scoring",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmwl1c19-seod",
+        "projectId": "0b459ac3-a931-43bc-8b97-4d3516f1dcaa",
+        "title": "kuro-memory #2: classify proposals as evergreen vs time-bound",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmwl06am-1lx4",
+        "projectId": "0b459ac3-a931-43bc-8b97-4d3516f1dcaa",
+        "title": "kuro-memory #3: retry/backoff on distillation timeout",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmwkzxk2-5ige",
+        "projectId": "0b459ac3-a931-43bc-8b97-4d3516f1dcaa",
+        "title": "kuro-memory #4: skip distillation during compute VM offline hours",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "claude-haiku-4-5"
+      }
+    ]
+  }
+}

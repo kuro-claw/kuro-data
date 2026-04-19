@@ -1,0 +1,176 @@
+{
+  "updatedAt": "2026-04-19T02:44:45Z",
+  "source": "kuroboard-daemon",
+  "version": 1,
+  "data": {
+    "id": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+    "name": "KuroTrader",
+    "status": "in_progress",
+    "priority": "low",
+    "owner": "kuro",
+    "summary": "WARNING \u00b7 cycle 13m \u00b7 mismatch 1 (reset from 41) \u00b7 model 75% \u00b7 latency n/a (no fills) \u00b7 equity -0.5% \u00b7 benzinga stalled (2h44m stale, 42 articles/24h)",
+    "updatedAt": "2026-04-12T02:30:48Z",
+    "taskCounts": {
+      "todo": 0,
+      "in_progress": 0,
+      "blocked": 0,
+      "done": 16
+    },
+    "description": "WARNING \u00b7 cycle 13m \u00b7 mismatch 1 (reset from 41) \u00b7 model 75% \u00b7 latency n/a (no fills) \u00b7 equity -0.5% \u00b7 benzinga stalled (2h44m stale, 42 articles/24h)",
+    "tasks": [
+      {
+        "id": "kl-mmv68t98-qqwd",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "SMOKE writeback fix: KuroTrader restore package.json",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv4aeh8-iad6",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader #32: Restore dashboard/dash/package.json dependencies",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmv42pa3-mqbl",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader #32: Restore dashboard/dash/package.json dependencies",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmtrzsmv-1ypm",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader dashboard: wire real API data into all components",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmtqx90n-01st",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader dashboard: fix build \u2014 add missing UI primitives",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmtqho2p-d4qs",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader dashboard: build, deploy API to VPS, serve frontend",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmtafkyg-1d39",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-28: Kuro-brand styling + responsive polish",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtafkst-f6ii",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-27: Dashboard grid integration",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtafkmz-10al",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-26: Auto-refresh indicator",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtafkhc-wuvq",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-25: GarchRegime component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtafkbt-gw9j",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-24: DataHealth component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtafk6e-hmhl",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-23: SignalHistory component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtafk0t-0slj",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-22: TradeLog component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:04Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtafjv8-f1ge",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-21: PositionsTable component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtafjpr-frdd",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-20: EquityCurve component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:04Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtafjhr-fz8j",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "KuroTrader T-19: MetricsBar component",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmsac0se-mtqz",
+        "projectId": "8b4ec3a3-cceb-44fb-9faa-73c6b0351eaf",
+        "title": "T-18: App Layout + React Query Provider + API Hooks",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "gpt-5.3-codex"
+      }
+    ]
+  }
+}

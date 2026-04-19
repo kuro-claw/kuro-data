@@ -1,0 +1,662 @@
+{
+  "updatedAt": "2026-04-19T02:44:45Z",
+  "source": "kuroboard-daemon",
+  "version": 1,
+  "data": {
+    "id": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+    "name": "KuroLoop",
+    "status": "done",
+    "priority": "low",
+    "owner": "kuro",
+    "summary": "Decommissioned 2026-04-11. Replaced by sessions_spawn + direct-dev-subagent skill. OpenClaw native session management made KuroLoop redundant.",
+    "updatedAt": "2026-04-12T01:17:58Z",
+    "taskCounts": {
+      "todo": 0,
+      "in_progress": 0,
+      "blocked": 0,
+      "done": 45
+    },
+    "description": "Decommissioned 2026-04-11. Replaced by sessions_spawn + direct-dev-subagent skill. OpenClaw native session management made KuroLoop redundant.",
+    "tasks": [
+      {
+        "id": "kl-smoke-uid-fix",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "kl-smoke-uid-fix",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-mn0e1gy7-t7dv",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Fix KuroLoop #42 handleCompletion review-failure routing",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mn0cqtzp-4bfg",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Fix KuroLoop #42 review-failure routing semantics",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmzq40pv-m62i",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Implement KuroLoop #42 pilot: route review escalations to project session",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmz757n1-1wie",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "KuroLoop no-op success validation retry",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmz6nfe1-nq0f",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "KuroLoop no-op success validation",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:13Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmz4zfi0-ll9q",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "KuroLoop artifact-verification guardrail test",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmz2c385-i630",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "KuroLoop doorbell smoke test",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmywv8y5-vncl",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Fix false-positive completions and broken review path for KuroLoop",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmywn2mf-y0u0",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Retry issue #39 with verifiable artifacts: KuroLoop doorbell session routing",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmywbqqm-jwkj",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Route KuroLoop notifications through dedicated OpenClaw doorbell session",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmwl523s-w11n",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "KuroLoop #38: fix writeback for workspace-relative file paths",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:04Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmw8212x-cjr2",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Claude Haiku smoke test",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "claude-haiku-4-5"
+      },
+      {
+        "id": "kl-mmw81sfb-e7q9",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Claude Sonnet smoke test",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "claude-sonnet-4-6"
+      },
+      {
+        "id": "kl-mmw6w8tc-y1o9",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Issue #36: fix local dashboard stale/timeout behavior",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmw6nlfl-di98",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "F07 T1 v3: router-analyzer.py \u2014 infra-aware routing stats rerun",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmv88077-3ae8",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "F07 T1 v2: router-analyzer.py \u2014 with infra failure exclusions",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:13Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmv7rdk3-4200",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "F07 T1: router-analyzer.py \u2014 executor performance stats",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmuymow7-okxo",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Dashboard: pool label rename, per-pool depth, GPU memory fix, hide goku",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmurvdde-xvdj",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "F06: Budget-aware Codex routing with per-account weekly tracking",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmumn98m-j2om",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T2: Write token data to task JSON after Codex task completes",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtze5gl-l4i0",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T2: Write token data to task JSON after Codex task completes",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtyxakw-la9o",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T5: kl status \u2014 show per-account weekly budget spend",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtyxaf2-dgc9",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T4: Dashboard \u2014 show token usage on done task cards",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtyxa9b-vbuk",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T3: Budget ledger \u2014 weekly per-account spend tracking",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtyxa3p-msm4",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T2: Write token data to task JSON after Codex task completes",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtyx9y0-tty6",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T1: Session JSONL parser \u2014 extract token usage from Codex session files",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtytpi2-e4e9",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T5: kl status \u2014 show per-account weekly budget spend",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtytjt3-ghm8",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T4: Dashboard \u2014 show token usage on done task cards",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtyt6ct-zyu4",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T3: Budget ledger \u2014 weekly per-account spend tracking",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:17Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtysy9t-u4w3",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T2: Write token data to task JSON after Codex task completes",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:15Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtysq6o-f6fz",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06 T1: Session JSONL parser \u2014 extract token usage from Codex session files",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtya0sv-rygy",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Feature 06: Executor budget tracking \u2014 token extraction + task JSON + dashboard",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:17Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmtxw0jz-9eg6",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Dashboard: add executor badge to task cards",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmtxt7bj-dkw3",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Dashboard: add executor badge to task cards",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "gpt-5.3-codex-2"
+      },
+      {
+        "id": "kl-mmsjeouf-3jat",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "fix(dashboard): use assigned_at for task duration, not created_at (issue #34)",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmsimp8j-0541",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "feat(daemon): auto-escalate stalled qwen tasks to fallback executor (issue #31)",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmsfnq8v-vh82",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "fix(writeback): handle directory entries in files_in_scope and writeback (issue #30)",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmsbwo1q-k2r6",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Telemetry Service T-02: systemd unit + README",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmsbwg2m-qm1l",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Telemetry Service T-01: server.js",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:11Z",
+        "assignee": "qwen35-27b"
+      },
+      {
+        "id": "kl-mmsajf8g-p7wn",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "PR process Task 1: daemon setupBranch + createOrCommentPr",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "qwen3-coder-next"
+      },
+      {
+        "id": "kl-mms8tm9y-iji1",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Dashboard #28: iteration and checklist progress for active tasks",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mms8tfvd-tox9",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Dashboard #27: elapsed time in recently completed section",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:04Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mms1uvds-6nws",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Fix notify(): pass token via env var, not CLI arg",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:08Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mms1ezu3-68bv",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Replace daemon notify() with openclaw system event via Tailscale",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mms0oluq-wb2y",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Fix review prompt: correctness-focused, not strict",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:07Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmrzyceg-r32u",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Fix GPU telemetry: background cache instead of blocking writeStatus",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:02Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmrzwk5l-bjzg",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Fix GPU telemetry: background cache instead of blocking writeStatus",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:15Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmrxyzgy-fl8m",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Add compute VM GPU telemetry to KuroLoop status",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:10Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmrxe2xh-v8ln",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Add compute VM GPU telemetry to KuroLoop dashboard",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmruxfd3-k7ov",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Qwen executor smoke after provider-path fix v3",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "qwen3-coder-next"
+      },
+      {
+        "id": "kl-mmruvqgv-p03h",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Qwen executor smoke after provider-path fix v2",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "qwen3-coder-next"
+      },
+      {
+        "id": "kl-mmruugjj-5539",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Qwen executor smoke after provider-path fix",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:15Z",
+        "assignee": "qwen3-coder-next"
+      },
+      {
+        "id": "kl-mmru9isl-3ffc",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "KuroLoop PR process daemon support",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:09Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmrsjynp-89fh",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "KuroLoop PR process daemon support",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:12Z",
+        "assignee": "gpt-5.3-codex"
+      },
+      {
+        "id": "kl-mmr5osod-sgv7",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "refactor: rename executor codex-container \u2192 gpt-5.3-codex (issue #19)",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:06Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-mmr58rsp-9dw3",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "feat(branching): branch-per-spec support \u2014 --branch flag, setupBranch(), output_branch",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-mmr4g7e6-4l4p",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Fix BUG-002: qwen3-coder-next path doubling \u2014 normalize doubled worktree paths post-execution",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:03Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-mmr3cr5z-4sw0",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Task 019 end-to-end smoke",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:01Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-smoke-uid2",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "UID fix smoke test",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:05Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-smoke-codex",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM codex smoke 4",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-03-18T16:20:31Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-smoke-codex-1773530041",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM codex smoke 5",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:13Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-smoke-codex-1773529982",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM codex smoke 4",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:17Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-smoke-codex-1773529928",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM codex smoke 3",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-smoke-codex-1773529781",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM codex smoke 2",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-smoke-codex-1773529644",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM codex smoke",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:13Z",
+        "assignee": "codex-container"
+      },
+      {
+        "id": "kl-smoke",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM smoke test",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-03-18T16:20:29Z",
+        "assignee": "qwen3-coder-next"
+      },
+      {
+        "id": "kl-smoke-1773527797",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM smoke test 2",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:14Z",
+        "assignee": "qwen3-coder-next"
+      },
+      {
+        "id": "kl-smoke-1773527702",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Compute VM smoke test",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "qwen3-coder-next"
+      },
+      {
+        "id": "kuroloop-smoke",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Smoke test on compute VM",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-03-18T16:20:29Z",
+        "assignee": "qwen3-coder-next"
+      },
+      {
+        "id": "kl-smoke-1773527277",
+        "projectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b",
+        "title": "Smoke test on compute VM",
+        "status": "done",
+        "priority": "low",
+        "updatedAt": "2026-04-09T17:55:16Z",
+        "assignee": "qwen3-coder-next"
+      }
+    ]
+  }
+}

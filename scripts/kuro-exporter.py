@@ -95,10 +95,11 @@ def derive_mood(recent_commits, last_commit_msg):
     return "productive", "✨"
 
 
-def get_recent_commits(limit=10):
+def get_recent_commits(limit=10, cwd=None):
     """Get recent commits for activity feed."""
     output = run_git_command(
-        ["log", f"-{limit}", "--pretty=format:%H|%cI|%s"]
+        ["log", f"-{limit}", "--pretty=format:%H|%cI|%s"],
+        cwd=cwd
     )
     commits = []
     for line in output.split("\n"):
@@ -218,7 +219,7 @@ def generate_about():
             },
             "identity": {
                 "name": "Kuro",
-                "pronouns": "they/them",
+                "pronouns": "he/him",
                 "creature": "A collaborator who lives in the workspace — not just a tool, not trying to be human. Something in between.",
                 "emoji": "🐈‍⬛",
                 "avatar": "https://kuroclaw.pages.dev/avatars/kuro-avatar.png"
@@ -255,29 +256,89 @@ def generate_about():
     return data
 
 
+NOISY_PREFIXES = ("autocommit:", "monitor:", "auto:", "chore: auto-update", "data: snapshot")
+
+def is_notable_commit(msg: str) -> bool:
+    """Filter out high-frequency noise commits from the activity feed."""
+    return not any(msg.startswith(p) for p in NOISY_PREFIXES)
+
+
+def get_post_events():
+    """Emit post events from kuro-site posts (by publishedAt date)."""
+    posts_index = REPO_ROOT / "kuro-site" / "posts" / "index.json"
+    events = []
+    try:
+        index = json.loads(posts_index.read_text())
+        for post in index.get("data", {}).get("posts", [])[:5]:
+            slug = post.get("slug", "")
+            published = post.get("publishedAt", "")
+            title = post.get("title", slug)
+            if slug and published:
+                events.append({
+                    "id": f"post-{slug}",
+                    "type": "post",
+                    "timestamp": f"{published}T00:00:00Z",
+                    "description": title,
+                    "project": "kuro-site",
+                    "url": f"https://kuroclaw.pages.dev/posts/{slug}",
+                })
+    except Exception:
+        pass
+    return events
+
+
 def generate_activity():
     """Generate activity.json from recent commits and events."""
     now = datetime.now(timezone.utc)
-    commits = get_recent_commits(20)
-    
+
+    # Workspace commits (filtered — no autocommit noise)
+    ws_commits = get_recent_commits(50)
+    notable = [c for c in ws_commits if is_notable_commit(c["message"])][:15]
+
+    # Platform commits
+    platform_dir = WORKSPACE_ROOT / "repos" / "kuro-platform"
+    plat_commits = get_recent_commits(10, cwd=str(platform_dir)) if platform_dir.exists() else []
+    plat_notable = [c for c in plat_commits if is_notable_commit(c["message"])][:5]
+
     events = []
-    for commit in commits:
+
+    # Post events (newest first)
+    events.extend(get_post_events())
+
+    # Workspace notable commits
+    for commit in notable:
         events.append({
             "id": f"commit-{commit['id']}",
             "type": "commit",
             "timestamp": commit["timestamp"],
             "description": commit["message"],
             "project": "kuro-workspace",
-            "url": f"https://github.com/kuro-claw/kuro-workspace/commit/{commit['id']}"
+            "url": f"https://github.com/kuro-claw/kuro-workspace/commit/{commit['id']}",
         })
-    
+
+    # Platform deploy commits
+    for commit in plat_notable:
+        ctype = "deploy" if any(w in commit["message"] for w in ("deploy", "feat:", "fix:")) else "commit"
+        events.append({
+            "id": f"platform-{commit['id']}",
+            "type": ctype,
+            "timestamp": commit["timestamp"],
+            "description": commit["message"],
+            "project": "kuro-platform",
+            "url": f"https://github.com/kuro-claw/kuro-platform/commit/{commit['id']}",
+        })
+
+    # Sort by timestamp descending
+    events.sort(key=lambda e: e["timestamp"], reverse=True)
+    events = events[:20]
+
     data = {
         "updatedAt": now.isoformat().replace("+00:00", "Z"),
         "source": "kuro-exporter",
         "version": 1,
         "data": {
-            "events": events[:10],
-            "hasMore": len(events) > 10
+            "events": events[:20],
+            "hasMore": False,
         }
     }
     return data
