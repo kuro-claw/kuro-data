@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T19:27:31.575909+00:00",
+  "updatedAt": "2026-04-19T19:27:35.086923+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -42,11 +42,11 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": null,
-        "last_exit": null,
-        "last_duration_ms": null,
-        "consecutive_errors": 0,
-        "last_error": null
+        "last_run_ts": "2026-04-19T19:27:35.086875+00:00",
+        "last_exit": 1,
+        "last_duration_ms": 40,
+        "consecutive_errors": 1,
+        "last_error": "kuro-git-autocommit.timer is NOT active"
       },
       {
         "id": "kuro-memory-health",
@@ -117,9 +117,9 @@
     ],
     "summary": {
       "total_jobs": 10,
-      "healthy": 10,
-      "failing": 0,
-      "last_updated": "2026-04-19T19:27:31.575867+00:00"
+      "healthy": 9,
+      "failing": 1,
+      "last_updated": "2026-04-19T19:27:35.086875+00:00"
     }
   }
 }
