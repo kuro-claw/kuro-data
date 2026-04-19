@@ -397,16 +397,14 @@ def main():
     # Ensure kuro directory exists
     KURO_DIR.mkdir(parents=True, exist_ok=True)
     
-    # Generate all three files
+    # Generate overview and about (activity.json is owned by kuro-data-pusher)
     overview = generate_overview()
     about = generate_about()
-    activity = generate_activity()
-    
+
     # Write files
     success = True
     success &= write_json(KURO_DIR / "overview.json", overview)
     success &= write_json(KURO_DIR / "about.json", about)
-    success &= write_json(KURO_DIR / "activity.json", activity)
     
     if not success:
         print("Failed to write some files", file=sys.stderr)
