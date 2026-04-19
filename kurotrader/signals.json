@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-19T15:13:36Z",
+  "updatedAt": "2026-04-19T15:18:38Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "6120",
+        "timestamp": "2026-04-19T15:15:31Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "executed": false
+      },
+      {
+        "id": "6119",
+        "timestamp": "2026-04-19T15:15:31Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.3174,
+        "executed": false
+      },
+      {
+        "id": "6118",
+        "timestamp": "2026-04-19T15:15:31Z",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "executed": false
+      },
+      {
+        "id": "6117",
+        "timestamp": "2026-04-19T15:15:31Z",
+        "symbol": "BTC-USD",
+        "action": "sell",
+        "confidence": 0.5815,
+        "executed": false
+      },
       {
         "id": "6116",
         "timestamp": "2026-04-19T15:00:31Z",
@@ -47,38 +79,6 @@
       {
         "id": "6111",
         "timestamp": "2026-04-19T14:45:31Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6110",
-        "timestamp": "2026-04-19T14:45:31Z",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.2794,
-        "executed": false
-      },
-      {
-        "id": "6109",
-        "timestamp": "2026-04-19T14:45:31Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.281,
-        "executed": false
-      },
-      {
-        "id": "6108",
-        "timestamp": "2026-04-19T14:30:31Z",
-        "symbol": "SOL-USD",
-        "action": "sell",
-        "confidence": 0.6006,
-        "executed": false
-      },
-      {
-        "id": "6107",
-        "timestamp": "2026-04-19T14:30:31Z",
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.0,
