@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T17:34:31Z",
+  "updatedAt": "2026-04-19T17:39:32Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-bb2328bc",
+        "type": "commit",
+        "timestamp": "2026-04-19T13:36:09-04:00",
+        "description": "kuro-runner: spec v2 with job registry, CLI, observability, 58 tasks",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/bb2328bc"
+      },
       {
         "id": "platform-3aa403a4",
         "type": "commit",
@@ -45,12 +53,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/936fa06e"
       },
       {
-        "id": "platform-c0c59978",
+        "id": "commit-c0c59978",
         "type": "commit",
         "timestamp": "2026-04-19T10:45:17-04:00",
         "description": "ci: use CLOUDFLARE_API_TOKEN for wrangler auth",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/c0c59978"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/c0c59978"
       },
       {
         "id": "commit-5a4da073",
@@ -107,14 +115,6 @@
         "description": "memory: kuro-platform visual redesign session notes",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/2de00acb"
-      },
-      {
-        "id": "commit-d9a2b228",
-        "type": "commit",
-        "timestamp": "2026-04-18T23:46:54-04:00",
-        "description": "redesign: Kuro as home, editorial layout, slim shell chrome",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d9a2b228"
       },
       {
         "id": "post-2026-04-18-holonomy",
