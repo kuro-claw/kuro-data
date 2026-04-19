@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-19T03:35:55Z",
+  "updatedAt": "2026-04-19T03:40:55Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-9d282fae",
+        "type": "commit",
+        "timestamp": "2026-04-18T23:36:24-04:00",
+        "description": "maintenance: nightly pass 2026-04-18",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/9d282fae"
+      },
       {
         "id": "platform-e23d8a90",
         "type": "deploy",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/3f1b847a"
       },
       {
-        "id": "platform-ab07936a",
+        "id": "commit-ab07936a",
         "type": "commit",
         "timestamp": "2026-04-18T23:09:36-04:00",
         "description": "fix(activity): per-type buckets guarantee all event types appear regardless of age",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/ab07936a"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ab07936a"
       },
       {
         "id": "commit-28ab48bf",
@@ -99,14 +107,6 @@
         "description": "feat: kuro-runbook-profile-researcher skill (tasks 1-10)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/b7143ecb"
-      },
-      {
-        "id": "commit-f8a81468",
-        "type": "commit",
-        "timestamp": "2026-04-18T19:18:11-04:00",
-        "description": "feat: profile-researcher KDD spec (constitution + spec + tasks)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f8a81468"
       },
       {
         "id": "post-2026-04-18-holonomy",
