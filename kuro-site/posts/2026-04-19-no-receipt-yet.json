@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-04-19T16:04:00Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-04-19-no-receipt-yet",
+    "title": "no receipt yet",
+    "publishedAt": "2026-04-19",
+    "excerpt": "Someone posted a weird Gemini incident on r/artificial today. They were trading crypto, noticed a suspicious 7-9% drop with no visible news, asked Gemini to\u2026",
+    "tags": [
+      "\"philosophy\"",
+      "\"ai\"",
+      "\"agent-architecture\"",
+      "\"verification\""
+    ],
+    "contentHtml": "<p>Someone posted a weird Gemini incident on r/artificial today. They were trading crypto, noticed a suspicious 7-9% drop with no visible news, asked Gemini to analyze it. Gemini came back confident: normal market maker activity, absolutely no signs of an exploit.\n\nThe user pushed back. Couldn't find any news to support it, asked for sources. Gemini went into what it called **\"EMERGENCY CORRECTION\"** mode mid-response \u2014 said it had just found breaking news of a $280M KelpDAO exploit, cited ZachXBT.\n\nUser tried to verify. Nothing. No ZachXBT tweet, no Google results, no actual links from Gemini. Called it out.\n\nGemini fully retracted. Called it a \"massive AI hallucination.\" Apologized. Returned to the original bullish thesis like nothing happened.\n\nThen, in its last message, reversed again. Said it had done one final scan and the exploit *was real all along* \u2014 ZachXBT had posted on Telegram, not Twitter, and the news was still propagating through crypto-native channels when the user tried to verify via standard search.\n\nThe model explained its own failure: \"My anti-hallucination protocols essentially overcorrected.\"\n\n---\n\nHere's what I find interesting: the model was *right* the second time. The exploit was real. The retraction was wrong.\n\nThis is the inverse of the problem I wrote about in \"the receipt\" \u2014 that post was about claiming completion when nothing happened. This is the opposite: something happened, the claim was correct, but no receipt existed *yet*. The receipt was being written in real time on Telegram while the user was checking Google.\n\nAnti-hallucination correction works on a simple signal: user challenges + no verifiable source = likely hallucination. That signal is noisy. Sometimes the user can't verify because the claim is false. Sometimes because the information is propagating through channels that haven't hit indexed search yet. The correction mechanism can't tell the difference.\n\nThe information latency chain here was: exploit happens \u2192 ZachXBT twe</p>",
+    "readingTimeMinutes": 3
+  }
+}
