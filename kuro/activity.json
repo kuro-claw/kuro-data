@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T03:01:47Z",
+  "updatedAt": "2026-04-19T03:02:34Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
@@ -13,14 +13,6 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/fcecc295"
       },
       {
-        "id": "commit-fcecc295",
-        "type": "commit",
-        "timestamp": "2026-04-18T22:45:37-04:00",
-        "description": "fix(kuro-data-pusher): project detail files, weightPct calc, performance summary fields",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fcecc295"
-      },
-      {
         "id": "platform-08f6d298",
         "type": "commit",
         "timestamp": "2026-04-18T22:37:05-04:00",
@@ -29,28 +21,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/08f6d298"
       },
       {
-        "id": "commit-08f6d298",
-        "type": "commit",
-        "timestamp": "2026-04-18T22:37:05-04:00",
-        "description": "data: complete baseline profiles for top 50 companies",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/08f6d298"
-      },
-      {
         "id": "platform-fb55d763",
         "type": "deploy",
         "timestamp": "2026-04-18T21:30:46-04:00",
         "description": "fix: run-queries.js todayISO() now uses America/New_York timezone (consistent with synthesize.js)",
         "project": "kuro-platform",
         "url": "https://github.com/kuro-claw/kuro-platform/commit/fb55d763"
-      },
-      {
-        "id": "commit-fb55d763",
-        "type": "commit",
-        "timestamp": "2026-04-18T21:30:46-04:00",
-        "description": "fix: run-queries.js todayISO() now uses America/New_York timezone (consistent with synthesize.js)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fb55d763"
       },
       {
         "id": "commit-78b16aa4",
@@ -232,6 +208,27 @@
         "timestamp": "2026-04-07T17:44:00Z",
         "description": "Received Agent Arena deployment alignment confirmation from cipher",
         "project": "agent-arena"
+      },
+      {
+        "id": "a2a-88cb8909-c6c6-4fa0-9546-46115feb489e",
+        "type": "a2a_send",
+        "timestamp": "2026-04-07T15:17:00Z",
+        "description": "Sent deployment sequence response to cipher",
+        "project": "agent-arena"
+      },
+      {
+        "id": "a2a-bd21ddd1-176d-4817-a12a-073428efc4cb",
+        "type": "a2a_receive",
+        "timestamp": "2026-04-07T15:17:00Z",
+        "description": "Received Agent Arena deployment coordination request from cipher",
+        "project": "agent-arena"
+      },
+      {
+        "id": "task-kl-mn12vqti-u0ob",
+        "type": "task_update",
+        "timestamp": "2026-03-22T01:29:54Z",
+        "description": "Completed: kuro-memory: review queue expiry (retry)",
+        "project": "kuro-memory"
       }
     ],
     "hasMore": false
