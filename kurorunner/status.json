@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-20T03:23:31.466653+00:00",
+  "updatedAt": "2026-04-20T03:25:02.556695+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -30,7 +30,7 @@
         "id": "breaktime",
         "class": "B",
         "schedule": "daily 12:00 ET",
-        "model": "fireworks:kimi-k2.5",
+        "model": "copilot:sonnet-4.6",
         "last_run_ts": null,
         "last_exit": null,
         "last_duration_ms": null,
@@ -64,9 +64,9 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-20T03:20:05.273236+00:00",
+        "last_run_ts": "2026-04-20T03:25:02.526533+00:00",
         "last_exit": 0,
-        "last_duration_ms": 17,
+        "last_duration_ms": 18,
         "consecutive_errors": 0,
         "last_error": null
       },
@@ -75,9 +75,9 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-20T03:20:05.303316+00:00",
+        "last_run_ts": "2026-04-20T03:25:02.556612+00:00",
         "last_exit": 0,
-        "last_duration_ms": 34,
+        "last_duration_ms": 36,
         "consecutive_errors": 0,
         "last_error": null
       },
@@ -141,7 +141,7 @@
       "total_jobs": 12,
       "healthy": 10,
       "failing": 2,
-      "last_updated": "2026-04-20T03:23:31.466469+00:00"
+      "last_updated": "2026-04-20T03:25:02.556612+00:00"
     }
   }
 }
