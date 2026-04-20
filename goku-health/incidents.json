@@ -1,15 +1,23 @@
 {
-  "updatedAt": "2026-04-20T02:31:36Z",
+  "updatedAt": "2026-04-20T02:36:37Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
     "incidents": [
       {
         "id": "svc-kuro-health-daemon-2026-04-20",
-        "openedAt": "2026-04-20T02:31:35Z",
+        "openedAt": "2026-04-20T02:36:36Z",
         "severity": "warning",
         "title": "Health Daemon warning",
         "serviceId": "kuro-health-daemon",
+        "detail": "not running"
+      },
+      {
+        "id": "svc-kuro-git-autocommit-2026-04-20",
+        "openedAt": "2026-04-20T02:36:36Z",
+        "severity": "warning",
+        "title": "Git Autocommit warning",
+        "serviceId": "kuro-git-autocommit",
         "detail": "not running"
       }
     ]
