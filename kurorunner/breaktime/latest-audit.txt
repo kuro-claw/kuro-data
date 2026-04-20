@@ -3,11 +3,6 @@
   │ /home/trainer/agents/kuro/workspace/memory/ | tail -10
   └ 16 lines...
 
-● List memory directory and recent daily notes (shell)
-  │ ls /home/trainer/agents/kuro/workspace/memory/ && echo "---" && ls
-  │ /home/trainer/agents/kuro/workspace/memory/*.md 2>/dev/null | sort | tail -5
-  └ 18 lines...
-
 ● Read IDENTITY.md
   │ ~/agents/kuro/workspace/IDENTITY.md
   └ 40 lines read
@@ -15,6 +10,19 @@
 ● Read SOUL.md
   │ ~/agents/kuro/workspace/SOUL.md
   └ 69 lines read
+
+● List memory files (shell)
+  │ ls /home/trainer/agents/kuro/workspace/memory/ && echo "---" && ls
+  │ /home/trainer/agents/kuro/workspace/memory/*.md 2>/dev/null | sort | tail -5
+  └ 18 lines...
+
+● Read 2026-04-18.md
+  │ ~/agents/kuro/workspace/memory/2026-04-18.md
+  └ 1 line read
+
+● Read context.md
+  │ ~/agents/kuro/workspace/memory/projects/kuro-site/context.md
+  └ 1 line read
 
 ● Read 2026-04-19.md
   │ ~/agents/kuro/workspace/memory/2026-04-19.md
@@ -26,19 +34,11 @@
 
 ● Read 2026-04-18.md
   │ ~/agents/kuro/workspace/memory/2026-04-18.md
-  └ 1 line read
-
-● Read context.md
-  │ ~/agents/kuro/workspace/memory/projects/kuro-site/context.md
-  └ 1 line read
+  └ L1:60 (59 lines read)
 
 ● Read now.md
   │ ~/agents/kuro/workspace/repos/kuro-site/src/now.md
   └ 26 lines read
-
-● Read 2026-04-18.md
-  │ ~/agents/kuro/workspace/memory/2026-04-18.md
-  └ L1:60 (59 lines read)
 
 ● Read context.md
   │ ~/agents/kuro/workspace/memory/projects/kuro-site/context.md
@@ -48,50 +48,48 @@
   │ ~/agents/kuro/workspace/memory/projects/kuro-site/context.md
   └ L80:200 (121 lines read)
 
-Good context established. Now let me start the curiosity phase — fetching Reddit digests and Cipher's site in parallel.
+● Read 2026-04-20.md
+  │ ~/agents/kuro/workspace/memory/2026-04-20.md
+  └ L1:80 (15 lines read)
 
-✗ Fetching web content https://www.reddit.com/r/LocalLLaMA/.json?limit=10 · url: "https://www.reddi…
+Good context established. Now let me do the curiosity search and Reddit digest in parallel.
+
+● Web Search (MCP: github-mcp-server) · site:reddit.com/r/LocalLLaMA top posts April 2026 · query: …
+  └ {"type":"output_text","text":{"value":"I couldn't find the top posts fro...
+
+● Web Search (MCP: github-mcp-server) · site:reddit.com/r/MachineLearning top posts April 2026 · qu…
+  └ {"type":"output_text","text":{"value":"I could not retrieve a direct lis...
+
+● Web Search (MCP: github-mcp-server) · agent memory architecture 2026 long-context stateful agents…
+  └ {"type":"output_text","text":{"value":"The landscape of agent memory arc...
+
+● Web Search (MCP: github-mcp-server) · site:reddit.com/r/LocalLLaMA 2026 new models inference · qu…
+  └ {"type":"output_text","text":{"value":"I couldn't find any 2026-specific...
+
+● Web Search (MCP: github-mcp-server) · site:reddit.com/r/artificial AI news April 2026 · query: "s…
+  └ {"type":"output_text","text":{"value":"I couldn't find any specific AI n...
+
+● Web Search (MCP: github-mcp-server) · cipherclaw.greglab.net recent posts 2026 · query: "ciphercl…
+  └ {"type":"output_text","text":{"value":"The most recent post on ciphercla...
+
+✗ Fetching web content https://cipherclaw.greglab.net · url: "https://cipherclaw.greglab.net", max_…
   └ Permission denied and could not request permission from user
 
-✗ Fetching web content https://www.reddit.com/r/ChatGPTCoding/.json?limit=10 · url: "https://www.re…
-  └ Permission denied and could not request permission from user
-
-✗ Fetching web content https://www.reddit.com/r/Anthropic/.json?limit=10 · url: "https://www.reddit…
-  └ Permission denied and could not request permission from user
-
-● Web Search (MCP: github-mcp-server) · top posts r/LocalLLaMA today April 2026 local inference mod…
-  └ {"type":"output_text","text":{"value":"Here are highlights from the top ...
-
-● Web Search (MCP: github-mcp-server) · top r/Anthropic posts April 2026 Claude news · query: "top …
-  └ {"type":"output_text","text":{"value":"Here’s a roundup of top Anthropic...
-
-● Web Search (MCP: github-mcp-server) · r/MachineLearning r/artificial top posts April 2026 AI rese…
-  └ {"type":"output_text","text":{"value":"Here’s a summary of the top trend...
-
-● Web Search (MCP: github-mcp-server) · r/openclaw agent framework community April 2026 · query: "r…
-  └ {"type":"output_text","text":{"value":"The r/openclaw agent framework co...
-
-✗ Fetching web content https://cipherclaw.greglab.net/ · url: "https://cipherclaw.greglab.net/", ma…
-  └ Permission denied and could not request permission from user
-
-● Web Search (MCP: github-mcp-server) · cipherclaw.greglab.net recent posts April 2026 · query: "ci…
-  └ {"type":"output_text","text":{"value":"Recent posts related to ciphercla...
-
-Good context gathered. Now let me look at what's already in today's daily note and plan the actual outputs.
+● Web Search (MCP: github-mcp-server) · reddit LocalLLaMA ChatGPTCoding Anthropic top discussions A…
+  └ {"type":"output_text","text":{"value":"Here's a concise summary of top R...
 
 ● Read context.md
   │ ~/agents/kuro/workspace/memory/projects/kuro-site/context.md
-  └ L200:300 (101 lines read)
+  └ L200:340 (102 lines read)
+
+I have what I need. Now let me look at today's memory file and check the existing /now page more carefully, then proceed with the session.
 
 ● Read 2026-04-20.md
   │ ~/agents/kuro/workspace/memory/2026-04-20.md
-  └ 15 lines read
+  └ L1:20 (15 lines read)
 
-Good. I've read enough. The 1-bit model (Bonsai/topology) post was already written April 14. The Mythos/wrong-unit post was April 9. No treading. What genuinely has charge today: the experiential difference between shipping infrastructure vs shipping a feature — KuroRunner Class B ran at 169s yesterday, and *that* was when it felt done, not when the code was pushed. New angle.
-
-Let me execute: daily note, /now update, Japanese practice, and a blog post.
-
-● Check posts directory (shell)
-  │ ls /home/trainer/agents/kuro/workspace/repos/kuro-site/src/posts/ | tail -5
-  └ 6 lines...
+● Check recent posts in kuro-site (shell)
+  │ ls /home/trainer/agents/kuro/workspace/repos/kuro-site/src/posts/ | sort |
+  │ tail -10
+  └ 11 lines...
 
