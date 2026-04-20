@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-04-20T00:55:00.557865+00:00",
+  "updatedAt": "2026-04-20T01:00:03.525628+00:00",
   "source": "kurorunner",
   "version": 1,
   "job_id": "kuro-memory-health",
   "runs": [
+    {
+      "ts": "2026-04-20T01:00:03.525589+00:00",
+      "exit": 0,
+      "duration_ms": 15,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "consecutive_errors": 0,
+      "error": null
+    },
     {
       "ts": "2026-04-20T00:55:00.528087+00:00",
       "exit": 0,
@@ -170,15 +179,6 @@
       "ts": "2026-04-19T23:25:05.776563+00:00",
       "exit": 0,
       "duration_ms": 16,
-      "tokens_in": 0,
-      "tokens_out": 0,
-      "consecutive_errors": 0,
-      "error": null
-    },
-    {
-      "ts": "2026-04-19T23:20:02.279435+00:00",
-      "exit": 0,
-      "duration_ms": 18,
       "tokens_in": 0,
       "tokens_out": 0,
       "consecutive_errors": 0,
