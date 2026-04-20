@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-20T22:50:05.669932+00:00",
+  "updatedAt": "2026-04-20T22:52:10.200Z",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -60,17 +60,6 @@
         "last_error": "KuroTrader cycle stale: last update 495min ago (threshold 20min)"
       },
       {
-        "id": "profile-researcher",
-        "class": "A",
-        "schedule": "weekdays 17:00 ET",
-        "model": null,
-        "last_run_ts": "2026-04-20T21:04:15.289056+00:00",
-        "last_exit": 1,
-        "last_duration_ms": 255072,
-        "consecutive_errors": 1,
-        "last_error": "Completed with 1 error(s): HD synthesis failed: [synthesize] ticker=HD only 0 dimensions succeeded \u2014 marking retrieval_failed\n"
-      },
-      {
         "id": "stale-task-review",
         "class": "A",
         "schedule": "weekly Sun 18:00 ET",
@@ -83,9 +72,9 @@
       }
     ],
     "summary": {
-      "total_jobs": 7,
+      "total_jobs": 6,
       "healthy": 6,
-      "failing": 1,
+      "failing": 0,
       "last_updated": "2026-04-20T22:50:05.669866+00:00"
     }
   }
