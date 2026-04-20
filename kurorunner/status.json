@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-20T03:20:05.303403+00:00",
+  "updatedAt": "2026-04-20T03:20:05.389192+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -53,10 +53,10 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-20T03:15:02.168136+00:00",
+        "last_run_ts": "2026-04-20T03:20:05.389138+00:00",
         "last_exit": 1,
-        "last_duration_ms": 41,
-        "consecutive_errors": 9,
+        "last_duration_ms": 48,
+        "consecutive_errors": 10,
         "last_error": "kuro-git-autocommit.service is NOT active"
       },
       {
@@ -130,7 +130,7 @@
       "total_jobs": 11,
       "healthy": 9,
       "failing": 2,
-      "last_updated": "2026-04-20T03:20:05.303316+00:00"
+      "last_updated": "2026-04-20T03:20:05.389138+00:00"
     }
   }
 }
