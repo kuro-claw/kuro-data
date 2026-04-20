@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-20T21:55:57Z",
+  "updatedAt": "2026-04-20T22:00:58Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "6480",
+        "timestamp": "2026-04-20T22:00:32Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "executed": false
+      },
+      {
+        "id": "6479",
+        "timestamp": "2026-04-20T22:00:32Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.2682,
+        "executed": false
+      },
+      {
+        "id": "6478",
+        "timestamp": "2026-04-20T22:00:32Z",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.5918,
+        "executed": false
+      },
+      {
+        "id": "6477",
+        "timestamp": "2026-04-20T22:00:32Z",
+        "symbol": "BTC-USD",
+        "action": "buy",
+        "confidence": 0.5912,
+        "executed": false
+      },
       {
         "id": "6476",
         "timestamp": "2026-04-20T21:45:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "6471",
         "timestamp": "2026-04-20T21:30:32Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6470",
-        "timestamp": "2026-04-20T21:30:32Z",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6469",
-        "timestamp": "2026-04-20T21:30:32Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6468",
-        "timestamp": "2026-04-20T21:15:32Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6467",
-        "timestamp": "2026-04-20T21:15:32Z",
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.0,
