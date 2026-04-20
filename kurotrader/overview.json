@@ -1,57 +1,57 @@
 {
-  "updatedAt": "2026-04-20T03:57:13Z",
+  "updatedAt": "2026-04-20T12:02:24Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 494.58,
+      "equity": 498.66,
       "cash": 1.75,
       "buyingPower": 1.75,
-      "dayPnl": -8.06,
-      "totalPnl": -5.42,
-      "totalReturnPct": -1.08,
-      "drawdownPct": 7.59,
-      "updatedAt": "2026-04-20T03:45:32Z"
+      "dayPnl": -2.97,
+      "totalPnl": -1.34,
+      "totalReturnPct": -0.27,
+      "drawdownPct": 6.83,
+      "updatedAt": "2026-04-20T12:00:34Z"
     },
     "health": {
-      "cycleStatus": "healthy",
-      "executionStatus": "healthy",
+      "cycleStatus": "error",
+      "executionStatus": "warning",
       "modelAgreementStatus": "healthy",
       "lastCycleAt": "2026-04-20T03:45:31Z",
-      "staleCycleMinutes": 11
+      "staleCycleMinutes": 496
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
         "quantity": 0.002330421,
-        "marketValue": 173.680521,
-        "weightPct": 35.1,
-        "unrealizedPnl": -5.480965
+        "marketValue": 175.380237,
+        "weightPct": 35.2,
+        "unrealizedPnl": -3.781249
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
         "quantity": 0.039387628,
-        "marketValue": 89.788037,
+        "marketValue": 90.942094,
         "weightPct": 18.2,
-        "unrealizedPnl": -5.664633
+        "unrealizedPnl": -4.510576
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
         "quantity": 1.450587458,
-        "marketValue": 122.64862,
+        "marketValue": 123.601656,
         "weightPct": 24.8,
-        "unrealizedPnl": -7.522494
+        "unrealizedPnl": -6.569458
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 75.394576819,
-        "marketValue": 106.711222,
-        "weightPct": 21.6,
-        "unrealizedPnl": -4.885592
+        "marketValue": 106.984905,
+        "weightPct": 21.5,
+        "unrealizedPnl": -4.611909
       }
     ],
     "recentSignals": [
