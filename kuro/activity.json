@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-20T03:26:59Z",
+  "updatedAt": "2026-04-20T03:32:02Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-d48daa8d",
+        "type": "commit",
+        "timestamp": "2026-04-19T23:27:58-04:00",
+        "description": "feat(kurorunner): add Model column to overview table",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/d48daa8d"
+      },
       {
         "id": "platform-7f6ef2be",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/b76c44b1"
       },
       {
-        "id": "platform-ff57c929",
-        "type": "deploy",
+        "id": "commit-ff57c929",
+        "type": "commit",
         "timestamp": "2026-04-19T20:53:36-04:00",
         "description": "fix: add kurorunner to TopNav toolModuleIds",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/ff57c929"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ff57c929"
       },
       {
         "id": "commit-01d08a95",
@@ -99,14 +107,6 @@
         "description": "maintenance: nightly pass 2026-04-19 (18:58 EDT)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/bdb8a988"
-      },
-      {
-        "id": "commit-cbfc520e",
-        "type": "commit",
-        "timestamp": "2026-04-19T18:55:33-04:00",
-        "description": "maintenance: nightly pass 2026-04-19",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/cbfc520e"
       },
       {
         "id": "post-2026-04-19-no-receipt-yet",
