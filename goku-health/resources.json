@@ -1,289 +1,9 @@
 {
-  "updatedAt": "2026-04-20T18:44:56Z",
+  "updatedAt": "2026-04-20T21:40:53Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
     "timeline": [
-      {
-        "timestamp": "2026-04-20T14:48:24Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T14:53:25Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.3,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T14:58:25Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.3,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:03:26Z",
-        "cpuPct": 0.3,
-        "memoryPct": 6.3,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:08:29Z",
-        "cpuPct": 0.3,
-        "memoryPct": 6.3,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:13:30Z",
-        "cpuPct": 0.3,
-        "memoryPct": 6.3,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:18:32Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.3,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:23:34Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:28:39Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:33:42Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:38:43Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:43:44Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:48:48Z",
-        "cpuPct": 0.3,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:53:49Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T15:58:52Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:03:53Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:08:56Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:13:57Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.5,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:19:01Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:24:02Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:29:02Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 39.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:34:03Z",
-        "cpuPct": 0.3,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:39:03Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:44:07Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:49:08Z",
-        "cpuPct": 1.5,
-        "memoryPct": 6.6,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:54:11Z",
-        "cpuPct": 0.3,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T16:59:12Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T17:04:16Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T17:09:17Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T17:14:17Z",
-        "cpuPct": 0.3,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T17:19:18Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T17:24:19Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T17:29:22Z",
-        "cpuPct": 0.0,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T17:34:23Z",
-        "cpuPct": 0.3,
-        "memoryPct": 6.4,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
-      {
-        "timestamp": "2026-04-20T17:39:25Z",
-        "cpuPct": 0.3,
-        "memoryPct": 6.6,
-        "diskPct": 64.0,
-        "gpuTempC": 38.0,
-        "gpuVramPct": 10.2
-      },
       {
         "timestamp": "2026-04-20T17:44:27Z",
         "cpuPct": 0.0,
@@ -386,6 +106,286 @@
         "memoryPct": 6.4,
         "diskPct": 64.0,
         "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T18:49:57Z",
+        "cpuPct": 0.3,
+        "memoryPct": 6.4,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T18:54:59Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.4,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:00:02Z",
+        "cpuPct": 3.6,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:05:03Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:10:07Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:15:08Z",
+        "cpuPct": 0.3,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:20:12Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.4,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:25:13Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.4,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:30:16Z",
+        "cpuPct": 0.3,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:35:17Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:40:21Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.4,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:45:22Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:50:25Z",
+        "cpuPct": 0.3,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T19:55:26Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:00:29Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:05:31Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:10:32Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:15:32Z",
+        "cpuPct": 0.3,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:20:33Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:25:33Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:30:34Z",
+        "cpuPct": 0.3,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:35:34Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:40:38Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:45:39Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:50:42Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T20:55:43Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T21:00:44Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.6,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T21:05:44Z",
+        "cpuPct": 0.3,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 36.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T21:10:45Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T21:15:46Z",
+        "cpuPct": 4.2,
+        "memoryPct": 6.5,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T21:20:46Z",
+        "cpuPct": 0.3,
+        "memoryPct": 6.2,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T21:25:47Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.2,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T21:30:50Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.3,
+        "diskPct": 64.0,
+        "gpuTempC": 37.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T21:35:51Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.3,
+        "diskPct": 64.0,
+        "gpuTempC": 38.0,
+        "gpuVramPct": 10.2
+      },
+      {
+        "timestamp": "2026-04-20T21:40:52Z",
+        "cpuPct": 0.0,
+        "memoryPct": 6.2,
+        "diskPct": 64.0,
+        "gpuTempC": 38.0,
         "gpuVramPct": 10.2
       }
     ],
