@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-04-20T00:40:00.255713+00:00",
+  "updatedAt": "2026-04-20T00:40:00.342446+00:00",
   "source": "kurorunner",
   "version": 1,
   "job_id": "goku-infra-health",
   "runs": [
+    {
+      "ts": "2026-04-20T00:40:00.342375+00:00",
+      "exit": 1,
+      "duration_ms": 33,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "consecutive_errors": 65,
+      "error": "kuro-git-autocommit.timer is NOT active"
+    },
     {
       "ts": "2026-04-20T00:35:01.671674+00:00",
       "exit": 1,
@@ -173,15 +182,6 @@
       "tokens_in": 0,
       "tokens_out": 0,
       "consecutive_errors": 46,
-      "error": "kuro-git-autocommit.timer is NOT active"
-    },
-    {
-      "ts": "2026-04-19T23:00:03.292663+00:00",
-      "exit": 1,
-      "duration_ms": 43,
-      "tokens_in": 0,
-      "tokens_out": 0,
-      "consecutive_errors": 45,
       "error": "kuro-git-autocommit.timer is NOT active"
     }
   ]
