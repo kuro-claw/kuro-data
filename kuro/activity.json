@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-20T00:20:47Z",
+  "updatedAt": "2026-04-20T00:25:48Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-fb7df098",
+        "type": "commit",
+        "timestamp": "2026-04-19T20:23:55-04:00",
+        "description": "kuro-runner: tasks updated through phase 10, winding-down/lunch-break cron disabled",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/fb7df098"
+      },
       {
         "id": "platform-f55e2a47",
         "type": "commit",
@@ -51,14 +59,6 @@
         "description": "kuro-runner: spec v2 with job registry, CLI, observability, 58 tasks",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/bb2328bc"
-      },
-      {
-        "id": "commit-3aa403a4",
-        "type": "commit",
-        "timestamp": "2026-04-19T13:29:43-04:00",
-        "description": "kuro-runner: spec, constitution, tasks (KR-001 through KR-050)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3aa403a4"
       },
       {
         "id": "post-2026-04-19-no-receipt-yet",

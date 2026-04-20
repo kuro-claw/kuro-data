@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-20T00:20:46Z",
+  "updatedAt": "2026-04-20T00:25:48Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
@@ -10,7 +10,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z"
       },
       {
         "id": "kurotrader-dash",
@@ -18,7 +18,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z"
       },
       {
         "id": "kuroboard-api",
@@ -26,7 +26,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z"
       },
       {
         "id": "kuro-memory",
@@ -34,7 +34,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z"
       },
       {
         "id": "benzinga-ingest",
@@ -42,15 +42,16 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z"
       },
       {
         "id": "kuro-health-daemon",
         "name": "Health Daemon",
         "type": "systemd",
-        "status": "healthy",
+        "status": "warning",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z",
+        "detail": "not running"
       },
       {
         "id": "kuro-git-autocommit",
@@ -58,7 +59,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z"
       },
       {
         "id": "postgresql",
@@ -66,7 +67,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z"
       },
       {
         "id": "ollama",
@@ -74,7 +75,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z"
       },
       {
         "id": "searxng",
@@ -82,7 +83,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T00:20:46Z"
+        "lastCheckAt": "2026-04-20T00:25:47Z"
       }
     ]
   }

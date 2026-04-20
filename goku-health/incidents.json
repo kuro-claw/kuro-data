@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-04-20T00:20:46Z",
+  "updatedAt": "2026-04-20T00:25:48Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
-    "incidents": []
+    "incidents": [
+      {
+        "id": "svc-kuro-health-daemon-2026-04-20",
+        "openedAt": "2026-04-20T00:25:47Z",
+        "severity": "warning",
+        "title": "Health Daemon warning",
+        "serviceId": "kuro-health-daemon",
+        "detail": "not running"
+      }
+    ]
   }
 }
