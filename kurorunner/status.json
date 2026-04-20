@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-20T12:20:00.162397+00:00",
+  "updatedAt": "2026-04-20T12:25:04.422152+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -75,9 +75,9 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-20T12:20:00.161353+00:00",
+        "last_run_ts": "2026-04-20T12:25:04.422089+00:00",
         "last_exit": 0,
-        "last_duration_ms": 34,
+        "last_duration_ms": 48,
         "consecutive_errors": 0,
         "last_error": "Ollama unreachable (localhost:11434)"
       },
@@ -97,9 +97,9 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-20T12:20:00.143317+00:00",
+        "last_run_ts": "2026-04-20T12:25:04.390314+00:00",
         "last_exit": 0,
-        "last_duration_ms": 17,
+        "last_duration_ms": 15,
         "consecutive_errors": 0,
         "last_error": "kuro-memory: last distillation 8.3h ago (threshold 4h)"
       },
@@ -108,7 +108,7 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-20T12:20:00.162292+00:00",
+        "last_run_ts": "2026-04-20T12:25:04.420445+00:00",
         "last_exit": 0,
         "last_duration_ms": 35,
         "consecutive_errors": 0,
@@ -185,7 +185,7 @@
       "total_jobs": 16,
       "healthy": 15,
       "failing": 1,
-      "last_updated": "2026-04-20T12:20:00.162292+00:00"
+      "last_updated": "2026-04-20T12:25:04.422089+00:00"
     }
   }
 }
