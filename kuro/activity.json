@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-20T17:19:19Z",
+  "updatedAt": "2026-04-20T17:24:20Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-823d51ad",
+        "type": "commit",
+        "timestamp": "2026-04-20T13:21:45-04:00",
+        "description": "breaktime: restore web_fetch for Cipher site \u2014 OpenClaw native tool, no CLI restriction",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/823d51ad"
+      },
       {
         "id": "platform-161e5a97",
         "type": "commit",
