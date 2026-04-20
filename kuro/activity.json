@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-20T01:16:07Z",
+  "updatedAt": "2026-04-20T01:21:08Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-b76c44b1",
+        "type": "commit",
+        "timestamp": "2026-04-19T21:21:07-04:00",
+        "description": "add kuro-runbook-winding-down skill",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b76c44b1"
+      },
       {
         "id": "platform-ff57c929",
         "type": "deploy",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/b3691bfc"
       },
       {
-        "id": "platform-fb7df098",
+        "id": "commit-fb7df098",
         "type": "commit",
         "timestamp": "2026-04-19T20:23:55-04:00",
         "description": "kuro-runner: tasks updated through phase 10, winding-down/lunch-break cron disabled",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/fb7df098"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fb7df098"
       },
       {
         "id": "commit-f55e2a47",
