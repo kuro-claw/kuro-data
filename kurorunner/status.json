@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-20T12:00:31.272965+00:00",
+  "updatedAt": "2026-04-20T12:00:32.595003+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -75,11 +75,11 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-20T03:55:05.546643+00:00",
-        "last_exit": 0,
-        "last_duration_ms": 38,
-        "consecutive_errors": 0,
-        "last_error": "kuro-runner-git-autocommit.service is NOT active"
+        "last_run_ts": "2026-04-20T12:00:32.594945+00:00",
+        "last_exit": 1,
+        "last_duration_ms": 1326,
+        "consecutive_errors": 1,
+        "last_error": "Ollama unreachable (localhost:11434)"
       },
       {
         "id": "identity-review",
@@ -183,9 +183,9 @@
     ],
     "summary": {
       "total_jobs": 16,
-      "healthy": 13,
-      "failing": 3,
-      "last_updated": "2026-04-20T12:00:31.272914+00:00"
+      "healthy": 12,
+      "failing": 4,
+      "last_updated": "2026-04-20T12:00:32.594945+00:00"
     }
   }
 }

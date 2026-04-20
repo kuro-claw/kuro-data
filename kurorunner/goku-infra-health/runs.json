@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-04-20T12:00:31.272965+00:00",
+  "updatedAt": "2026-04-20T12:00:32.595003+00:00",
   "source": "kurorunner",
   "version": 1,
   "job_id": "goku-infra-health",
   "runs": [
+    {
+      "ts": "2026-04-20T12:00:32.594945+00:00",
+      "exit": 1,
+      "duration_ms": 1326,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "consecutive_errors": 1,
+      "error": "Ollama unreachable (localhost:11434)"
+    },
     {
       "ts": "2026-04-20T03:55:05.546643+00:00",
       "exit": 0,
@@ -174,15 +183,6 @@
       "tokens_out": 0,
       "consecutive_errors": 1,
       "error": "kuro-git-autocommit.service is NOT active"
-    },
-    {
-      "ts": "2026-04-20T02:30:03.542455+00:00",
-      "exit": 0,
-      "duration_ms": 38,
-      "tokens_in": 0,
-      "tokens_out": 0,
-      "consecutive_errors": 0,
-      "error": null
     }
   ]
 }
