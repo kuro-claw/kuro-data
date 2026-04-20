@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-20T15:03:26Z",
+  "updatedAt": "2026-04-20T15:08:30Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
@@ -10,7 +10,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z"
+        "lastCheckAt": "2026-04-20T15:08:29Z"
       },
       {
         "id": "kurotrader-dash",
@@ -18,7 +18,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z"
+        "lastCheckAt": "2026-04-20T15:08:29Z"
       },
       {
         "id": "kuroboard-api",
@@ -26,7 +26,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z"
+        "lastCheckAt": "2026-04-20T15:08:29Z"
       },
       {
         "id": "kuro-memory",
@@ -34,7 +34,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z"
+        "lastCheckAt": "2026-04-20T15:08:29Z"
       },
       {
         "id": "benzinga-ingest",
@@ -42,7 +42,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z"
+        "lastCheckAt": "2026-04-20T15:08:29Z"
       },
       {
         "id": "kuro-health-daemon",
@@ -50,7 +50,7 @@
         "type": "systemd",
         "status": "warning",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z",
+        "lastCheckAt": "2026-04-20T15:08:29Z",
         "detail": "not running"
       },
       {
@@ -59,7 +59,7 @@
         "type": "systemd",
         "status": "warning",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z",
+        "lastCheckAt": "2026-04-20T15:08:29Z",
         "detail": "not running"
       },
       {
@@ -68,7 +68,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z"
+        "lastCheckAt": "2026-04-20T15:08:29Z"
       },
       {
         "id": "ollama",
@@ -76,7 +76,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z"
+        "lastCheckAt": "2026-04-20T15:08:29Z"
       },
       {
         "id": "searxng",
@@ -84,7 +84,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-20T15:03:26Z"
+        "lastCheckAt": "2026-04-20T15:08:29Z"
       }
     ]
   }
