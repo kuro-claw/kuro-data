@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-21T01:31:03Z",
+  "updatedAt": "2026-04-21T01:32:18Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-d2d0ce16",
+        "type": "commit",
+        "timestamp": "2026-04-20T21:31:17-04:00",
+        "description": "stop monitoring runner-owned services",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/d2d0ce16"
+      },
       {
         "id": "platform-a2f8030d",
         "type": "commit",
@@ -13,12 +21,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/a2f8030d"
       },
       {
-        "id": "platform-ceaa7b88",
+        "id": "commit-ceaa7b88",
         "type": "commit",
         "timestamp": "2026-04-20T18:52:44-04:00",
         "description": "document profile researcher cron move",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/ceaa7b88"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ceaa7b88"
       },
       {
         "id": "commit-49996e0d",
