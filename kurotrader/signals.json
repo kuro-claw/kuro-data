@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-21T12:58:02Z",
+  "updatedAt": "2026-04-21T13:03:02Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "6588",
+        "timestamp": "2026-04-21T13:00:32Z",
+        "symbol": "SOL-USD",
+        "action": "buy",
+        "confidence": 0.6975,
+        "executed": false
+      },
+      {
+        "id": "6587",
+        "timestamp": "2026-04-21T13:00:32Z",
+        "symbol": "XRP-USD",
+        "action": "buy",
+        "confidence": 0.7268,
+        "executed": false
+      },
+      {
+        "id": "6586",
+        "timestamp": "2026-04-21T13:00:32Z",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.8013,
+        "executed": false
+      },
+      {
+        "id": "6585",
+        "timestamp": "2026-04-21T13:00:32Z",
+        "symbol": "BTC-USD",
+        "action": "buy",
+        "confidence": 0.6406,
+        "executed": false
+      },
       {
         "id": "6584",
         "timestamp": "2026-04-21T12:45:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "6579",
         "timestamp": "2026-04-21T12:30:32Z",
-        "symbol": "XRP-USD",
-        "action": "buy",
-        "confidence": 0.7743,
-        "executed": false
-      },
-      {
-        "id": "6578",
-        "timestamp": "2026-04-21T12:30:32Z",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.7508,
-        "executed": false
-      },
-      {
-        "id": "6577",
-        "timestamp": "2026-04-21T12:30:32Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6576",
-        "timestamp": "2026-04-21T12:15:32Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.2426,
-        "executed": false
-      },
-      {
-        "id": "6575",
-        "timestamp": "2026-04-21T12:15:32Z",
         "symbol": "XRP-USD",
         "action": "buy",
         "confidence": 0.7743,
