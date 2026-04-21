@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-21T00:50:01.140946+00:00",
+  "updatedAt": "2026-04-21T00:50:01.171076+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -31,9 +31,9 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-21T00:45:00.173662+00:00",
+        "last_run_ts": "2026-04-21T00:50:01.170988+00:00",
         "last_exit": 0,
-        "last_duration_ms": 56,
+        "last_duration_ms": 39,
         "consecutive_errors": 0,
         "last_error": "Ollama unreachable (localhost:11434)"
       },
@@ -53,9 +53,9 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-21T00:45:00.164546+00:00",
+        "last_run_ts": "2026-04-21T00:50:01.170997+00:00",
         "last_exit": 0,
-        "last_duration_ms": 35,
+        "last_duration_ms": 34,
         "consecutive_errors": 0,
         "last_error": "KuroTrader cycle stale: last update 495min ago (threshold 20min)"
       },
@@ -75,7 +75,7 @@
       "total_jobs": 6,
       "healthy": 6,
       "failing": 0,
-      "last_updated": "2026-04-21T00:50:01.140898+00:00"
+      "last_updated": "2026-04-21T00:50:01.170997+00:00"
     }
   }
 }
