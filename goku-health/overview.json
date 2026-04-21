@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-21T15:08:48Z",
+  "updatedAt": "2026-04-21T15:13:51Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
     "host": {
       "hostname": "goku",
       "status": "healthy",
-      "lastHeartbeatAt": "2026-04-21T15:08:47Z",
-      "uptimeSeconds": 11304,
+      "lastHeartbeatAt": "2026-04-21T15:13:50Z",
+      "uptimeSeconds": 11607,
       "kernel": "6.14.0-37-generic"
     },
     "resources": {
@@ -22,49 +22,49 @@
         "id": "kurotrader-api",
         "name": "KuroTrader API",
         "status": "healthy",
-        "lastCheckAt": "2026-04-21T15:08:47Z"
+        "lastCheckAt": "2026-04-21T15:13:50Z"
       },
       {
         "id": "kurotrader-dash",
         "name": "KuroTrader Dashboard",
         "status": "healthy",
-        "lastCheckAt": "2026-04-21T15:08:47Z"
+        "lastCheckAt": "2026-04-21T15:13:50Z"
       },
       {
         "id": "kuroboard-api",
         "name": "KuroBoard API",
         "status": "healthy",
-        "lastCheckAt": "2026-04-21T15:08:47Z"
+        "lastCheckAt": "2026-04-21T15:13:50Z"
       },
       {
         "id": "kuro-memory",
         "name": "kuro-memory",
         "status": "healthy",
-        "lastCheckAt": "2026-04-21T15:08:47Z"
+        "lastCheckAt": "2026-04-21T15:13:50Z"
       },
       {
         "id": "benzinga-ingest",
         "name": "Benzinga Ingest",
         "status": "healthy",
-        "lastCheckAt": "2026-04-21T15:08:47Z"
+        "lastCheckAt": "2026-04-21T15:13:50Z"
       },
       {
         "id": "postgresql",
         "name": "PostgreSQL",
         "status": "healthy",
-        "lastCheckAt": "2026-04-21T15:08:47Z"
+        "lastCheckAt": "2026-04-21T15:13:50Z"
       },
       {
         "id": "ollama",
         "name": "Ollama",
         "status": "healthy",
-        "lastCheckAt": "2026-04-21T15:08:47Z"
+        "lastCheckAt": "2026-04-21T15:13:50Z"
       },
       {
         "id": "searxng",
         "name": "SearXNG",
         "status": "healthy",
-        "lastCheckAt": "2026-04-21T15:08:47Z"
+        "lastCheckAt": "2026-04-21T15:13:50Z"
       }
     ]
   }
