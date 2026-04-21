@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-21T19:40:29Z",
+  "updatedAt": "2026-04-21T19:45:32Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
@@ -17,8 +17,8 @@
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-04-21T19:30:32Z",
-      "staleCycleMinutes": 9
+      "lastCycleAt": "2026-04-21T19:45:32Z",
+      "staleCycleMinutes": 0
     },
     "topPositions": [
       {
@@ -56,43 +56,43 @@
     ],
     "recentSignals": [
       {
+        "id": "6696",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "generatedAt": "2026-04-21T19:45:32Z",
+        "executed": false
+      },
+      {
+        "id": "6695",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "generatedAt": "2026-04-21T19:45:32Z",
+        "executed": false
+      },
+      {
+        "id": "6694",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.5822,
+        "generatedAt": "2026-04-21T19:45:32Z",
+        "executed": false
+      },
+      {
+        "id": "6693",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.4593,
+        "generatedAt": "2026-04-21T19:45:32Z",
+        "executed": false
+      },
+      {
         "id": "6692",
         "symbol": "SOL-USD",
         "action": "buy",
         "confidence": 0.5745,
         "generatedAt": "2026-04-21T19:30:32Z",
-        "executed": false
-      },
-      {
-        "id": "6691",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.2813,
-        "generatedAt": "2026-04-21T19:30:32Z",
-        "executed": false
-      },
-      {
-        "id": "6690",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.2487,
-        "generatedAt": "2026-04-21T19:30:32Z",
-        "executed": false
-      },
-      {
-        "id": "6689",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "generatedAt": "2026-04-21T19:30:32Z",
-        "executed": false
-      },
-      {
-        "id": "6688",
-        "symbol": "SOL-USD",
-        "action": "buy",
-        "confidence": 0.66,
-        "generatedAt": "2026-04-21T19:15:32Z",
         "executed": false
       }
     ]
