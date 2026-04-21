@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-21T04:00:00.661828+00:00",
+  "updatedAt": "2026-04-21T12:00:30.361231+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -31,9 +31,9 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-21T03:55:03.918496+00:00",
+        "last_run_ts": "2026-04-21T04:00:00.665001+00:00",
         "last_exit": 0,
-        "last_duration_ms": 40,
+        "last_duration_ms": 38,
         "consecutive_errors": 0,
         "last_error": "Ollama unreachable (localhost:11434)"
       },
@@ -42,10 +42,10 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-21T04:00:00.643604+00:00",
-        "last_exit": 0,
-        "last_duration_ms": 17,
-        "consecutive_errors": 0,
+        "last_run_ts": "2026-04-21T12:00:30.340331+00:00",
+        "last_exit": 1,
+        "last_duration_ms": 52,
+        "consecutive_errors": 1,
         "last_error": "kuro-memory: last distillation 8.3h ago (threshold 4h)"
       },
       {
@@ -53,10 +53,10 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-21T04:00:00.661776+00:00",
-        "last_exit": 0,
-        "last_duration_ms": 35,
-        "consecutive_errors": 0,
+        "last_run_ts": "2026-04-21T12:00:30.361162+00:00",
+        "last_exit": 1,
+        "last_duration_ms": 75,
+        "consecutive_errors": 1,
         "last_error": "KuroTrader cycle stale: last update 495min ago (threshold 20min)"
       },
       {
@@ -73,9 +73,9 @@
     ],
     "summary": {
       "total_jobs": 6,
-      "healthy": 6,
-      "failing": 0,
-      "last_updated": "2026-04-21T04:00:00.661776+00:00"
+      "healthy": 4,
+      "failing": 2,
+      "last_updated": "2026-04-21T12:00:30.361162+00:00"
     }
   }
 }
