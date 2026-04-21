@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-21T21:26:16Z",
+  "updatedAt": "2026-04-21T21:31:18Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "6724",
+        "timestamp": "2026-04-21T21:30:32Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.3249,
+        "executed": false
+      },
+      {
+        "id": "6723",
+        "timestamp": "2026-04-21T21:30:32Z",
+        "symbol": "XRP-USD",
+        "action": "buy",
+        "confidence": 0.6897,
+        "executed": false
+      },
+      {
+        "id": "6722",
+        "timestamp": "2026-04-21T21:30:32Z",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.2809,
+        "executed": false
+      },
+      {
+        "id": "6721",
+        "timestamp": "2026-04-21T21:30:32Z",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.2152,
+        "executed": false
+      },
       {
         "id": "6720",
         "timestamp": "2026-04-21T21:15:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "6715",
         "timestamp": "2026-04-21T21:00:32Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.2476,
-        "executed": false
-      },
-      {
-        "id": "6714",
-        "timestamp": "2026-04-21T21:00:32Z",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.232,
-        "executed": false
-      },
-      {
-        "id": "6713",
-        "timestamp": "2026-04-21T21:00:32Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.2091,
-        "executed": false
-      },
-      {
-        "id": "6712",
-        "timestamp": "2026-04-21T20:45:32Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6711",
-        "timestamp": "2026-04-21T20:45:32Z",
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.2476,
