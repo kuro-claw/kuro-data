@@ -1,57 +1,57 @@
 {
-  "updatedAt": "2026-04-21T19:45:32Z",
+  "updatedAt": "2026-04-21T19:50:34Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 502.19,
+      "equity": 496.01,
       "cash": 1.75,
       "buyingPower": 1.75,
-      "dayPnl": -1.48,
-      "totalPnl": 2.19,
-      "totalReturnPct": 0.44,
-      "drawdownPct": 6.17,
-      "updatedAt": "2026-04-21T19:30:35Z"
+      "dayPnl": -8.33,
+      "totalPnl": -3.99,
+      "totalReturnPct": -0.8,
+      "drawdownPct": 7.33,
+      "updatedAt": "2026-04-21T19:45:41Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
       "lastCycleAt": "2026-04-21T19:45:32Z",
-      "staleCycleMinutes": 0
+      "staleCycleMinutes": 5
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
         "quantity": 0.002330421,
-        "marketValue": 176.495949,
-        "weightPct": 35.1,
-        "unrealizedPnl": -2.666558
+        "marketValue": 174.6043,
+        "weightPct": 35.2,
+        "unrealizedPnl": -4.558207
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
         "quantity": 0.039387628,
-        "marketValue": 91.572296,
+        "marketValue": 90.185419,
         "weightPct": 18.2,
-        "unrealizedPnl": -3.880374
+        "unrealizedPnl": -5.267251
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
         "quantity": 1.450587458,
-        "marketValue": 124.40238,
-        "weightPct": 24.8,
-        "unrealizedPnl": -5.768734
+        "marketValue": 122.69794,
+        "weightPct": 24.7,
+        "unrealizedPnl": -7.473174
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 75.394576819,
-        "marketValue": 107.965034,
+        "marketValue": 106.7738,
         "weightPct": 21.5,
-        "unrealizedPnl": -3.63178
+        "unrealizedPnl": -4.823014
       }
     ],
     "recentSignals": [
