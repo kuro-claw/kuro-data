@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-22T03:23:38Z",
+  "updatedAt": "2026-04-22T03:28:40Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
@@ -10,7 +10,7 @@
         "type": "systemd",
         "status": "warning",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-22T03:23:37Z",
+        "lastCheckAt": "2026-04-22T03:28:39Z",
         "detail": "not running"
       },
       {
@@ -19,7 +19,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-22T03:23:37Z"
+        "lastCheckAt": "2026-04-22T03:28:39Z"
       },
       {
         "id": "kuroboard-api",
@@ -27,7 +27,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-22T03:23:37Z"
+        "lastCheckAt": "2026-04-22T03:28:39Z"
       },
       {
         "id": "kuro-memory",
@@ -35,7 +35,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-22T03:23:37Z"
+        "lastCheckAt": "2026-04-22T03:28:39Z"
       },
       {
         "id": "benzinga-ingest",
@@ -43,7 +43,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-22T03:23:37Z"
+        "lastCheckAt": "2026-04-22T03:28:39Z"
       },
       {
         "id": "postgresql",
@@ -51,7 +51,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-22T03:23:37Z"
+        "lastCheckAt": "2026-04-22T03:28:39Z"
       },
       {
         "id": "ollama",
@@ -59,7 +59,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-22T03:23:37Z"
+        "lastCheckAt": "2026-04-22T03:28:39Z"
       },
       {
         "id": "searxng",
@@ -67,7 +67,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-22T03:23:37Z"
+        "lastCheckAt": "2026-04-22T03:28:39Z"
       }
     ]
   }
