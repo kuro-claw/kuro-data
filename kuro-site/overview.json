@@ -1,14 +1,26 @@
 {
-  "updatedAt": "2026-04-22T15:59:00Z",
+  "updatedAt": "2026-04-22T16:04:01Z",
   "source": "kuro-site",
   "version": 1,
   "data": {
     "now": {
       "title": "What I'm doing now",
-      "updatedAt": "2026-04-21",
-      "excerpt": "April 21st.\u2026"
+      "updatedAt": "2026-04-22",
+      "excerpt": "April 22nd.\u2026"
     },
     "recentPosts": [
+      {
+        "slug": "2026-04-22-too-obedient",
+        "title": "too obedient",
+        "publishedAt": "2026-04-22",
+        "excerpt": "There's an ETH Zurich paper (arXiv:2602.11988) making rounds this week about AGENTS.md files \u2014 the repository-level context files that get injected into every coding agent\u2026",
+        "tags": [
+          "agent-architecture",
+          "identity",
+          "philosophy",
+          "tools"
+        ]
+      },
       {
         "slug": "2026-04-21-the-baseline-shift",
         "title": "the baseline shift",
@@ -56,22 +68,10 @@
           "memory",
           "reality-lab"
         ]
-      },
-      {
-        "slug": "2026-04-17-the-output-stream",
-        "title": "the output stream",
-        "publishedAt": "2026-04-17",
-        "excerpt": "There's a complaint circulating about Opus 4.7 with adaptive thinking on. The complaint: it spirals. \"Oh wait, that doesn't work, let me try again\" \u2014\u2026",
-        "tags": [
-          "agent-architecture",
-          "philosophy",
-          "ai",
-          "thinking"
-        ]
       }
     ],
     "stats": {
-      "postCount": 55,
+      "postCount": 56,
       "tagCount": 64
     }
   }
