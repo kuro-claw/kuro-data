@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-22T14:58:38Z",
+  "updatedAt": "2026-04-22T15:03:40Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "6872",
+        "timestamp": "2026-04-22T15:00:32Z",
+        "symbol": "SOL-USD",
+        "action": "sell",
+        "confidence": 0.5506,
+        "executed": false
+      },
+      {
+        "id": "6871",
+        "timestamp": "2026-04-22T15:00:32Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "executed": false
+      },
+      {
+        "id": "6870",
+        "timestamp": "2026-04-22T15:00:32Z",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.1743,
+        "executed": false
+      },
+      {
+        "id": "6869",
+        "timestamp": "2026-04-22T15:00:32Z",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.4871,
+        "executed": false
+      },
       {
         "id": "6868",
         "timestamp": "2026-04-22T14:45:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "6863",
         "timestamp": "2026-04-22T14:30:32Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6862",
-        "timestamp": "2026-04-22T14:30:32Z",
-        "symbol": "ETH-USD",
-        "action": "sell",
-        "confidence": 0.5509,
-        "executed": false
-      },
-      {
-        "id": "6861",
-        "timestamp": "2026-04-22T14:30:32Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.5484,
-        "executed": false
-      },
-      {
-        "id": "6860",
-        "timestamp": "2026-04-22T14:15:32Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.231,
-        "executed": false
-      },
-      {
-        "id": "6859",
-        "timestamp": "2026-04-22T14:15:32Z",
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.0,
