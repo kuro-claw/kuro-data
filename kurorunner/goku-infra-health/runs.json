@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-04-22T19:30:02.161827+00:00",
+  "updatedAt": "2026-04-22T19:30:02.191204+00:00",
   "source": "kurorunner",
   "version": 1,
   "job_id": "goku-infra-health",
   "runs": [
+    {
+      "ts": "2026-04-22T19:30:02.191124+00:00",
+      "exit": 0,
+      "duration_ms": 66,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "consecutive_errors": 0,
+      "error": null
+    },
     {
       "ts": "2026-04-22T19:25:00.173212+00:00",
       "exit": 0,
@@ -170,15 +179,6 @@
       "ts": "2026-04-22T17:55:01.431340+00:00",
       "exit": 0,
       "duration_ms": 58,
-      "tokens_in": 0,
-      "tokens_out": 0,
-      "consecutive_errors": 0,
-      "error": null
-    },
-    {
-      "ts": "2026-04-22T17:50:04.178338+00:00",
-      "exit": 0,
-      "duration_ms": 59,
       "tokens_in": 0,
       "tokens_out": 0,
       "consecutive_errors": 0,
