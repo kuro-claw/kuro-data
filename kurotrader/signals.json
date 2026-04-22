@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-22T14:28:25Z",
+  "updatedAt": "2026-04-22T14:33:28Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "6864",
+        "timestamp": "2026-04-22T14:30:32Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.3166,
+        "executed": false
+      },
+      {
+        "id": "6863",
+        "timestamp": "2026-04-22T14:30:32Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "executed": false
+      },
+      {
+        "id": "6862",
+        "timestamp": "2026-04-22T14:30:32Z",
+        "symbol": "ETH-USD",
+        "action": "sell",
+        "confidence": 0.5509,
+        "executed": false
+      },
+      {
+        "id": "6861",
+        "timestamp": "2026-04-22T14:30:32Z",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.5484,
+        "executed": false
+      },
       {
         "id": "6860",
         "timestamp": "2026-04-22T14:15:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "6855",
         "timestamp": "2026-04-22T14:00:32Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6854",
-        "timestamp": "2026-04-22T14:00:32Z",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.3946,
-        "executed": false
-      },
-      {
-        "id": "6853",
-        "timestamp": "2026-04-22T14:00:32Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "6852",
-        "timestamp": "2026-04-22T13:45:32Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.2701,
-        "executed": false
-      },
-      {
-        "id": "6851",
-        "timestamp": "2026-04-22T13:45:32Z",
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.0,
