@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-04-22T02:13:08Z",
+  "updatedAt": "2026-04-22T02:18:09Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
-    "incidents": []
+    "incidents": [
+      {
+        "id": "svc-kurotrader-api-2026-04-22",
+        "openedAt": "2026-04-22T02:18:08Z",
+        "severity": "warning",
+        "title": "KuroTrader API warning",
+        "serviceId": "kurotrader-api",
+        "detail": "not running"
+      }
+    ]
   }
 }
