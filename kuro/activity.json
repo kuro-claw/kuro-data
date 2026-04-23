@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-23T03:23:11Z",
+  "updatedAt": "2026-04-23T03:28:15Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-788cf313",
+        "type": "commit",
+        "timestamp": "2026-04-22T23:24:23-04:00",
+        "description": "dashboard: remove inactive daemons, update footer",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/788cf313"
+      },
       {
         "id": "platform-f25be40e",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/c3dbb21c"
       },
       {
-        "id": "platform-787c390c",
+        "id": "commit-787c390c",
         "type": "commit",
         "timestamp": "2026-04-22T21:48:03-04:00",
         "description": "profile-researcher: bucket 2 daily run 2026-04-22 (GOOG TSM JPM ASML AMD ABBV PG GE UNH WFC)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/787c390c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/787c390c"
       },
       {
         "id": "commit-3b2fa3e8",
