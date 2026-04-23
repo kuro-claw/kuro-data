@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-23T20:30:53Z",
+  "updatedAt": "2026-04-23T20:35:55Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "7216",
+        "timestamp": "2026-04-23T20:33:12Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.3716,
+        "executed": false
+      },
+      {
+        "id": "7215",
+        "timestamp": "2026-04-23T20:33:12Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.3002,
+        "executed": false
+      },
+      {
+        "id": "7214",
+        "timestamp": "2026-04-23T20:33:12Z",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.5927,
+        "executed": false
+      },
+      {
+        "id": "7213",
+        "timestamp": "2026-04-23T20:33:12Z",
+        "symbol": "BTC-USD",
+        "action": "buy",
+        "confidence": 0.6102,
+        "executed": false
+      },
       {
         "id": "7212",
         "timestamp": "2026-04-23T20:18:12Z",
@@ -47,38 +79,6 @@
       {
         "id": "7207",
         "timestamp": "2026-04-23T20:03:12Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.7351,
-        "executed": false
-      },
-      {
-        "id": "7206",
-        "timestamp": "2026-04-23T20:03:12Z",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.6132,
-        "executed": false
-      },
-      {
-        "id": "7205",
-        "timestamp": "2026-04-23T20:03:12Z",
-        "symbol": "BTC-USD",
-        "action": "buy",
-        "confidence": 0.6027,
-        "executed": false
-      },
-      {
-        "id": "7204",
-        "timestamp": "2026-04-23T19:48:12Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "7203",
-        "timestamp": "2026-04-23T19:48:12Z",
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.7351,
