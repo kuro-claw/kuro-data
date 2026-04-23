@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-23T12:57:46Z",
+  "updatedAt": "2026-04-23T13:02:49Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "7096",
+        "timestamp": "2026-04-23T13:00:33Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.3201,
+        "executed": false
+      },
+      {
+        "id": "7095",
+        "timestamp": "2026-04-23T13:00:33Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.3937,
+        "executed": false
+      },
+      {
+        "id": "7094",
+        "timestamp": "2026-04-23T13:00:33Z",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.6907,
+        "executed": false
+      },
+      {
+        "id": "7093",
+        "timestamp": "2026-04-23T13:00:33Z",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.389,
+        "executed": false
+      },
       {
         "id": "7092",
         "timestamp": "2026-04-23T12:45:33Z",
@@ -47,38 +79,6 @@
       {
         "id": "7087",
         "timestamp": "2026-04-23T12:30:33Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.3937,
-        "executed": false
-      },
-      {
-        "id": "7086",
-        "timestamp": "2026-04-23T12:30:33Z",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.6017,
-        "executed": false
-      },
-      {
-        "id": "7085",
-        "timestamp": "2026-04-23T12:30:33Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.3702,
-        "executed": false
-      },
-      {
-        "id": "7084",
-        "timestamp": "2026-04-23T12:15:33Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "7083",
-        "timestamp": "2026-04-23T12:15:33Z",
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.3937,
