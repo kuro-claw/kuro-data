@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-23T00:37:18Z",
+  "updatedAt": "2026-04-23T00:42:19Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
@@ -8,9 +8,10 @@
         "id": "kurotrader-api",
         "name": "KuroTrader API",
         "type": "systemd",
-        "status": "healthy",
+        "status": "unknown",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-23T00:37:18Z"
+        "lastCheckAt": "2026-04-23T00:42:19Z",
+        "detail": "activating"
       },
       {
         "id": "kurotrader-dash",
@@ -18,7 +19,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-23T00:37:18Z"
+        "lastCheckAt": "2026-04-23T00:42:19Z"
       },
       {
         "id": "kuroboard-api",
@@ -26,7 +27,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-23T00:37:18Z"
+        "lastCheckAt": "2026-04-23T00:42:19Z"
       },
       {
         "id": "kuro-memory",
@@ -34,7 +35,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-23T00:37:18Z"
+        "lastCheckAt": "2026-04-23T00:42:19Z"
       },
       {
         "id": "benzinga-ingest",
@@ -42,7 +43,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-23T00:37:18Z"
+        "lastCheckAt": "2026-04-23T00:42:19Z"
       },
       {
         "id": "postgresql",
@@ -50,7 +51,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-23T00:37:18Z"
+        "lastCheckAt": "2026-04-23T00:42:19Z"
       },
       {
         "id": "ollama",
@@ -58,7 +59,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-23T00:37:18Z"
+        "lastCheckAt": "2026-04-23T00:42:19Z"
       },
       {
         "id": "searxng",
@@ -66,7 +67,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-23T00:37:18Z"
+        "lastCheckAt": "2026-04-23T00:42:19Z"
       }
     ]
   }
