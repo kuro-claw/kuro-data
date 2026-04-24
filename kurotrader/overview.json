@@ -1,57 +1,57 @@
 {
-  "updatedAt": "2026-04-24T03:58:49Z",
+  "updatedAt": "2026-04-24T12:02:24Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 505.38,
+      "equity": 509.43,
       "cash": 1.75,
       "buyingPower": 1.75,
-      "dayPnl": -0.68,
-      "totalPnl": 5.38,
-      "totalReturnPct": 1.08,
-      "drawdownPct": 5.58,
-      "updatedAt": "2026-04-24T03:48:12Z"
+      "dayPnl": 2.94,
+      "totalPnl": 9.43,
+      "totalReturnPct": 1.89,
+      "drawdownPct": 4.82,
+      "updatedAt": "2026-04-24T12:00:34Z"
     },
     "health": {
-      "cycleStatus": "healthy",
-      "executionStatus": "healthy",
+      "cycleStatus": "error",
+      "executionStatus": "warning",
       "modelAgreementStatus": "healthy",
       "lastCycleAt": "2026-04-24T03:48:12Z",
-      "staleCycleMinutes": 10
+      "staleCycleMinutes": 494
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
         "quantity": 0.002330421,
-        "marketValue": 180.883316,
+        "marketValue": 182.456532,
         "weightPct": 35.8,
-        "unrealizedPnl": 1.720809
+        "unrealizedPnl": 3.294025
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
         "quantity": 0.039387628,
-        "marketValue": 90.935745,
+        "marketValue": 91.796569,
         "weightPct": 18.0,
-        "unrealizedPnl": -4.516925
+        "unrealizedPnl": -3.656101
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
         "quantity": 1.450587458,
-        "marketValue": 123.811991,
+        "marketValue": 124.769379,
         "weightPct": 24.5,
-        "unrealizedPnl": -6.359123
+        "unrealizedPnl": -5.401735
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 75.394576819,
-        "marketValue": 108.003485,
-        "weightPct": 21.4,
-        "unrealizedPnl": -3.593329
+        "marketValue": 108.662434,
+        "weightPct": 21.3,
+        "unrealizedPnl": -2.93438
       }
     ],
     "recentSignals": [
