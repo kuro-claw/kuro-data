@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-04-24T13:40:01.952555+00:00",
+  "updatedAt": "2026-04-24T13:40:01.969868+00:00",
   "source": "kurorunner",
   "version": 1,
   "job_id": "kurotrader-health",
   "runs": [
+    {
+      "ts": "2026-04-24T13:40:01.969814+00:00",
+      "exit": 0,
+      "duration_ms": 34,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "consecutive_errors": 0,
+      "error": null
+    },
     {
       "ts": "2026-04-24T13:35:04.729966+00:00",
       "exit": 0,
@@ -174,15 +183,6 @@
       "tokens_out": 0,
       "consecutive_errors": 0,
       "error": null
-    },
-    {
-      "ts": "2026-04-24T12:00:30.934315+00:00",
-      "exit": 1,
-      "duration_ms": 75,
-      "tokens_in": 0,
-      "tokens_out": 0,
-      "consecutive_errors": 1,
-      "error": "KuroTrader cycle stale: last update 492min ago (threshold 20min)"
     }
   ]
 }
