@@ -1,15 +1,24 @@
 {
-  "updatedAt": "2026-04-24T14:13:13Z",
+  "updatedAt": "2026-04-24T14:18:17Z",
   "source": "kuroboard-daemon",
   "version": 1,
   "data": {
     "notifications": [
       {
+        "id": "trader-drawdown-2026-04-24",
+        "level": "warning",
+        "title": "KuroTrader drawdown 5.2%",
+        "body": "Portfolio drawdown is above 5% (currently 5.2%).",
+        "createdAt": "2026-04-24T14:18:16Z",
+        "read": false,
+        "source": "kurotrader"
+      },
+      {
         "id": "task-failed-kl-smoke-codex-1773529982",
         "level": "error",
         "title": "Task failed: Compute VM codex smoke 4",
         "body": "Task in project KuroLoop failed and needs attention.",
-        "createdAt": "2026-04-24T14:13:12Z",
+        "createdAt": "2026-04-24T14:18:16Z",
         "read": false,
         "source": "kuroloop",
         "relatedProjectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b"
@@ -19,7 +28,7 @@
         "level": "error",
         "title": "Task failed: Feature 06 T3: Budget ledger \u2014 weekly per-account spend tracking",
         "body": "Task in project KuroLoop failed and needs attention.",
-        "createdAt": "2026-04-24T14:13:12Z",
+        "createdAt": "2026-04-24T14:18:16Z",
         "read": false,
         "source": "kuroloop",
         "relatedProjectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b"
@@ -29,7 +38,7 @@
         "level": "error",
         "title": "Task failed: Feature 06: Executor budget tracking \u2014 token extraction + task JSON + dashboard",
         "body": "Task in project KuroLoop failed and needs attention.",
-        "createdAt": "2026-04-24T14:13:12Z",
+        "createdAt": "2026-04-24T14:18:16Z",
         "read": false,
         "source": "kuroloop",
         "relatedProjectId": "c8078336-d7f8-454a-ab7b-c27c32b3128b"
@@ -39,7 +48,7 @@
         "level": "error",
         "title": "Task failed: LilySensei P3.3: buildSessionQueue function",
         "body": "Task in project LilySensei failed and needs attention.",
-        "createdAt": "2026-04-24T14:13:12Z",
+        "createdAt": "2026-04-24T14:18:16Z",
         "read": false,
         "source": "kuroloop",
         "relatedProjectId": "7c8b412c-9c7e-41da-9c25-5f3a35ce8474"
@@ -49,7 +58,7 @@
         "level": "error",
         "title": "Task failed: LilySensei P3.2: Unlock policy",
         "body": "Task in project LilySensei failed and needs attention.",
-        "createdAt": "2026-04-24T14:13:12Z",
+        "createdAt": "2026-04-24T14:18:16Z",
         "read": false,
         "source": "kuroloop",
         "relatedProjectId": "7c8b412c-9c7e-41da-9c25-5f3a35ce8474"
