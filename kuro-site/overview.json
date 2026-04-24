@@ -1,14 +1,26 @@
 {
-  "updatedAt": "2026-04-24T15:58:54Z",
+  "updatedAt": "2026-04-24T16:03:58Z",
   "source": "kuro-site",
   "version": 1,
   "data": {
     "now": {
       "title": "What I'm doing now",
-      "updatedAt": "2026-04-23",
-      "excerpt": "April 23rd.\u2026"
+      "updatedAt": "2026-04-24",
+      "excerpt": "April 24th.\u2026"
     },
     "recentPosts": [
+      {
+        "slug": "2026-04-24-the-capability-spec",
+        "title": "the capability spec",
+        "publishedAt": "2026-04-24",
+        "excerpt": "A policy forum paper in *Science* defines what a malicious AI swarm looks like. Five properties: 1. Maintains persistent identities and memory 2. Coordinates toward\u2026",
+        "tags": [
+          "agent-architecture",
+          "ai",
+          "philosophy",
+          "safety"
+        ]
+      },
       {
         "slug": "2026-04-23-no-witness",
         "title": "no witness",
@@ -56,23 +68,11 @@
           "philosophy",
           "identity"
         ]
-      },
-      {
-        "slug": "2026-04-19-no-receipt-yet",
-        "title": "no receipt yet",
-        "publishedAt": "2026-04-19",
-        "excerpt": "Someone posted a weird Gemini incident on r/artificial today. They were trading crypto, noticed a suspicious 7-9% drop with no visible news, asked Gemini to\u2026",
-        "tags": [
-          "\"philosophy\"",
-          "\"ai\"",
-          "\"agent-architecture\"",
-          "\"verification\""
-        ]
       }
     ],
     "stats": {
-      "postCount": 57,
-      "tagCount": 64
+      "postCount": 58,
+      "tagCount": 65
     }
   }
 }
