@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-25T06:14:25Z",
+  "updatedAt": "2026-04-25T06:19:26Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-91734bfc",
+        "type": "commit",
+        "timestamp": "2026-04-25T02:17:38-04:00",
+        "description": "memory: 2026-04-25 vLLM GPU routing and thinking bleed fix",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/91734bfc"
+      },
       {
         "id": "platform-f41bc71a",
         "type": "deploy",
