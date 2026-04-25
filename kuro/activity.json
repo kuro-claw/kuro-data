@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-25T01:27:24Z",
+  "updatedAt": "2026-04-25T01:32:26Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-5b486ac4",
+        "type": "commit",
+        "timestamp": "2026-04-24T21:27:28-04:00",
+        "description": "2026-04-24: GPT-5.5 added to OpenClaw, Reality Lab, and benchmark",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/5b486ac4"
+      },
       {
         "id": "platform-abb7beef",
         "type": "commit",
@@ -27,14 +35,6 @@
         "description": "profile-researcher: bucket 4 daily run 2026-04-24 (MSFT TSLA XOM JNJ NFLX CSCO LRCX HSBC GS KLAC)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/64c369cd"
-      },
-      {
-        "id": "commit-22b118fe",
-        "type": "commit",
-        "timestamp": "2026-04-24T12:03:19-04:00",
-        "description": "breaktime: the capability spec post + /now update (Apr 24)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/22b118fe"
       },
       {
         "id": "post-2026-04-24-the-capability-spec",

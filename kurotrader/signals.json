@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-25T01:27:23Z",
+  "updatedAt": "2026-04-25T01:32:25Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "7548",
+        "timestamp": "2026-04-25T01:30:32Z",
+        "symbol": "SOL-USD",
+        "action": "buy",
+        "confidence": 0.5957,
+        "executed": false
+      },
+      {
+        "id": "7547",
+        "timestamp": "2026-04-25T01:30:32Z",
+        "symbol": "XRP-USD",
+        "action": "buy",
+        "confidence": 0.5788,
+        "executed": false
+      },
+      {
+        "id": "7546",
+        "timestamp": "2026-04-25T01:30:32Z",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.3177,
+        "executed": false
+      },
+      {
+        "id": "7545",
+        "timestamp": "2026-04-25T01:30:32Z",
+        "symbol": "BTC-USD",
+        "action": "buy",
+        "confidence": 0.5773,
+        "executed": false
+      },
       {
         "id": "7544",
         "timestamp": "2026-04-25T01:15:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "7539",
         "timestamp": "2026-04-25T01:00:32Z",
-        "symbol": "XRP-USD",
-        "action": "buy",
-        "confidence": 0.7412,
-        "executed": false
-      },
-      {
-        "id": "7538",
-        "timestamp": "2026-04-25T01:00:32Z",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.6829,
-        "executed": false
-      },
-      {
-        "id": "7537",
-        "timestamp": "2026-04-25T01:00:32Z",
-        "symbol": "BTC-USD",
-        "action": "buy",
-        "confidence": 0.7303,
-        "executed": false
-      },
-      {
-        "id": "7536",
-        "timestamp": "2026-04-25T00:45:32Z",
-        "symbol": "SOL-USD",
-        "action": "buy",
-        "confidence": 0.6997,
-        "executed": false
-      },
-      {
-        "id": "7535",
-        "timestamp": "2026-04-25T00:45:32Z",
         "symbol": "XRP-USD",
         "action": "buy",
         "confidence": 0.7412,
