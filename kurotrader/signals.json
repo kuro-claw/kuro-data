@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-25T14:58:47Z",
+  "updatedAt": "2026-04-25T15:03:51Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "7680",
+        "timestamp": "2026-04-25T15:00:32Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.2797,
+        "executed": false
+      },
+      {
+        "id": "7679",
+        "timestamp": "2026-04-25T15:00:32Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.274,
+        "executed": false
+      },
+      {
+        "id": "7678",
+        "timestamp": "2026-04-25T15:00:32Z",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "executed": false
+      },
+      {
+        "id": "7677",
+        "timestamp": "2026-04-25T15:00:32Z",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.0,
+        "executed": false
+      },
       {
         "id": "7676",
         "timestamp": "2026-04-25T14:45:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "7671",
         "timestamp": "2026-04-25T14:30:32Z",
-        "symbol": "XRP-USD",
-        "action": "buy",
-        "confidence": 0.6504,
-        "executed": false
-      },
-      {
-        "id": "7670",
-        "timestamp": "2026-04-25T14:30:32Z",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.459,
-        "executed": false
-      },
-      {
-        "id": "7669",
-        "timestamp": "2026-04-25T14:30:32Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.0,
-        "executed": false
-      },
-      {
-        "id": "7668",
-        "timestamp": "2026-04-25T14:15:32Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.3006,
-        "executed": false
-      },
-      {
-        "id": "7667",
-        "timestamp": "2026-04-25T14:15:32Z",
         "symbol": "XRP-USD",
         "action": "buy",
         "confidence": 0.6504,
