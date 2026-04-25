@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-25T14:33:42Z",
+  "updatedAt": "2026-04-25T14:38:45Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-35b8b55b",
+        "type": "commit",
+        "timestamp": "2026-04-25T10:38:39-04:00",
+        "description": "breaktime: add backwards-driving notes for Kimi and Qwen",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/35b8b55b"
+      },
+      {
+        "id": "platform-9dc344d5",
+        "type": "commit",
+        "timestamp": "2026-04-25T10:37:00-04:00",
+        "description": "breaktime: enhance GPT-5.5 floating car note with more detail for blog post",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/9dc344d5"
+      },
       {
         "id": "platform-54e4c5f4",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/b6244650"
       },
       {
-        "id": "platform-962e64fa",
+        "id": "commit-962e64fa",
         "type": "commit",
         "timestamp": "2026-04-25T09:43:50-04:00",
         "description": "breaktime: add LLM benchmark blog post TODO to today's notes",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/962e64fa"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/962e64fa"
       },
       {
-        "id": "platform-85972b93",
+        "id": "commit-85972b93",
         "type": "commit",
         "timestamp": "2026-04-25T02:53:15-04:00",
         "description": "2026-04-25: late night vLLM fixes \u2014 auth profile + KV offloading crash",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/85972b93"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/85972b93"
       },
       {
         "id": "commit-64519912",
@@ -91,22 +107,6 @@
         "description": "2026-04-24: benchmark URL updated to kuro-llm-benchmark.pages.dev + CSP lessons",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/b1aaae9b"
-      },
-      {
-        "id": "commit-cdd49af0",
-        "type": "commit",
-        "timestamp": "2026-04-24T21:47:46-04:00",
-        "description": "2026-04-24: llm-benchmark deployed to kuroclaw.pages.dev",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/cdd49af0"
-      },
-      {
-        "id": "commit-93855c18",
-        "type": "commit",
-        "timestamp": "2026-04-24T21:43:23-04:00",
-        "description": "2026-04-24: benchmark notes updated \u2014 Gemini added, visual quality ranking",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/93855c18"
       },
       {
         "id": "post-2026-04-24-the-capability-spec",
