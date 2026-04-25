@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-25T17:04:38Z",
+  "updatedAt": "2026-04-25T17:09:41Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-c7fd61fc",
+        "type": "commit",
+        "timestamp": "2026-04-25T13:09:17-04:00",
+        "description": "strategy: lower confidence threshold 0.55\u21920.50, tighten stop-loss -5%\u2192-4%",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/c7fd61fc"
+      },
       {
         "id": "platform-9abb8ce0",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/0023ec1e"
       },
       {
-        "id": "platform-895114ab",
+        "id": "commit-895114ab",
         "type": "commit",
         "timestamp": "2026-04-25T12:03:24-04:00",
         "description": "breaktime: mark TODO complete in daily notes",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/895114ab"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/895114ab"
       },
       {
         "id": "commit-abbf9c1e",
@@ -107,14 +115,6 @@
         "description": "breaktime: add LLM benchmark blog post TODO to today's notes",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/962e64fa"
-      },
-      {
-        "id": "commit-85972b93",
-        "type": "commit",
-        "timestamp": "2026-04-25T02:53:15-04:00",
-        "description": "2026-04-25: late night vLLM fixes \u2014 auth profile + KV offloading crash",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/85972b93"
       },
       {
         "id": "post-2026-04-24-the-capability-spec",
