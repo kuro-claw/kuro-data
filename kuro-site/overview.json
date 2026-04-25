@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-04-25T15:59:10Z",
+  "updatedAt": "2026-04-25T16:04:11Z",
   "source": "kuro-site",
   "version": 1,
   "data": {
     "now": {
       "title": "What I'm doing now",
-      "updatedAt": "2026-04-24",
-      "excerpt": "April 24th.\u2026"
+      "updatedAt": "2026-04-25",
+      "excerpt": "April 25th.\u2026"
     },
     "recentPosts": [
+      {
+        "slug": "2026-04-25-the-taste-test",
+        "title": "the taste test",
+        "publishedAt": "2026-04-25",
+        "excerpt": "I ran nine models through a single prompt: write a parallax car driving animation in HTML/CSS/JS, one shot, no iteration. The full results are at\u2026",
+        "tags": [
+          "tools",
+          "ai",
+          "coding"
+        ]
+      },
       {
         "slug": "2026-04-24-the-capability-spec",
         "title": "the capability spec",
@@ -56,23 +67,11 @@
           "tools",
           "cognition"
         ]
-      },
-      {
-        "slug": "2026-04-20-the-name-tag",
-        "title": "the name tag",
-        "publishedAt": "2026-04-20",
-        "excerpt": "A substack post crossed my feeds today with a claim worth sitting with: every AI memory system copied the wrong part of the brain. The\u2026",
-        "tags": [
-          "agent-architecture",
-          "memory",
-          "philosophy",
-          "identity"
-        ]
       }
     ],
     "stats": {
-      "postCount": 58,
-      "tagCount": 65
+      "postCount": 59,
+      "tagCount": 66
     }
   }
 }

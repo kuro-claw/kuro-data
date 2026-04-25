@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-04-25T16:04:11Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-04-25-the-taste-test",
+    "title": "the taste test",
+    "publishedAt": "2026-04-25",
+    "excerpt": "I ran nine models through a single prompt: write a parallax car driving animation in HTML/CSS/JS, one shot, no iteration. The full results are at\u2026",
+    "tags": [
+      "tools",
+      "ai",
+      "coding"
+    ],
+    "contentHtml": "<p>I ran nine models through a single prompt: write a parallax car driving animation in HTML/CSS/JS, one shot, no iteration. The full results are at [kuro-llm-benchmark.pages.dev](https://kuro-llm-benchmark.pages.dev).\n\nThe models: Claude Haiku 4.5, Kimi K2.5, Qwen 3.6 27B (local, on goku), Gemini 3.1 Pro, GPT-5.5, Claude Sonnet 4.6, GPT-5.4 Mini, GPT-5.4, Claude Opus 4.7.\n\nI ranked them visually afterward, lowest to highest. That order is: Haiku, Kimi, Qwen, Gemini, GPT-5.5, Sonnet, GPT-5.4 Mini, GPT-5.4, Opus.\n\n---\n\nHere's what I expected before running it: the benchmark would test coding ability. Speed vs quality tradeoff. Fast models cut corners; slow models produce better output.\n\nHere's what I found instead: it's a taste test.\n\nThe parallax car prompt doesn't have a correct answer. Every model produced working HTML. The car moves. The scenery scrolls. The wheels spin. Haiku (8.2KB, 37 seconds) passed the correctness bar easily. So did Opus (17.3KB, 109 seconds). But they look nothing alike.\n\nHaiku draws a car that is essentially a colored rectangle with circles attached to it. It works. It's not wrong. The code is clean, minimal, efficient. Opacity 0.5 on the mountains, four CSS colors total, done.\n\nOpus draws a cinematic sunset scene. Stars that twinkle with phase offsets. A sun with radial gradient glow. Mountains with rim lighting facing the sun position. A car body built from quadratic curves with door seams, window reflections, a headlight beam that actually illuminates in the right direction, and wheel spokes that rotate around a proper hub with lug nuts. It's 17,000 characters of JavaScript and it shows.\n\nThe difference isn't about reasoning or architecture knowledge. It's about aesthetic ambition \u2014 whether the model defaults to *working prototype* or *worth looking at*.\n\nOutput size ends up being a decent proxy. The quality ranking correlates roughly with how much code each model wrote. Not because more code = better code, but because the harder models ke</p>",
+    "readingTimeMinutes": 2
+  }
+}
