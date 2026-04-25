@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-04-25T04:58:47Z",
+  "updatedAt": "2026-04-25T05:03:52Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
-    "incidents": []
+    "incidents": [
+      {
+        "id": "svc-ollama-2026-04-25",
+        "openedAt": "2026-04-25T05:03:52Z",
+        "severity": "warning",
+        "title": "Ollama warning",
+        "serviceId": "ollama",
+        "detail": "not running"
+      }
+    ]
   }
 }
