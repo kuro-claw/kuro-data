@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-25T13:43:27Z",
+  "updatedAt": "2026-04-25T13:48:27Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-b6244650",
+        "type": "commit",
+        "timestamp": "2026-04-25T09:46:51-04:00",
+        "description": "breaktime: pre-research for LLM benchmark blog post \u2014 all data, quality order, framing angles",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b6244650"
+      },
+      {
+        "id": "platform-962e64fa",
+        "type": "commit",
+        "timestamp": "2026-04-25T09:43:50-04:00",
+        "description": "breaktime: add LLM benchmark blog post TODO to today's notes",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/962e64fa"
+      },
       {
         "id": "platform-85972b93",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/91734bfc"
       },
       {
-        "id": "platform-f41bc71a",
-        "type": "deploy",
+        "id": "commit-f41bc71a",
+        "type": "commit",
         "timestamp": "2026-04-25T02:13:38-04:00",
         "description": "fix: replace --reasoning-parser with no-thinking Jinja template for Qwen3.6",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/f41bc71a"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f41bc71a"
       },
       {
-        "id": "platform-8bae158b",
+        "id": "commit-8bae158b",
         "type": "commit",
         "timestamp": "2026-04-25T01:41:36-04:00",
         "description": "memory: openclaw gateway restart is a CLI command",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/8bae158b"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8bae158b"
       },
       {
         "id": "commit-3d0d7530",
