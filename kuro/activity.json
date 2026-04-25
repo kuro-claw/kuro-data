@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-25T06:09:21Z",
+  "updatedAt": "2026-04-25T06:14:25Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-f41bc71a",
+        "type": "deploy",
+        "timestamp": "2026-04-25T02:13:38-04:00",
+        "description": "fix: replace --reasoning-parser with no-thinking Jinja template for Qwen3.6",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/f41bc71a"
+      },
       {
         "id": "platform-8bae158b",
         "type": "commit",
@@ -21,12 +29,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/3d0d7530"
       },
       {
-        "id": "platform-b1aaae9b",
+        "id": "commit-b1aaae9b",
         "type": "commit",
         "timestamp": "2026-04-24T22:06:30-04:00",
         "description": "2026-04-24: benchmark URL updated to kuro-llm-benchmark.pages.dev + CSP lessons",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/b1aaae9b"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b1aaae9b"
       },
       {
         "id": "commit-cdd49af0",
