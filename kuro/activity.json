@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-25T01:47:33Z",
+  "updatedAt": "2026-04-25T01:52:34Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-cdd49af0",
+        "type": "deploy",
+        "timestamp": "2026-04-24T21:47:46-04:00",
+        "description": "2026-04-24: llm-benchmark deployed to kuroclaw.pages.dev",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/cdd49af0"
+      },
       {
         "id": "platform-93855c18",
         "type": "commit",
@@ -29,12 +37,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/abb7beef"
       },
       {
-        "id": "platform-568a658e",
+        "id": "commit-568a658e",
         "type": "commit",
         "timestamp": "2026-04-24T18:19:21-04:00",
         "description": "Reality Lab: replace GPT-5.4 with GPT-5.5 in cycle table + page generator",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/568a658e"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/568a658e"
       },
       {
         "id": "commit-64c369cd",
