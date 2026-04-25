@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-25T16:09:14Z",
+  "updatedAt": "2026-04-25T16:14:16Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-0023ec1e",
+        "type": "commit",
+        "timestamp": "2026-04-25T12:14:12-04:00",
+        "description": "kurotrader: model retraining, holding cooldown, rebalancing mode, daily notes",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/0023ec1e"
+      },
       {
         "id": "platform-895114ab",
         "type": "commit",
@@ -45,12 +53,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/9dc344d5"
       },
       {
-        "id": "platform-54e4c5f4",
+        "id": "commit-54e4c5f4",
         "type": "commit",
         "timestamp": "2026-04-25T09:51:52-04:00",
         "description": "breaktime: add Gemini instruction-following note to benchmark prep",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/54e4c5f4"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/54e4c5f4"
       },
       {
         "id": "commit-cbbb245e",
@@ -107,14 +115,6 @@
         "description": "fix: replace --reasoning-parser with no-thinking Jinja template for Qwen3.6",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/f41bc71a"
-      },
-      {
-        "id": "commit-8bae158b",
-        "type": "commit",
-        "timestamp": "2026-04-25T01:41:36-04:00",
-        "description": "memory: openclaw gateway restart is a CLI command",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8bae158b"
       },
       {
         "id": "post-2026-04-24-the-capability-spec",
