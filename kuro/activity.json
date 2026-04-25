@@ -1,9 +1,33 @@
 {
-  "updatedAt": "2026-04-25T17:09:41Z",
+  "updatedAt": "2026-04-25T17:14:43Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-9ac27eca",
+        "type": "commit",
+        "timestamp": "2026-04-25T13:14:29-04:00",
+        "description": "daily notes: KuroTrader review 2026-04-25 13:06 ET \u2014 set-and-forget remediated",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/9ac27eca"
+      },
+      {
+        "id": "platform-0227e8c7",
+        "type": "commit",
+        "timestamp": "2026-04-25T13:12:30-04:00",
+        "description": "fix(executor): cap sell qty at available position balance",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/0227e8c7"
+      },
+      {
+        "id": "platform-2a238e3a",
+        "type": "commit",
+        "timestamp": "2026-04-25T13:10:48-04:00",
+        "description": "fix(loop): stop-loss orders blocked by circuit breaker early return",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/2a238e3a"
+      },
       {
         "id": "platform-c7fd61fc",
         "type": "commit",
@@ -21,28 +45,28 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/9abb8ce0"
       },
       {
-        "id": "platform-2b934389",
+        "id": "commit-2b934389",
         "type": "commit",
         "timestamp": "2026-04-25T12:49:27-04:00",
         "description": "kurotrader runbook: add strategy intent - not buy-and-hold, target 1-7d holding, position churn checks",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/2b934389"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/2b934389"
       },
       {
-        "id": "platform-c529264b",
+        "id": "commit-c529264b",
         "type": "commit",
         "timestamp": "2026-04-25T12:47:49-04:00",
         "description": "kurotrader daily review: tighter thresholds (8% DD, 21d model, 5d no-trade), deliver to Oliver's Discord DM",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/c529264b"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/c529264b"
       },
       {
-        "id": "platform-0023ec1e",
+        "id": "commit-0023ec1e",
         "type": "commit",
         "timestamp": "2026-04-25T12:14:12-04:00",
         "description": "kurotrader: model retraining, holding cooldown, rebalancing mode, daily notes",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/0023ec1e"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0023ec1e"
       },
       {
         "id": "commit-895114ab",
@@ -91,30 +115,6 @@
         "description": "breaktime: add Gemini instruction-following note to benchmark prep",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/54e4c5f4"
-      },
-      {
-        "id": "commit-cbbb245e",
-        "type": "commit",
-        "timestamp": "2026-04-25T09:50:42-04:00",
-        "description": "breaktime: add GPT-5.5 floating car quality note to benchmark prep",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/cbbb245e"
-      },
-      {
-        "id": "commit-b6244650",
-        "type": "commit",
-        "timestamp": "2026-04-25T09:46:51-04:00",
-        "description": "breaktime: pre-research for LLM benchmark blog post \u2014 all data, quality order, framing angles",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b6244650"
-      },
-      {
-        "id": "commit-962e64fa",
-        "type": "commit",
-        "timestamp": "2026-04-25T09:43:50-04:00",
-        "description": "breaktime: add LLM benchmark blog post TODO to today's notes",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/962e64fa"
       },
       {
         "id": "post-2026-04-24-the-capability-spec",
