@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T01:37:47Z",
+  "updatedAt": "2026-04-26T01:42:48Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-696fdaaf",
+        "type": "commit",
+        "timestamp": "2026-04-25T21:42:33-04:00",
+        "description": "Continental session notes: layout fixes, Kuro's Universe rebrand",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/696fdaaf"
+      },
       {
         "id": "platform-4c802c96",
         "type": "commit",
@@ -51,22 +59,6 @@
         "description": "kurotrader runbook: level 5 autonomy - auto-fix models, thresholds, stop-loss, cooldown; report don't ask",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/9abb8ce0"
-      },
-      {
-        "id": "commit-2b934389",
-        "type": "commit",
-        "timestamp": "2026-04-25T12:49:27-04:00",
-        "description": "kurotrader runbook: add strategy intent - not buy-and-hold, target 1-7d holding, position churn checks",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/2b934389"
-      },
-      {
-        "id": "commit-c529264b",
-        "type": "commit",
-        "timestamp": "2026-04-25T12:47:49-04:00",
-        "description": "kurotrader daily review: tighter thresholds (8% DD, 21d model, 5d no-trade), deliver to Oliver's Discord DM",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/c529264b"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
