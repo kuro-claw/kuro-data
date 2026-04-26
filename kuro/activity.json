@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T03:03:16Z",
+  "updatedAt": "2026-04-26T03:08:17Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-dc45f246",
+        "type": "commit",
+        "timestamp": "2026-04-25T23:03:21-04:00",
+        "description": "add: kuro-tool-wikipedia skill for ad-hoc research",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/dc45f246"
+      },
       {
         "id": "platform-2a986446",
         "type": "deploy",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/dad7438d"
       },
       {
-        "id": "platform-f456403d",
+        "id": "commit-f456403d",
         "type": "commit",
         "timestamp": "2026-04-25T22:41:10-04:00",
         "description": "chore: update TOOLS.md \u2014 kuro-memory distillation now uses vLLM",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/f456403d"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f456403d"
       },
       {
         "id": "commit-5694c863",
