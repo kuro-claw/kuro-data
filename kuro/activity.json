@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T02:18:02Z",
+  "updatedAt": "2026-04-26T02:23:05Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-5694c863",
+        "type": "commit",
+        "timestamp": "2026-04-25T22:22:05-04:00",
+        "description": "notes: add VRAM and KV cache breakdown for single-GPU vs PP=2",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/5694c863"
+      },
       {
         "id": "platform-72190c8d",
         "type": "commit",
@@ -35,22 +43,6 @@
         "description": "Add continental project context with Flux image gen preference",
         "project": "kuro-platform",
         "url": "https://github.com/kuro-claw/kuro-platform/commit/4c802c96"
-      },
-      {
-        "id": "commit-9ac27eca",
-        "type": "commit",
-        "timestamp": "2026-04-25T13:14:29-04:00",
-        "description": "daily notes: KuroTrader review 2026-04-25 13:06 ET \u2014 set-and-forget remediated",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/9ac27eca"
-      },
-      {
-        "id": "commit-0227e8c7",
-        "type": "commit",
-        "timestamp": "2026-04-25T13:12:30-04:00",
-        "description": "fix(executor): cap sell qty at available position balance",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0227e8c7"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
