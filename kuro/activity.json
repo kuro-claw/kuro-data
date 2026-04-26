@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T05:59:09Z",
+  "updatedAt": "2026-04-26T06:04:12Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-a1cfb94e",
+        "type": "commit",
+        "timestamp": "2026-04-26T02:03:03-04:00",
+        "description": "docs: continental context \u2014 quality pass #4",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/a1cfb94e"
+      },
       {
         "id": "platform-e0cfc8db",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/74efca18"
       },
       {
-        "id": "platform-e18f250d",
+        "id": "commit-e18f250d",
         "type": "commit",
         "timestamp": "2026-04-25T23:35:17-04:00",
         "description": "maintenance: nightly pass 2026-04-25 \u2014 kurotrader/kuro-memory context updates",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e18f250d"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e18f250d"
       },
       {
         "id": "commit-6c509846",
@@ -99,14 +107,6 @@
         "description": "notes: kuro-memory switched to vLLM distillation backend",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/dad7438d"
-      },
-      {
-        "id": "commit-f456403d",
-        "type": "commit",
-        "timestamp": "2026-04-25T22:41:10-04:00",
-        "description": "chore: update TOOLS.md \u2014 kuro-memory distillation now uses vLLM",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f456403d"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
