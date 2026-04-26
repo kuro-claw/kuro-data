@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T06:24:20Z",
+  "updatedAt": "2026-04-26T12:02:23Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-b70bb1cf",
+        "type": "commit",
+        "timestamp": "2026-04-26T02:24:54-04:00",
+        "description": "Improve KuroTrader quality pass",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b70bb1cf"
+      },
       {
         "id": "platform-a1cfb94e",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/ba2ffee6"
       },
       {
-        "id": "platform-74efca18",
-        "type": "deploy",
+        "id": "commit-74efca18",
+        "type": "commit",
         "timestamp": "2026-04-25T23:42:06-04:00",
         "description": "fix: remove false Flux constraint from KuroBrand review (Flux is Continental-only)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/74efca18"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/74efca18"
       },
       {
         "id": "commit-e18f250d",
@@ -99,14 +107,6 @@
         "description": "notes: Ollama switched to CPU-only (freed GPU 1 CUDA context)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/f4e051df"
-      },
-      {
-        "id": "commit-dad7438d",
-        "type": "commit",
-        "timestamp": "2026-04-25T22:44:16-04:00",
-        "description": "notes: kuro-memory switched to vLLM distillation backend",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/dad7438d"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
