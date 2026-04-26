@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T12:00:31.437722+00:00",
+  "updatedAt": "2026-04-26T12:05:05.086595+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -53,10 +53,10 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-26T12:00:30.121548+00:00",
-        "last_exit": 1,
-        "last_duration_ms": 90,
-        "consecutive_errors": 1,
+        "last_run_ts": "2026-04-26T12:05:05.086536+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 34,
+        "consecutive_errors": 0,
         "last_error": "KuroTrader cycle stale: last update 339min ago (threshold 20min)"
       },
       {
@@ -73,9 +73,9 @@
     ],
     "summary": {
       "total_jobs": 6,
-      "healthy": 3,
-      "failing": 3,
-      "last_updated": "2026-04-26T12:00:31.437671+00:00"
+      "healthy": 4,
+      "failing": 2,
+      "last_updated": "2026-04-26T12:05:05.086536+00:00"
     }
   }
 }
