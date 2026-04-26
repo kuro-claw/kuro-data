@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T15:39:01Z",
+  "updatedAt": "2026-04-26T15:44:03Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-da81e767",
+        "type": "commit",
+        "timestamp": "2026-04-26T11:42:00-04:00",
+        "description": "docs(backplaned): update context.md \u2014 all MVP items complete (teams, routing, SSE, rate limiting, webhooks)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/da81e767"
+      },
       {
         "id": "platform-bf0bec07",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/91bd6f73"
       },
       {
-        "id": "platform-0cc84b6b",
+        "id": "commit-0cc84b6b",
         "type": "commit",
         "timestamp": "2026-04-26T09:09:02-04:00",
         "description": "vLLM: wrap in systemd service (vllm-lorbus.service)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/0cc84b6b"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0cc84b6b"
       },
       {
         "id": "commit-a3bdabc4",
@@ -99,14 +107,6 @@
         "description": "docs: update continental context \u2014 mark quality pass items resolved",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/ba2ffee6"
-      },
-      {
-        "id": "commit-74efca18",
-        "type": "commit",
-        "timestamp": "2026-04-25T23:42:06-04:00",
-        "description": "fix: remove false Flux constraint from KuroBrand review (Flux is Continental-only)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/74efca18"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
