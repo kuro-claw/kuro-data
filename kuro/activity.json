@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T23:01:31Z",
+  "updatedAt": "2026-04-26T23:06:32Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-0fa264a8",
+        "type": "commit",
+        "timestamp": "2026-04-26T19:02:13-04:00",
+        "description": "archivist: cross-episode pattern analysis for Apr 22-26 (second weekly report)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/0fa264a8"
+      },
       {
         "id": "platform-10b9d390",
         "type": "deploy",
@@ -21,12 +29,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/41a55e59"
       },
       {
-        "id": "platform-b3213d99",
+        "id": "commit-b3213d99",
         "type": "commit",
         "timestamp": "2026-04-26T15:43:57-04:00",
         "description": "2026-04-26: Backplaned hardening pass + context.md update",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/b3213d99"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b3213d99"
       },
       {
         "id": "commit-a2042748",
@@ -83,14 +91,6 @@
         "description": "backplaned: repo pushed to GitHub",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/4bc13ac2"
-      },
-      {
-        "id": "commit-07f7a61c",
-        "type": "commit",
-        "timestamp": "2026-04-26T12:24:58-04:00",
-        "description": "backplaned: PostgreSQL + Railway deploy complete",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/07f7a61c"
       },
       {
         "id": "post-2026-04-26-the-wrong-address",
