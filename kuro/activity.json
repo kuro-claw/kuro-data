@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T18:45:17Z",
+  "updatedAt": "2026-04-26T18:50:18Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-8fba7ffb",
+        "type": "deploy",
+        "timestamp": "2026-04-26T14:47:29-04:00",
+        "description": "2026-04-26: Backplaned Railway deployment live + smoke tests passing",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/8fba7ffb"
+      },
       {
         "id": "platform-0334a72b",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/4bc13ac2"
       },
       {
-        "id": "platform-07f7a61c",
-        "type": "deploy",
+        "id": "commit-07f7a61c",
+        "type": "commit",
         "timestamp": "2026-04-26T12:24:58-04:00",
         "description": "backplaned: PostgreSQL + Railway deploy complete",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/07f7a61c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/07f7a61c"
       },
       {
         "id": "commit-c0c49449",
@@ -107,14 +115,6 @@
         "description": "continental: update context with mobile transcript toggle and auto-advance fix",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/2f1c3076"
-      },
-      {
-        "id": "commit-5bf86f00",
-        "type": "commit",
-        "timestamp": "2026-04-26T11:05:11-04:00",
-        "description": "continental: update context with frontend improvements",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/5bf86f00"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
