@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T15:23:55Z",
+  "updatedAt": "2026-04-26T15:28:57Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-bf0bec07",
+        "type": "commit",
+        "timestamp": "2026-04-26T11:28:56-04:00",
+        "description": "docs(backplaned): update context.md with current Express+Prisma architecture (2026-04-26)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/bf0bec07"
+      },
       {
         "id": "platform-2f1c3076",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/0cc84b6b"
       },
       {
-        "id": "platform-a3bdabc4",
+        "id": "commit-a3bdabc4",
         "type": "commit",
         "timestamp": "2026-04-26T08:59:14-04:00",
         "description": "vLLM: switch to Lorbus AutoRound INT4, update TOOLS.md and OpenClaw config",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/a3bdabc4"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/a3bdabc4"
       },
       {
         "id": "commit-0c81ee30",
@@ -99,14 +107,6 @@
         "description": "fix: remove false Flux constraint from KuroBrand review (Flux is Continental-only)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/74efca18"
-      },
-      {
-        "id": "commit-e18f250d",
-        "type": "commit",
-        "timestamp": "2026-04-25T23:35:17-04:00",
-        "description": "maintenance: nightly pass 2026-04-25 \u2014 kurotrader/kuro-memory context updates",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e18f250d"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
