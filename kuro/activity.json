@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T03:33:26Z",
+  "updatedAt": "2026-04-26T03:38:27Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-e18f250d",
+        "type": "commit",
+        "timestamp": "2026-04-25T23:35:17-04:00",
+        "description": "maintenance: nightly pass 2026-04-25 \u2014 kurotrader/kuro-memory context updates",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e18f250d"
+      },
       {
         "id": "platform-6c509846",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/2a986446"
       },
       {
-        "id": "platform-c245487f",
+        "id": "commit-c245487f",
         "type": "commit",
         "timestamp": "2026-04-25T22:52:24-04:00",
         "description": "chore: set CUDA_VISIBLE_DEVICES=-1 for kurotrader and ollama (CPU-only)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/c245487f"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/c245487f"
       },
       {
         "id": "commit-f4e051df",
@@ -99,14 +107,6 @@
         "description": "Continental session notes: layout fixes, Kuro's Universe rebrand",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/696fdaaf"
-      },
-      {
-        "id": "commit-4c802c96",
-        "type": "commit",
-        "timestamp": "2026-04-25T20:57:57-04:00",
-        "description": "Add continental project context with Flux image gen preference",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4c802c96"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
