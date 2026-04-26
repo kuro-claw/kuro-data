@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T02:53:12Z",
+  "updatedAt": "2026-04-26T02:58:15Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-2a986446",
+        "type": "deploy",
+        "timestamp": "2026-04-25T22:56:19-04:00",
+        "description": "feat: vLLM gpu_memory_utilization 0.92 \u2192 0.97 (CPU-only for ollama+kurotrader)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/2a986446"
+      },
       {
         "id": "platform-c245487f",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/f456403d"
       },
       {
-        "id": "platform-5694c863",
+        "id": "commit-5694c863",
         "type": "commit",
         "timestamp": "2026-04-25T22:22:05-04:00",
         "description": "notes: add VRAM and KV cache breakdown for single-GPU vs PP=2",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/5694c863"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/5694c863"
       },
       {
         "id": "commit-72190c8d",
