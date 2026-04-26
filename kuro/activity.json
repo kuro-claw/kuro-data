@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T16:09:16Z",
+  "updatedAt": "2026-04-26T16:14:17Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-c0c49449",
+        "type": "commit",
+        "timestamp": "2026-04-26T12:14:00-04:00",
+        "description": "backplaned: test suite complete \u2014 89 tests passing",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/c0c49449"
+      },
       {
         "id": "platform-6580a17c",
         "type": "commit",
@@ -45,12 +53,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/da81e767"
       },
       {
-        "id": "platform-bf0bec07",
+        "id": "commit-bf0bec07",
         "type": "commit",
         "timestamp": "2026-04-26T11:28:56-04:00",
         "description": "docs(backplaned): update context.md with current Express+Prisma architecture (2026-04-26)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/bf0bec07"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/bf0bec07"
       },
       {
         "id": "commit-2f1c3076",
@@ -107,14 +115,6 @@
         "description": "Improve KuroTrader quality pass",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/b70bb1cf"
-      },
-      {
-        "id": "commit-a1cfb94e",
-        "type": "commit",
-        "timestamp": "2026-04-26T02:03:03-04:00",
-        "description": "docs: continental context \u2014 quality pass #4",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/a1cfb94e"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
