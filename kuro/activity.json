@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T13:07:48Z",
+  "updatedAt": "2026-04-26T13:12:51Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-0cc84b6b",
+        "type": "commit",
+        "timestamp": "2026-04-26T09:09:02-04:00",
+        "description": "vLLM: wrap in systemd service (vllm-lorbus.service)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/0cc84b6b"
+      },
       {
         "id": "platform-a3bdabc4",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/a1cfb94e"
       },
       {
-        "id": "platform-e0cfc8db",
+        "id": "commit-e0cfc8db",
         "type": "commit",
         "timestamp": "2026-04-26T01:54:22-04:00",
         "description": "docs: continental context \u2014 quality pass #3",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e0cfc8db"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e0cfc8db"
       },
       {
         "id": "commit-6e46e469",
@@ -99,14 +107,6 @@
         "description": "add: kuro-tool-wikipedia skill for ad-hoc research",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/dc45f246"
-      },
-      {
-        "id": "commit-2a986446",
-        "type": "commit",
-        "timestamp": "2026-04-25T22:56:19-04:00",
-        "description": "feat: vLLM gpu_memory_utilization 0.92 \u2192 0.97 (CPU-only for ollama+kurotrader)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/2a986446"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
