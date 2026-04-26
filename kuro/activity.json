@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T12:52:41Z",
+  "updatedAt": "2026-04-26T12:57:44Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-0c81ee30",
+        "type": "commit",
+        "timestamp": "2026-04-26T08:56:09-04:00",
+        "description": "maintenance: pass 2026-04-26 \u2014 all checks clean",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/0c81ee30"
+      },
       {
         "id": "platform-b70bb1cf",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/6e46e469"
       },
       {
-        "id": "platform-ba2ffee6",
+        "id": "commit-ba2ffee6",
         "type": "commit",
         "timestamp": "2026-04-26T01:24:13-04:00",
         "description": "docs: update continental context \u2014 mark quality pass items resolved",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/ba2ffee6"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ba2ffee6"
       },
       {
         "id": "commit-74efca18",
@@ -99,14 +107,6 @@
         "description": "chore: set CUDA_VISIBLE_DEVICES=-1 for kurotrader and ollama (CPU-only)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/c245487f"
-      },
-      {
-        "id": "commit-f4e051df",
-        "type": "commit",
-        "timestamp": "2026-04-25T22:48:28-04:00",
-        "description": "notes: Ollama switched to CPU-only (freed GPU 1 CUDA context)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f4e051df"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
