@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T02:02:56Z",
+  "updatedAt": "2026-04-26T02:07:57Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-fa640138",
+        "type": "commit",
+        "timestamp": "2026-04-25T22:06:02-04:00",
+        "description": "docs(flux-dev): add start/stop commands, correct GPU index (GPU 1), note PP conflict",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/fa640138"
+      },
       {
         "id": "platform-696fdaaf",
         "type": "commit",
