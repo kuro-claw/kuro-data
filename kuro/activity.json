@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T15:08:50Z",
+  "updatedAt": "2026-04-26T15:13:51Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-2f1c3076",
+        "type": "commit",
+        "timestamp": "2026-04-26T11:11:08-04:00",
+        "description": "continental: update context with mobile transcript toggle and auto-advance fix",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/2f1c3076"
+      },
       {
         "id": "platform-5bf86f00",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/a3bdabc4"
       },
       {
-        "id": "platform-0c81ee30",
+        "id": "commit-0c81ee30",
         "type": "commit",
         "timestamp": "2026-04-26T08:56:09-04:00",
         "description": "maintenance: pass 2026-04-26 \u2014 all checks clean",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/0c81ee30"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0c81ee30"
       },
       {
         "id": "commit-b70bb1cf",
@@ -99,14 +107,6 @@
         "description": "maintenance: nightly pass 2026-04-25 \u2014 kurotrader/kuro-memory context updates",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/e18f250d"
-      },
-      {
-        "id": "commit-6c509846",
-        "type": "commit",
-        "timestamp": "2026-04-25T23:25:47-04:00",
-        "description": "docs: KuroBrand review backlog (2026-04-25)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/6c509846"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
