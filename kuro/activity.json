@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T05:49:07Z",
+  "updatedAt": "2026-04-26T05:54:08Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-6e46e469",
+        "type": "commit",
+        "timestamp": "2026-04-26T01:50:15-04:00",
+        "description": "docs: continental context \u2014 quality pass #2 resolved items",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/6e46e469"
+      },
       {
         "id": "platform-ba2ffee6",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/6c509846"
       },
       {
-        "id": "platform-b0f047b1",
+        "id": "commit-b0f047b1",
         "type": "commit",
         "timestamp": "2026-04-25T23:20:22-04:00",
         "description": "docs: add KuroTrader improvement backlog (2026-04-25 review)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/b0f047b1"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b0f047b1"
       },
       {
         "id": "commit-dc45f246",
@@ -99,14 +107,6 @@
         "description": "notes: add VRAM and KV cache breakdown for single-GPU vs PP=2",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/5694c863"
-      },
-      {
-        "id": "commit-72190c8d",
-        "type": "commit",
-        "timestamp": "2026-04-25T22:12:39-04:00",
-        "description": "notes: vLLM single-GPU vs PP=2 benchmark results (2026-04-25)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/72190c8d"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
