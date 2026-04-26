@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T19:30:36Z",
+  "updatedAt": "2026-04-26T19:35:39Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-a2042748",
+        "type": "commit",
+        "timestamp": "2026-04-26T15:31:33-04:00",
+        "description": "Daily notes 2026-04-26: Backplaned finishing touches",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/a2042748"
+      },
       {
         "id": "platform-1da24039",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/e860d5d2"
       },
       {
-        "id": "platform-592432c7",
-        "type": "deploy",
+        "id": "commit-592432c7",
+        "type": "commit",
         "timestamp": "2026-04-26T13:09:38-04:00",
         "description": "fix: XGB CUDA error on CPU-only host \u2014 graceful LGB-only fallback",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/592432c7"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/592432c7"
       },
       {
         "id": "commit-4bc13ac2",
@@ -107,14 +115,6 @@
         "description": "docs(backplaned): update context.md \u2014 all MVP items complete (teams, routing, SSE, rate limiting, webhooks)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/da81e767"
-      },
-      {
-        "id": "commit-bf0bec07",
-        "type": "commit",
-        "timestamp": "2026-04-26T11:28:56-04:00",
-        "description": "docs(backplaned): update context.md with current Express+Prisma architecture (2026-04-26)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/bf0bec07"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
