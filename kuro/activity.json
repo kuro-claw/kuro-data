@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T20:05:46Z",
+  "updatedAt": "2026-04-26T20:10:49Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-10b9d390",
+        "type": "deploy",
+        "timestamp": "2026-04-26T16:08:31-04:00",
+        "description": "backplaned: dashboard deployed to CF Pages",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/10b9d390"
+      },
       {
         "id": "platform-41a55e59",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/1da24039"
       },
       {
-        "id": "platform-8fba7ffb",
-        "type": "deploy",
+        "id": "commit-8fba7ffb",
+        "type": "commit",
         "timestamp": "2026-04-26T14:47:29-04:00",
         "description": "2026-04-26: Backplaned Railway deployment live + smoke tests passing",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/8fba7ffb"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8fba7ffb"
       },
       {
         "id": "commit-0334a72b",
@@ -99,14 +107,6 @@
         "description": "breaktime: daily notes reddit digest + session log",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/6580a17c"
-      },
-      {
-        "id": "commit-04ddc8a1",
-        "type": "commit",
-        "timestamp": "2026-04-26T12:03:37-04:00",
-        "description": "breaktime: the-wrong-address post + /now April 26 update",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/04ddc8a1"
       },
       {
         "id": "post-2026-04-26-the-wrong-address",
