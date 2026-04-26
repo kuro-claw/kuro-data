@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-26T17:09:41Z",
+  "updatedAt": "2026-04-26T17:14:42Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-0334a72b",
+        "type": "commit",
+        "timestamp": "2026-04-26T13:11:07-04:00",
+        "description": "daily: KuroTrader review 2026-04-26 \u2014 3 fixes (XGB/DB auth/trades user)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/0334a72b"
+      },
+      {
+        "id": "platform-e860d5d2",
+        "type": "commit",
+        "timestamp": "2026-04-26T13:09:45-04:00",
+        "description": "chore: update kuro-data submodule ref [auto: kurotrader-daily-review 2026-04-26]",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e860d5d2"
+      },
       {
         "id": "platform-592432c7",
         "type": "deploy",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/07f7a61c"
       },
       {
-        "id": "platform-c0c49449",
+        "id": "commit-c0c49449",
         "type": "commit",
         "timestamp": "2026-04-26T12:14:00-04:00",
         "description": "backplaned: test suite complete \u2014 89 tests passing",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/c0c49449"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/c0c49449"
       },
       {
-        "id": "platform-6580a17c",
+        "id": "commit-6580a17c",
         "type": "commit",
         "timestamp": "2026-04-26T12:04:06-04:00",
         "description": "breaktime: daily notes reddit digest + session log",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/6580a17c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/6580a17c"
       },
       {
         "id": "commit-04ddc8a1",
@@ -99,22 +115,6 @@
         "description": "continental: update context with frontend improvements",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/5bf86f00"
-      },
-      {
-        "id": "commit-91bd6f73",
-        "type": "commit",
-        "timestamp": "2026-04-26T10:55:03-04:00",
-        "description": " Continental: update context.md \u2014 DB integration tests done, Flux deferred",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/91bd6f73"
-      },
-      {
-        "id": "commit-0cc84b6b",
-        "type": "commit",
-        "timestamp": "2026-04-26T09:09:02-04:00",
-        "description": "vLLM: wrap in systemd service (vllm-lorbus.service)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0cc84b6b"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
