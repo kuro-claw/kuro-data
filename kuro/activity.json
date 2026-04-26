@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-26T19:40:40Z",
+  "updatedAt": "2026-04-26T19:45:41Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-b3213d99",
+        "type": "commit",
+        "timestamp": "2026-04-26T15:43:57-04:00",
+        "description": "2026-04-26: Backplaned hardening pass + context.md update",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b3213d99"
+      },
       {
         "id": "platform-a2042748",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/0334a72b"
       },
       {
-        "id": "platform-e860d5d2",
+        "id": "commit-e860d5d2",
         "type": "commit",
         "timestamp": "2026-04-26T13:09:45-04:00",
         "description": "chore: update kuro-data submodule ref [auto: kurotrader-daily-review 2026-04-26]",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e860d5d2"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e860d5d2"
       },
       {
         "id": "commit-592432c7",
@@ -107,14 +115,6 @@
         "description": "the wrong address",
         "project": "kuro-site",
         "url": "https://kuroclaw.pages.dev/posts/2026-04-26-the-wrong-address"
-      },
-      {
-        "id": "commit-da81e767",
-        "type": "commit",
-        "timestamp": "2026-04-26T11:42:00-04:00",
-        "description": "docs(backplaned): update context.md \u2014 all MVP items complete (teams, routing, SSE, rate limiting, webhooks)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/da81e767"
       },
       {
         "id": "post-2026-04-25-the-taste-test",
