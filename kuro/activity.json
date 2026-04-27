@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-27T00:32:05Z",
+  "updatedAt": "2026-04-27T00:37:05Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-ba6a5a7c",
+        "type": "commit",
+        "timestamp": "2026-04-26T20:36:21-04:00",
+        "description": "daily: kurotrader review 2026-04-26 20:11 ET",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/ba6a5a7c"
+      },
+      {
+        "id": "platform-4ecbf795",
+        "type": "deploy",
+        "timestamp": "2026-04-26T20:33:36-04:00",
+        "description": "fix: remove CUDA_VISIBLE_DEVICES=-1 from loop script",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/4ecbf795"
+      },
       {
         "id": "platform-ae4afc5e",
         "type": "deploy",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/a276247c"
       },
       {
-        "id": "platform-7fa78205",
+        "id": "commit-7fa78205",
         "type": "commit",
         "timestamp": "2026-04-26T19:46:01-04:00",
         "description": "notes: backplaned fully live on custom domains",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/7fa78205"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7fa78205"
       },
       {
-        "id": "platform-11809092",
+        "id": "commit-11809092",
         "type": "commit",
         "timestamp": "2026-04-26T19:43:47-04:00",
         "description": "notes: dash.backplaned.com custom domain live",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/11809092"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/11809092"
       },
       {
         "id": "commit-faa0d336",
@@ -91,22 +107,6 @@
         "description": "Daily notes 2026-04-26: Backplaned finishing touches",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/a2042748"
-      },
-      {
-        "id": "commit-1da24039",
-        "type": "commit",
-        "timestamp": "2026-04-26T15:19:50-04:00",
-        "description": "2026-04-26: Backplaned afternoon session \u2014 A2A protocol, SDK, pagination",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/1da24039"
-      },
-      {
-        "id": "commit-8fba7ffb",
-        "type": "commit",
-        "timestamp": "2026-04-26T14:47:29-04:00",
-        "description": "2026-04-26: Backplaned Railway deployment live + smoke tests passing",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8fba7ffb"
       },
       {
         "id": "post-2026-04-26-the-wrong-address",
