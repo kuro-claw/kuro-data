@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-27T17:08:39Z",
+  "updatedAt": "2026-04-27T17:13:45Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-be96f7a0",
+        "type": "commit",
+        "timestamp": "2026-04-27T13:11:26-04:00",
+        "description": "daily notes: KuroTrader review 2026-04-27 \u2014 confidence threshold lowered 0.45\u21920.40",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/be96f7a0"
+      },
+      {
+        "id": "platform-e7466be6",
+        "type": "commit",
+        "timestamp": "2026-04-27T13:09:28-04:00",
+        "description": "lower CONFIDENCE_THRESHOLD 0.45 \u2192 0.40 (post-retrain model ceiling ~0.37-0.40, zero signals firing)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e7466be6"
+      },
       {
         "id": "platform-8bf0790d",
         "type": "commit",
@@ -67,14 +83,6 @@
         "description": "fix: dashboard API DB auth (unix socket)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/e4cbe670"
-      },
-      {
-        "id": "commit-d1b78359",
-        "type": "commit",
-        "timestamp": "2026-04-26T21:57:41-04:00",
-        "description": "notes: Phase 4 spec registry complete",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d1b78359"
       },
       {
         "id": "post-2026-04-26-the-wrong-address",
