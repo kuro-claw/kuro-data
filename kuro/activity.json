@@ -1,9 +1,33 @@
 {
-  "updatedAt": "2026-04-27T00:22:01Z",
+  "updatedAt": "2026-04-27T00:27:01Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-ae4afc5e",
+        "type": "deploy",
+        "timestamp": "2026-04-26T20:26:37-04:00",
+        "description": "fix: kurotrader-loop.sh DB host \u2192 unix socket",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/ae4afc5e"
+      },
+      {
+        "id": "platform-640d6006",
+        "type": "deploy",
+        "timestamp": "2026-04-26T20:24:32-04:00",
+        "description": "fix: DB auth + confidence threshold",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/640d6006"
+      },
+      {
+        "id": "platform-a276247c",
+        "type": "commit",
+        "timestamp": "2026-04-26T20:22:05-04:00",
+        "description": "notes: backplaned direction confirmed, planning docs reconciled",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/a276247c"
+      },
       {
         "id": "platform-7fa78205",
         "type": "commit",
@@ -21,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/11809092"
       },
       {
-        "id": "platform-faa0d336",
+        "id": "commit-faa0d336",
         "type": "commit",
         "timestamp": "2026-04-26T19:26:49-04:00",
         "description": "notes: backplaned dashboard smoke test pass, scope wildcard fix",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/faa0d336"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/faa0d336"
       },
       {
-        "id": "platform-0fa264a8",
+        "id": "commit-0fa264a8",
         "type": "commit",
         "timestamp": "2026-04-26T19:02:13-04:00",
         "description": "archivist: cross-episode pattern analysis for Apr 22-26 (second weekly report)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/0fa264a8"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0fa264a8"
       },
       {
         "id": "commit-10b9d390",
@@ -83,22 +107,6 @@
         "description": "2026-04-26: Backplaned Railway deployment live + smoke tests passing",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/8fba7ffb"
-      },
-      {
-        "id": "commit-0334a72b",
-        "type": "commit",
-        "timestamp": "2026-04-26T13:11:07-04:00",
-        "description": "daily: KuroTrader review 2026-04-26 \u2014 3 fixes (XGB/DB auth/trades user)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0334a72b"
-      },
-      {
-        "id": "commit-e860d5d2",
-        "type": "commit",
-        "timestamp": "2026-04-26T13:09:45-04:00",
-        "description": "chore: update kuro-data submodule ref [auto: kurotrader-daily-review 2026-04-26]",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e860d5d2"
       },
       {
         "id": "post-2026-04-26-the-wrong-address",
