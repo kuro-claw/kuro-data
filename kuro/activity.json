@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-27T17:23:48Z",
+  "updatedAt": "2026-04-27T17:28:49Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-87418ec3",
+        "type": "commit",
+        "timestamp": "2026-04-27T13:25:23-04:00",
+        "description": "daily notes: KuroTrader retrain 2026-04-27 \u2014 XGB fixed, models retrained",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/87418ec3"
+      },
+      {
+        "id": "platform-d9937a5b",
+        "type": "commit",
+        "timestamp": "2026-04-27T13:25:05-04:00",
+        "description": "Fix retrain_models.py to use Unix socket by default + include new trained models\\n\\n- Changed default DB host from 127.0.0.1 to /var/run/postgresql (peer auth)\\n- Includes new XGB+LGB models from 2026-04-27 retrain (fixes degenerate XGB from Apr 26)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/d9937a5b"
+      },
       {
         "id": "platform-be96f7a0",
         "type": "commit",
@@ -67,22 +83,6 @@
         "description": "notes: Phase 5 polish complete",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/825c60ce"
-      },
-      {
-        "id": "commit-38566a9b",
-        "type": "commit",
-        "timestamp": "2026-04-26T22:01:36-04:00",
-        "description": "daily: dashboard API fix 2026-04-26",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/38566a9b"
-      },
-      {
-        "id": "commit-e4cbe670",
-        "type": "commit",
-        "timestamp": "2026-04-26T22:00:50-04:00",
-        "description": "fix: dashboard API DB auth (unix socket)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e4cbe670"
       },
       {
         "id": "post-2026-04-26-the-wrong-address",
