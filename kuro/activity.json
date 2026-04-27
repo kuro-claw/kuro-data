@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T23:16:05Z",
+  "updatedAt": "2026-04-27T23:21:09Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
@@ -29,12 +29,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/27e68f2c"
       },
       {
-        "id": "platform-feb69b2a",
+        "id": "commit-feb69b2a",
         "type": "commit",
         "timestamp": "2026-04-27T16:19:23-04:00",
         "description": "Remove regime features + tighten stop-loss to -3%\\n\\nRegime one-hot features (regime_low_vol/med/high) removed from\\nmodel input. regime_low_vol dominated XGB at 68% importance,\\ncausing all-hold deadlock in low-vol regimes. Continuous cond_vol\\nand atr_pct provide the same information without hard boundaries.\\n\\nStop-loss tightened from -4% to -3% to break stale position\\ndeadlock (SOL/XRP at ~-2.5%).\\n\\nXGB importances now more evenly distributed:\\n  atr_pct: 54.6%, vol_forecast: 15.4%, cond_vol: 13.4%\\nvs previous: regime_low_vol: 68%.",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/feb69b2a"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/feb69b2a"
       },
       {
         "id": "commit-87418ec3",
