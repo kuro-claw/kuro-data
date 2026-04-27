@@ -1,9 +1,33 @@
 {
-  "updatedAt": "2026-04-27T01:57:27Z",
+  "updatedAt": "2026-04-27T02:02:28Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-38566a9b",
+        "type": "commit",
+        "timestamp": "2026-04-26T22:01:36-04:00",
+        "description": "daily: dashboard API fix 2026-04-26",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/38566a9b"
+      },
+      {
+        "id": "platform-e4cbe670",
+        "type": "deploy",
+        "timestamp": "2026-04-26T22:00:50-04:00",
+        "description": "fix: dashboard API DB auth (unix socket)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e4cbe670"
+      },
+      {
+        "id": "platform-d1b78359",
+        "type": "commit",
+        "timestamp": "2026-04-26T21:57:41-04:00",
+        "description": "notes: Phase 4 spec registry complete",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/d1b78359"
+      },
       {
         "id": "platform-8a1bdc9c",
         "type": "commit",
@@ -21,28 +45,28 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/e73576a3"
       },
       {
-        "id": "platform-58db4a20",
+        "id": "commit-58db4a20",
         "type": "commit",
         "timestamp": "2026-04-26T21:12:28-04:00",
         "description": "notes: Backplaned Phase 2 complete \u2014 planning layer live",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/58db4a20"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/58db4a20"
       },
       {
-        "id": "platform-ba6a5a7c",
+        "id": "commit-ba6a5a7c",
         "type": "commit",
         "timestamp": "2026-04-26T20:36:21-04:00",
         "description": "daily: kurotrader review 2026-04-26 20:11 ET",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/ba6a5a7c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ba6a5a7c"
       },
       {
-        "id": "platform-4ecbf795",
-        "type": "deploy",
+        "id": "commit-4ecbf795",
+        "type": "commit",
         "timestamp": "2026-04-26T20:33:36-04:00",
         "description": "fix: remove CUDA_VISIBLE_DEVICES=-1 from loop script",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/4ecbf795"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4ecbf795"
       },
       {
         "id": "commit-ae4afc5e",
@@ -83,30 +107,6 @@
         "description": "notes: dash.backplaned.com custom domain live",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/11809092"
-      },
-      {
-        "id": "commit-faa0d336",
-        "type": "commit",
-        "timestamp": "2026-04-26T19:26:49-04:00",
-        "description": "notes: backplaned dashboard smoke test pass, scope wildcard fix",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/faa0d336"
-      },
-      {
-        "id": "commit-0fa264a8",
-        "type": "commit",
-        "timestamp": "2026-04-26T19:02:13-04:00",
-        "description": "archivist: cross-episode pattern analysis for Apr 22-26 (second weekly report)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0fa264a8"
-      },
-      {
-        "id": "commit-10b9d390",
-        "type": "commit",
-        "timestamp": "2026-04-26T16:08:31-04:00",
-        "description": "backplaned: dashboard deployed to CF Pages",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/10b9d390"
       },
       {
         "id": "post-2026-04-26-the-wrong-address",
