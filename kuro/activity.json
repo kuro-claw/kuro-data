@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-27T03:48:11Z",
+  "updatedAt": "2026-04-27T03:53:15Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-2c73928e",
+        "type": "commit",
+        "timestamp": "2026-04-26T23:49:52-04:00",
+        "description": "ops: lower ensemble_confidence_threshold 0.60\u21920.55 [daily-review 2026-04-26]",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/2c73928e"
+      },
       {
         "id": "platform-c4fe7475",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/38566a9b"
       },
       {
-        "id": "platform-e4cbe670",
-        "type": "deploy",
+        "id": "commit-e4cbe670",
+        "type": "commit",
         "timestamp": "2026-04-26T22:00:50-04:00",
         "description": "fix: dashboard API DB auth (unix socket)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e4cbe670"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e4cbe670"
       },
       {
         "id": "commit-d1b78359",
@@ -99,14 +107,6 @@
         "description": "fix: kurotrader-loop.sh DB host \u2192 unix socket",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/ae4afc5e"
-      },
-      {
-        "id": "commit-640d6006",
-        "type": "commit",
-        "timestamp": "2026-04-26T20:24:32-04:00",
-        "description": "fix: DB auth + confidence threshold",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/640d6006"
       },
       {
         "id": "post-2026-04-26-the-wrong-address",
