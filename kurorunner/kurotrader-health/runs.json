@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-04-27T04:00:05.183758+00:00",
+  "updatedAt": "2026-04-27T12:00:29.950262+00:00",
   "source": "kurorunner",
   "version": 1,
   "job_id": "kurotrader-health",
   "runs": [
+    {
+      "ts": "2026-04-27T12:00:29.949387+00:00",
+      "exit": 1,
+      "duration_ms": 64,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "consecutive_errors": 100,
+      "error": "KuroTrader DB unreachable"
+    },
     {
       "ts": "2026-04-27T04:00:05.183703+00:00",
       "exit": 1,
@@ -173,15 +182,6 @@
       "tokens_in": 0,
       "tokens_out": 0,
       "consecutive_errors": 81,
-      "error": "KuroTrader DB unreachable"
-    },
-    {
-      "ts": "2026-04-27T02:25:00.683226+00:00",
-      "exit": 1,
-      "duration_ms": 37,
-      "tokens_in": 0,
-      "tokens_out": 0,
-      "consecutive_errors": 80,
       "error": "KuroTrader DB unreachable"
     }
   ]

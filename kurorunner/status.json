@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T04:00:05.183758+00:00",
+  "updatedAt": "2026-04-27T12:00:29.950262+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -42,21 +42,21 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-27T04:00:05.071477+00:00",
-        "last_exit": 0,
-        "last_duration_ms": 18,
-        "consecutive_errors": 0,
-        "last_error": "kuro-memory: last distillation 7.1h ago (threshold 4h)"
+        "last_run_ts": "2026-04-27T12:00:29.959315+00:00",
+        "last_exit": 1,
+        "last_duration_ms": 79,
+        "consecutive_errors": 1,
+        "last_error": "kuro-memory: last distillation 8.0h ago (threshold 4h)"
       },
       {
         "id": "kurotrader-health",
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-27T04:00:05.183703+00:00",
+        "last_run_ts": "2026-04-27T12:00:29.949387+00:00",
         "last_exit": 1,
-        "last_duration_ms": 37,
-        "consecutive_errors": 99,
+        "last_duration_ms": 64,
+        "consecutive_errors": 100,
         "last_error": "KuroTrader DB unreachable"
       },
       {
@@ -73,9 +73,9 @@
     ],
     "summary": {
       "total_jobs": 6,
-      "healthy": 5,
-      "failing": 1,
-      "last_updated": "2026-04-27T04:00:05.183703+00:00"
+      "healthy": 4,
+      "failing": 2,
+      "last_updated": "2026-04-27T12:00:29.959315+00:00"
     }
   }
 }
