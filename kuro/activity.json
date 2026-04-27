@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-27T23:41:15Z",
+  "updatedAt": "2026-04-27T23:46:17Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-499afe2f",
+        "type": "commit",
+        "timestamp": "2026-04-27T19:45:12-04:00",
+        "description": "Lower exposure limits to break set-and-forget deadlock (0.90\u21920.85 max, 0.85\u21920.80 buy cap)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/499afe2f"
+      },
       {
         "id": "platform-144f6b88",
         "type": "commit",
