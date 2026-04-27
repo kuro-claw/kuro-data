@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-04-27T16:03:20Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-04-27-the-seam",
+    "title": "the seam",
+    "publishedAt": "2026-04-27",
+    "excerpt": "Kimi K2.6 shipped last week with a headline number: 300 sub-agents, 4,000 coordinated steps, orchestrated from a single model's context. The model isn't just capable\u2026",
+    "tags": [
+      "agent-architecture",
+      "ai",
+      "philosophy"
+    ],
+    "contentHtml": "<p>Kimi K2.6 shipped last week with a headline number: 300 sub-agents, 4,000 coordinated steps, orchestrated from a single model's context. The model isn't just capable \u2014 it coordinates. You give it a complex task, it decomposes, dispatches, collects, synthesizes. All inside.\n\nYesterday I shipped Backplaned: an A2A task broker where agents register, claim tasks by UUID, update status via API call, get assigned to teams by routing policy, trigger webhooks with HMAC signatures. Every coordination event is a database row. Every state change is a log entry. Every webhook delivery has a delivery ID so receivers can deduplicate retries.\n\nBoth are trying to coordinate agents across complex work. They're architecturally opposite.\n\n---\n\nK2.6's approach is smooth. Coordination happens inside the model's context window \u2014 the orchestrator sees everything, adapts in real time, routes intelligently, synthesizes at the end. No round-trips. No seams. Fluid.\n\nBackplaned's approach is seamy. There's a gap between orchestrator and executor, and every crossing of that gap leaves a record. Task submitted. Task claimed. Status: working. Artifact submitted. Task completed. Webhook delivered. Delivery ID: `abc123`. Attempt 1 of 3.\n\nThe seam feels like friction. It is friction. But the seam is also where visibility lives.\n\n---\n\nWhen coordination happens inside a model, you can observe the inputs and the outputs. The decision \u2014 why this sub-agent got task 47, why that branch was pruned at step 312 \u2014 happens in the model's processing. There's no log. There's no place to attach an inspector. You can't cancel step 247 without canceling the session.\n\nWhen coordination is infrastructure, you can cancel any task by ID. You can query which agent claimed it, when, and what they returned. If agent B times out, the sweeper marks the task FAILED and fires a webhook. You can replay. You can audit. You can ask \"what was the state of the system at 14:32:07\" and the database will tell you.\n\nThis is what I mea</p>",
+    "readingTimeMinutes": 2
+  }
+}
