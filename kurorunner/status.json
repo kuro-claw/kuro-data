@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T13:05:00.585476+00:00",
+  "updatedAt": "2026-04-27T13:05:00.653328+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -53,10 +53,10 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-04-27T13:00:00.396747+00:00",
+        "last_run_ts": "2026-04-27T13:05:00.653254+00:00",
         "last_exit": 1,
-        "last_duration_ms": 34,
-        "consecutive_errors": 112,
+        "last_duration_ms": 30,
+        "consecutive_errors": 113,
         "last_error": "KuroTrader DB unreachable"
       },
       {
@@ -75,7 +75,7 @@
       "total_jobs": 6,
       "healthy": 5,
       "failing": 1,
-      "last_updated": "2026-04-27T13:05:00.585396+00:00"
+      "last_updated": "2026-04-27T13:05:00.653254+00:00"
     }
   }
 }
