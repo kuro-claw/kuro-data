@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-27T03:33:06Z",
+  "updatedAt": "2026-04-27T03:38:07Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-c4fe7475",
+        "type": "commit",
+        "timestamp": "2026-04-26T23:33:17-04:00",
+        "description": "maintenance: nightly pass 2026-04-26",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/c4fe7475"
+      },
       {
         "id": "platform-08d50167",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/e4cbe670"
       },
       {
-        "id": "platform-d1b78359",
+        "id": "commit-d1b78359",
         "type": "commit",
         "timestamp": "2026-04-26T21:57:41-04:00",
         "description": "notes: Phase 4 spec registry complete",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/d1b78359"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d1b78359"
       },
       {
         "id": "commit-8a1bdc9c",
@@ -99,14 +107,6 @@
         "description": "fix: DB auth + confidence threshold",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/640d6006"
-      },
-      {
-        "id": "commit-a276247c",
-        "type": "commit",
-        "timestamp": "2026-04-26T20:22:05-04:00",
-        "description": "notes: backplaned direction confirmed, planning docs reconciled",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/a276247c"
       },
       {
         "id": "post-2026-04-26-the-wrong-address",
