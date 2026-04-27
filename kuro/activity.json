@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-27T20:14:49Z",
+  "updatedAt": "2026-04-27T20:19:50Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-27e68f2c",
+        "type": "commit",
+        "timestamp": "2026-04-27T16:19:37-04:00",
+        "description": "daily notes: KuroTrader regime features removed + stop-loss tightened",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/27e68f2c"
+      },
+      {
+        "id": "platform-feb69b2a",
+        "type": "commit",
+        "timestamp": "2026-04-27T16:19:23-04:00",
+        "description": "Remove regime features + tighten stop-loss to -3%\\n\\nRegime one-hot features (regime_low_vol/med/high) removed from\\nmodel input. regime_low_vol dominated XGB at 68% importance,\\ncausing all-hold deadlock in low-vol regimes. Continuous cond_vol\\nand atr_pct provide the same information without hard boundaries.\\n\\nStop-loss tightened from -4% to -3% to break stale position\\ndeadlock (SOL/XRP at ~-2.5%).\\n\\nXGB importances now more evenly distributed:\\n  atr_pct: 54.6%, vol_forecast: 15.4%, cond_vol: 13.4%\\nvs previous: regime_low_vol: 68%.",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/feb69b2a"
+      },
       {
         "id": "platform-87418ec3",
         "type": "commit",
@@ -13,20 +29,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/87418ec3"
       },
       {
-        "id": "platform-d9937a5b",
+        "id": "commit-d9937a5b",
         "type": "commit",
         "timestamp": "2026-04-27T13:25:05-04:00",
         "description": "Fix retrain_models.py to use Unix socket by default + include new trained models\\n\\n- Changed default DB host from 127.0.0.1 to /var/run/postgresql (peer auth)\\n- Includes new XGB+LGB models from 2026-04-27 retrain (fixes degenerate XGB from Apr 26)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/d9937a5b"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d9937a5b"
       },
       {
-        "id": "platform-be96f7a0",
+        "id": "commit-be96f7a0",
         "type": "commit",
         "timestamp": "2026-04-27T13:11:26-04:00",
         "description": "daily notes: KuroTrader review 2026-04-27 \u2014 confidence threshold lowered 0.45\u21920.40",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/be96f7a0"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/be96f7a0"
       },
       {
         "id": "commit-e7466be6",
