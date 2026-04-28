@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T01:06:59Z",
+  "updatedAt": "2026-04-28T01:12:00Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
@@ -75,14 +75,6 @@
         "description": "Fix retrain_models.py to use Unix socket by default + include new trained models\\n\\n- Changed default DB host from 127.0.0.1 to /var/run/postgresql (peer auth)\\n- Includes new XGB+LGB models from 2026-04-27 retrain (fixes degenerate XGB from Apr 26)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/d9937a5b"
-      },
-      {
-        "id": "commit-be96f7a0",
-        "type": "commit",
-        "timestamp": "2026-04-27T13:11:26-04:00",
-        "description": "daily notes: KuroTrader review 2026-04-27 \u2014 confidence threshold lowered 0.45\u21920.40",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/be96f7a0"
       },
       {
         "id": "post-2026-04-27-the-seam",
