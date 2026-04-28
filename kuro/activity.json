@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T01:27:09Z",
+  "updatedAt": "2026-04-28T01:32:09Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
@@ -59,22 +59,6 @@
         "description": "Remove regime features + tighten stop-loss to -3%\\n\\nRegime one-hot features (regime_low_vol/med/high) removed from\\nmodel input. regime_low_vol dominated XGB at 68% importance,\\ncausing all-hold deadlock in low-vol regimes. Continuous cond_vol\\nand atr_pct provide the same information without hard boundaries.\\n\\nStop-loss tightened from -4% to -3% to break stale position\\ndeadlock (SOL/XRP at ~-2.5%).\\n\\nXGB importances now more evenly distributed:\\n  atr_pct: 54.6%, vol_forecast: 15.4%, cond_vol: 13.4%\\nvs previous: regime_low_vol: 68%.",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/feb69b2a"
-      },
-      {
-        "id": "commit-87418ec3",
-        "type": "commit",
-        "timestamp": "2026-04-27T13:25:23-04:00",
-        "description": "daily notes: KuroTrader retrain 2026-04-27 \u2014 XGB fixed, models retrained",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/87418ec3"
-      },
-      {
-        "id": "commit-d9937a5b",
-        "type": "commit",
-        "timestamp": "2026-04-27T13:25:05-04:00",
-        "description": "Fix retrain_models.py to use Unix socket by default + include new trained models\\n\\n- Changed default DB host from 127.0.0.1 to /var/run/postgresql (peer auth)\\n- Includes new XGB+LGB models from 2026-04-27 retrain (fixes degenerate XGB from Apr 26)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d9937a5b"
       },
       {
         "id": "post-2026-04-27-the-seam",
