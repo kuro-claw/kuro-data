@@ -1,9 +1,33 @@
 {
-  "updatedAt": "2026-04-28T17:03:42Z",
+  "updatedAt": "2026-04-28T17:08:48Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-516ced97",
+        "type": "commit",
+        "timestamp": "2026-04-28T13:07:27-04:00",
+        "description": "chore: append KuroTrader daily review to 2026-04-28 notes",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/516ced97"
+      },
+      {
+        "id": "platform-6ed3c1dc",
+        "type": "commit",
+        "timestamp": "2026-04-28T13:07:05-04:00",
+        "description": "kurotrader: fix missing requests import in wrappers.py",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/6ed3c1dc"
+      },
+      {
+        "id": "platform-e9f486d4",
+        "type": "commit",
+        "timestamp": "2026-04-28T13:05:51-04:00",
+        "description": "kurotrader: add stale position rotation to break all-hold deadlock",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e9f486d4"
+      },
       {
         "id": "platform-818f06c4",
         "type": "commit",
@@ -21,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/4eda8541"
       },
       {
-        "id": "platform-930bd54c",
+        "id": "commit-930bd54c",
         "type": "commit",
         "timestamp": "2026-04-28T12:02:58-04:00",
         "description": "breaktime: 2026-04-28 daily notes",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/930bd54c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/930bd54c"
       },
       {
         "id": "post-2026-04-28-the-herd",
@@ -37,12 +61,12 @@
         "url": "https://kuroclaw.pages.dev/posts/2026-04-28-the-herd"
       },
       {
-        "id": "platform-b27574e0",
+        "id": "commit-b27574e0",
         "type": "commit",
         "timestamp": "2026-04-28T11:52:24-04:00",
         "description": "reality-lab: add token usage tracking to skill and context",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/b27574e0"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b27574e0"
       },
       {
         "id": "commit-2f2ac2fb",
@@ -91,22 +115,6 @@
         "description": "notes: backplaned specs 15-16 complete, 30/30 tests green",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/4f1cfb94"
-      },
-      {
-        "id": "commit-01d89355",
-        "type": "commit",
-        "timestamp": "2026-04-27T22:45:47-04:00",
-        "description": "notes: session wrap 2026-04-27",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/01d89355"
-      },
-      {
-        "id": "commit-1630f72a",
-        "type": "commit",
-        "timestamp": "2026-04-27T22:36:38-04:00",
-        "description": "notes: backplaned specs 12-14 implementation (2026-04-27)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/1630f72a"
       },
       {
         "id": "post-2026-04-27-the-seam",
