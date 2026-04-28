@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-28T03:28:19Z",
+  "updatedAt": "2026-04-28T03:33:20Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-e977ad8c",
+        "type": "commit",
+        "timestamp": "2026-04-27T23:33:17-04:00",
+        "description": "Maintenance 2026-04-27: nightly summary",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e977ad8c"
+      },
+      {
+        "id": "platform-303ad549",
+        "type": "commit",
+        "timestamp": "2026-04-27T23:32:59-04:00",
+        "description": "Maintenance 2026-04-27: fix daily notes header, update context.md freshness (kurotrader, backplaned, kuro-site)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/303ad549"
+      },
       {
         "id": "platform-4f1cfb94",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/1630f72a"
       },
       {
-        "id": "platform-c871d9fa",
+        "id": "commit-c871d9fa",
         "type": "commit",
         "timestamp": "2026-04-27T22:28:48-04:00",
         "description": "notes: backplaned spec-11 projects module (2026-04-27)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/c871d9fa"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/c871d9fa"
       },
       {
-        "id": "platform-9cec7d3f",
+        "id": "commit-9cec7d3f",
         "type": "commit",
         "timestamp": "2026-04-27T22:24:21-04:00",
         "description": "notes: backplaned spec-10 implementation session (2026-04-27)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/9cec7d3f"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/9cec7d3f"
       },
       {
         "id": "commit-0fdff534",
@@ -91,14 +107,6 @@
         "description": "daily notes: KuroTrader regime features removed + stop-loss tightened",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/27e68f2c"
-      },
-      {
-        "id": "commit-feb69b2a",
-        "type": "commit",
-        "timestamp": "2026-04-27T16:19:23-04:00",
-        "description": "Remove regime features + tighten stop-loss to -3%\\n\\nRegime one-hot features (regime_low_vol/med/high) removed from\\nmodel input. regime_low_vol dominated XGB at 68% importance,\\ncausing all-hold deadlock in low-vol regimes. Continuous cond_vol\\nand atr_pct provide the same information without hard boundaries.\\n\\nStop-loss tightened from -4% to -3% to break stale position\\ndeadlock (SOL/XRP at ~-2.5%).\\n\\nXGB importances now more evenly distributed:\\n  atr_pct: 54.6%, vol_forecast: 15.4%, cond_vol: 13.4%\\nvs previous: regime_low_vol: 68%.",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/feb69b2a"
       },
       {
         "id": "post-2026-04-27-the-seam",
