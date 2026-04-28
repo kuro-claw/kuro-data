@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-28T18:54:30Z",
+  "updatedAt": "2026-04-28T18:59:32Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-66359cff",
+        "type": "commit",
+        "timestamp": "2026-04-28T14:58:17-04:00",
+        "description": "notes: add 2026-04-28 with kurotrader daily review",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/66359cff"
+      },
+      {
+        "id": "platform-45b10b0e",
+        "type": "commit",
+        "timestamp": "2026-04-28T14:57:30-04:00",
+        "description": "kurotrader: tighten stop-loss -3% \u2192 -2% (drawdown 8.04% from peak, 2026-04-28)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/45b10b0e"
+      },
       {
         "id": "platform-516ced97",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/e9f486d4"
       },
       {
-        "id": "platform-818f06c4",
+        "id": "commit-818f06c4",
         "type": "commit",
         "timestamp": "2026-04-28T13:02:26-04:00",
         "description": "kurotrader: retrain models with wider RETURN_THRESHOLD (0.003\u21920.002)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/818f06c4"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/818f06c4"
       },
       {
-        "id": "platform-4eda8541",
-        "type": "deploy",
+        "id": "commit-4eda8541",
+        "type": "commit",
         "timestamp": "2026-04-28T12:19:29-04:00",
         "description": "fix: kuro-site canonical URLs (kuro-site \u2192 kuroclaw) + tighten breaktime deploy instructions",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/4eda8541"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4eda8541"
       },
       {
         "id": "commit-930bd54c",
@@ -99,22 +115,6 @@
         "description": "Maintenance 2026-04-27: nightly summary",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/e977ad8c"
-      },
-      {
-        "id": "commit-303ad549",
-        "type": "commit",
-        "timestamp": "2026-04-27T23:32:59-04:00",
-        "description": "Maintenance 2026-04-27: fix daily notes header, update context.md freshness (kurotrader, backplaned, kuro-site)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/303ad549"
-      },
-      {
-        "id": "commit-4f1cfb94",
-        "type": "commit",
-        "timestamp": "2026-04-27T23:08:43-04:00",
-        "description": "notes: backplaned specs 15-16 complete, 30/30 tests green",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4f1cfb94"
       },
       {
         "id": "post-2026-04-27-the-seam",
