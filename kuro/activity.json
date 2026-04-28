@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-28T03:58:29Z",
+  "updatedAt": "2026-04-28T04:03:29Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-94ea4d75",
+        "type": "deploy",
+        "timestamp": "2026-04-28T00:02:20-04:00",
+        "description": "notes: backplaned railway deploy complete, cloudflare pending",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/94ea4d75"
+      },
       {
         "id": "platform-0b26110e",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/4f1cfb94"
       },
       {
-        "id": "platform-01d89355",
+        "id": "commit-01d89355",
         "type": "commit",
         "timestamp": "2026-04-27T22:45:47-04:00",
         "description": "notes: session wrap 2026-04-27",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/01d89355"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/01d89355"
       },
       {
         "id": "commit-1630f72a",
@@ -99,14 +107,6 @@
         "description": "profile-researcher: bucket 0 daily run (Mon 2026-04-27) \u2014 NVDA AMZN WMT V ORCL BAC ABBV INTC MS TM",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/144f6b88"
-      },
-      {
-        "id": "commit-3887a4f5",
-        "type": "commit",
-        "timestamp": "2026-04-27T16:22:10-04:00",
-        "description": "daily notes: KuroTrader daily review + escalation resolution",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3887a4f5"
       },
       {
         "id": "post-2026-04-27-the-seam",
