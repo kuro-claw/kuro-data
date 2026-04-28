@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T20:24:56Z",
+  "updatedAt": "2026-04-28T20:29:59Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
@@ -10,7 +10,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-28T20:24:56Z"
+        "lastCheckAt": "2026-04-28T20:29:59Z"
       },
       {
         "id": "kurotrader-dash",
@@ -18,15 +18,16 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-28T20:24:56Z"
+        "lastCheckAt": "2026-04-28T20:29:59Z"
       },
       {
         "id": "kuroboard-api",
         "name": "KuroBoard API",
         "type": "systemd",
-        "status": "healthy",
+        "status": "unknown",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-28T20:24:56Z"
+        "lastCheckAt": "2026-04-28T20:29:59Z",
+        "detail": "activating"
       },
       {
         "id": "kuro-memory",
@@ -34,7 +35,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-28T20:24:56Z"
+        "lastCheckAt": "2026-04-28T20:29:59Z"
       },
       {
         "id": "benzinga-ingest",
@@ -42,7 +43,7 @@
         "type": "systemd",
         "status": "unknown",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-28T20:24:56Z",
+        "lastCheckAt": "2026-04-28T20:29:59Z",
         "detail": "activating"
       },
       {
@@ -51,7 +52,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-28T20:24:56Z"
+        "lastCheckAt": "2026-04-28T20:29:59Z"
       },
       {
         "id": "ollama",
@@ -59,7 +60,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-28T20:24:56Z"
+        "lastCheckAt": "2026-04-28T20:29:59Z"
       },
       {
         "id": "searxng",
@@ -67,7 +68,7 @@
         "type": "systemd",
         "status": "healthy",
         "expectedState": "running",
-        "lastCheckAt": "2026-04-28T20:24:56Z"
+        "lastCheckAt": "2026-04-28T20:29:59Z"
       }
     ]
   }
