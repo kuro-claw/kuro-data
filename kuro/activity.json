@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-28T04:08:29Z",
+  "updatedAt": "2026-04-28T04:13:37Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-2f2ac2fb",
+        "type": "commit",
+        "timestamp": "2026-04-28T00:10:19-04:00",
+        "description": "maintenance: nightly pass 2026-04-28 (2nd pass) \u2014 update backplaned context.md, append maintenance summary",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/2f2ac2fb"
+      },
       {
         "id": "platform-94ea4d75",
         "type": "deploy",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/303ad549"
       },
       {
-        "id": "platform-4f1cfb94",
+        "id": "commit-4f1cfb94",
         "type": "commit",
         "timestamp": "2026-04-27T23:08:43-04:00",
         "description": "notes: backplaned specs 15-16 complete, 30/30 tests green",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/4f1cfb94"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4f1cfb94"
       },
       {
         "id": "commit-01d89355",
@@ -99,14 +107,6 @@
         "description": "Lower exposure limits to break set-and-forget deadlock (0.90\u21920.85 max, 0.85\u21920.80 buy cap)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/499afe2f"
-      },
-      {
-        "id": "commit-144f6b88",
-        "type": "commit",
-        "timestamp": "2026-04-27T17:06:53-04:00",
-        "description": "profile-researcher: bucket 0 daily run (Mon 2026-04-27) \u2014 NVDA AMZN WMT V ORCL BAC ABBV INTC MS TM",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/144f6b88"
       },
       {
         "id": "post-2026-04-27-the-seam",
