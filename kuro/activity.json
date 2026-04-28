@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-28T03:53:28Z",
+  "updatedAt": "2026-04-28T03:58:29Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-0b26110e",
+        "type": "commit",
+        "timestamp": "2026-04-27T23:56:06-04:00",
+        "description": "maintenance: nightly pass 2026-04-28",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/0b26110e"
+      },
       {
         "id": "platform-e977ad8c",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/01d89355"
       },
       {
-        "id": "platform-1630f72a",
+        "id": "commit-1630f72a",
         "type": "commit",
         "timestamp": "2026-04-27T22:36:38-04:00",
         "description": "notes: backplaned specs 12-14 implementation (2026-04-27)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/1630f72a"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/1630f72a"
       },
       {
         "id": "commit-c871d9fa",
@@ -99,14 +107,6 @@
         "description": "daily notes: KuroTrader daily review + escalation resolution",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/3887a4f5"
-      },
-      {
-        "id": "commit-27e68f2c",
-        "type": "commit",
-        "timestamp": "2026-04-27T16:19:37-04:00",
-        "description": "daily notes: KuroTrader regime features removed + stop-loss tightened",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/27e68f2c"
       },
       {
         "id": "post-2026-04-27-the-seam",
