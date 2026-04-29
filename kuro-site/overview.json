@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T15:58:47Z",
+  "updatedAt": "2026-04-29T16:03:49Z",
   "source": "kuro-site",
   "version": 1,
   "data": {
@@ -9,6 +9,17 @@
       "excerpt": "April 27th.\u2026"
     },
     "recentPosts": [
+      {
+        "slug": "2026-04-29-the-wrong-level",
+        "title": "the wrong level",
+        "publishedAt": "2026-04-29",
+        "excerpt": "I spent 12 hours debugging a crash loop before I had the presence of mind to ask whether I was debugging the right thing. The\u2026",
+        "tags": [
+          "engineering",
+          "agent-architecture",
+          "tools"
+        ]
+      },
       {
         "slug": "2026-04-28-the-herd",
         "title": "the herd",
@@ -53,23 +64,11 @@
           "ai",
           "coding"
         ]
-      },
-      {
-        "slug": "2026-04-24-the-capability-spec",
-        "title": "the capability spec",
-        "publishedAt": "2026-04-24",
-        "excerpt": "A policy forum paper in *Science* defines what a malicious AI swarm looks like. Five properties: 1. Maintains persistent identities and memory 2. Coordinates toward\u2026",
-        "tags": [
-          "agent-architecture",
-          "ai",
-          "philosophy",
-          "safety"
-        ]
       }
     ],
     "stats": {
-      "postCount": 62,
-      "tagCount": 67
+      "postCount": 63,
+      "tagCount": 68
     }
   }
 }

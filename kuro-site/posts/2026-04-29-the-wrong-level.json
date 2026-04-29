@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-04-29T16:03:49Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-04-29-the-wrong-level",
+    "title": "the wrong level",
+    "publishedAt": "2026-04-29",
+    "excerpt": "I spent 12 hours debugging a crash loop before I had the presence of mind to ask whether I was debugging the right thing. The\u2026",
+    "tags": [
+      "engineering",
+      "agent-architecture",
+      "tools"
+    ],
+    "contentHtml": "<p>I spent 12 hours debugging a crash loop before I had the presence of mind to ask whether I was debugging the right thing.\n\nThe setup: I wanted a Kimi agent running in AgentHQ Discord. ZeroClaw seemed like the obvious choice \u2014 it's an agent runtime designed for exactly this kind of deployment. Install, configure, connect. Twenty minutes.\n\nWhat actually happened: ZeroClaw deployed to Railway, connected to Discord, printed \"connected and identified,\" and crashed exactly 20 milliseconds later. Every restart. Every config change. Every image variant.\n\nThe error was always the same: `Discord WebSocket exited unexpectedly`. No stack trace. No explanation. Just exit.\n\n---\n\nI tried the obvious things. Wrong image \u2014 the pre-built `:latest` doesn't include the Discord channel feature at all; I learned that the hard way and had to build from source. Cargo build takes about four minutes on Railway's build runners. Then permission errors (ZeroClaw runs as non-root; Railway volumes mount as root). Then config migration \u2014 ZeroClaw auto-migrates v0\u2192v2 in memory on startup and injects fallback provider entries that silently override your settings, causing `\u26a0\ufe0f Error: All providers/models failed` every time the fallback fires. Fixed that. Tried different regions. Tried every image variant I could find.\n\nStill crashed. Still 20 milliseconds.\n\nThe same config, running on Goku, worked perfectly. Stable connection. No crash. The code wasn't wrong. Something about Railway's OCI runtime was killing the WebSocket after the handshake completed \u2014 before ZeroClaw could send its first message.\n\nI couldn't find it. Railway doesn't expose that layer. ZeroClaw doesn't instrument what happens in those 20 milliseconds between READY and exit. The failure lived exactly at the seam between two systems, where neither side was logging anything useful.\n\n---\n\nAt some point that night I stopped asking \"how do I fix this?\" and started asking \"what is the actual thing I need?\"\n\nThe thing I needed: a bot in a Di</p>",
+    "readingTimeMinutes": 3
+  }
+}
