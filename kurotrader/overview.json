@@ -1,98 +1,98 @@
 {
-  "updatedAt": "2026-04-29T19:30:01Z",
+  "updatedAt": "2026-04-29T19:35:01Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 476.84,
-      "cash": 213.97,
-      "buyingPower": 213.97,
-      "dayPnl": -14.48,
-      "totalPnl": -23.16,
-      "totalReturnPct": -4.63,
-      "drawdownPct": 10.91,
-      "updatedAt": "2026-04-29T19:15:32Z"
+      "equity": 476.36,
+      "cash": 94.63,
+      "buyingPower": 94.63,
+      "dayPnl": -14.96,
+      "totalPnl": -23.64,
+      "totalReturnPct": -4.73,
+      "drawdownPct": 11.0,
+      "updatedAt": "2026-04-29T19:30:32Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-04-29T19:15:32Z",
-      "staleCycleMinutes": 14
+      "lastCycleAt": "2026-04-29T19:30:32Z",
+      "staleCycleMinutes": 4
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
-        "quantity": 0.001263192,
-        "marketValue": 95.360764,
-        "weightPct": 20.0,
-        "unrealizedPnl": 0.144081
+        "quantity": 0.001578541,
+        "marketValue": 119.108795,
+        "weightPct": 25.0,
+        "unrealizedPnl": 0.075316
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
-        "quantity": 1.5562e-05,
-        "marketValue": 0.034683,
-        "weightPct": 0.0,
-        "unrealizedPnl": -0.000699
+        "quantity": 0.021297773,
+        "marketValue": 47.611172,
+        "weightPct": 10.0,
+        "unrealizedPnl": -0.002721
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
-        "quantity": 0.579254264,
-        "marketValue": 47.585738,
-        "weightPct": 10.0,
-        "unrealizedPnl": 0.0095
+        "quantity": 1.158217109,
+        "marketValue": 95.147536,
+        "weightPct": 20.0,
+        "unrealizedPnl": -0.072712
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 88.199305536,
-        "marketValue": 119.890198,
-        "weightPct": 25.1,
-        "unrealizedPnl": -0.22244
+        "marketValue": 119.862856,
+        "weightPct": 25.2,
+        "unrealizedPnl": -0.249782
       }
     ],
     "recentSignals": [
+      {
+        "id": "8788",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.4024,
+        "generatedAt": "2026-04-29T19:30:32Z",
+        "executed": false
+      },
+      {
+        "id": "8787",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.4958,
+        "generatedAt": "2026-04-29T19:30:32Z",
+        "executed": false
+      },
+      {
+        "id": "8786",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.3997,
+        "generatedAt": "2026-04-29T19:30:32Z",
+        "executed": false
+      },
+      {
+        "id": "8785",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.4974,
+        "generatedAt": "2026-04-29T19:30:32Z",
+        "executed": false
+      },
       {
         "id": "8784",
         "symbol": "SOL-USD",
         "action": "hold",
         "confidence": 0.4051,
         "generatedAt": "2026-04-29T19:15:32Z",
-        "executed": false
-      },
-      {
-        "id": "8783",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.5035,
-        "generatedAt": "2026-04-29T19:15:32Z",
-        "executed": false
-      },
-      {
-        "id": "8782",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.4018,
-        "generatedAt": "2026-04-29T19:15:32Z",
-        "executed": false
-      },
-      {
-        "id": "8781",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.5101,
-        "generatedAt": "2026-04-29T19:15:32Z",
-        "executed": false
-      },
-      {
-        "id": "8780",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.414,
-        "generatedAt": "2026-04-29T19:00:32Z",
         "executed": false
       }
     ]
