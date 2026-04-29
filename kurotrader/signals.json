@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-29T21:25:34Z",
+  "updatedAt": "2026-04-29T21:30:38Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "8820",
+        "timestamp": "2026-04-29T21:30:32Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.445,
+        "executed": false
+      },
+      {
+        "id": "8819",
+        "timestamp": "2026-04-29T21:30:32Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.504,
+        "executed": false
+      },
+      {
+        "id": "8818",
+        "timestamp": "2026-04-29T21:30:32Z",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.3847,
+        "executed": false
+      },
+      {
+        "id": "8817",
+        "timestamp": "2026-04-29T21:30:32Z",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.5069,
+        "executed": false
+      },
       {
         "id": "8816",
         "timestamp": "2026-04-29T21:15:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "8811",
         "timestamp": "2026-04-29T21:00:32Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.4526,
-        "executed": false
-      },
-      {
-        "id": "8810",
-        "timestamp": "2026-04-29T21:00:32Z",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.4061,
-        "executed": false
-      },
-      {
-        "id": "8809",
-        "timestamp": "2026-04-29T21:00:32Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.5231,
-        "executed": false
-      },
-      {
-        "id": "8808",
-        "timestamp": "2026-04-29T20:45:32Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.4187,
-        "executed": false
-      },
-      {
-        "id": "8807",
-        "timestamp": "2026-04-29T20:45:32Z",
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.4526,
