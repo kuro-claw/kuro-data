@@ -1,98 +1,98 @@
 {
-  "updatedAt": "2026-04-29T16:28:58Z",
+  "updatedAt": "2026-04-29T16:34:02Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 485.45,
-      "cash": 169.36,
-      "buyingPower": 169.36,
-      "dayPnl": -5.42,
-      "totalPnl": -14.55,
-      "totalReturnPct": -2.91,
-      "drawdownPct": 9.3,
-      "updatedAt": "2026-04-29T16:15:33Z"
+      "equity": 484.23,
+      "cash": 71.49,
+      "buyingPower": 71.49,
+      "dayPnl": -6.05,
+      "totalPnl": -15.77,
+      "totalReturnPct": -3.15,
+      "drawdownPct": 9.53,
+      "updatedAt": "2026-04-29T16:30:32Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-04-29T16:15:32Z",
-      "staleCycleMinutes": 13
+      "lastCycleAt": "2026-04-29T16:30:32Z",
+      "staleCycleMinutes": 3
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
-        "quantity": 0.001461849,
-        "marketValue": 111.28998,
-        "weightPct": 22.9,
-        "unrealizedPnl": -1.268124
+        "quantity": 0.001597548,
+        "marketValue": 121.183114,
+        "weightPct": 25.0,
+        "unrealizedPnl": -1.66389
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
         "quantity": 0.053695939,
-        "marketValue": 122.309147,
+        "marketValue": 122.142152,
         "weightPct": 25.2,
-        "unrealizedPnl": 0.078291
+        "unrealizedPnl": -0.088704
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
-        "quantity": 0.985144736,
-        "marketValue": 81.980789,
-        "weightPct": 16.9,
-        "unrealizedPnl": -1.180133
+        "quantity": 1.454103211,
+        "marketValue": 120.719649,
+        "weightPct": 24.9,
+        "unrealizedPnl": -1.44938
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
-        "quantity": 0.373074385,
-        "marketValue": 0.508314,
-        "weightPct": 0.1,
-        "unrealizedPnl": -0.010772
+        "quantity": 35.803266481,
+        "marketValue": 48.692442,
+        "weightPct": 10.1,
+        "unrealizedPnl": -0.160157
       }
     ],
     "recentSignals": [
+      {
+        "id": "8740",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.4091,
+        "generatedAt": "2026-04-29T16:30:32Z",
+        "executed": false
+      },
+      {
+        "id": "8739",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.4901,
+        "generatedAt": "2026-04-29T16:30:32Z",
+        "executed": false
+      },
+      {
+        "id": "8738",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.3851,
+        "generatedAt": "2026-04-29T16:30:32Z",
+        "executed": false
+      },
+      {
+        "id": "8737",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.4609,
+        "generatedAt": "2026-04-29T16:30:32Z",
+        "executed": false
+      },
       {
         "id": "8736",
         "symbol": "SOL-USD",
         "action": "hold",
         "confidence": 0.4432,
         "generatedAt": "2026-04-29T16:15:32Z",
-        "executed": false
-      },
-      {
-        "id": "8735",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.4787,
-        "generatedAt": "2026-04-29T16:15:32Z",
-        "executed": false
-      },
-      {
-        "id": "8734",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.3756,
-        "generatedAt": "2026-04-29T16:15:32Z",
-        "executed": false
-      },
-      {
-        "id": "8733",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.5216,
-        "generatedAt": "2026-04-29T16:15:32Z",
-        "executed": false
-      },
-      {
-        "id": "8732",
-        "symbol": "SOL-USD",
-        "action": "buy",
-        "confidence": 0.4032,
-        "generatedAt": "2026-04-29T16:00:32Z",
         "executed": false
       }
     ]
