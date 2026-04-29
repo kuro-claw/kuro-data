@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-04-29T13:12:52Z",
+  "updatedAt": "2026-04-29T13:17:52Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "8688",
+        "timestamp": "2026-04-29T13:15:32Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.4542,
+        "executed": false
+      },
+      {
+        "id": "8687",
+        "timestamp": "2026-04-29T13:15:32Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.5264,
+        "executed": false
+      },
+      {
+        "id": "8686",
+        "timestamp": "2026-04-29T13:15:32Z",
+        "symbol": "ETH-USD",
+        "action": "buy",
+        "confidence": 0.3415,
+        "executed": false
+      },
+      {
+        "id": "8685",
+        "timestamp": "2026-04-29T13:15:32Z",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.5478,
+        "executed": false
+      },
       {
         "id": "8684",
         "timestamp": "2026-04-29T13:00:32Z",
@@ -47,38 +79,6 @@
       {
         "id": "8679",
         "timestamp": "2026-04-29T12:45:32Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.439,
-        "executed": false
-      },
-      {
-        "id": "8678",
-        "timestamp": "2026-04-29T12:45:32Z",
-        "symbol": "ETH-USD",
-        "action": "buy",
-        "confidence": 0.3621,
-        "executed": false
-      },
-      {
-        "id": "8677",
-        "timestamp": "2026-04-29T12:45:32Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.4586,
-        "executed": false
-      },
-      {
-        "id": "8676",
-        "timestamp": "2026-04-29T12:30:32Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.4029,
-        "executed": false
-      },
-      {
-        "id": "8675",
-        "timestamp": "2026-04-29T12:30:32Z",
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.439,
