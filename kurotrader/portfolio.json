@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-04-29T19:14:52Z",
+  "updatedAt": "2026-04-29T19:19:57Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "exposures": {
-      "grossPct": 35.1,
-      "netPct": 35.1,
-      "longPct": 35.1,
+      "grossPct": 55.1,
+      "netPct": 55.1,
+      "longPct": 55.1,
       "shortPct": 0.0,
-      "cashPct": 64.9
+      "cashPct": 44.9
     },
     "positions": [
       {
         "symbol": "BTCUSD",
-        "quantity": 0.000632872,
+        "quantity": 0.001263192,
         "averagePrice": 0.0,
         "lastPrice": 0.0,
-        "marketValue": 47.769267,
-        "weightPct": 10.0,
-        "unrealizedPnl": 0.124304,
+        "marketValue": 95.360764,
+        "weightPct": 20.0,
+        "unrealizedPnl": 0.144081,
         "side": "long"
       },
       {
@@ -26,9 +26,19 @@
         "quantity": 1.5562e-05,
         "averagePrice": 0.0,
         "lastPrice": 0.0,
-        "marketValue": 0.034854,
+        "marketValue": 0.034683,
         "weightPct": 0.0,
-        "unrealizedPnl": -0.000528,
+        "unrealizedPnl": -0.000699,
+        "side": "long"
+      },
+      {
+        "symbol": "SOLUSD",
+        "quantity": 0.579254264,
+        "averagePrice": 0.0,
+        "lastPrice": 0.0,
+        "marketValue": 47.585738,
+        "weightPct": 10.0,
+        "unrealizedPnl": 0.0095,
         "side": "long"
       },
       {
@@ -36,9 +46,9 @@
         "quantity": 88.199305536,
         "averagePrice": 0.0,
         "lastPrice": 0.0,
-        "marketValue": 119.181076,
-        "weightPct": 25.0,
-        "unrealizedPnl": -0.931562,
+        "marketValue": 119.890198,
+        "weightPct": 25.1,
+        "unrealizedPnl": -0.22244,
         "side": "long"
       }
     ]
