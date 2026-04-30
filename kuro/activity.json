@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-30T15:52:01Z",
+  "updatedAt": "2026-04-30T15:57:02Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-becdd7e3",
+        "type": "commit",
+        "timestamp": "2026-04-30T11:56:15-04:00",
+        "description": "chore(klawz-studio): initialize project context and audio engine research",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/becdd7e3"
+      },
       {
         "id": "platform-4f4cd974",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/e648fe3b"
       },
       {
-        "id": "platform-17873c34",
+        "id": "commit-17873c34",
         "type": "commit",
         "timestamp": "2026-04-30T11:03:35-04:00",
         "description": "Switch kurotrader-daily-review from Sonnet to local Qwen",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/17873c34"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/17873c34"
       },
       {
         "id": "commit-3ac0a300",
@@ -99,14 +107,6 @@
         "description": "Remove redundant memory/notes/ folder \u2014 content already in projects/kurotrader/context.md",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/00429e78"
-      },
-      {
-        "id": "commit-09070701",
-        "type": "commit",
-        "timestamp": "2026-04-29T20:57:27-04:00",
-        "description": "Archive zeroclaw-kimi (superseded by discord-kimi). Remove generate_fireworks_text() from kuro-memory distiller.",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/09070701"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
