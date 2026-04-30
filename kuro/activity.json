@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-30T18:12:52Z",
+  "updatedAt": "2026-04-30T18:17:53Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-6bcc284a",
+        "type": "commit",
+        "timestamp": "2026-04-30T14:16:12-04:00",
+        "description": "fix(klawz-studio): second-pass Gemini review \u2014 playback drift, IPC binary, branding, window size",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/6bcc284a"
+      },
       {
         "id": "platform-d40ee8d1",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/b29aa9e1"
       },
       {
-        "id": "platform-5cbf7fdc",
+        "id": "commit-5cbf7fdc",
         "type": "commit",
         "timestamp": "2026-04-30T12:03:28-04:00",
         "description": "docs(klawz-studio): generate KDD constitution, specification, and tasks for v1.0 MVP",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/5cbf7fdc"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/5cbf7fdc"
       },
       {
         "id": "commit-ab73f8f4",
@@ -99,14 +107,6 @@
         "description": "Update TOOLS.md: all cron jobs now use local Qwen",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/808661ba"
-      },
-      {
-        "id": "commit-e648fe3b",
-        "type": "commit",
-        "timestamp": "2026-04-30T11:05:03-04:00",
-        "description": "Update Reality Lab skill: orchestrator is Qwen, not Sonnet",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e648fe3b"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
