@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-30T16:02:05Z",
+  "updatedAt": "2026-04-30T16:07:06Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-5cbf7fdc",
+        "type": "commit",
+        "timestamp": "2026-04-30T12:03:28-04:00",
+        "description": "docs(klawz-studio): generate KDD constitution, specification, and tasks for v1.0 MVP",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/5cbf7fdc"
+      },
       {
         "id": "platform-ab73f8f4",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/becdd7e3"
       },
       {
-        "id": "platform-4f4cd974",
+        "id": "commit-4f4cd974",
         "type": "commit",
         "timestamp": "2026-04-30T11:09:34-04:00",
         "description": "Fix TOOLS.md: remove Fireworks fallback from kuro-memory, update KDD Clarify to GPT-5.5",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/4f4cd974"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4f4cd974"
       },
       {
         "id": "commit-e76a3f98",
@@ -99,14 +107,6 @@
         "description": "fix: add thinking:off for Opus 4.7 in Reality Lab skill (GitHub proxy bug)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/f053dbdb"
-      },
-      {
-        "id": "commit-60e3ea30",
-        "type": "commit",
-        "timestamp": "2026-04-30T09:56:37-04:00",
-        "description": "fix: document Opus 4.7 thinking:off workaround (TOOLS.md + MEMORY.md)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/60e3ea30"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
