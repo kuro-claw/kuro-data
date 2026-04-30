@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-30T15:06:47Z",
+  "updatedAt": "2026-04-30T15:11:48Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-4f4cd974",
+        "type": "commit",
+        "timestamp": "2026-04-30T11:09:34-04:00",
+        "description": "Fix TOOLS.md: remove Fireworks fallback from kuro-memory, update KDD Clarify to GPT-5.5",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/4f4cd974"
+      },
+      {
+        "id": "platform-e76a3f98",
+        "type": "commit",
+        "timestamp": "2026-04-30T11:08:04-04:00",
+        "description": "Remove dead agent model assignments from TOOLS.md (Privy, Jerbs, kuro-anthropic, kuro-openai, Hana)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e76a3f98"
+      },
       {
         "id": "platform-808661ba",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/17873c34"
       },
       {
-        "id": "platform-3ac0a300",
+        "id": "commit-3ac0a300",
         "type": "commit",
         "timestamp": "2026-04-30T10:30:49-04:00",
         "description": "note: add Discord delivery confirmation for Day 034",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/3ac0a300"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3ac0a300"
       },
       {
-        "id": "platform-fbdb9088",
+        "id": "commit-fbdb9088",
         "type": "commit",
         "timestamp": "2026-04-30T10:21:04-04:00",
         "description": "Reality Lab Day 034: 'Reading the Gradient' \u2014 manual run, Opus 4.7 thinking:off fix, cron\u2192Qwen orchestrator",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/fbdb9088"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fbdb9088"
       },
       {
         "id": "commit-f053dbdb",
@@ -91,22 +107,6 @@
         "description": "Archive zeroclaw-kimi (superseded by discord-kimi). Remove generate_fireworks_text() from kuro-memory distiller.",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/09070701"
-      },
-      {
-        "id": "commit-b5e2ffc0",
-        "type": "commit",
-        "timestamp": "2026-04-29T20:53:26-04:00",
-        "description": "TOOLS.md: update main session fallback to claude-sonnet-4.6 (was gpt-5.4)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b5e2ffc0"
-      },
-      {
-        "id": "commit-10912795",
-        "type": "commit",
-        "timestamp": "2026-04-29T20:51:37-04:00",
-        "description": "profile-researcher: update compact.js to use vLLM/Qwen, clean up dead Fireworks code in synthesize.js, update SKILL.md troubleshooting",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/10912795"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
