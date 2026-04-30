@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-30T14:26:27Z",
+  "updatedAt": "2026-04-30T14:31:29Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-3ac0a300",
+        "type": "commit",
+        "timestamp": "2026-04-30T10:30:49-04:00",
+        "description": "note: add Discord delivery confirmation for Day 034",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/3ac0a300"
+      },
       {
         "id": "platform-fbdb9088",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/afb09cda"
       },
       {
-        "id": "platform-8aa17fcf",
+        "id": "commit-8aa17fcf",
         "type": "commit",
         "timestamp": "2026-04-29T23:31:02-04:00",
         "description": "maintenance: nightly pass 2026-04-30 \u2014 add memory/episodes to gitignore, daily notes",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/8aa17fcf"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8aa17fcf"
       },
       {
         "id": "commit-00429e78",
@@ -99,14 +107,6 @@
         "description": "Remove broken KuroLoop classification pipeline (prep-classification-tasks.js, upsert-classifications.js). KuroLoop decommissioned. Historical classifications preserved. Schema marked as deprecated.",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/95f29485"
-      },
-      {
-        "id": "commit-223f17ff",
-        "type": "commit",
-        "timestamp": "2026-04-29T20:37:52-04:00",
-        "description": "TOOLS.md: remove obsolete kuro-research entries, update cron jobs model to reflect Qwen usage",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/223f17ff"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
