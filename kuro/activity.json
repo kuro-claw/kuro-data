@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T12:45:47Z",
+  "updatedAt": "2026-04-30T12:50:52Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
@@ -29,12 +29,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/00429e78"
       },
       {
-        "id": "platform-09070701",
+        "id": "commit-09070701",
         "type": "commit",
         "timestamp": "2026-04-29T20:57:27-04:00",
         "description": "Archive zeroclaw-kimi (superseded by discord-kimi). Remove generate_fireworks_text() from kuro-memory distiller.",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/09070701"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/09070701"
       },
       {
         "id": "commit-b5e2ffc0",
@@ -91,14 +91,6 @@
         "description": "maintenance: add subagent patterns for all file edit operations (context.md, MEMORY.md, README, daily notes, people files, overwrite recovery, stub consolidation)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/85058d18"
-      },
-      {
-        "id": "commit-9398d1fa",
-        "type": "commit",
-        "timestamp": "2026-04-29T20:18:40-04:00",
-        "description": "agent-arena-monitor: remove obsolete model refs (it's a KuroRunner job, no LLM). profile-researcher: add vLLM/Qwen backend, default to local with Fireworks fallback",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/9398d1fa"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
