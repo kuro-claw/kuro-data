@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-30T00:16:49Z",
+  "updatedAt": "2026-04-30T00:21:51Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-9398d1fa",
+        "type": "commit",
+        "timestamp": "2026-04-29T20:18:40-04:00",
+        "description": "agent-arena-monitor: remove obsolete model refs (it's a KuroRunner job, no LLM). profile-researcher: add vLLM/Qwen backend, default to local with Fireworks fallback",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/9398d1fa"
+      },
       {
         "id": "platform-7b18c647",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/072c5dae"
       },
       {
-        "id": "platform-38f48d6d",
+        "id": "commit-38f48d6d",
         "type": "commit",
         "timestamp": "2026-04-29T19:00:55-04:00",
         "description": "reality-lab: add subagent patterns for file writes (artifact, daily notes, context) to support Qwen runs",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/38f48d6d"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/38f48d6d"
       },
       {
         "id": "commit-b186ce89",
@@ -99,14 +107,6 @@
         "description": "docs: daily notes Apr 29 - discord-kimi deploy, fixes, all features confirmed",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/69743f5b"
-      },
-      {
-        "id": "commit-0d9d2311",
-        "type": "commit",
-        "timestamp": "2026-04-29T12:03:00-04:00",
-        "description": "breaktime: update daily notes and kuro-site context with lunch session",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0d9d2311"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
