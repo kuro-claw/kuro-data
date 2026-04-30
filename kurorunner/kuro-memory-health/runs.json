@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-04-30T17:00:01.901285+00:00",
+  "updatedAt": "2026-04-30T17:00:01.960243+00:00",
   "source": "kurorunner",
   "version": 1,
   "job_id": "kuro-memory-health",
   "runs": [
+    {
+      "ts": "2026-04-30T17:00:01.960201+00:00",
+      "exit": 1,
+      "duration_ms": 17,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "consecutive_errors": 61,
+      "error": "kuro-memory: last distillation 13.1h ago (threshold 4h)"
+    },
     {
       "ts": "2026-04-30T16:55:00.695549+00:00",
       "exit": 1,
@@ -173,15 +182,6 @@
       "tokens_in": 0,
       "tokens_out": 0,
       "consecutive_errors": 42,
-      "error": "kuro-memory: last distillation 11.5h ago (threshold 4h)"
-    },
-    {
-      "ts": "2026-04-30T15:20:00.193142+00:00",
-      "exit": 1,
-      "duration_ms": 17,
-      "tokens_in": 0,
-      "tokens_out": 0,
-      "consecutive_errors": 41,
       "error": "kuro-memory: last distillation 11.5h ago (threshold 4h)"
     }
   ]
