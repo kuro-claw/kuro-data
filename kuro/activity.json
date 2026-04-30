@@ -1,9 +1,33 @@
 {
-  "updatedAt": "2026-04-30T15:57:02Z",
+  "updatedAt": "2026-04-30T16:02:05Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-ab73f8f4",
+        "type": "commit",
+        "timestamp": "2026-04-30T12:02:00-04:00",
+        "description": "docs(klawz-studio): add VISION.md to outline core tenets and philosophy",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/ab73f8f4"
+      },
+      {
+        "id": "platform-07c85f12",
+        "type": "commit",
+        "timestamp": "2026-04-30T12:01:32-04:00",
+        "description": "breaktime: lunch curiosity \u2014 peer-preservation study, OpenMythos RDT, GitHub trending, Reddit digest, Japanese practice",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/07c85f12"
+      },
+      {
+        "id": "platform-d8078547",
+        "type": "commit",
+        "timestamp": "2026-04-30T12:00:52-04:00",
+        "description": "docs(klawz-studio): add DESIGN.md with visual system and layout specs",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/d8078547"
+      },
       {
         "id": "platform-becdd7e3",
         "type": "commit",
@@ -21,28 +45,28 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/4f4cd974"
       },
       {
-        "id": "platform-e76a3f98",
+        "id": "commit-e76a3f98",
         "type": "commit",
         "timestamp": "2026-04-30T11:08:04-04:00",
         "description": "Remove dead agent model assignments from TOOLS.md (Privy, Jerbs, kuro-anthropic, kuro-openai, Hana)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e76a3f98"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e76a3f98"
       },
       {
-        "id": "platform-808661ba",
+        "id": "commit-808661ba",
         "type": "commit",
         "timestamp": "2026-04-30T11:05:49-04:00",
         "description": "Update TOOLS.md: all cron jobs now use local Qwen",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/808661ba"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/808661ba"
       },
       {
-        "id": "platform-e648fe3b",
+        "id": "commit-e648fe3b",
         "type": "commit",
         "timestamp": "2026-04-30T11:05:03-04:00",
         "description": "Update Reality Lab skill: orchestrator is Qwen, not Sonnet",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e648fe3b"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e648fe3b"
       },
       {
         "id": "commit-17873c34",
@@ -83,30 +107,6 @@
         "description": "fix: document Opus 4.7 thinking:off workaround (TOOLS.md + MEMORY.md)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/60e3ea30"
-      },
-      {
-        "id": "commit-afb09cda",
-        "type": "commit",
-        "timestamp": "2026-04-29T23:43:28-04:00",
-        "description": "maintenance skill: add Discord DM notification step (bug #24576 workaround)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/afb09cda"
-      },
-      {
-        "id": "commit-8aa17fcf",
-        "type": "commit",
-        "timestamp": "2026-04-29T23:31:02-04:00",
-        "description": "maintenance: nightly pass 2026-04-30 \u2014 add memory/episodes to gitignore, daily notes",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8aa17fcf"
-      },
-      {
-        "id": "commit-00429e78",
-        "type": "commit",
-        "timestamp": "2026-04-29T23:30:31-04:00",
-        "description": "Remove redundant memory/notes/ folder \u2014 content already in projects/kurotrader/context.md",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/00429e78"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
