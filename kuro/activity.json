@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-30T17:37:42Z",
+  "updatedAt": "2026-04-30T17:42:43Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-d40ee8d1",
+        "type": "commit",
+        "timestamp": "2026-04-30T13:42:31-04:00",
+        "description": "feat(klawz-studio): land verified audio MVP and review Gemini prototype",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/d40ee8d1"
+      },
       {
         "id": "platform-2751d81a",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/5cbf7fdc"
       },
       {
-        "id": "platform-ab73f8f4",
+        "id": "commit-ab73f8f4",
         "type": "commit",
         "timestamp": "2026-04-30T12:02:00-04:00",
         "description": "docs(klawz-studio): add VISION.md to outline core tenets and philosophy",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/ab73f8f4"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ab73f8f4"
       },
       {
         "id": "commit-07c85f12",
@@ -99,14 +107,6 @@
         "description": "Update Reality Lab skill: orchestrator is Qwen, not Sonnet",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/e648fe3b"
-      },
-      {
-        "id": "commit-17873c34",
-        "type": "commit",
-        "timestamp": "2026-04-30T11:03:35-04:00",
-        "description": "Switch kurotrader-daily-review from Sonnet to local Qwen",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/17873c34"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
