@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T12:35:42Z",
+  "updatedAt": "2026-04-30T12:40:43Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
@@ -37,12 +37,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/09070701"
       },
       {
-        "id": "platform-b5e2ffc0",
+        "id": "commit-b5e2ffc0",
         "type": "commit",
         "timestamp": "2026-04-29T20:53:26-04:00",
         "description": "TOOLS.md: update main session fallback to claude-sonnet-4.6 (was gpt-5.4)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/b5e2ffc0"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b5e2ffc0"
       },
       {
         "id": "commit-10912795",
@@ -99,14 +99,6 @@
         "description": "agent-arena-monitor: remove obsolete model refs (it's a KuroRunner job, no LLM). profile-researcher: add vLLM/Qwen backend, default to local with Fireworks fallback",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/9398d1fa"
-      },
-      {
-        "id": "commit-7b18c647",
-        "type": "commit",
-        "timestamp": "2026-04-29T20:14:12-04:00",
-        "description": "direct-dev-subagent: switch to vllm/qwen3.6-27b-lorbus for both modes to minimize API costs",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7b18c647"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
