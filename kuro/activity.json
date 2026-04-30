@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-04-30T16:07:06Z",
+  "updatedAt": "2026-04-30T16:12:10Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-6fcdf779",
+        "type": "commit",
+        "timestamp": "2026-04-30T12:10:51-04:00",
+        "description": "fix(runbooks): replace direct message() calls with subagent delivery across all 9 runbook skills",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/6fcdf779"
+      },
+      {
+        "id": "platform-b29aa9e1",
+        "type": "commit",
+        "timestamp": "2026-04-30T12:09:17-04:00",
+        "description": "fix(breaktime skill): use subagent for Discord delivery \u2014 message tool not always available",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b29aa9e1"
+      },
       {
         "id": "platform-5cbf7fdc",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/07c85f12"
       },
       {
-        "id": "platform-d8078547",
+        "id": "commit-d8078547",
         "type": "commit",
         "timestamp": "2026-04-30T12:00:52-04:00",
         "description": "docs(klawz-studio): add DESIGN.md with visual system and layout specs",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/d8078547"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d8078547"
       },
       {
-        "id": "platform-becdd7e3",
+        "id": "commit-becdd7e3",
         "type": "commit",
         "timestamp": "2026-04-30T11:56:15-04:00",
         "description": "chore(klawz-studio): initialize project context and audio engine research",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/becdd7e3"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/becdd7e3"
       },
       {
         "id": "commit-4f4cd974",
@@ -91,22 +107,6 @@
         "description": "note: add Discord delivery confirmation for Day 034",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/3ac0a300"
-      },
-      {
-        "id": "commit-fbdb9088",
-        "type": "commit",
-        "timestamp": "2026-04-30T10:21:04-04:00",
-        "description": "Reality Lab Day 034: 'Reading the Gradient' \u2014 manual run, Opus 4.7 thinking:off fix, cron\u2192Qwen orchestrator",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fbdb9088"
-      },
-      {
-        "id": "commit-f053dbdb",
-        "type": "commit",
-        "timestamp": "2026-04-30T10:11:21-04:00",
-        "description": "fix: add thinking:off for Opus 4.7 in Reality Lab skill (GitHub proxy bug)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f053dbdb"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
