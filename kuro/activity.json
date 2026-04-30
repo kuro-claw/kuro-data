@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-04-30T00:57:07Z",
+  "updatedAt": "2026-04-30T01:02:09Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-09070701",
+        "type": "commit",
+        "timestamp": "2026-04-29T20:57:27-04:00",
+        "description": "Archive zeroclaw-kimi (superseded by discord-kimi). Remove generate_fireworks_text() from kuro-memory distiller.",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/09070701"
+      },
       {
         "id": "platform-b5e2ffc0",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/a9a2036a"
       },
       {
-        "id": "platform-95f29485",
+        "id": "commit-95f29485",
         "type": "commit",
         "timestamp": "2026-04-29T20:41:25-04:00",
         "description": "Remove broken KuroLoop classification pipeline (prep-classification-tasks.js, upsert-classifications.js). KuroLoop decommissioned. Historical classifications preserved. Schema marked as deprecated.",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/95f29485"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/95f29485"
       },
       {
         "id": "commit-223f17ff",
@@ -99,14 +107,6 @@
         "description": "reality-lab: revert Step 4 subagent \u2014 write tool doesn't need it, only edit tool",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/072c5dae"
-      },
-      {
-        "id": "commit-38f48d6d",
-        "type": "commit",
-        "timestamp": "2026-04-29T19:00:55-04:00",
-        "description": "reality-lab: add subagent patterns for file writes (artifact, daily notes, context) to support Qwen runs",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/38f48d6d"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
