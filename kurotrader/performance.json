@@ -1,14 +1,9 @@
 {
-  "updatedAt": "2026-04-30T20:58:43Z",
+  "updatedAt": "2026-04-30T21:03:46Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "timeline": [
-      {
-        "timestamp": "2026-03-31T20:00:00Z",
-        "equity": 483.33,
-        "drawdownPct": 3.33
-      },
       {
         "timestamp": "2026-03-31T21:00:00Z",
         "equity": 482.24,
@@ -2373,11 +2368,16 @@
         "timestamp": "2026-04-30T20:00:00Z",
         "equity": 481.38,
         "drawdownPct": 7.48
+      },
+      {
+        "timestamp": "2026-04-30T21:00:00Z",
+        "equity": 481.68,
+        "drawdownPct": 7.42
       }
     ],
     "summary": {
-      "cumulativeReturnPct": -3.64,
-      "winRate": 39.3,
+      "cumulativeReturnPct": -3.66,
+      "winRate": 42.9,
       "bestDayPct": 4.38,
       "worstDayPct": -3.1
     }
