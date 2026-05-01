@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T03:26:18Z",
+  "updatedAt": "2026-05-01T03:31:20Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-5b4eeba8",
+        "type": "commit",
+        "timestamp": "2026-04-30T23:30:59-04:00",
+        "description": "maintenance: nightly pass 2026-04-30",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/5b4eeba8"
+      },
       {
         "id": "platform-fbaad5ce",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/dccee57f"
       },
       {
-        "id": "platform-ae1e1271",
+        "id": "commit-ae1e1271",
         "type": "commit",
         "timestamp": "2026-04-30T19:44:18-04:00",
         "description": "profile-researcher: disable thinking via chat_template_kwargs, drop /no_think token",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/ae1e1271"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ae1e1271"
       },
       {
         "id": "commit-b9d0b1f1",
