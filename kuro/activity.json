@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T16:59:25Z",
+  "updatedAt": "2026-05-01T17:04:28Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-322c9e2e",
+        "type": "commit",
+        "timestamp": "2026-05-01T13:02:41-04:00",
+        "description": "kurotrader: daily improvement 2026-05-01 \u2014 CONFIDENCE_THRESHOLD 0.25\u21920.20, stale rotation 120h\u219296h",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/322c9e2e"
+      },
       {
         "id": "platform-d665a513",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/7d5a6ded"
       },
       {
-        "id": "platform-de1fbbda",
+        "id": "commit-de1fbbda",
         "type": "commit",
         "timestamp": "2026-05-01T12:01:09-04:00",
         "description": "breaktime: Qwen-Scope SAE research, Japanese practice (\u52b4\u50cd\u306e\u65e5), Reddit digest",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/de1fbbda"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/de1fbbda"
       },
       {
         "id": "post-2026-05-01-the-surgical-option",
@@ -107,14 +115,6 @@
         "description": "fix(reality-lab): apply review feedback \u2014 URL, thinking, failure recovery, hero fallback, prior context cap, orchestrator model",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/b0c6b207"
-      },
-      {
-        "id": "commit-3ed93270",
-        "type": "commit",
-        "timestamp": "2026-05-01T01:18:11-04:00",
-        "description": "notes: subagent performance improvements session 2026-05-01",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3ed93270"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
