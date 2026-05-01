@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-01T03:46:26Z",
+  "updatedAt": "2026-05-01T03:51:26Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-daede9df",
+        "type": "commit",
+        "timestamp": "2026-04-30T23:50:43-04:00",
+        "description": "fix(kuro-memory): disable Qwen3 thinking mode in vLLM requests to fix null content bug",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/daede9df"
+      },
+      {
+        "id": "platform-b26780f0",
+        "type": "deploy",
+        "timestamp": "2026-04-30T23:46:34-04:00",
+        "description": "fix: maintenance Discord notification via curl bot token \u2014 subagent and CLI both fail",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b26780f0"
+      },
       {
         "id": "platform-32f6b5cc",
         "type": "deploy",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/fbaad5ce"
       },
       {
-        "id": "platform-2cbe6ff3",
+        "id": "commit-2cbe6ff3",
         "type": "commit",
         "timestamp": "2026-04-30T21:17:42-04:00",
         "description": "chore: cron jobs now inherit agent default model",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/2cbe6ff3"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/2cbe6ff3"
       },
       {
-        "id": "platform-072b0615",
+        "id": "commit-072b0615",
         "type": "commit",
         "timestamp": "2026-04-30T21:12:45-04:00",
         "description": "chore: switch kuro default model to sonnet-4.6, thinking off",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/072b0615"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/072b0615"
       },
       {
         "id": "commit-dccee57f",
@@ -91,22 +107,6 @@
         "description": "profile-researcher: bucket 3 (Thu Apr 30) \u2014 AAPL META LLY MU COST PLTR PG AMAT MRK RTX + fix vLLM reasoning\u2192content fallback",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/e19c416c"
-      },
-      {
-        "id": "commit-64851b9f",
-        "type": "commit",
-        "timestamp": "2026-04-30T14:30:50-04:00",
-        "description": "docs(klawz-studio): add round-3 full-functionality audit to Gemini review",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/64851b9f"
-      },
-      {
-        "id": "commit-f538216a",
-        "type": "commit",
-        "timestamp": "2026-04-30T14:29:25-04:00",
-        "description": "fix(klawz-studio): full functionality pass \u2014 8 bugs fixed",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f538216a"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
