@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T13:58:13Z",
+  "updatedAt": "2026-05-01T14:03:15Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-ad697398",
+        "type": "commit",
+        "timestamp": "2026-05-01T10:02:49-04:00",
+        "description": "strategist: May 2026 report + new intentions (sunset 10 projects, context dedup, orphan cleanup, klawz-studio)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/ad697398"
+      },
       {
         "id": "platform-78b6b179",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/89677168"
       },
       {
-        "id": "platform-b0c6b207",
+        "id": "commit-b0c6b207",
         "type": "commit",
         "timestamp": "2026-05-01T08:24:11-04:00",
         "description": "fix(reality-lab): apply review feedback \u2014 URL, thinking, failure recovery, hero fallback, prior context cap, orchestrator model",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/b0c6b207"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b0c6b207"
       },
       {
         "id": "commit-3ed93270",
@@ -99,14 +107,6 @@
         "description": "notes: subagent-driven-dev skill work and panda test (2026-05-01)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/7ab9fbb9"
-      },
-      {
-        "id": "commit-8973ef88",
-        "type": "commit",
-        "timestamp": "2026-05-01T00:28:26-04:00",
-        "description": "skill: remove hardcoded model assignments from subagent-driven-dev, defer to agent default",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8973ef88"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
