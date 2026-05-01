@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-01T04:11:32Z",
+  "updatedAt": "2026-05-01T04:16:34Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-4bcb0230",
+        "type": "commit",
+        "timestamp": "2026-05-01T00:14:47-04:00",
+        "description": "notes: discord notify troubleshooting, subagent model fix \u2014 Apr 30 / May 1",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/4bcb0230"
+      },
+      {
+        "id": "platform-f1425a74",
+        "type": "deploy",
+        "timestamp": "2026-05-01T00:13:31-04:00",
+        "description": "fix: subagent default model \u2192 Qwen via agents.list[kuro].subagents.model; update TOOLS.md",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/f1425a74"
+      },
       {
         "id": "platform-169ecc92",
         "type": "deploy",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/b26780f0"
       },
       {
-        "id": "platform-32f6b5cc",
-        "type": "deploy",
+        "id": "commit-32f6b5cc",
+        "type": "commit",
         "timestamp": "2026-04-30T23:36:41-04:00",
         "description": "fix: maintenance skill \u2014 subagent has no message tool, switch to CLI pattern (documented)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/32f6b5cc"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/32f6b5cc"
       },
       {
-        "id": "platform-5b4eeba8",
+        "id": "commit-5b4eeba8",
         "type": "commit",
         "timestamp": "2026-04-30T23:30:59-04:00",
         "description": "maintenance: nightly pass 2026-04-30",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/5b4eeba8"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/5b4eeba8"
       },
       {
         "id": "commit-fbaad5ce",
@@ -91,22 +107,6 @@
         "description": "profile-researcher: /no_think token + citation hallucination validator",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/b9d0b1f1"
-      },
-      {
-        "id": "commit-635684d5",
-        "type": "commit",
-        "timestamp": "2026-04-30T17:41:57-04:00",
-        "description": "profile-researcher: fix stale Fireworks comment + programmatic Sources section (prevents LLM date hallucination)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/635684d5"
-      },
-      {
-        "id": "commit-78c6717e",
-        "type": "commit",
-        "timestamp": "2026-04-30T17:36:00-04:00",
-        "description": "docs(klawz-studio): update context with next testing steps",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/78c6717e"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
