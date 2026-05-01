@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T12:37:44Z",
+  "updatedAt": "2026-05-01T12:42:44Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-78b6b179",
+        "type": "commit",
+        "timestamp": "2026-05-01T08:42:06-04:00",
+        "description": "reality-lab skill: unpin Qwen experiment, restore three-model routing",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/78b6b179"
+      },
       {
         "id": "platform-59e17fa9",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/b0c6b207"
       },
       {
-        "id": "platform-3ed93270",
+        "id": "commit-3ed93270",
         "type": "commit",
         "timestamp": "2026-05-01T01:18:11-04:00",
         "description": "notes: subagent performance improvements session 2026-05-01",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/3ed93270"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3ed93270"
       },
       {
         "id": "commit-95b5bce3",
@@ -99,14 +107,6 @@
         "description": "skill: remove hardcoded model assignments from subagent-driven-dev, defer to agent default",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/8973ef88"
-      },
-      {
-        "id": "commit-1d42c2a7",
-        "type": "commit",
-        "timestamp": "2026-05-01T00:26:46-04:00",
-        "description": "skill: rename direct-dev-subagent \u2192 kuro-runbook-subagent-driven-dev, update all references",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/1d42c2a7"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
