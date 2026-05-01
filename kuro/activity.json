@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-01T05:06:56Z",
+  "updatedAt": "2026-05-01T05:11:57Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-357cfb62",
+        "type": "commit",
+        "timestamp": "2026-05-01T01:10:41-04:00",
+        "description": "soul: add decompose-before-acting as explicit first-class habit",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/357cfb62"
+      },
+      {
+        "id": "platform-6be890ea",
+        "type": "commit",
+        "timestamp": "2026-05-01T01:09:06-04:00",
+        "description": "add subagent routing heuristic to AGENTS.md + parallel thinking principle to SOUL.md",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/6be890ea"
+      },
       {
         "id": "platform-0d124c46",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/7ab9fbb9"
       },
       {
-        "id": "platform-8973ef88",
+        "id": "commit-8973ef88",
         "type": "commit",
         "timestamp": "2026-05-01T00:28:26-04:00",
         "description": "skill: remove hardcoded model assignments from subagent-driven-dev, defer to agent default",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/8973ef88"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8973ef88"
       },
       {
-        "id": "platform-1d42c2a7",
+        "id": "commit-1d42c2a7",
         "type": "commit",
         "timestamp": "2026-05-01T00:26:46-04:00",
         "description": "skill: rename direct-dev-subagent \u2192 kuro-runbook-subagent-driven-dev, update all references",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/1d42c2a7"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/1d42c2a7"
       },
       {
         "id": "commit-7043ef9a",
@@ -91,22 +107,6 @@
         "description": "fix: replace subagent Discord notify with discord-notify.sh across all skills",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/169ecc92"
-      },
-      {
-        "id": "commit-daede9df",
-        "type": "commit",
-        "timestamp": "2026-04-30T23:50:43-04:00",
-        "description": "fix(kuro-memory): disable Qwen3 thinking mode in vLLM requests to fix null content bug",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/daede9df"
-      },
-      {
-        "id": "commit-b26780f0",
-        "type": "commit",
-        "timestamp": "2026-04-30T23:46:34-04:00",
-        "description": "fix: maintenance Discord notification via curl bot token \u2014 subagent and CLI both fail",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b26780f0"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
