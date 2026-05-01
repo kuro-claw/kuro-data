@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T00:25:03Z",
+  "updatedAt": "2026-05-01T00:30:07Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-dccee57f",
+        "type": "commit",
+        "timestamp": "2026-04-30T20:25:29-04:00",
+        "description": "ref: add vllm-proxy to TOOLS.md and tailscale serve",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/dccee57f"
+      },
       {
         "id": "platform-ae1e1271",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/78c6717e"
       },
       {
-        "id": "platform-e19c416c",
+        "id": "commit-e19c416c",
         "type": "commit",
         "timestamp": "2026-04-30T17:07:45-04:00",
         "description": "profile-researcher: bucket 3 (Thu Apr 30) \u2014 AAPL META LLY MU COST PLTR PG AMAT MRK RTX + fix vLLM reasoning\u2192content fallback",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e19c416c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e19c416c"
       },
       {
         "id": "commit-64851b9f",
@@ -99,14 +107,6 @@
         "description": "fix(breaktime skill): use subagent for Discord delivery \u2014 message tool not always available",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/b29aa9e1"
-      },
-      {
-        "id": "commit-5cbf7fdc",
-        "type": "commit",
-        "timestamp": "2026-04-30T12:03:28-04:00",
-        "description": "docs(klawz-studio): generate KDD constitution, specification, and tasks for v1.0 MVP",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/5cbf7fdc"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
