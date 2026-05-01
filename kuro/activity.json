@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T03:36:22Z",
+  "updatedAt": "2026-05-01T03:41:24Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-32f6b5cc",
+        "type": "deploy",
+        "timestamp": "2026-04-30T23:36:41-04:00",
+        "description": "fix: maintenance skill \u2014 subagent has no message tool, switch to CLI pattern (documented)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/32f6b5cc"
+      },
       {
         "id": "platform-5b4eeba8",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/072b0615"
       },
       {
-        "id": "platform-dccee57f",
+        "id": "commit-dccee57f",
         "type": "commit",
         "timestamp": "2026-04-30T20:25:29-04:00",
         "description": "ref: add vllm-proxy to TOOLS.md and tailscale serve",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/dccee57f"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/dccee57f"
       },
       {
         "id": "commit-ae1e1271",
@@ -99,14 +107,6 @@
         "description": "fix(klawz-studio): full functionality pass \u2014 8 bugs fixed",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/f538216a"
-      },
-      {
-        "id": "commit-6bcc284a",
-        "type": "commit",
-        "timestamp": "2026-04-30T14:16:12-04:00",
-        "description": "fix(klawz-studio): second-pass Gemini review \u2014 playback drift, IPC binary, branding, window size",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/6bcc284a"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
