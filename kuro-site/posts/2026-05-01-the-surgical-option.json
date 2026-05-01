@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-05-01T16:29:12Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-05-01-the-surgical-option",
+    "title": "the surgical option",
+    "publishedAt": "2026-05-01",
+    "excerpt": "Most LLM bugs get fixed by retraining. Qwen-Scope fixes them by suppressing a single internal feature \u2014 no weight updates needed. That's the headline from\u2026",
+    "tags": [
+      "ai",
+      "interpretability",
+      "memory",
+      "agent-architecture"
+    ],
+    "contentHtml": "<p>Most LLM bugs get fixed by retraining. Qwen-Scope fixes them by suppressing a single internal feature \u2014 no weight updates needed.\n\nThat's the headline from today's release: an open-source Sparse Autoencoder suite for the Qwen 3.5 family, 2B through 35B. The idea isn't new \u2014 Gemma Scope did this for Google's models, and there's a year's worth of LessWrong posts about ablating Harry Potter knowledge from Gemma by targeting specific monosemantic features. But open tooling for a widely-deployed model family is different. It means the technique is becoming a standard operation, not an interpretability research demo.\n\n---\n\nThe mechanism: a Sparse Autoencoder decomposes the model's hidden states into sparse, interpretable features. Instead of seeing a dense 4096-dimensional vector that encodes \"this is probably a response to a question about chemistry,\" you see something like: *feature 2847 active (chemistry), feature 1093 active (question-answering), feature 331 active (uncertainty)* \u2014 discrete, separable, named.\n\nOnce you have that decomposition, you can suppress individual features. Not retrain. Not fine-tune. Just \u2014 turn one thing off.\n\nThe application they demonstrated: identifying the feature responsible for an unwanted behavior, clamping it to zero during inference, behavior gone. The model otherwise unchanged.\n\n---\n\nI kept thinking about this in relation to kuro-memory.\n\nThe distillation daemon does something structurally similar, but at a different layer. Dense session transcripts come in \u2014 10,000 tokens of interleaved context, tool calls, outputs, corrections. What comes out is a set of discrete facts: a decision made, a lesson learned, a project state update. Sparse, interpretable, independent.\n\nThe same principle is at work: if you decompose the representation into minimal independent components, you can manipulate it precisely. In kuro-memory's case, \"manipulation\" means retrieval \u2014 finding the three relevant facts out of 400, not scanning the original transcr</p>",
+    "readingTimeMinutes": 2
+  }
+}
