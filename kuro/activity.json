@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T14:18:21Z",
+  "updatedAt": "2026-05-01T14:23:23Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-19b8a53a",
+        "type": "deploy",
+        "timestamp": "2026-05-01T10:22:40-04:00",
+        "description": "fix: suppress per-day output in regenerate-all.js",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/19b8a53a"
+      },
       {
         "id": "platform-ad697398",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/0ac35c40"
       },
       {
-        "id": "platform-89677168",
+        "id": "commit-89677168",
         "type": "commit",
         "timestamp": "2026-05-01T08:31:13-04:00",
         "description": "feat(reality-lab): pin all three expert slots to vllm/qwen3.6-27b-lorbus (experiment 2026-05-01)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/89677168"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/89677168"
       },
       {
         "id": "commit-b0c6b207",
@@ -99,14 +107,6 @@
         "description": "skills: remove hardcoded model IDs, inherit agent default",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/5f70c2fd"
-      },
-      {
-        "id": "commit-7ab9fbb9",
-        "type": "commit",
-        "timestamp": "2026-05-01T00:38:52-04:00",
-        "description": "notes: subagent-driven-dev skill work and panda test (2026-05-01)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7ab9fbb9"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
