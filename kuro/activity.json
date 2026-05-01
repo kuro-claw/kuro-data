@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T04:36:42Z",
+  "updatedAt": "2026-05-01T04:41:44Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-7ab9fbb9",
+        "type": "commit",
+        "timestamp": "2026-05-01T00:38:52-04:00",
+        "description": "notes: subagent-driven-dev skill work and panda test (2026-05-01)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/7ab9fbb9"
+      },
       {
         "id": "platform-8973ef88",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/8ab24974"
       },
       {
-        "id": "platform-9795ffd9",
+        "id": "commit-9795ffd9",
         "type": "commit",
         "timestamp": "2026-05-01T00:19:31-04:00",
         "description": "notes: 2026-05-01 config cleanup + kuro-memory distillation fix",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/9795ffd9"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/9795ffd9"
       },
       {
         "id": "commit-4bcb0230",
@@ -99,14 +107,6 @@
         "description": "maintenance: nightly pass 2026-04-30",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/5b4eeba8"
-      },
-      {
-        "id": "commit-fbaad5ce",
-        "type": "commit",
-        "timestamp": "2026-04-30T21:18:58-04:00",
-        "description": "chore: fix kuro-memory distillation model reference in TOOLS.md",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fbaad5ce"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
