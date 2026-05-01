@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-01T04:26:39Z",
+  "updatedAt": "2026-05-01T04:31:40Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-8973ef88",
+        "type": "commit",
+        "timestamp": "2026-05-01T00:28:26-04:00",
+        "description": "skill: remove hardcoded model assignments from subagent-driven-dev, defer to agent default",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/8973ef88"
+      },
+      {
+        "id": "platform-1d42c2a7",
+        "type": "commit",
+        "timestamp": "2026-05-01T00:26:46-04:00",
+        "description": "skill: rename direct-dev-subagent \u2192 kuro-runbook-subagent-driven-dev, update all references",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/1d42c2a7"
+      },
       {
         "id": "platform-7043ef9a",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/9795ffd9"
       },
       {
-        "id": "platform-4bcb0230",
+        "id": "commit-4bcb0230",
         "type": "commit",
         "timestamp": "2026-05-01T00:14:47-04:00",
         "description": "notes: discord notify troubleshooting, subagent model fix \u2014 Apr 30 / May 1",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/4bcb0230"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4bcb0230"
       },
       {
-        "id": "platform-f1425a74",
-        "type": "deploy",
+        "id": "commit-f1425a74",
+        "type": "commit",
         "timestamp": "2026-05-01T00:13:31-04:00",
         "description": "fix: subagent default model \u2192 Qwen via agents.list[kuro].subagents.model; update TOOLS.md",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/f1425a74"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f1425a74"
       },
       {
         "id": "commit-169ecc92",
@@ -91,22 +107,6 @@
         "description": "chore: fix kuro-memory distillation model reference in TOOLS.md",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/fbaad5ce"
-      },
-      {
-        "id": "commit-2cbe6ff3",
-        "type": "commit",
-        "timestamp": "2026-04-30T21:17:42-04:00",
-        "description": "chore: cron jobs now inherit agent default model",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/2cbe6ff3"
-      },
-      {
-        "id": "commit-072b0615",
-        "type": "commit",
-        "timestamp": "2026-04-30T21:12:45-04:00",
-        "description": "chore: switch kuro default model to sonnet-4.6, thinking off",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/072b0615"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
