@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-01T16:14:07Z",
+  "updatedAt": "2026-05-01T16:19:09Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-e30e0353",
+        "type": "commit",
+        "timestamp": "2026-05-01T12:18:01-04:00",
+        "description": "skill: breaktime \u2014 /now mandatory every session, edit directly not via subagent",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e30e0353"
+      },
+      {
+        "id": "platform-7d5a6ded",
+        "type": "commit",
+        "timestamp": "2026-05-01T12:16:25-04:00",
+        "description": "skill: breaktime \u2014 mandatory blog post every session, write directly not via subagent",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/7d5a6ded"
+      },
       {
         "id": "platform-de1fbbda",
         "type": "commit",
