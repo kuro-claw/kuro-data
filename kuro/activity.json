@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T16:19:09Z",
+  "updatedAt": "2026-05-01T16:24:11Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-7ddcadd9",
+        "type": "commit",
+        "timestamp": "2026-05-01T12:21:15-04:00",
+        "description": "breaktime: /now updated May 1; skill \u2014 GitHub README mandatory, repos/kuro-claw path added",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/7ddcadd9"
+      },
       {
         "id": "platform-e30e0353",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/19b8a53a"
       },
       {
-        "id": "platform-ad697398",
+        "id": "commit-ad697398",
         "type": "commit",
         "timestamp": "2026-05-01T10:02:49-04:00",
         "description": "strategist: May 2026 report + new intentions (sunset 10 projects, context dedup, orphan cleanup, klawz-studio)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/ad697398"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ad697398"
       },
       {
         "id": "commit-78b6b179",
@@ -99,14 +107,6 @@
         "description": "skills: add parallel subagent scanning to tech-debt-scan and emerging-tech-scan",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/95b5bce3"
-      },
-      {
-        "id": "commit-357cfb62",
-        "type": "commit",
-        "timestamp": "2026-05-01T01:10:41-04:00",
-        "description": "soul: add decompose-before-acting as explicit first-class habit",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/357cfb62"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
