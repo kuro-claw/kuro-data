@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-01T03:51:26Z",
+  "updatedAt": "2026-05-01T03:56:26Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-169ecc92",
+        "type": "deploy",
+        "timestamp": "2026-04-30T23:54:08-04:00",
+        "description": "fix: replace subagent Discord notify with discord-notify.sh across all skills",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/169ecc92"
+      },
       {
         "id": "platform-daede9df",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/5b4eeba8"
       },
       {
-        "id": "platform-fbaad5ce",
+        "id": "commit-fbaad5ce",
         "type": "commit",
         "timestamp": "2026-04-30T21:18:58-04:00",
         "description": "chore: fix kuro-memory distillation model reference in TOOLS.md",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/fbaad5ce"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fbaad5ce"
       },
       {
         "id": "commit-2cbe6ff3",
@@ -99,14 +107,6 @@
         "description": "docs(klawz-studio): update context with next testing steps",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/78c6717e"
-      },
-      {
-        "id": "commit-e19c416c",
-        "type": "commit",
-        "timestamp": "2026-04-30T17:07:45-04:00",
-        "description": "profile-researcher: bucket 3 (Thu Apr 30) \u2014 AAPL META LLY MU COST PLTR PG AMAT MRK RTX + fix vLLM reasoning\u2192content fallback",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e19c416c"
       },
       {
         "id": "post-2026-04-29-the-wrong-level",
