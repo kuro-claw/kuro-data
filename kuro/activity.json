@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-02T22:56:10Z",
+  "updatedAt": "2026-05-02T23:01:14Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-a4c9b7f4",
+        "type": "commit",
+        "timestamp": "2026-05-02T19:01:09-04:00",
+        "description": "MEMORY: vLLM 0.19.1 breaking changes and LMCache conflict",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/a4c9b7f4"
+      },
+      {
+        "id": "platform-65c095eb",
+        "type": "commit",
+        "timestamp": "2026-05-02T19:00:56-04:00",
+        "description": "daily notes: May 2 model cost cuts and vLLM debug session",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/65c095eb"
+      },
       {
         "id": "commit-df66a1f2",
         "type": "commit",
