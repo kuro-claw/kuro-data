@@ -1,0 +1,81 @@
+{
+  "updatedAt": "2026-05-02T02:45:04.034478+00:00",
+  "source": "kurorunner",
+  "version": 1,
+  "data": {
+    "jobs": [
+      {
+        "id": "agent-arena-monitor",
+        "class": "A",
+        "schedule": "every 15m",
+        "model": null,
+        "last_run_ts": "2026-05-02T02:30:03.743969+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 1231,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "git-autocommit",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": "2026-05-02T02:38:35.249020+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 1248,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "goku-infra-health",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": "2026-05-02T02:45:04.034433+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 32,
+        "consecutive_errors": 0,
+        "last_error": "Ollama unreachable (localhost:11434)"
+      },
+      {
+        "id": "kuro-memory-health",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": "2026-05-02T02:40:01.630593+00:00",
+        "last_exit": 1,
+        "last_duration_ms": 19,
+        "consecutive_errors": 3,
+        "last_error": "kuro-memory: last distillation 4.2h ago (threshold 4h)"
+      },
+      {
+        "id": "kurotrader-health",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": "2026-05-02T02:45:04.034174+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 32,
+        "consecutive_errors": 0,
+        "last_error": "KuroTrader cycle stale: last update 403min ago (threshold 20min)"
+      },
+      {
+        "id": "stale-task-review",
+        "class": "A",
+        "schedule": "weekly Sun 18:00 ET",
+        "model": null,
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      }
+    ],
+    "summary": {
+      "total_jobs": 6,
+      "healthy": 5,
+      "failing": 1,
+      "last_updated": "2026-05-02T02:45:04.034433+00:00"
+    }
+  }
+}
