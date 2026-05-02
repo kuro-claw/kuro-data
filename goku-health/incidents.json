@@ -1,15 +1,23 @@
 {
-  "updatedAt": "2026-05-02T21:15:52Z",
+  "updatedAt": "2026-05-02T21:20:53Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
     "incidents": [
       {
         "id": "svc-kurotrader-api-2026-05-02",
-        "openedAt": "2026-05-02T21:15:52Z",
+        "openedAt": "2026-05-02T21:20:53Z",
         "severity": "warning",
         "title": "KuroTrader API warning",
         "serviceId": "kurotrader-api",
+        "detail": "not running"
+      },
+      {
+        "id": "svc-ollama-2026-05-02",
+        "openedAt": "2026-05-02T21:20:53Z",
+        "severity": "warning",
+        "title": "Ollama warning",
+        "serviceId": "ollama",
         "detail": "not running"
       }
     ]
