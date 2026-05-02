@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T04:10:05.114709+00:00",
+  "updatedAt": "2026-05-02T12:00:30.362560+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -42,22 +42,22 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-05-02T04:10:05.114656+00:00",
+        "last_run_ts": "2026-05-02T12:00:30.352177+00:00",
         "last_exit": 1,
-        "last_duration_ms": 18,
-        "consecutive_errors": 21,
-        "last_error": "kuro-memory: last distillation 5.7h ago (threshold 4h)"
+        "last_duration_ms": 82,
+        "consecutive_errors": 22,
+        "last_error": "kuro-memory: last distillation 13.6h ago (threshold 4h)"
       },
       {
         "id": "kurotrader-health",
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-05-02T04:10:05.046532+00:00",
-        "last_exit": 0,
-        "last_duration_ms": 35,
-        "consecutive_errors": 0,
-        "last_error": "KuroTrader cycle stale: last update 403min ago (threshold 20min)"
+        "last_run_ts": "2026-05-02T12:00:30.362242+00:00",
+        "last_exit": 1,
+        "last_duration_ms": 91,
+        "consecutive_errors": 1,
+        "last_error": "KuroTrader cycle stale: last update 478min ago (threshold 20min)"
       },
       {
         "id": "stale-task-review",
@@ -73,9 +73,9 @@
     ],
     "summary": {
       "total_jobs": 6,
-      "healthy": 5,
-      "failing": 1,
-      "last_updated": "2026-05-02T04:10:05.114656+00:00"
+      "healthy": 4,
+      "failing": 2,
+      "last_updated": "2026-05-02T12:00:30.362242+00:00"
     }
   }
 }
