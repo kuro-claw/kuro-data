@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-05-03T00:10:01.996203+00:00",
+  "updatedAt": "2026-05-03T00:10:02.026601+00:00",
   "source": "kurorunner",
   "version": 1,
   "job_id": "goku-infra-health",
   "runs": [
+    {
+      "ts": "2026-05-03T00:10:02.026532+00:00",
+      "exit": 0,
+      "duration_ms": 30,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "consecutive_errors": 0,
+      "error": null
+    },
     {
       "ts": "2026-05-03T00:05:04.762039+00:00",
       "exit": 0,
@@ -173,15 +182,6 @@
       "tokens_in": 0,
       "tokens_out": 0,
       "consecutive_errors": 16,
-      "error": "Ollama unreachable (localhost:11434)"
-    },
-    {
-      "ts": "2026-05-02T22:30:01.595514+00:00",
-      "exit": 1,
-      "duration_ms": 40,
-      "tokens_in": 0,
-      "tokens_out": 0,
-      "consecutive_errors": 15,
       "error": "Ollama unreachable (localhost:11434)"
     }
   ]
