@@ -1,57 +1,57 @@
 {
-  "updatedAt": "2026-05-03T04:43:17Z",
+  "updatedAt": "2026-05-03T12:02:24Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 488.08,
-      "cash": 47.98,
-      "buyingPower": 47.98,
-      "dayPnl": -0.67,
-      "totalPnl": -11.92,
-      "totalReturnPct": -2.38,
-      "drawdownPct": 8.81,
-      "updatedAt": "2026-05-03T04:30:32Z"
+      "equity": 490.66,
+      "cash": 171.71,
+      "buyingPower": 171.71,
+      "dayPnl": 2.97,
+      "totalPnl": -9.34,
+      "totalReturnPct": -1.87,
+      "drawdownPct": 8.33,
+      "updatedAt": "2026-05-03T12:00:35Z"
     },
     "health": {
-      "cycleStatus": "healthy",
-      "executionStatus": "healthy",
+      "cycleStatus": "error",
+      "executionStatus": "warning",
       "modelAgreementStatus": "healthy",
       "lastCycleAt": "2026-05-03T04:30:32Z",
-      "staleCycleMinutes": 12
+      "staleCycleMinutes": 451
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
-        "quantity": 0.001582792,
-        "marketValue": 123.697284,
-        "weightPct": 25.3,
-        "unrealizedPnl": 4.034037
+        "quantity": 0.000790982,
+        "marketValue": 62.303991,
+        "weightPct": 12.7,
+        "unrealizedPnl": 2.503667
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
-        "quantity": 0.053272195,
-        "marketValue": 122.787082,
-        "weightPct": 25.2,
-        "unrealizedPnl": 2.853446
+        "quantity": 0.026653735,
+        "marketValue": 61.884322,
+        "weightPct": 12.6,
+        "unrealizedPnl": 1.877796
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
         "quantity": 1.003695374,
-        "marketValue": 84.110676,
+        "marketValue": 84.54628,
         "weightPct": 17.2,
-        "unrealizedPnl": 1.415858
+        "unrealizedPnl": 1.851462
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 79.0104291,
-        "marketValue": 109.508455,
-        "weightPct": 22.4,
-        "unrealizedPnl": 1.771571
+        "marketValue": 110.219549,
+        "weightPct": 22.5,
+        "unrealizedPnl": 2.482665
       }
     ],
     "recentSignals": [
