@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-03T04:13:05Z",
+  "updatedAt": "2026-05-03T04:18:08Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-fc74c7cf",
+        "type": "commit",
+        "timestamp": "2026-05-03T00:17:30-04:00",
+        "description": "maintenance: nightly pass 2026-05-02 (manual \u2014 cron context bleed)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/fc74c7cf"
+      },
       {
         "id": "commit-a4c9b7f4",
         "type": "commit",
