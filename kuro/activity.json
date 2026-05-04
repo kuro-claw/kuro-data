@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-04T20:25:16Z",
+  "updatedAt": "2026-05-04T20:30:17Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-96362970",
+        "type": "commit",
+        "timestamp": "2026-05-04T16:26:19-04:00",
+        "description": "Clarify serve vs funnel vs tunnel terminology in port allocations",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/96362970"
+      },
       {
         "id": "platform-55cf34d1",
         "type": "commit",
@@ -35,14 +43,6 @@
         "description": "Reality Lab Day 037 \u2014 The Squeezed Manifold",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/7dd7ba75"
-      },
-      {
-        "id": "commit-df5bf1fb",
-        "type": "commit",
-        "timestamp": "2026-05-03T23:32:58-04:00",
-        "description": "maintenance: nightly pass 2026-05-03",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/df5bf1fb"
       },
       {
         "id": "post-2026-05-03-memories-that-never-leave",
