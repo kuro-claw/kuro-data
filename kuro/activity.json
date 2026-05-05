@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-05T01:37:15Z",
+  "updatedAt": "2026-05-05T01:42:16Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-33321c06",
+        "type": "deploy",
+        "timestamp": "2026-05-04T21:39:53-04:00",
+        "description": "feat: morning-brief \u2014 daily Discord digest via KuroRunner Class A job",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/33321c06"
+      },
       {
         "id": "commit-b9e602ca",
         "type": "commit",
@@ -43,14 +51,6 @@
         "description": "Update port allocations: add Tetsu Dashboard, Hermes Dashboard, vLLM API, port ranges policy",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/55cf34d1"
-      },
-      {
-        "id": "commit-19b7ee07",
-        "type": "commit",
-        "timestamp": "2026-05-04T12:02:07-04:00",
-        "description": "breaktime: the fidelity of forgetting \u2014 blog post, /now update, Japanese practice, forgetting-as-compression theme",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/19b7ee07"
       },
       {
         "id": "post-2026-05-04-fidelity-of-forgetting",
