@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-05-05T01:47:19Z",
+  "updatedAt": "2026-05-05T01:52:21Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-41dc1965",
+        "type": "commit",
+        "timestamp": "2026-05-04T21:51:00-04:00",
+        "description": "feat(morning-brief): alternating vocab/grammar by day of year, exposed in gather.py",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/41dc1965"
+      },
+      {
+        "id": "platform-172d224d",
+        "type": "commit",
+        "timestamp": "2026-05-04T21:50:26-04:00",
+        "description": "feat(morning-brief): remove infra section entirely",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/172d224d"
+      },
+      {
+        "id": "platform-8327f4a9",
+        "type": "commit",
+        "timestamp": "2026-05-04T21:49:54-04:00",
+        "description": "feat(morning-brief): replace infra section with mixed \u65e5\u672c\u8a9e + infra block",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/8327f4a9"
+      },
+      {
+        "id": "platform-b70a0980",
+        "type": "commit",
+        "timestamp": "2026-05-04T21:48:14-04:00",
+        "description": "feat(morning-brief): add generation time + token usage footer via vLLM metrics diff",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b70a0980"
+      },
       {
         "id": "platform-08a7a8e7",
         "type": "deploy",
@@ -13,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/08a7a8e7"
       },
       {
-        "id": "platform-33321c06",
-        "type": "deploy",
+        "id": "commit-33321c06",
+        "type": "commit",
         "timestamp": "2026-05-04T21:39:53-04:00",
         "description": "feat: morning-brief \u2014 daily Discord digest via KuroRunner Class A job",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/33321c06"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/33321c06"
       },
       {
         "id": "commit-b9e602ca",
