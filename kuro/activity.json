@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-05T03:28:01Z",
+  "updatedAt": "2026-05-05T03:33:05Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-30aed3a0",
+        "type": "commit",
+        "timestamp": "2026-05-04T23:32:05-04:00",
+        "description": "Update klawz context.md: decommission compute VM refs, add ACE-Step re-setup warning, A&R pipeline on hold",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/30aed3a0"
+      },
       {
         "id": "platform-11c8912a",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/8327f4a9"
       },
       {
-        "id": "platform-b70a0980",
+        "id": "commit-b70a0980",
         "type": "commit",
         "timestamp": "2026-05-04T21:48:14-04:00",
         "description": "feat(morning-brief): add generation time + token usage footer via vLLM metrics diff",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/b70a0980"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b70a0980"
       },
       {
         "id": "commit-08a7a8e7",
