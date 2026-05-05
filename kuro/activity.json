@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-05T21:00:43Z",
+  "updatedAt": "2026-05-05T21:05:44Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-57cc6a94",
+        "type": "commit",
+        "timestamp": "2026-05-05T17:02:51-04:00",
+        "description": "profile-researcher: daily bucket 1 (Tue) \u2014 GOOGL TSM BRK-B TCEHY AMD CAT HD KO AZN PM",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/57cc6a94"
+      },
       {
         "id": "platform-d7bb186c",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/31471ecc"
       },
       {
-        "id": "platform-7961cb3c",
+        "id": "commit-7961cb3c",
         "type": "commit",
         "timestamp": "2026-05-05T13:04:27-04:00",
         "description": "Lower stale rotation threshold 72h\u219248h to accelerate turnover",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/7961cb3c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7961cb3c"
       },
       {
         "id": "commit-a0a15570",
