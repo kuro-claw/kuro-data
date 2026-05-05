@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-05T01:38:38.173364+00:00",
+  "updatedAt": "2026-05-05T01:40:03.347771+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -42,9 +42,9 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-05-05T01:35:00.620124+00:00",
+        "last_run_ts": "2026-05-05T01:40:03.347724+00:00",
         "last_exit": 0,
-        "last_duration_ms": 15,
+        "last_duration_ms": 19,
         "consecutive_errors": 0,
         "last_error": "kuro-memory: last distillation 9.4h ago (threshold 4h)"
       },
@@ -60,6 +60,17 @@
         "last_error": "KuroTrader cycle stale: last update 416min ago (threshold 20min)"
       },
       {
+        "id": "morning-brief",
+        "class": "A",
+        "schedule": "daily 08:30 ET",
+        "model": null,
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
         "id": "stale-task-review",
         "class": "A",
         "schedule": "weekly Sun 18:00 ET",
@@ -72,10 +83,10 @@
       }
     ],
     "summary": {
-      "total_jobs": 6,
-      "healthy": 6,
+      "total_jobs": 7,
+      "healthy": 7,
       "failing": 0,
-      "last_updated": "2026-05-05T01:38:38.173252+00:00"
+      "last_updated": "2026-05-05T01:40:03.347724+00:00"
     }
   }
 }
