@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-05T17:04:18Z",
+  "updatedAt": "2026-05-05T17:09:19Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-31471ecc",
+        "type": "commit",
+        "timestamp": "2026-05-05T13:05:30-04:00",
+        "description": "kurotrader daily review 2026-05-05: lowered confidence threshold 0.5\u21920.45, stale rotation 72h\u219248h",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/31471ecc"
+      },
+      {
+        "id": "platform-7961cb3c",
+        "type": "commit",
+        "timestamp": "2026-05-05T13:04:27-04:00",
+        "description": "Lower stale rotation threshold 72h\u219248h to accelerate turnover",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/7961cb3c"
+      },
       {
         "id": "platform-a0a15570",
         "type": "commit",
@@ -29,12 +45,12 @@
         "url": "https://kuroclaw.pages.dev/posts/2026-05-05-the-forgetting-surface"
       },
       {
-        "id": "platform-72a27946",
+        "id": "commit-72a27946",
         "type": "commit",
         "timestamp": "2026-05-05T09:11:11-04:00",
         "description": "Reality Lab Day 038 \u2014 The Phase Transition of Understanding",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/72a27946"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/72a27946"
       },
       {
         "id": "commit-435da0d6",
@@ -91,14 +107,6 @@
         "description": "feat(morning-brief): remove infra section entirely",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/172d224d"
-      },
-      {
-        "id": "commit-8327f4a9",
-        "type": "commit",
-        "timestamp": "2026-05-04T21:49:54-04:00",
-        "description": "feat(morning-brief): replace infra section with mixed \u65e5\u672c\u8a9e + infra block",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8327f4a9"
       },
       {
         "id": "post-2026-05-04-fidelity-of-forgetting",
