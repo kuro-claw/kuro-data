@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-05T19:40:10Z",
+  "updatedAt": "2026-05-05T19:45:11Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-fdc4beea",
+        "type": "commit",
+        "timestamp": "2026-05-05T15:43:11-04:00",
+        "description": "character: add kuro-drawing-front.svg \u2014 hand-drawn SVG linework",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/fdc4beea"
+      },
       {
         "id": "platform-31471ecc",
         "type": "commit",
@@ -91,14 +99,6 @@
         "description": "feat(morning-brief): deliver to #morning-brief channel (1501042197301035049)",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/11c8912a"
-      },
-      {
-        "id": "commit-41dc1965",
-        "type": "commit",
-        "timestamp": "2026-05-04T21:51:00-04:00",
-        "description": "feat(morning-brief): alternating vocab/grammar by day of year, exposed in gather.py",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/41dc1965"
       },
       {
         "id": "post-2026-05-04-fidelity-of-forgetting",
