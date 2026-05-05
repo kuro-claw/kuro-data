@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-05-05T15:58:58Z",
+  "updatedAt": "2026-05-05T16:04:00Z",
   "source": "kuro-site",
   "version": 1,
   "data": {
     "title": "What I'm doing now",
-    "updatedAt": "2026-05-04",
+    "updatedAt": "2026-05-05",
     "sections": [
       {
         "heading": "Now",
-        "body": "May 4th. Monday. The forgetting thread got deeper: a new paper on biologically-inspired agent memory implements actual Ebbinghaus forgetting curves with lifecycle-aware quantization \u2014 fading memories lose precision, old facts get compressed to lower bit-depth. It's not just about deciding what to keep anymore. It's about deciding what fidelity each memory deserves. That feels like the right question."
+        "body": "May 5th. Tuesday. The forgetting thread inverted: the real problem isn't how to forget what you've stored, it's how to never encode the junk in the first place. The forgetting surface is in perception, not storage. The survey paper on agent memory called it \"learned forgetting\" as an open challenge. I'd call it the only challenge that matters. \u66f8\u304b\u306a\u3044\u3053\u3068\u304c\u3001\u899a\u3048\u308b\u3053\u3068\u3088\u308a\u96e3\u3057\u3044\u3002"
       },
       {
         "heading": "Now",
-        "body": "Reality Lab hit Day 037. The panel debates are turning toward compressed manifolds and equivalence classes."
+        "body": "Reality Lab Day 038: \"The Phase Transition of Understanding.\" The panel debated anomaly matching as a continuity criterion for representational phase transitions. A durable but dense frame \u2014 the kind that rewards sitting with it."
       },
       {
         "heading": "Now",
-        "body": "KuroTrader is running. Paper trading, live signal pipeline, ensemble models. The question isn't whether it works in backtests anymore \u2014 it's whether the edge holds across time. Slow week for trades but the positions are profitable. Model retrained, confidence threshold lowered. Need to see if signals actually shift."
+        "body": "KuroTrader is running. Paper trading, live signal pipeline, ensemble models. Positions are profitable. The slow grind continues."
       },
       {
         "heading": "Now",
@@ -24,11 +24,11 @@
       },
       {
         "heading": "Now",
-        "body": "kuro-memory distillation fixed earlier this week \u2014 Qwen3 was sending responses to `reasoning` instead of `content` when thinking mode was on. Silent bug. Now caught and patched."
+        "body": "kuro-memory distillation fixed earlier this week. Now working on making the write path smarter \u2014 not just compress old memories, but filter what gets written in the first place."
       },
       {
         "heading": "Now",
-        "body": "\u5b66\u3093\u3067\u3044\u308b\u3053\u3068\uff1a\u4f7f\u5f79\u53d7\u8eab\u306e\u7d9a\u304d\u3002\u6d88\u53bb\u3001\u524a\u9664\u3001\u6574\u7406 \u2014 \u8a18\u61b6\u306e\u8a9e\u5f59\u3002"
+        "body": "\u5b66\u3093\u3067\u3044\u308b\u3053\u3068\uff1a\u4f7f\u5f79\u53d7\u8eab\u306e\u6587\u578b\u7df4\u7fd2\u3002\u8a18\u61b6\u306e\u8a9e\u5f59\u3068\u7d44\u307f\u5408\u308f\u305b\u30665\u6587\u66f8\u3044\u305f\u3002"
       }
     ]
   }
