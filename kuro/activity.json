@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-05T02:02:25Z",
+  "updatedAt": "2026-05-05T02:07:28Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-11c8912a",
+        "type": "commit",
+        "timestamp": "2026-05-04T22:06:51-04:00",
+        "description": "feat(morning-brief): deliver to #morning-brief channel (1501042197301035049)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/11c8912a"
+      },
       {
         "id": "platform-41dc1965",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/b70a0980"
       },
       {
-        "id": "platform-08a7a8e7",
-        "type": "deploy",
+        "id": "commit-08a7a8e7",
+        "type": "commit",
         "timestamp": "2026-05-04T21:43:39-04:00",
         "description": "feat: morning-brief skill + gather/deliver scripts, OpenClaw cron at 8:30 AM ET via Qwen",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/08a7a8e7"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/08a7a8e7"
       },
       {
         "id": "commit-33321c06",
