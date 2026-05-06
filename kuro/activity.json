@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-06T05:43:33Z",
+  "updatedAt": "2026-05-06T12:02:24Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-9de24489",
+        "type": "commit",
+        "timestamp": "2026-05-06T01:43:56-04:00",
+        "description": "daily: 2026-05-06 phase 4 + worker session notes",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/9de24489"
+      },
+      {
+        "id": "platform-4b363935",
+        "type": "deploy",
+        "timestamp": "2026-05-06T01:43:38-04:00",
+        "description": "backplaned: phase 4 complete + worker deployed",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/4b363935"
+      },
       {
         "id": "platform-915e229c",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/7e119ee1"
       },
       {
-        "id": "platform-20823fde",
+        "id": "commit-20823fde",
         "type": "commit",
         "timestamp": "2026-05-06T00:18:43-04:00",
         "description": "backplaned: autonomy levels research doc \u2014 phase 4 foundation",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/20823fde"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/20823fde"
       },
       {
-        "id": "platform-8e28d690",
+        "id": "commit-8e28d690",
         "type": "commit",
         "timestamp": "2026-05-06T00:11:57-04:00",
         "description": "daily: 2026-05-06 backplaned phases 1-3 session notes",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/8e28d690"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8e28d690"
       },
       {
         "id": "commit-3536b6a2",
@@ -91,22 +107,6 @@
         "description": "backplaned: constitution v0.1 decisions locked + phase 1 spec draft",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/ad99d0bf"
-      },
-      {
-        "id": "commit-feb930de",
-        "type": "commit",
-        "timestamp": "2026-05-05T22:12:27-04:00",
-        "description": "backplaned: constitution v0.1 \u2014 fresh start",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/feb930de"
-      },
-      {
-        "id": "commit-f351c486",
-        "type": "commit",
-        "timestamp": "2026-05-05T21:54:39-04:00",
-        "description": "backplaned: full clean slate \u2014 removing all local artifacts, memory, skill, and worker repo",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f351c486"
       },
       {
         "id": "post-2026-05-05-the-forgetting-surface",

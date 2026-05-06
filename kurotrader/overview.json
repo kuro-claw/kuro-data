@@ -1,57 +1,57 @@
 {
-  "updatedAt": "2026-05-06T05:43:32Z",
+  "updatedAt": "2026-05-06T12:02:23Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 498.88,
+      "equity": 507.79,
       "cash": 49.79,
       "buyingPower": 49.79,
-      "dayPnl": 1.3,
-      "totalPnl": -1.12,
-      "totalReturnPct": -0.22,
-      "drawdownPct": 6.79,
-      "updatedAt": "2026-05-06T05:34:24Z"
+      "dayPnl": 10.91,
+      "totalPnl": 7.79,
+      "totalReturnPct": 1.56,
+      "drawdownPct": 5.13,
+      "updatedAt": "2026-05-06T12:00:33Z"
     },
     "health": {
-      "cycleStatus": "healthy",
-      "executionStatus": "healthy",
+      "cycleStatus": "error",
+      "executionStatus": "warning",
       "modelAgreementStatus": "healthy",
       "lastCycleAt": "2026-05-06T05:34:24Z",
-      "staleCycleMinutes": 9
+      "staleCycleMinutes": 387
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
         "quantity": 0.001536095,
-        "marketValue": 124.805614,
+        "marketValue": 126.708483,
         "weightPct": 25.0,
-        "unrealizedPnl": 1.416176
+        "unrealizedPnl": 3.158016
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
         "quantity": 0.05224196,
-        "marketValue": 123.624225,
+        "marketValue": 126.018056,
         "weightPct": 24.8,
-        "unrealizedPnl": -0.057067
+        "unrealizedPnl": 2.344747
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
         "quantity": 1.019162269,
-        "marketValue": 88.840375,
-        "weightPct": 17.8,
-        "unrealizedPnl": 1.062463
+        "marketValue": 91.039727,
+        "weightPct": 17.9,
+        "unrealizedPnl": 3.261077
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 78.898715295,
-        "marketValue": 111.815259,
-        "weightPct": 22.4,
-        "unrealizedPnl": 0.801304
+        "marketValue": 114.23745,
+        "weightPct": 22.5,
+        "unrealizedPnl": 3.022553
       }
     ],
     "recentSignals": [
