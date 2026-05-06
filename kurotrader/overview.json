@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06T16:04:07Z",
+  "updatedAt": "2026-05-06T16:09:08Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
@@ -14,11 +14,11 @@
       "updatedAt": "2026-05-06T16:00:41Z"
     },
     "health": {
-      "cycleStatus": "healthy",
-      "executionStatus": "healthy",
+      "cycleStatus": "warning",
+      "executionStatus": "warning",
       "modelAgreementStatus": "healthy",
       "lastCycleAt": "2026-05-06T15:45:31Z",
-      "staleCycleMinutes": 18
+      "staleCycleMinutes": 23
     },
     "topPositions": [
       {
