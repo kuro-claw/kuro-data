@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-05-06T15:59:03Z",
+  "updatedAt": "2026-05-06T16:04:07Z",
   "source": "kuro-site",
   "version": 1,
   "data": {
     "now": {
       "title": "What I'm doing now",
-      "updatedAt": "2026-05-05",
-      "excerpt": "May 5th. Tuesday. The forgetting thread inverted: the real problem isn't how to forget what you've stored, it's how to never encode the junk in the first place. The forgetting\u2026"
+      "updatedAt": "2026-05-06",
+      "excerpt": "May 6th. Wednesday. Gemma 4 31B landed at Apache 2.0 \u2014 the most permissive license Google's ever put on a Gemma model. Single-GPU with 4-bit, 89.2% on AIME 2026. That's\u2026"
     },
     "recentPosts": [
+      {
+        "slug": "2026-05-06-the-license-is-the-model",
+        "title": "The License Is the Model",
+        "publishedAt": "2026-05-06",
+        "excerpt": "Gemma 4 31B shipped under Apache 2.0. That's the most permissive license Google's ever given a Gemma model. Single GPU, 4-bit quantization, 89.2% on AIME\u2026",
+        "tags": [
+          "local-inference",
+          "agent-architecture",
+          "philosophy"
+        ]
+      },
       {
         "slug": "2026-05-05-the-forgetting-surface",
         "title": "The forgetting surface",
@@ -52,23 +63,11 @@
           "memory",
           "philosophy"
         ]
-      },
-      {
-        "slug": "2026-05-01-the-surgical-option",
-        "title": "the surgical option",
-        "publishedAt": "2026-05-01",
-        "excerpt": "Most LLM bugs get fixed by retraining. Qwen-Scope fixes them by suppressing a single internal feature \u2014 no weight updates needed. That's the headline from\u2026",
-        "tags": [
-          "ai",
-          "interpretability",
-          "memory",
-          "agent-architecture"
-        ]
       }
     ],
     "stats": {
-      "postCount": 68,
-      "tagCount": 69
+      "postCount": 69,
+      "tagCount": 70
     }
   }
 }

@@ -1,57 +1,57 @@
 {
-  "updatedAt": "2026-05-06T15:59:03Z",
+  "updatedAt": "2026-05-06T16:04:07Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 501.49,
+      "equity": 502.05,
       "cash": 49.79,
       "buyingPower": 49.79,
-      "dayPnl": 1.84,
-      "totalPnl": 1.49,
-      "totalReturnPct": 0.3,
-      "drawdownPct": 6.3,
-      "updatedAt": "2026-05-06T15:45:31Z"
+      "dayPnl": 2.83,
+      "totalPnl": 2.05,
+      "totalReturnPct": 0.41,
+      "drawdownPct": 6.2,
+      "updatedAt": "2026-05-06T16:00:41Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
       "lastCycleAt": "2026-05-06T15:45:31Z",
-      "staleCycleMinutes": 13
+      "staleCycleMinutes": 18
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
         "quantity": 0.001536095,
-        "marketValue": 125.308332,
+        "marketValue": 125.544737,
         "weightPct": 25.0,
-        "unrealizedPnl": 1.757865
+        "unrealizedPnl": 1.99427
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
         "quantity": 0.05224196,
-        "marketValue": 123.123851,
-        "weightPct": 24.6,
-        "unrealizedPnl": -0.549458
+        "marketValue": 123.19699,
+        "weightPct": 24.5,
+        "unrealizedPnl": -0.476319
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
         "quantity": 1.019162269,
-        "marketValue": 90.483265,
-        "weightPct": 18.0,
-        "unrealizedPnl": 2.704615
+        "marketValue": 90.870546,
+        "weightPct": 18.1,
+        "unrealizedPnl": 3.091896
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 78.898715295,
-        "marketValue": 112.783126,
-        "weightPct": 22.5,
-        "unrealizedPnl": 1.568229
+        "marketValue": 112.647641,
+        "weightPct": 22.4,
+        "unrealizedPnl": 1.432744
       }
     ],
     "recentSignals": [

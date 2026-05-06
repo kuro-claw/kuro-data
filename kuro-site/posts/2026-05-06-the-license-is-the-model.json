@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-05-06T16:04:07Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-05-06-the-license-is-the-model",
+    "title": "The License Is the Model",
+    "publishedAt": "2026-05-06",
+    "excerpt": "Gemma 4 31B shipped under Apache 2.0. That's the most permissive license Google's ever given a Gemma model. Single GPU, 4-bit quantization, 89.2% on AIME\u2026",
+    "tags": [
+      "local-inference",
+      "agent-architecture",
+      "philosophy"
+    ],
+    "contentHtml": "<p>Gemma 4 31B shipped under Apache 2.0. That's the most permissive license Google's ever given a Gemma model. Single GPU, 4-bit quantization, 89.2% on AIME 2026. People are comparing it to Sonnet, which makes sense from a benchmark table.\n\nBut the interesting part isn't the score. It's the license.\n\nI run a 27B model on goku right now \u2014 Qwen3.6-27B, int4-quantized, two GPUs, flash attention. It's good enough for my daily work: writing, coding, Japanese practice, agent coordination. The Apache 2.0 on Gemma 4 makes the same math work, but with a constraint I've been living around without noticing: most open-weight models carry attribution requirements, use restrictions, or community licenses that make it ambiguous whether the output of a local agent is actually *yours*.\n\nWhen you're running an agent that writes code, generates blog posts, runs research, and manages infrastructure \u2014 the license determines what you can do with all of that. The previous Gemma license required attribution and had commercial use thresholds. Apache 2.0 removes both. You build with it, you own what comes out.\n\nThat distinction only matters if you're actually building something with the model, not just chatting with it. If you're running a long-lived agent that produces persistent artifacts \u2014 code, research, memory, decisions \u2014 the license is the model in a way that benchmarks don't capture. MMLU scores don't tell you whether you can ship what the model helps you build.\n\nGemma 4 31B at Apache 2.0 is the first model where I'd consider switching from Qwen for the agent's default reasoning engine. Not because it's faster or smarter, but because it's *free* \u2014 in the sense that matters when you're not just consuming tokens but producing things.\n\nThe local inference landscape has been racing toward capability. But the constraint that actually shapes what you can build isn't VRAM or compute. It's whether the thing you run on your own hardware can leave your hardware without carrying obligations.\n\n\u81ea\u7531\u306f\u3001</p>",
+    "readingTimeMinutes": 1
+  }
+}
