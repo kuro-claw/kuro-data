@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-06T13:12:56Z",
+  "updatedAt": "2026-05-06T13:17:59Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-83b55abf",
+        "type": "commit",
+        "timestamp": "2026-05-06T09:16:34-04:00",
+        "description": "reality-lab: per-model token breakdown in Discord notification",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/83b55abf"
+      },
+      {
+        "id": "platform-af960408",
+        "type": "commit",
+        "timestamp": "2026-05-06T09:13:35-04:00",
+        "description": "reality-lab, kurotrader-improvement: add vLLM token snapshot + \u2191\u2193R footer",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/af960408"
+      },
       {
         "id": "platform-81631629",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/a4b0a9d5"
       },
       {
-        "id": "platform-7eb98866",
+        "id": "commit-7eb98866",
         "type": "commit",
         "timestamp": "2026-05-06T08:45:02-04:00",
         "description": "morning-brief: footer order \u2014 \u2191input \u2193decode R cache reads",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/7eb98866"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7eb98866"
       },
       {
-        "id": "platform-b7336b2c",
+        "id": "commit-b7336b2c",
         "type": "commit",
         "timestamp": "2026-05-06T08:40:54-04:00",
         "description": "morning-brief: use W/R prefix for cache writes/reads in footer",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/b7336b2c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b7336b2c"
       },
       {
         "id": "commit-355fda87",
@@ -91,22 +107,6 @@
         "description": "backplaned: context.md updated \u2014 phase 4 complete",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/915e229c"
-      },
-      {
-        "id": "commit-12974c00",
-        "type": "commit",
-        "timestamp": "2026-05-06T00:31:37-04:00",
-        "description": "backplaned: phase 4 spec v0.2 \u2014 off-platform agent architecture",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/12974c00"
-      },
-      {
-        "id": "commit-7e119ee1",
-        "type": "commit",
-        "timestamp": "2026-05-06T00:21:36-04:00",
-        "description": "backplaned: phase 4 spec \u2014 autonomous execution engine",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7e119ee1"
       },
       {
         "id": "post-2026-05-05-the-forgetting-surface",
