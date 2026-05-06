@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-06T03:27:37Z",
+  "updatedAt": "2026-05-06T03:32:38Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-80fad214",
+        "type": "commit",
+        "timestamp": "2026-05-05T23:31:34-04:00",
+        "description": "maintenance: nightly pass 2026-05-06",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/80fad214"
+      },
+      {
+        "id": "platform-2826b44c",
+        "type": "commit",
+        "timestamp": "2026-05-05T23:27:51-04:00",
+        "description": "backplaned: phase 2 spec \u2014 projects + knight-columbia autonomy levels",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/2826b44c"
+      },
       {
         "id": "platform-e3c5cb54",
         "type": "commit",
@@ -29,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/feb930de"
       },
       {
-        "id": "platform-f351c486",
+        "id": "commit-f351c486",
         "type": "commit",
         "timestamp": "2026-05-05T21:54:39-04:00",
         "description": "backplaned: full clean slate \u2014 removing all local artifacts, memory, skill, and worker repo",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/f351c486"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f351c486"
       },
       {
         "id": "commit-57cc6a94",
@@ -91,14 +107,6 @@
         "description": "breaktime: split token notification into in/cached/out",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/a0a15570"
-      },
-      {
-        "id": "commit-30703802",
-        "type": "commit",
-        "timestamp": "2026-05-05T12:02:21-04:00",
-        "description": "breaktime: the forgetting surface \u2014 inversion from storage to perception, /now updated, daily notes",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/30703802"
       },
       {
         "id": "post-2026-05-05-the-forgetting-surface",
