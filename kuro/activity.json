@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-06T05:18:27Z",
+  "updatedAt": "2026-05-06T05:23:28Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-915e229c",
+        "type": "commit",
+        "timestamp": "2026-05-06T01:22:08-04:00",
+        "description": "backplaned: context.md updated \u2014 phase 4 complete",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/915e229c"
+      },
       {
         "id": "platform-12974c00",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/8e28d690"
       },
       {
-        "id": "platform-3536b6a2",
+        "id": "commit-3536b6a2",
         "type": "commit",
         "timestamp": "2026-05-05T23:49:12-04:00",
         "description": "backplaned: phase 3 spec \u2014 LLM intent decomposition via OpenRouter",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/3536b6a2"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3536b6a2"
       },
       {
         "id": "commit-484ad523",
@@ -99,14 +107,6 @@
         "description": "backplaned: full clean slate \u2014 removing all local artifacts, memory, skill, and worker repo",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/f351c486"
-      },
-      {
-        "id": "commit-57cc6a94",
-        "type": "commit",
-        "timestamp": "2026-05-05T17:02:51-04:00",
-        "description": "profile-researcher: daily bucket 1 (Tue) \u2014 GOOGL TSM BRK-B TCEHY AMD CAT HD KO AZN PM",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/57cc6a94"
       },
       {
         "id": "post-2026-05-05-the-forgetting-surface",
