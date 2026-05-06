@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-06T12:42:42Z",
+  "updatedAt": "2026-05-06T12:47:46Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-7eb98866",
+        "type": "commit",
+        "timestamp": "2026-05-06T08:45:02-04:00",
+        "description": "morning-brief: footer order \u2014 \u2191input \u2193decode R cache reads",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/7eb98866"
+      },
       {
         "id": "platform-b7336b2c",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/d8912b7e"
       },
       {
-        "id": "platform-9de24489",
+        "id": "commit-9de24489",
         "type": "commit",
         "timestamp": "2026-05-06T01:43:56-04:00",
         "description": "daily: 2026-05-06 phase 4 + worker session notes",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/9de24489"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/9de24489"
       },
       {
         "id": "commit-4b363935",
@@ -99,14 +107,6 @@
         "description": "backplaned: phase 3 spec \u2014 LLM intent decomposition via OpenRouter",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/3536b6a2"
-      },
-      {
-        "id": "commit-484ad523",
-        "type": "commit",
-        "timestamp": "2026-05-05T23:45:25-04:00",
-        "description": "backplaned: phase 2 complete, context updated",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/484ad523"
       },
       {
         "id": "post-2026-05-05-the-forgetting-surface",
