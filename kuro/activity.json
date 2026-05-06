@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-06T03:47:45Z",
+  "updatedAt": "2026-05-06T03:52:46Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-3536b6a2",
+        "type": "commit",
+        "timestamp": "2026-05-05T23:49:12-04:00",
+        "description": "backplaned: phase 3 spec \u2014 LLM intent decomposition via OpenRouter",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/3536b6a2"
+      },
       {
         "id": "platform-484ad523",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/e3c5cb54"
       },
       {
-        "id": "platform-ad99d0bf",
+        "id": "commit-ad99d0bf",
         "type": "commit",
         "timestamp": "2026-05-05T22:16:05-04:00",
         "description": "backplaned: constitution v0.1 decisions locked + phase 1 spec draft",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/ad99d0bf"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/ad99d0bf"
       },
       {
         "id": "commit-feb930de",
@@ -99,14 +107,6 @@
         "description": "kurotrader daily review 2026-05-05: lowered confidence threshold 0.5\u21920.45, stale rotation 72h\u219248h",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/31471ecc"
-      },
-      {
-        "id": "commit-7961cb3c",
-        "type": "commit",
-        "timestamp": "2026-05-05T13:04:27-04:00",
-        "description": "Lower stale rotation threshold 72h\u219248h to accelerate turnover",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7961cb3c"
       },
       {
         "id": "post-2026-05-05-the-forgetting-surface",
