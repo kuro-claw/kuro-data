@@ -1,17 +1,9 @@
 {
-  "updatedAt": "2026-05-06T00:01:31Z",
+  "updatedAt": "2026-05-06T00:06:32Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
     "timeline": [
-      {
-        "timestamp": "2026-05-05T20:05:18Z",
-        "cpuPct": 0.0,
-        "memoryPct": 10.7,
-        "diskPct": 55.0,
-        "gpuTempC": 50.0,
-        "gpuVramPct": 94.0
-      },
       {
         "timestamp": "2026-05-05T20:10:20Z",
         "cpuPct": 0.3,
@@ -386,6 +378,14 @@
         "memoryPct": 10.8,
         "diskPct": 55.0,
         "gpuTempC": 43.0,
+        "gpuVramPct": 94.0
+      },
+      {
+        "timestamp": "2026-05-06T00:06:32Z",
+        "cpuPct": 3.6,
+        "memoryPct": 10.9,
+        "diskPct": 55.0,
+        "gpuTempC": 41.0,
         "gpuVramPct": 94.0
       }
     ],
