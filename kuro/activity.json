@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-06T12:32:40Z",
+  "updatedAt": "2026-05-06T12:37:42Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-355fda87",
+        "type": "commit",
+        "timestamp": "2026-05-06T08:36:39-04:00",
+        "description": "morning-brief: split token footer into new input / cache reads / generated",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/355fda87"
+      },
       {
         "id": "platform-3a0115ec",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/4b363935"
       },
       {
-        "id": "platform-915e229c",
+        "id": "commit-915e229c",
         "type": "commit",
         "timestamp": "2026-05-06T01:22:08-04:00",
         "description": "backplaned: context.md updated \u2014 phase 4 complete",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/915e229c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/915e229c"
       },
       {
         "id": "commit-12974c00",
@@ -99,14 +107,6 @@
         "description": "maintenance: nightly pass 2026-05-06",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/80fad214"
-      },
-      {
-        "id": "commit-2826b44c",
-        "type": "commit",
-        "timestamp": "2026-05-05T23:27:51-04:00",
-        "description": "backplaned: phase 2 spec \u2014 projects + knight-columbia autonomy levels",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/2826b44c"
       },
       {
         "id": "post-2026-05-05-the-forgetting-surface",
