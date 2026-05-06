@@ -1,9 +1,41 @@
 {
-  "updatedAt": "2026-05-06T05:03:20Z",
+  "updatedAt": "2026-05-06T05:08:22Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "signals": [
+      {
+        "id": "10536",
+        "timestamp": "2026-05-06T05:04:24Z",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.4111,
+        "executed": false
+      },
+      {
+        "id": "10535",
+        "timestamp": "2026-05-06T05:04:24Z",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.5492,
+        "executed": false
+      },
+      {
+        "id": "10534",
+        "timestamp": "2026-05-06T05:04:24Z",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.5744,
+        "executed": false
+      },
+      {
+        "id": "10533",
+        "timestamp": "2026-05-06T05:04:24Z",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.4622,
+        "executed": false
+      },
       {
         "id": "10532",
         "timestamp": "2026-05-06T04:49:24Z",
@@ -50,38 +82,6 @@
         "symbol": "XRP-USD",
         "action": "hold",
         "confidence": 0.5285,
-        "executed": false
-      },
-      {
-        "id": "10526",
-        "timestamp": "2026-05-06T04:34:24Z",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.5536,
-        "executed": false
-      },
-      {
-        "id": "10525",
-        "timestamp": "2026-05-06T04:34:24Z",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.426,
-        "executed": false
-      },
-      {
-        "id": "10524",
-        "timestamp": "2026-05-06T04:19:24Z",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.4544,
-        "executed": false
-      },
-      {
-        "id": "10523",
-        "timestamp": "2026-05-06T04:19:24Z",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.5979,
         "executed": false
       }
     ]
