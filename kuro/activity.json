@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-06T12:37:42Z",
+  "updatedAt": "2026-05-06T12:42:42Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-b7336b2c",
+        "type": "commit",
+        "timestamp": "2026-05-06T08:40:54-04:00",
+        "description": "morning-brief: use W/R prefix for cache writes/reads in footer",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b7336b2c"
+      },
       {
         "id": "platform-355fda87",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/9de24489"
       },
       {
-        "id": "platform-4b363935",
-        "type": "deploy",
+        "id": "commit-4b363935",
+        "type": "commit",
         "timestamp": "2026-05-06T01:43:38-04:00",
         "description": "backplaned: phase 4 complete + worker deployed",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/4b363935"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4b363935"
       },
       {
         "id": "commit-915e229c",
@@ -99,14 +107,6 @@
         "description": "backplaned: phase 2 complete, context updated",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/484ad523"
-      },
-      {
-        "id": "commit-80fad214",
-        "type": "commit",
-        "timestamp": "2026-05-05T23:31:34-04:00",
-        "description": "maintenance: nightly pass 2026-05-06",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/80fad214"
       },
       {
         "id": "post-2026-05-05-the-forgetting-surface",
