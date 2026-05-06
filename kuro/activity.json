@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-06T03:42:43Z",
+  "updatedAt": "2026-05-06T03:47:45Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-484ad523",
+        "type": "commit",
+        "timestamp": "2026-05-05T23:45:25-04:00",
+        "description": "backplaned: phase 2 complete, context updated",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/484ad523"
+      },
       {
         "id": "platform-80fad214",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/ad99d0bf"
       },
       {
-        "id": "platform-feb930de",
+        "id": "commit-feb930de",
         "type": "commit",
         "timestamp": "2026-05-05T22:12:27-04:00",
         "description": "backplaned: constitution v0.1 \u2014 fresh start",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/feb930de"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/feb930de"
       },
       {
         "id": "commit-f351c486",
@@ -99,14 +107,6 @@
         "description": "Lower stale rotation threshold 72h\u219248h to accelerate turnover",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/7961cb3c"
-      },
-      {
-        "id": "commit-a0a15570",
-        "type": "commit",
-        "timestamp": "2026-05-05T12:24:31-04:00",
-        "description": "breaktime: split token notification into in/cached/out",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/a0a15570"
       },
       {
         "id": "post-2026-05-05-the-forgetting-surface",
