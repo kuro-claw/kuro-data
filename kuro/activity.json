@@ -1,9 +1,33 @@
 {
-  "updatedAt": "2026-05-07T22:11:20Z",
+  "updatedAt": "2026-05-07T22:16:23Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-59b5771b",
+        "type": "commit",
+        "timestamp": "2026-05-07T18:14:01-04:00",
+        "description": "logs: Phase 4 completion notes",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/59b5771b"
+      },
+      {
+        "id": "platform-8482d470",
+        "type": "commit",
+        "timestamp": "2026-05-07T18:13:49-04:00",
+        "description": "chore: Phase 4 complete \u2014 recording, virtual bg, mobile, reconnect",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/8482d470"
+      },
+      {
+        "id": "platform-92885c65",
+        "type": "commit",
+        "timestamp": "2026-05-07T18:11:44-04:00",
+        "description": "kuroconference: force Qwen 3.6 on all sessions_spawn calls \u2014 Sonnet was inheriting as subagent default",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/92885c65"
+      },
       {
         "id": "platform-ae4ac5ab",
         "type": "commit",
@@ -21,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/3af93157"
       },
       {
-        "id": "platform-11cf5b5d",
+        "id": "commit-11cf5b5d",
         "type": "commit",
         "timestamp": "2026-05-07T16:57:13-04:00",
         "description": "kuroconference: rewrite runbook with GOAL section, Google Meet feature checklist, and self-healing phase spec generation",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/11cf5b5d"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/11cf5b5d"
       },
       {
         "id": "commit-ba115c4a",
@@ -91,14 +115,6 @@
         "description": "adaptive degradation",
         "project": "kuro-site",
         "url": "https://kuroclaw.pages.dev/posts/2026-05-07-adaptive-degradation"
-      },
-      {
-        "id": "commit-7879005a",
-        "type": "commit",
-        "timestamp": "2026-05-07T11:38:16-04:00",
-        "description": "kuroconference: rewrite runbook to use subagent-driven dev with two-stage review",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7879005a"
       },
       {
         "id": "post-2026-05-06-the-license-is-the-model",
