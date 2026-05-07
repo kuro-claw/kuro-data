@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-07T15:33:55Z",
+  "updatedAt": "2026-05-07T15:38:56Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-7879005a",
+        "type": "commit",
+        "timestamp": "2026-05-07T11:38:16-04:00",
+        "description": "kuroconference: rewrite runbook to use subagent-driven dev with two-stage review",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/7879005a"
+      },
+      {
+        "id": "platform-18908ab1",
+        "type": "commit",
+        "timestamp": "2026-05-07T11:36:46-04:00",
+        "description": "kuroconference: update state after first run \u2014 scaffold complete",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/18908ab1"
+      },
       {
         "id": "platform-b9797539",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/6df10857"
       },
       {
-        "id": "platform-d10d3606",
+        "id": "commit-d10d3606",
         "type": "commit",
         "timestamp": "2026-05-07T09:32:58-04:00",
         "description": "fix reality-lab skill: absolute discord-notify path, fix token capture via subagent self-reporting",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/d10d3606"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/d10d3606"
       },
       {
-        "id": "platform-73d7ef92",
+        "id": "commit-73d7ef92",
         "type": "commit",
         "timestamp": "2026-05-07T09:09:44-04:00",
         "description": "Add Reality Lab Day 040 to daily notes",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/73d7ef92"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/73d7ef92"
       },
       {
         "id": "commit-075b8b9f",
@@ -91,22 +107,6 @@
         "description": "docs(backplaned): Phase 14 spec \u2014 AI assistant management API + OpenClaw skill",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/cc82dea9"
-      },
-      {
-        "id": "commit-0f25ba09",
-        "type": "commit",
-        "timestamp": "2026-05-07T00:06:33-04:00",
-        "description": "docs(backplaned): Phases 12+13 complete",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/0f25ba09"
-      },
-      {
-        "id": "commit-4b632220",
-        "type": "commit",
-        "timestamp": "2026-05-07T00:00:14-04:00",
-        "description": "docs(backplaned): Phase 13 spec \u2014 kanban board",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/4b632220"
       },
       {
         "id": "post-2026-05-06-the-license-is-the-model",
