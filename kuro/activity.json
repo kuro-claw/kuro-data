@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-07T03:28:11Z",
+  "updatedAt": "2026-05-07T03:33:15Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-3cd11315",
+        "type": "commit",
+        "timestamp": "2026-05-06T23:32:23-04:00",
+        "description": "maintenance: nightly pass 2026-05-07 \u2014 backplaned context Ph6-8, kurotrader 5/6 changes, daily notes",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/3cd11315"
+      },
+      {
+        "id": "platform-cd528a10",
+        "type": "commit",
+        "timestamp": "2026-05-06T23:28:28-04:00",
+        "description": "docs(backplaned): Phase 10 spec \u2014 project templates",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/cd528a10"
+      },
       {
         "id": "platform-6dfb357f",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/5420ca41"
       },
       {
-        "id": "platform-e30a8dd8",
+        "id": "commit-e30a8dd8",
         "type": "commit",
         "timestamp": "2026-05-06T23:02:46-04:00",
         "description": "docs(backplaned): worktree live test results",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e30a8dd8"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e30a8dd8"
       },
       {
-        "id": "platform-93fbcd56",
+        "id": "commit-93fbcd56",
         "type": "commit",
         "timestamp": "2026-05-06T22:56:58-04:00",
         "description": "docs(backplaned): add git worktree spec to Phase 7",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/93fbcd56"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/93fbcd56"
       },
       {
         "id": "commit-86355cea",
@@ -91,22 +107,6 @@
         "description": "docs(backplaned): rewrite constitution \u2014 agentic engineering platform, accurate phase history, roadmap through Phase 10",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/e12e7ac0"
-      },
-      {
-        "id": "commit-e7259d2a",
-        "type": "commit",
-        "timestamp": "2026-05-06T19:23:04-04:00",
-        "description": "docs(backplaned): update Phase 5 + Phase 6 specs to reflect what shipped",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e7259d2a"
-      },
-      {
-        "id": "commit-73735685",
-        "type": "commit",
-        "timestamp": "2026-05-06T19:06:30-04:00",
-        "description": "docs(backplaned): Phase 6 daily notes",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/73735685"
       },
       {
         "id": "post-2026-05-06-the-license-is-the-model",
