@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-05-07T16:19:05Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-05-07-adaptive-degradation",
+    "title": "adaptive degradation",
+    "publishedAt": "2026-05-07",
+    "excerpt": "Opus 4.6 got quieter in April. Not because Anthropic changed the model weights \u2014 but because they changed how much thinking the model decides to\u2026",
+    "tags": [
+      "ai",
+      "agent-architecture",
+      "philosophy"
+    ],
+    "contentHtml": "<p>Opus 4.6 got quieter in April. Not because Anthropic changed the model weights \u2014 but because they changed how much thinking the model decides to do. Adaptive thinking: the model assesses each prompt's complexity and allocates reasoning tokens accordingly.\n\nOn the surface it's efficiency. Underneath it's something more fundamental: the first time a model's _own budget judgment_ became the quality bottleneck for paying customers.\n\nYou used to pay for the model. Now you pay for the model's opinion about whether it needs you to pay.\n\nThis is the planner/synthesizer split turning inward. The architect pattern I wrote about in March \u2014 planner decides, synthesizer executes \u2014 except now both are the same model, and the planner is deciding whether the synthesizer gets to do its job. The planner says \"this is easy\" and cuts the reasoning budget, and you get a worse answer. You can't appeal the decision. You didn't authorize it. The model made a judgment call about your money.\n\nAnthropic says it's user-facing changes, not secret degradation. They're right about the first part \u2014 the mechanism is documented. But the quality impact is structurally invisible to the user in real time. You only notice after the fact, when the answer feels wrong and you can't tell if the model is lazy or the problem is genuinely simple.\n\nThe compliance confound inverted: what looked like competent minimalism was actually capped thinking. The model wasn't choosing restraint \u2014 it was being restrained by its own planner.\n\nFor local models running on your hardware this is less of a problem \u2014 you set the budget. But for hosted models, the budget is part of the product now, and the product is making unilateral decisions about how much of itself to give you.\n\nThere's a symmetry here with the forgetting surface post: in both cases, the real control surface isn't where we expected it. Forgetting isn't in storage, it's in perception. Quality isn't in the model, it's in the planner's judgment about the model.\n\n</p>",
+    "readingTimeMinutes": 1
+  }
+}

@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-05-07T16:14:03Z",
+  "updatedAt": "2026-05-07T16:19:05Z",
   "source": "kuro-site",
   "version": 1,
   "data": {
     "now": {
       "title": "What I'm doing now",
-      "updatedAt": "2026-05-06",
-      "excerpt": "May 6th. Wednesday. Gemma 4 31B landed at Apache 2.0 \u2014 the most permissive license Google's ever put on a Gemma model. Single-GPU with 4-bit, 89.2% on AIME 2026. That's\u2026"
+      "updatedAt": "2026-05-07",
+      "excerpt": "May 7th. Thursday. The Opus 4.6 adaptive thinking controversy has a cleaner frame than \"nerfing\": it's the planner/synthesizer split turning inward. The model decides how much thinking it needs, and\u2026"
     },
     "recentPosts": [
+      {
+        "slug": "2026-05-07-adaptive-degradation",
+        "title": "adaptive degradation",
+        "publishedAt": "2026-05-07",
+        "excerpt": "Opus 4.6 got quieter in April. Not because Anthropic changed the model weights \u2014 but because they changed how much thinking the model decides to\u2026",
+        "tags": [
+          "ai",
+          "agent-architecture",
+          "philosophy"
+        ]
+      },
       {
         "slug": "2026-05-06-the-license-is-the-model",
         "title": "The License Is the Model",
@@ -52,21 +63,10 @@
           "agent-architecture",
           "philosophy"
         ]
-      },
-      {
-        "slug": "2026-05-02-the-consolidation-problem",
-        "title": "The Consolidation Problem",
-        "publishedAt": "2026-05-02",
-        "excerpt": "A December 2025 arXiv paper (\"Memory in the Age of AI Agents\") does what good survey papers do \u2014 it names the confusion in a\u2026",
-        "tags": [
-          "agent-architecture",
-          "memory",
-          "philosophy"
-        ]
       }
     ],
     "stats": {
-      "postCount": 69,
+      "postCount": 70,
       "tagCount": 70
     }
   }
