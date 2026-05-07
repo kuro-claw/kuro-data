@@ -1,98 +1,98 @@
 {
-  "updatedAt": "2026-05-07T02:58:04Z",
+  "updatedAt": "2026-05-07T03:03:05Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 495.72,
-      "cash": 135.75,
-      "buyingPower": 135.75,
-      "dayPnl": -1.72,
-      "totalPnl": -4.28,
-      "totalReturnPct": -0.86,
-      "drawdownPct": 7.38,
-      "updatedAt": "2026-05-07T02:47:34Z"
+      "equity": 495.77,
+      "cash": 49.66,
+      "buyingPower": 49.66,
+      "dayPnl": -1.67,
+      "totalPnl": -4.23,
+      "totalReturnPct": -0.85,
+      "drawdownPct": 7.37,
+      "updatedAt": "2026-05-07T03:02:33Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-05-07T02:47:33Z",
-      "staleCycleMinutes": 10
+      "lastCycleAt": "2026-05-07T03:02:33Z",
+      "staleCycleMinutes": 0
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
-        "quantity": 0.000768485,
-        "marketValue": 62.293984,
-        "weightPct": 12.6,
-        "unrealizedPnl": 0.483562
+        "quantity": 0.001378575,
+        "marketValue": 111.852999,
+        "weightPct": 22.6,
+        "unrealizedPnl": 0.543046
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
-        "quantity": 0.021516399,
-        "marketValue": 49.899326,
-        "weightPct": 10.1,
-        "unrealizedPnl": -0.293461
+        "quantity": 0.037183423,
+        "marketValue": 86.3585,
+        "weightPct": 17.4,
+        "unrealizedPnl": -0.215842
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
         "quantity": 1.408677071,
-        "marketValue": 124.175306,
+        "marketValue": 123.836801,
         "weightPct": 25.0,
-        "unrealizedPnl": 1.955757
+        "unrealizedPnl": 1.617252
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 87.658023242,
-        "marketValue": 123.597813,
-        "weightPct": 24.9,
-        "unrealizedPnl": -0.04041
+        "marketValue": 124.058017,
+        "weightPct": 25.0,
+        "unrealizedPnl": 0.419794
       }
     ],
     "recentSignals": [
+      {
+        "id": "10768",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.3906,
+        "generatedAt": "2026-05-07T03:02:33Z",
+        "executed": false
+      },
+      {
+        "id": "10767",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.4483,
+        "generatedAt": "2026-05-07T03:02:33Z",
+        "executed": false
+      },
+      {
+        "id": "10766",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.5474,
+        "generatedAt": "2026-05-07T03:02:33Z",
+        "executed": false
+      },
+      {
+        "id": "10765",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.5021,
+        "generatedAt": "2026-05-07T03:02:33Z",
+        "executed": false
+      },
       {
         "id": "10764",
         "symbol": "SOL-USD",
         "action": "hold",
         "confidence": 0.3759,
         "generatedAt": "2026-05-07T02:47:33Z",
-        "executed": false
-      },
-      {
-        "id": "10763",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.4455,
-        "generatedAt": "2026-05-07T02:47:33Z",
-        "executed": false
-      },
-      {
-        "id": "10762",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.3978,
-        "generatedAt": "2026-05-07T02:47:33Z",
-        "executed": false
-      },
-      {
-        "id": "10761",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.4906,
-        "generatedAt": "2026-05-07T02:47:33Z",
-        "executed": false
-      },
-      {
-        "id": "10760",
-        "symbol": "SOL-USD",
-        "action": "buy",
-        "confidence": 0.3991,
-        "generatedAt": "2026-05-07T02:32:33Z",
         "executed": false
       }
     ]

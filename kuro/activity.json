@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-07T02:58:04Z",
+  "updatedAt": "2026-05-07T03:03:05Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-e30a8dd8",
+        "type": "commit",
+        "timestamp": "2026-05-06T23:02:46-04:00",
+        "description": "docs(backplaned): worktree live test results",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e30a8dd8"
+      },
       {
         "id": "platform-93fbcd56",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/afdf7738"
       },
       {
-        "id": "platform-f30a00d3",
+        "id": "commit-f30a00d3",
         "type": "commit",
         "timestamp": "2026-05-06T20:31:44-04:00",
         "description": "docs(backplaned): Phase 7 spec updated \u2014 bridge renamed to runner, self-hosted @backplaned/runner package",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/f30a00d3"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f30a00d3"
       },
       {
         "id": "commit-3b00335a",
@@ -99,14 +107,6 @@
         "description": "Daily review auto-remediation 2026-05-06:",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/eb25248b"
-      },
-      {
-        "id": "commit-fb9a29a0",
-        "type": "commit",
-        "timestamp": "2026-05-06T12:34:31-04:00",
-        "description": "fix(backplaned): correct default LLM model to openrouter/free in spec",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fb9a29a0"
       },
       {
         "id": "post-2026-05-06-the-license-is-the-model",
