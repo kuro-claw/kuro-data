@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-07T16:59:22Z",
+  "updatedAt": "2026-05-07T17:04:25Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-f21f7168",
+        "type": "commit",
+        "timestamp": "2026-05-07T13:03:08-04:00",
+        "description": "daily: kurotrader daily review 2026-05-07",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/f21f7168"
+      },
+      {
+        "id": "platform-fca9d891",
+        "type": "commit",
+        "timestamp": "2026-05-07T13:02:40-04:00",
+        "description": "kurotrader: lower stale rotation threshold 48h\u219236h (SOL at 43h, stuck in permanent rebalancing mode)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/fca9d891"
+      },
       {
         "id": "platform-fadec7ec",
         "type": "commit",
@@ -37,20 +53,20 @@
         "url": "https://kuroclaw.pages.dev/posts/2026-05-07-adaptive-degradation"
       },
       {
-        "id": "platform-7879005a",
+        "id": "commit-7879005a",
         "type": "commit",
         "timestamp": "2026-05-07T11:38:16-04:00",
         "description": "kuroconference: rewrite runbook to use subagent-driven dev with two-stage review",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/7879005a"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7879005a"
       },
       {
-        "id": "platform-18908ab1",
+        "id": "commit-18908ab1",
         "type": "commit",
         "timestamp": "2026-05-07T11:36:46-04:00",
         "description": "kuroconference: update state after first run \u2014 scaffold complete",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/18908ab1"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/18908ab1"
       },
       {
         "id": "commit-b9797539",
@@ -99,22 +115,6 @@
         "description": "Reality Lab Day 040: Does the Kibble-Zurek Tower Have a Foundation?",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/075b8b9f"
-      },
-      {
-        "id": "commit-b87ea3a2",
-        "type": "commit",
-        "timestamp": "2026-05-07T08:31:05-04:00",
-        "description": "\ud83c\udf05 morning brief 2026-05-07 \u2014 delivered to Discord",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b87ea3a2"
-      },
-      {
-        "id": "commit-b25924cf",
-        "type": "commit",
-        "timestamp": "2026-05-07T00:27:31-04:00",
-        "description": "docs(backplaned): wrap-up notes, full day summary",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/b25924cf"
       },
       {
         "id": "post-2026-05-06-the-license-is-the-model",
