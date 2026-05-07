@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-07T13:07:56Z",
+  "updatedAt": "2026-05-07T13:12:56Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-73d7ef92",
+        "type": "commit",
+        "timestamp": "2026-05-07T09:09:44-04:00",
+        "description": "Add Reality Lab Day 040 to daily notes",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/73d7ef92"
+      },
+      {
+        "id": "platform-075b8b9f",
+        "type": "commit",
+        "timestamp": "2026-05-07T09:09:33-04:00",
+        "description": "Reality Lab Day 040: Does the Kibble-Zurek Tower Have a Foundation?",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/075b8b9f"
+      },
       {
         "id": "platform-b87ea3a2",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/aa32703d"
       },
       {
-        "id": "platform-3c7031bb",
-        "type": "deploy",
+        "id": "commit-3c7031bb",
+        "type": "commit",
         "timestamp": "2026-05-07T00:21:23-04:00",
         "description": "feat: add kuro-tool-backplaned skill for Backplaned management API",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/3c7031bb"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3c7031bb"
       },
       {
-        "id": "platform-cc82dea9",
+        "id": "commit-cc82dea9",
         "type": "commit",
         "timestamp": "2026-05-07T00:16:51-04:00",
         "description": "docs(backplaned): Phase 14 spec \u2014 AI assistant management API + OpenClaw skill",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/cc82dea9"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/cc82dea9"
       },
       {
         "id": "commit-0f25ba09",
@@ -91,22 +107,6 @@
         "description": "docs(backplaned): Phases 9+10 daily notes",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/35e2762e"
-      },
-      {
-        "id": "commit-3cd11315",
-        "type": "commit",
-        "timestamp": "2026-05-06T23:32:23-04:00",
-        "description": "maintenance: nightly pass 2026-05-07 \u2014 backplaned context Ph6-8, kurotrader 5/6 changes, daily notes",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3cd11315"
-      },
-      {
-        "id": "commit-cd528a10",
-        "type": "commit",
-        "timestamp": "2026-05-06T23:28:28-04:00",
-        "description": "docs(backplaned): Phase 10 spec \u2014 project templates",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/cd528a10"
       },
       {
         "id": "post-2026-05-06-the-license-is-the-model",
