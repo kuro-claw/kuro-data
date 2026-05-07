@@ -1,98 +1,98 @@
 {
-  "updatedAt": "2026-05-07T01:27:34Z",
+  "updatedAt": "2026-05-07T01:32:36Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 497.21,
-      "cash": 170.44,
-      "buyingPower": 170.44,
-      "dayPnl": -1.53,
-      "totalPnl": -2.79,
-      "totalReturnPct": -0.56,
-      "drawdownPct": 7.1,
-      "updatedAt": "2026-05-07T01:17:34Z"
+      "equity": 497.11,
+      "cash": 73.72,
+      "buyingPower": 73.72,
+      "dayPnl": -1.63,
+      "totalPnl": -2.89,
+      "totalReturnPct": -0.58,
+      "drawdownPct": 7.12,
+      "updatedAt": "2026-05-07T01:32:33Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-05-07T01:17:33Z",
-      "staleCycleMinutes": 10
+      "lastCycleAt": "2026-05-07T01:32:33Z",
+      "staleCycleMinutes": 0
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
         "quantity": 0.001536095,
-        "marketValue": 124.478226,
-        "weightPct": 25.0,
-        "unrealizedPnl": 0.927759
+        "marketValue": 124.82396,
+        "weightPct": 25.1,
+        "unrealizedPnl": 1.273493
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
-        "quantity": 0.0002456,
-        "marketValue": 0.569143,
-        "weightPct": 0.1,
-        "unrealizedPnl": -0.01227
+        "quantity": 0.021516399,
+        "marketValue": 50.186656,
+        "weightPct": 10.1,
+        "unrealizedPnl": -0.006131
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
-        "quantity": 1.019162269,
-        "marketValue": 89.768424,
-        "weightPct": 18.1,
-        "unrealizedPnl": 1.989774
+        "quantity": 1.408677071,
+        "marketValue": 124.077122,
+        "weightPct": 25.0,
+        "unrealizedPnl": 1.857573
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
-        "quantity": 78.898715295,
-        "marketValue": 111.957277,
-        "weightPct": 22.5,
-        "unrealizedPnl": 0.74238
+        "quantity": 87.658023242,
+        "marketValue": 124.299077,
+        "weightPct": 25.0,
+        "unrealizedPnl": 0.660854
       }
     ],
     "recentSignals": [
+      {
+        "id": "10744",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.4039,
+        "generatedAt": "2026-05-07T01:32:33Z",
+        "executed": false
+      },
+      {
+        "id": "10743",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.4678,
+        "generatedAt": "2026-05-07T01:32:33Z",
+        "executed": false
+      },
+      {
+        "id": "10742",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.4606,
+        "generatedAt": "2026-05-07T01:32:33Z",
+        "executed": false
+      },
+      {
+        "id": "10741",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.4832,
+        "generatedAt": "2026-05-07T01:32:33Z",
+        "executed": false
+      },
       {
         "id": "10740",
         "symbol": "SOL-USD",
         "action": "hold",
         "confidence": 0.4029,
         "generatedAt": "2026-05-07T01:17:33Z",
-        "executed": false
-      },
-      {
-        "id": "10739",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.4678,
-        "generatedAt": "2026-05-07T01:17:33Z",
-        "executed": false
-      },
-      {
-        "id": "10738",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.455,
-        "generatedAt": "2026-05-07T01:17:33Z",
-        "executed": false
-      },
-      {
-        "id": "10737",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.4821,
-        "generatedAt": "2026-05-07T01:17:33Z",
-        "executed": false
-      },
-      {
-        "id": "10736",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.4054,
-        "generatedAt": "2026-05-07T01:02:33Z",
         "executed": false
       }
     ]
