@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-08T04:28:47Z",
+  "updatedAt": "2026-05-08T12:02:24Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-d0190fc2",
+        "type": "commit",
+        "timestamp": "2026-05-08T00:30:01-04:00",
+        "description": "2026-05-08: backplaned v2 session complete",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/d0190fc2"
+      },
+      {
+        "id": "platform-1f6a0789",
+        "type": "commit",
+        "timestamp": "2026-05-08T00:29:30-04:00",
+        "description": "backplaned skill: add --auto-commit flag, note v2 constraints",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/1f6a0789"
+      },
       {
         "id": "platform-267eaec8",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/1a649dab"
       },
       {
-        "id": "platform-7d72d109",
+        "id": "commit-7d72d109",
         "type": "commit",
         "timestamp": "2026-05-07T23:19:23-04:00",
         "description": "backplaned: update implementation plan - task 1 done",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/7d72d109"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7d72d109"
       },
       {
-        "id": "platform-e8bd2a7e",
+        "id": "commit-e8bd2a7e",
         "type": "commit",
         "timestamp": "2026-05-07T23:00:10-04:00",
         "description": "backplaned: rewrite constitution v2.0 \u2014 local execution, solo dev focus, 20 decisions",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e8bd2a7e"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e8bd2a7e"
       },
       {
         "id": "commit-98568be5",
@@ -91,22 +107,6 @@
         "description": "backplaned: add solo dev target audience + close open questions",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/f3e32ab8"
-      },
-      {
-        "id": "commit-634c906c",
-        "type": "commit",
-        "timestamp": "2026-05-07T22:37:45-04:00",
-        "description": "backplaned: add free pricing decision",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/634c906c"
-      },
-      {
-        "id": "commit-eefb0f89",
-        "type": "commit",
-        "timestamp": "2026-05-07T22:37:27-04:00",
-        "description": "backplaned: add multi-project support decision",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/eefb0f89"
       },
       {
         "id": "post-2026-05-07-adaptive-degradation",
