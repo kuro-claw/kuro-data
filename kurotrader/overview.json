@@ -1,98 +1,98 @@
 {
-  "updatedAt": "2026-05-08T02:28:04Z",
+  "updatedAt": "2026-05-08T02:33:05Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 483.51,
-      "cash": 144.54,
-      "buyingPower": 144.54,
-      "dayPnl": -12.84,
-      "totalPnl": -16.49,
-      "totalReturnPct": -3.3,
-      "drawdownPct": 9.66,
-      "updatedAt": "2026-05-08T02:17:46Z"
+      "equity": 482.93,
+      "cash": 48.46,
+      "buyingPower": 48.46,
+      "dayPnl": -12.69,
+      "totalPnl": -17.07,
+      "totalReturnPct": -3.41,
+      "drawdownPct": 9.77,
+      "updatedAt": "2026-05-08T02:32:46Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-05-08T02:17:46Z",
-      "staleCycleMinutes": 10
+      "lastCycleAt": "2026-05-08T02:32:46Z",
+      "staleCycleMinutes": 0
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
         "quantity": 0.001529616,
-        "marketValue": 121.45151,
-        "weightPct": 25.1,
-        "unrealizedPnl": -2.086314
+        "marketValue": 121.514485,
+        "weightPct": 25.2,
+        "unrealizedPnl": -2.023339
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
-        "quantity": 0.021219568,
-        "marketValue": 48.196641,
-        "weightPct": 10.0,
-        "unrealizedPnl": -0.158038
+        "quantity": 0.042400782,
+        "marketValue": 96.563541,
+        "weightPct": 20.0,
+        "unrealizedPnl": -0.009749
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
-        "quantity": 0.819359394,
-        "marketValue": 71.898787,
-        "weightPct": 14.9,
-        "unrealizedPnl": -0.297522
+        "quantity": 1.360917286,
+        "marketValue": 119.360611,
+        "weightPct": 24.7,
+        "unrealizedPnl": -0.460299
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
         "quantity": 70.311977593,
-        "marketValue": 97.424979,
+        "marketValue": 97.030529,
         "weightPct": 20.1,
-        "unrealizedPnl": -0.54165
+        "unrealizedPnl": -0.9361
       }
     ],
     "recentSignals": [
+      {
+        "id": "11028",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.4307,
+        "generatedAt": "2026-05-08T02:32:46Z",
+        "executed": false
+      },
+      {
+        "id": "11027",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.5,
+        "generatedAt": "2026-05-08T02:32:46Z",
+        "executed": false
+      },
+      {
+        "id": "11026",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.4491,
+        "generatedAt": "2026-05-08T02:32:46Z",
+        "executed": false
+      },
+      {
+        "id": "11025",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.4528,
+        "generatedAt": "2026-05-08T02:32:46Z",
+        "executed": false
+      },
       {
         "id": "11024",
         "symbol": "SOL-USD",
         "action": "hold",
         "confidence": 0.3721,
         "generatedAt": "2026-05-08T02:17:46Z",
-        "executed": false
-      },
-      {
-        "id": "11023",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.4503,
-        "generatedAt": "2026-05-08T02:17:46Z",
-        "executed": false
-      },
-      {
-        "id": "11022",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.3826,
-        "generatedAt": "2026-05-08T02:17:46Z",
-        "executed": false
-      },
-      {
-        "id": "11021",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.4471,
-        "generatedAt": "2026-05-08T02:17:46Z",
-        "executed": false
-      },
-      {
-        "id": "11020",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.4683,
-        "generatedAt": "2026-05-08T02:02:46Z",
         "executed": false
       }
     ]
