@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-08T02:58:17Z",
+  "updatedAt": "2026-05-08T03:03:18Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-e8bd2a7e",
+        "type": "commit",
+        "timestamp": "2026-05-07T23:00:10-04:00",
+        "description": "backplaned: rewrite constitution v2.0 \u2014 local execution, solo dev focus, 20 decisions",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/e8bd2a7e"
+      },
       {
         "id": "platform-98568be5",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/ffcd866b"
       },
       {
-        "id": "platform-9dbccdb1",
+        "id": "commit-9dbccdb1",
         "type": "commit",
         "timestamp": "2026-05-07T22:43:40-04:00",
         "description": "backplaned: single account API key instead of per-project",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/9dbccdb1"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/9dbccdb1"
       },
       {
         "id": "commit-f3e32ab8",
@@ -99,14 +107,6 @@
         "description": "backplaned: add PR default + auto-commit option decision",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/97a4b4e5"
-      },
-      {
-        "id": "commit-3660b277",
-        "type": "commit",
-        "timestamp": "2026-05-07T22:31:48-04:00",
-        "description": "backplaned: research decisions for agentic dev architecture - local execution, L3-L4, enhanced verifier, platform memory",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3660b277"
       },
       {
         "id": "post-2026-05-07-adaptive-degradation",
