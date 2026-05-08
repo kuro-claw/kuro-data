@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-08T02:53:14Z",
+  "updatedAt": "2026-05-08T02:58:17Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-98568be5",
+        "type": "commit",
+        "timestamp": "2026-05-07T22:56:35-04:00",
+        "description": "backplaned: update all phase specs to align with 20 agentic dev decisions",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/98568be5"
+      },
+      {
+        "id": "platform-7a149db0",
+        "type": "commit",
+        "timestamp": "2026-05-07T22:54:56-04:00",
+        "description": "backplaned: align all phase specs with 2026-05-07 architecture decisions",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/7a149db0"
+      },
       {
         "id": "platform-3ab7a636",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/9dbccdb1"
       },
       {
-        "id": "platform-f3e32ab8",
+        "id": "commit-f3e32ab8",
         "type": "commit",
         "timestamp": "2026-05-07T22:38:38-04:00",
         "description": "backplaned: add solo dev target audience + close open questions",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/f3e32ab8"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f3e32ab8"
       },
       {
-        "id": "platform-634c906c",
+        "id": "commit-634c906c",
         "type": "commit",
         "timestamp": "2026-05-07T22:37:45-04:00",
         "description": "backplaned: add free pricing decision",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/634c906c"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/634c906c"
       },
       {
         "id": "commit-eefb0f89",
@@ -91,22 +107,6 @@
         "description": "backplaned: research decisions for agentic dev architecture - local execution, L3-L4, enhanced verifier, platform memory",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/3660b277"
-      },
-      {
-        "id": "commit-59b5771b",
-        "type": "commit",
-        "timestamp": "2026-05-07T18:14:01-04:00",
-        "description": "logs: Phase 4 completion notes",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/59b5771b"
-      },
-      {
-        "id": "commit-8482d470",
-        "type": "commit",
-        "timestamp": "2026-05-07T18:13:49-04:00",
-        "description": "chore: Phase 4 complete \u2014 recording, virtual bg, mobile, reconnect",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/8482d470"
       },
       {
         "id": "post-2026-05-07-adaptive-degradation",
