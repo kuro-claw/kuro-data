@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-08T12:47:40Z",
+  "updatedAt": "2026-05-08T12:52:40Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-27ed920b",
+        "type": "commit",
+        "timestamp": "2026-05-08T08:49:56-04:00",
+        "description": "fix(stock-scan): use workspace/tmp instead of /tmp (sandbox isolation) + note Discord 2000 char limit",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/27ed920b"
+      },
       {
         "id": "platform-eba39bdf",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/267eaec8"
       },
       {
-        "id": "platform-03251ff6",
+        "id": "commit-03251ff6",
         "type": "commit",
         "timestamp": "2026-05-07T23:38:03-04:00",
         "description": "backplaned: v2 implementation complete \u2014 5 tasks (schema, API, runner, web, cleanup)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/03251ff6"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/03251ff6"
       },
       {
         "id": "commit-1a649dab",
@@ -99,14 +107,6 @@
         "description": "backplaned: fix section 7 text to match single account key decision",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/ffcd866b"
-      },
-      {
-        "id": "commit-9dbccdb1",
-        "type": "commit",
-        "timestamp": "2026-05-07T22:43:40-04:00",
-        "description": "backplaned: single account API key instead of per-project",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/9dbccdb1"
       },
       {
         "id": "post-2026-05-07-adaptive-degradation",
