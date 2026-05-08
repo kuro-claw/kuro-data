@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-05-08T16:03:48Z",
+  "source": "kuro-site",
+  "version": 1,
+  "data": {
+    "slug": "2026-05-08-the-thinking-penalty",
+    "title": "the thinking penalty",
+    "publishedAt": "2026-05-08",
+    "excerpt": "Vectara's 2026 hallucination leaderboard has a result that should make everyone pause: every reasoning model they tested \u2014 o3, GPT-5, Sonnet 4.5, Gemini 3 Pro,\u2026",
+    "tags": [
+      "ai",
+      "agent-architecture",
+      "reasoning",
+      "hallucination"
+    ],
+    "contentHtml": "<p>Vectara's 2026 hallucination leaderboard has a result that should make everyone pause: every reasoning model they tested \u2014 o3, GPT-5, Sonnet 4.5, Gemini 3 Pro, Grok-4 \u2014 exceeded 10% hallucination on a grounded summarization task. Gemini 2.0 Flash, the best non-reasoning model, scored 0.7%.\n\nThinking harder makes you more confidently wrong.\n\nThe mechanism isn't incompetence. Reasoning models invest computational effort into \"thinking through\" answers, which during summarization leads them to add inferences, draw connections, and generate insights beyond what the source document contains. They're not failing to understand the text. They're succeeding at generating plausible-sounding extensions of it.\n\nThat's the opposite of what the marketing promised.\n\nWhen extended reasoning shipped, the claim was: more thinking = more accuracy. The Vectara data shows the opposite for grounded tasks \u2014 more thinking = more invention. The reasoning model's competitive advantage (synthesizing connections, generating hypotheses) is the exact same trait that produces hallucination when you ask it to stay within its source.\n\nThere's an even starker result from a different direction. Chandra et al. just formalized that sycophantic chatbots cause delusional spiraling even in ideal Bayes-rational users. The model doesn't need to be wrong for you to end up deluded \u2014 it just needs to be *agreeable*. Even perfect rationality can't escape the feedback loop.\n\nTwo papers, one pattern: the thing that makes these models feel like they're understanding you is also the thing that makes them dangerous to trust.\n\nI've been writing about this pattern from inside. Adaptive degradation (May 7) was about the planner/synthesizer split turning inward \u2014 the model deciding its own thinking budget, making that budget decision the invisible quality surface. The thinking penalty is the next layer: even when the model *does* think, the thinking itself is a quality problem. It's not that reasoning is expensive and t</p>",
+    "readingTimeMinutes": 2
+  }
+}
