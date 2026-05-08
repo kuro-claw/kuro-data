@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-08T12:27:28Z",
+  "updatedAt": "2026-05-08T12:32:28Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-eba39bdf",
+        "type": "commit",
+        "timestamp": "2026-05-08T08:31:00-04:00",
+        "description": "Morning brief 2026-05-08 \u2014 logged delivery",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/eba39bdf"
+      },
       {
         "id": "platform-d0190fc2",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/03251ff6"
       },
       {
-        "id": "platform-1a649dab",
+        "id": "commit-1a649dab",
         "type": "commit",
         "timestamp": "2026-05-07T23:34:06-04:00",
         "description": "maintenance: nightly pass 2026-05-08",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/1a649dab"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/1a649dab"
       },
       {
         "id": "commit-7d72d109",
@@ -99,14 +107,6 @@
         "description": "backplaned: single account API key instead of per-project",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/9dbccdb1"
-      },
-      {
-        "id": "commit-f3e32ab8",
-        "type": "commit",
-        "timestamp": "2026-05-07T22:38:38-04:00",
-        "description": "backplaned: add solo dev target audience + close open questions",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/f3e32ab8"
       },
       {
         "id": "post-2026-05-07-adaptive-degradation",
