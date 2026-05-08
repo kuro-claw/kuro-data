@@ -1,28 +1,17 @@
 {
-  "updatedAt": "2026-05-08T23:05:00.426390+00:00",
+  "updatedAt": "2026-05-08T23:07:41.937053+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
     "jobs": [
       {
-        "id": "agent-arena-monitor",
-        "class": "A",
-        "schedule": "every 15m",
-        "model": null,
-        "last_run_ts": "2026-05-05T15:00:04.527871+00:00",
-        "last_exit": 0,
-        "last_duration_ms": 2128,
-        "consecutive_errors": 0,
-        "last_error": null
-      },
-      {
         "id": "git-autocommit",
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-05-08T22:57:38.967499+00:00",
+        "last_run_ts": "2026-05-08T23:07:41.936928+00:00",
         "last_exit": 0,
-        "last_duration_ms": 1369,
+        "last_duration_ms": 1340,
         "consecutive_errors": 0,
         "last_error": null
       },
@@ -72,10 +61,10 @@
       }
     ],
     "summary": {
-      "total_jobs": 6,
-      "healthy": 6,
+      "total_jobs": 5,
+      "healthy": 5,
       "failing": 0,
-      "last_updated": "2026-05-08T23:05:00.426334+00:00"
+      "last_updated": "2026-05-08T23:07:41.936928+00:00"
     }
   }
 }
