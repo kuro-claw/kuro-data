@@ -1,9 +1,25 @@
 {
-  "updatedAt": "2026-05-08T03:33:28Z",
+  "updatedAt": "2026-05-08T03:38:29Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-03251ff6",
+        "type": "commit",
+        "timestamp": "2026-05-07T23:38:03-04:00",
+        "description": "backplaned: v2 implementation complete \u2014 5 tasks (schema, API, runner, web, cleanup)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/03251ff6"
+      },
+      {
+        "id": "platform-1a649dab",
+        "type": "commit",
+        "timestamp": "2026-05-07T23:34:06-04:00",
+        "description": "maintenance: nightly pass 2026-05-08",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/1a649dab"
+      },
       {
         "id": "platform-7d72d109",
         "type": "commit",
@@ -29,20 +45,20 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/98568be5"
       },
       {
-        "id": "platform-7a149db0",
+        "id": "commit-7a149db0",
         "type": "commit",
         "timestamp": "2026-05-07T22:54:56-04:00",
         "description": "backplaned: align all phase specs with 2026-05-07 architecture decisions",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/7a149db0"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/7a149db0"
       },
       {
-        "id": "platform-3ab7a636",
+        "id": "commit-3ab7a636",
         "type": "commit",
         "timestamp": "2026-05-07T22:45:49-04:00",
         "description": "backplaned: add notifications + data ownership decisions",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/3ab7a636"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/3ab7a636"
       },
       {
         "id": "commit-ffcd866b",
@@ -91,22 +107,6 @@
         "description": "backplaned: add pause-and-notify error handling",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/fa5ef57b"
-      },
-      {
-        "id": "commit-cdbc5fbf",
-        "type": "commit",
-        "timestamp": "2026-05-07T22:36:05-04:00",
-        "description": "backplaned: add task decomposition by user's AI assistant",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/cdbc5fbf"
-      },
-      {
-        "id": "commit-01424ae4",
-        "type": "commit",
-        "timestamp": "2026-05-07T22:35:10-04:00",
-        "description": "backplaned: add CI/CD integration decision",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/01424ae4"
       },
       {
         "id": "post-2026-05-07-adaptive-degradation",
