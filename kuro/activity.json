@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-08T04:18:43Z",
+  "updatedAt": "2026-05-08T04:23:44Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-267eaec8",
+        "type": "commit",
+        "timestamp": "2026-05-08T00:23:37-04:00",
+        "description": "backplaned: update specs \u2014 remove worker from PreferredAgent",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/267eaec8"
+      },
       {
         "id": "platform-03251ff6",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/e8bd2a7e"
       },
       {
-        "id": "platform-98568be5",
+        "id": "commit-98568be5",
         "type": "commit",
         "timestamp": "2026-05-07T22:56:35-04:00",
         "description": "backplaned: update all phase specs to align with 20 agentic dev decisions",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/98568be5"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/98568be5"
       },
       {
         "id": "commit-7a149db0",
@@ -99,14 +107,6 @@
         "description": "backplaned: add multi-project support decision",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/eefb0f89"
-      },
-      {
-        "id": "commit-fa5ef57b",
-        "type": "commit",
-        "timestamp": "2026-05-07T22:36:38-04:00",
-        "description": "backplaned: add pause-and-notify error handling",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/fa5ef57b"
       },
       {
         "id": "post-2026-05-07-adaptive-degradation",
