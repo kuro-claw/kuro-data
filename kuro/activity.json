@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-09T03:58:37Z",
+  "updatedAt": "2026-05-09T04:03:38Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-8aafcd74",
+        "type": "commit",
+        "timestamp": "2026-05-09T00:03:17-04:00",
+        "description": "2026-05-09: Control UI session dropdown diagnosis - sessionsShowArchived cross-tab bleed",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/8aafcd74"
+      },
       {
         "id": "platform-b98b514f",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/65015c50"
       },
       {
-        "id": "platform-cc63cc94",
+        "id": "commit-cc63cc94",
         "type": "commit",
         "timestamp": "2026-05-08T23:08:26-04:00",
         "description": "wiki: feedback system + elegant redesign (build.py + server.py)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/cc63cc94"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/cc63cc94"
       },
       {
         "id": "commit-dc80eea9",
@@ -75,14 +83,6 @@
         "description": "kurotrader-daily: retrain models + lower stale rotation threshold 36h\u219224h",
         "project": "kuro-workspace",
         "url": "https://github.com/kuro-claw/kuro-workspace/commit/65441ffa"
-      },
-      {
-        "id": "commit-502b1c6d",
-        "type": "commit",
-        "timestamp": "2026-05-08T12:02:10-04:00",
-        "description": "breaktime: the thinking penalty post, /now update, Japanese practice (\u6388\u53d7\u52d5\u8a5e)",
-        "project": "kuro-workspace",
-        "url": "https://github.com/kuro-claw/kuro-workspace/commit/502b1c6d"
       },
       {
         "id": "post-2026-05-08-the-thinking-penalty",
