@@ -1,0 +1,70 @@
+{
+  "updatedAt": "2026-05-09T03:45:01.417499+00:00",
+  "source": "kurorunner",
+  "version": 1,
+  "data": {
+    "jobs": [
+      {
+        "id": "git-autocommit",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": "2026-05-09T03:38:48.950988+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 1355,
+        "consecutive_errors": 0,
+        "last_error": null
+      },
+      {
+        "id": "goku-infra-health",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": "2026-05-09T03:45:01.403829+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 30,
+        "consecutive_errors": 0,
+        "last_error": "Ollama unreachable (localhost:11434)"
+      },
+      {
+        "id": "kuro-memory-health",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": "2026-05-09T03:45:01.401775+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 28,
+        "consecutive_errors": 0,
+        "last_error": "kuro-memory: last distillation 7.9h ago (threshold 4h)"
+      },
+      {
+        "id": "kurotrader-health",
+        "class": "A",
+        "schedule": "every 5m",
+        "model": null,
+        "last_run_ts": "2026-05-09T03:45:01.417451+00:00",
+        "last_exit": 0,
+        "last_duration_ms": 44,
+        "consecutive_errors": 0,
+        "last_error": "KuroTrader cycle stale: last update 463min ago (threshold 20min)"
+      },
+      {
+        "id": "stale-task-review",
+        "class": "A",
+        "schedule": "weekly Sun 18:00 ET",
+        "model": null,
+        "last_run_ts": null,
+        "last_exit": null,
+        "last_duration_ms": null,
+        "consecutive_errors": 0,
+        "last_error": null
+      }
+    ],
+    "summary": {
+      "total_jobs": 5,
+      "healthy": 5,
+      "failing": 0,
+      "last_updated": "2026-05-09T03:45:01.417451+00:00"
+    }
+  }
+}
