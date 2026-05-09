@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-05-09T23:30:02.089733+00:00",
+  "updatedAt": "2026-05-09T23:30:02.105058+00:00",
   "source": "kurorunner",
   "version": 1,
   "job_id": "kurotrader-health",
   "runs": [
+    {
+      "ts": "2026-05-09T23:30:02.105000+00:00",
+      "exit": 0,
+      "duration_ms": 32,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "consecutive_errors": 0,
+      "error": null
+    },
     {
       "ts": "2026-05-09T23:25:00.880700+00:00",
       "exit": 0,
@@ -168,15 +177,6 @@
     },
     {
       "ts": "2026-05-09T21:55:02.105704+00:00",
-      "exit": 0,
-      "duration_ms": 35,
-      "tokens_in": 0,
-      "tokens_out": 0,
-      "consecutive_errors": 0,
-      "error": null
-    },
-    {
-      "ts": "2026-05-09T21:50:00.878018+00:00",
       "exit": 0,
       "duration_ms": 35,
       "tokens_in": 0,
