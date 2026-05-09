@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-09T03:33:29Z",
+  "updatedAt": "2026-05-09T03:38:29Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-b98b514f",
+        "type": "commit",
+        "timestamp": "2026-05-08T23:34:23-04:00",
+        "description": "maintenance: nightly pass 2026-05-08 \u2014 context updates, README eviction, daemon checks",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b98b514f"
+      },
       {
         "id": "platform-b8349126",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/cc63cc94"
       },
       {
-        "id": "platform-dc80eea9",
+        "id": "commit-dc80eea9",
         "type": "commit",
         "timestamp": "2026-05-08T22:00:44-04:00",
         "description": "unignore memory/episodes + add 9 untracked episode dirs (4/29-5/8)",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/dc80eea9"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/dc80eea9"
       },
       {
         "id": "commit-e68daea4",
