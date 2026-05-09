@@ -1,9 +1,33 @@
 {
-  "updatedAt": "2026-05-09T03:28:28Z",
+  "updatedAt": "2026-05-09T03:33:29Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-b8349126",
+        "type": "commit",
+        "timestamp": "2026-05-08T23:32:19-04:00",
+        "description": "chore: delete stale repo READMEs (flux-dev, wan2, whisper-v3, kuroconference) \u2014 content captured in memory/",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/b8349126"
+      },
+      {
+        "id": "platform-90d52bc9",
+        "type": "commit",
+        "timestamp": "2026-05-08T23:31:50-04:00",
+        "description": "kuroboard: mark project as decommissioned (2026-05-08)",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/90d52bc9"
+      },
+      {
+        "id": "platform-65015c50",
+        "type": "commit",
+        "timestamp": "2026-05-08T23:31:48-04:00",
+        "description": "Agent Arena: mark project as paused indefinitely",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/65015c50"
+      },
       {
         "id": "platform-cc63cc94",
         "type": "commit",
@@ -21,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/dc80eea9"
       },
       {
-        "id": "platform-e68daea4",
+        "id": "commit-e68daea4",
         "type": "commit",
         "timestamp": "2026-05-08T18:54:55-04:00",
         "description": "wiki: fix static serve \u2014 proper HTML converter with frontmatter stripping and relative links",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/e68daea4"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/e68daea4"
       },
       {
         "id": "commit-eac290d6",
