@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T12:57:44Z",
+  "updatedAt": "2026-05-09T13:02:45Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
@@ -7,18 +7,18 @@
       "equity": 490.99,
       "cash": 122.22,
       "buyingPower": 122.22,
-      "dayPnl": 4.41,
+      "dayPnl": 5.33,
       "totalPnl": -9.01,
       "totalReturnPct": -1.8,
       "drawdownPct": 8.27,
-      "updatedAt": "2026-05-09T12:45:32Z"
+      "updatedAt": "2026-05-09T13:00:32Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-05-09T12:45:32Z",
-      "staleCycleMinutes": 12
+      "lastCycleAt": "2026-05-09T13:00:32Z",
+      "staleCycleMinutes": 2
     },
     "topPositions": [
       {
@@ -56,43 +56,43 @@
     ],
     "recentSignals": [
       {
+        "id": "11332",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.3615,
+        "generatedAt": "2026-05-09T13:00:32Z",
+        "executed": false
+      },
+      {
+        "id": "11331",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.5184,
+        "generatedAt": "2026-05-09T13:00:32Z",
+        "executed": false
+      },
+      {
+        "id": "11330",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.6763,
+        "generatedAt": "2026-05-09T13:00:32Z",
+        "executed": false
+      },
+      {
+        "id": "11329",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.7844,
+        "generatedAt": "2026-05-09T13:00:32Z",
+        "executed": false
+      },
+      {
         "id": "11328",
         "symbol": "SOL-USD",
         "action": "hold",
         "confidence": 0.348,
         "generatedAt": "2026-05-09T12:45:32Z",
-        "executed": false
-      },
-      {
-        "id": "11327",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.5185,
-        "generatedAt": "2026-05-09T12:45:32Z",
-        "executed": false
-      },
-      {
-        "id": "11326",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.699,
-        "generatedAt": "2026-05-09T12:45:32Z",
-        "executed": false
-      },
-      {
-        "id": "11325",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.7369,
-        "generatedAt": "2026-05-09T12:45:32Z",
-        "executed": false
-      },
-      {
-        "id": "11324",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.3689,
-        "generatedAt": "2026-05-09T12:30:32Z",
         "executed": false
       }
     ]
