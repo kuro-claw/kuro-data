@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T12:10:01.265829+00:00",
+  "updatedAt": "2026-05-10T12:10:01.314784+00:00",
   "source": "kurorunner",
   "version": 1,
   "data": {
@@ -31,11 +31,11 @@
         "class": "A",
         "schedule": "every 5m",
         "model": null,
-        "last_run_ts": "2026-05-10T12:05:05.310690+00:00",
+        "last_run_ts": "2026-05-10T12:10:01.314740+00:00",
         "last_exit": 1,
-        "last_duration_ms": 20,
-        "consecutive_errors": 2,
-        "last_error": "kuro-memory: last distillation 7.3h ago (threshold 4h)"
+        "last_duration_ms": 19,
+        "consecutive_errors": 3,
+        "last_error": "kuro-memory: last distillation 7.4h ago (threshold 4h)"
       },
       {
         "id": "kurotrader-health",
@@ -64,7 +64,7 @@
       "total_jobs": 5,
       "healthy": 4,
       "failing": 1,
-      "last_updated": "2026-05-10T12:10:01.265779+00:00"
+      "last_updated": "2026-05-10T12:10:01.314740+00:00"
     }
   }
 }
