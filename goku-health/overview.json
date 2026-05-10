@@ -1,70 +1,70 @@
 {
-  "updatedAt": "2026-05-10T04:48:48Z",
+  "updatedAt": "2026-05-10T12:02:25Z",
   "source": "goku-health-daemon",
   "version": 1,
   "data": {
     "host": {
       "hostname": "goku",
-      "status": "warning",
-      "lastHeartbeatAt": "2026-05-10T04:48:48Z",
-      "uptimeSeconds": 60505,
+      "status": "healthy",
+      "lastHeartbeatAt": "2026-05-10T12:02:25Z",
+      "uptimeSeconds": 120,
       "kernel": "6.14.0-37-generic"
     },
     "resources": {
-      "cpuPct": 0.3,
-      "memoryPct": 13.3,
+      "cpuPct": 0.0,
+      "memoryPct": 4.6,
       "diskPct": 59.0,
-      "gpuTempC": 40.0,
-      "gpuVramPct": 95.4
+      "gpuTempC": 33.0,
+      "gpuVramPct": 4.8
     },
     "services": [
       {
         "id": "kurotrader-api",
         "name": "KuroTrader API",
         "status": "healthy",
-        "lastCheckAt": "2026-05-10T04:48:48Z"
+        "lastCheckAt": "2026-05-10T12:02:25Z"
       },
       {
         "id": "kurotrader-dash",
         "name": "KuroTrader Dashboard",
         "status": "healthy",
-        "lastCheckAt": "2026-05-10T04:48:48Z"
+        "lastCheckAt": "2026-05-10T12:02:25Z"
       },
       {
         "id": "kuroboard-api",
         "name": "KuroBoard API",
         "status": "healthy",
-        "lastCheckAt": "2026-05-10T04:48:48Z"
+        "lastCheckAt": "2026-05-10T12:02:25Z"
       },
       {
         "id": "kuro-memory",
         "name": "kuro-memory",
         "status": "healthy",
-        "lastCheckAt": "2026-05-10T04:48:48Z"
+        "lastCheckAt": "2026-05-10T12:02:25Z"
       },
       {
         "id": "benzinga-ingest",
         "name": "Benzinga Ingest",
         "status": "healthy",
-        "lastCheckAt": "2026-05-10T04:48:48Z"
+        "lastCheckAt": "2026-05-10T12:02:25Z"
       },
       {
         "id": "postgresql",
         "name": "PostgreSQL",
         "status": "healthy",
-        "lastCheckAt": "2026-05-10T04:48:48Z"
+        "lastCheckAt": "2026-05-10T12:02:25Z"
       },
       {
         "id": "ollama",
         "name": "Ollama",
-        "status": "warning",
-        "lastCheckAt": "2026-05-10T04:48:48Z"
+        "status": "healthy",
+        "lastCheckAt": "2026-05-10T12:02:25Z"
       },
       {
         "id": "searxng",
         "name": "SearXNG",
         "status": "healthy",
-        "lastCheckAt": "2026-05-10T04:48:48Z"
+        "lastCheckAt": "2026-05-10T12:02:25Z"
       }
     ]
   }
