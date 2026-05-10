@@ -1,98 +1,98 @@
 {
-  "updatedAt": "2026-05-10T12:27:36Z",
+  "updatedAt": "2026-05-10T12:32:38Z",
   "source": "kurotrader-daemon",
   "version": 1,
   "data": {
     "portfolio": {
-      "equity": 490.35,
-      "cash": 240.51,
-      "buyingPower": 240.51,
-      "dayPnl": -0.56,
-      "totalPnl": -9.65,
-      "totalReturnPct": -1.93,
-      "drawdownPct": 8.39,
-      "updatedAt": "2026-05-10T12:15:33Z"
+      "equity": 489.63,
+      "cash": 203.82,
+      "buyingPower": 203.82,
+      "dayPnl": -1.33,
+      "totalPnl": -10.37,
+      "totalReturnPct": -2.07,
+      "drawdownPct": 8.52,
+      "updatedAt": "2026-05-10T12:30:34Z"
     },
     "health": {
       "cycleStatus": "healthy",
       "executionStatus": "healthy",
       "modelAgreementStatus": "healthy",
-      "lastCycleAt": "2026-05-10T12:15:33Z",
-      "staleCycleMinutes": 12
+      "lastCycleAt": "2026-05-10T12:30:33Z",
+      "staleCycleMinutes": 2
     },
     "topPositions": [
       {
         "symbol": "BTCUSD",
         "side": "long",
         "quantity": 0.000614347,
-        "marketValue": 49.65666,
+        "marketValue": 49.689053,
         "weightPct": 10.1,
-        "unrealizedPnl": 0.112108
+        "unrealizedPnl": 0.144501
       },
       {
         "symbol": "ETHUSD",
         "side": "long",
-        "quantity": 0.052968263,
-        "marketValue": 122.976787,
-        "weightPct": 25.1,
-        "unrealizedPnl": 1.093345
+        "quantity": 0.026524113,
+        "marketValue": 61.57732,
+        "weightPct": 12.6,
+        "unrealizedPnl": 0.543599
       },
       {
         "symbol": "SOLUSD",
         "side": "long",
-        "quantity": 0.165703697,
-        "marketValue": 15.502906,
-        "weightPct": 3.2,
-        "unrealizedPnl": 0.236688
+        "quantity": 0.687806149,
+        "marketValue": 64.379618,
+        "weightPct": 13.1,
+        "unrealizedPnl": 0.29066
       },
       {
         "symbol": "XRPUSD",
         "side": "long",
-        "quantity": 43.267738808,
-        "marketValue": 61.699796,
-        "weightPct": 12.6,
-        "unrealizedPnl": 0.267934
+        "quantity": 77.585126447,
+        "marketValue": 110.165449,
+        "weightPct": 22.5,
+        "unrealizedPnl": -0.134373
       }
     ],
     "recentSignals": [
+      {
+        "id": "11596",
+        "symbol": "SOL-USD",
+        "action": "hold",
+        "confidence": 0.4361,
+        "generatedAt": "2026-05-10T12:30:33Z",
+        "executed": false
+      },
+      {
+        "id": "11595",
+        "symbol": "XRP-USD",
+        "action": "hold",
+        "confidence": 0.6533,
+        "generatedAt": "2026-05-10T12:30:33Z",
+        "executed": false
+      },
+      {
+        "id": "11594",
+        "symbol": "ETH-USD",
+        "action": "hold",
+        "confidence": 0.82,
+        "generatedAt": "2026-05-10T12:30:33Z",
+        "executed": false
+      },
+      {
+        "id": "11593",
+        "symbol": "BTC-USD",
+        "action": "hold",
+        "confidence": 0.7961,
+        "generatedAt": "2026-05-10T12:30:33Z",
+        "executed": false
+      },
       {
         "id": "11592",
         "symbol": "SOL-USD",
         "action": "hold",
         "confidence": 0.4674,
         "generatedAt": "2026-05-10T12:15:33Z",
-        "executed": false
-      },
-      {
-        "id": "11591",
-        "symbol": "XRP-USD",
-        "action": "hold",
-        "confidence": 0.6546,
-        "generatedAt": "2026-05-10T12:15:33Z",
-        "executed": false
-      },
-      {
-        "id": "11590",
-        "symbol": "ETH-USD",
-        "action": "hold",
-        "confidence": 0.8177,
-        "generatedAt": "2026-05-10T12:15:33Z",
-        "executed": false
-      },
-      {
-        "id": "11589",
-        "symbol": "BTC-USD",
-        "action": "hold",
-        "confidence": 0.8065,
-        "generatedAt": "2026-05-10T12:15:33Z",
-        "executed": false
-      },
-      {
-        "id": "11588",
-        "symbol": "SOL-USD",
-        "action": "hold",
-        "confidence": 0.4193,
-        "generatedAt": "2026-05-10T12:00:34Z",
         "executed": false
       }
     ]
