@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-05-10T04:43:46Z",
+  "updatedAt": "2026-05-10T04:48:49Z",
   "source": "kuro-exporter",
   "version": 1,
   "data": {
     "events": [
+      {
+        "id": "platform-1e24d31b",
+        "type": "commit",
+        "timestamp": "2026-05-10T00:47:38-04:00",
+        "description": "memory: Paperclip gateway integration blocked on operator.write scope",
+        "project": "kuro-platform",
+        "url": "https://github.com/kuro-claw/kuro-platform/commit/1e24d31b"
+      },
       {
         "id": "platform-947dca3a",
         "type": "commit",
@@ -37,12 +45,12 @@
         "url": "https://github.com/kuro-claw/kuro-platform/commit/e6701b8a"
       },
       {
-        "id": "platform-c6ba5b28",
+        "id": "commit-c6ba5b28",
         "type": "commit",
         "timestamp": "2026-05-09T21:27:05-04:00",
         "description": "infra: vllm-embed service, triunfo.net proxy, vLLM restart sequence, Ollama removed",
-        "project": "kuro-platform",
-        "url": "https://github.com/kuro-claw/kuro-platform/commit/c6ba5b28"
+        "project": "kuro-workspace",
+        "url": "https://github.com/kuro-claw/kuro-workspace/commit/c6ba5b28"
       },
       {
         "id": "commit-9ab2ac7b",
